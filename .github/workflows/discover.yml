@@ -12,17 +12,16 @@ jobs:
   discover:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Search and build review report
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/discover_sources.py --output reports/candidates.md
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: voicelatch-discovery-${{ github.run_id }}
           path: reports/candidates.md
           retention-days: 30
-
