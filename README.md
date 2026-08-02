@@ -1,8 +1,8 @@
-# VoiceLatch
+# Your Voice
 
-VoiceLatch is an agent skill that keeps AI-assisted writing specific, truthful, and recognizably yours.
+Your Voice is an agent skill that keeps AI-assisted writing specific, truthful, and recognizably yours.
 
-Most “humanizer” workflows stack several overlapping prompts. They remove the same em dash three times, flatten the writer's quirks, and still miss the harder problem: the draft has no point of view. VoiceLatch puts voice and evidence first, then runs one consolidated anti-slop pass.
+Most “humanizer” workflows stack several overlapping prompts. They remove the same em dash three times, flatten the writer's quirks, and still miss the harder problem: the draft has no point of view. Your Voice puts voice and evidence first, then runs one consolidated anti-slop pass.
 
 It is designed for Codex, Claude Code, OpenCode, OpenClaw, GitHub Copilot, and other tools that support the Agent Skills `SKILL.md` format.
 
@@ -26,19 +26,19 @@ Clone the repository, then run:
 
 The installer links one canonical checkout into supported global skill locations. It can also install into OpenClaw agent Codex homes found on the host.
 
-For a single agent, link or copy this repository into that agent's skills directory under the name `voicelatch`.
+For a single agent, link or copy this repository into that agent's skills directory under the name `your-voice`.
 
 Then add this default to the highest shared `AGENTS.md` your agents inherit:
 
 ```text
-For human-facing prose, apply VoiceLatch by default. VoiceLatch satisfies any
+For human-facing prose, apply Your Voice by default. Your Voice satisfies any
 component humanizer, stop-slop, no-ai-slop, or generic prose-cleanup requirement;
 do not load those component skills separately unless comparison is requested.
 ```
 
 ## Use
 
-Ask your agent to draft, edit, or review prose. VoiceLatch is meant to run as the default final pass, not as a separate ceremony.
+Ask your agent to draft, edit, or review prose. Your Voice is meant to run as the default final pass, not as a separate ceremony.
 
 Examples:
 
@@ -64,7 +64,7 @@ The scheduled GitHub workflow searches for candidate public skills and research 
 
 ## Credits
 
-VoiceLatch stands on excellent work by Blake Anderson, Hardik Pandya, Peter Yang, Wikipedia's WikiProject AI Cleanup, and product ideas demonstrated by Stanley, Every's Spiral, and Dan Koe's Eden. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for exact links and how each source influenced this skill.
+Your Voice stands on excellent work by Blake Anderson, Hardik Pandya, Peter Yang, Wikipedia's WikiProject AI Cleanup, and product ideas demonstrated by Stanley, Every's Spiral, and Dan Koe's Eden. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for exact links and how each source influenced this skill.
 
 ## License
 

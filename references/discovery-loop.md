@@ -1,6 +1,6 @@
 # Discovery and adoption loop
 
-VoiceLatch may discover new ideas automatically. It must never adopt them automatically.
+Your Voice may discover new ideas automatically. It must never adopt them automatically.
 
 ## Discovery
 
@@ -33,4 +33,3 @@ Reject candidates that optimize detector evasion, strip provenance, insert fake 
 ## Rollback
 
 Every adopted rule must be easy to remove. If approved writing becomes blander, less accurate, or less recognizable, revert the rule before tuning it.
-

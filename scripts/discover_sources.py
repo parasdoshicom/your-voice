@@ -36,7 +36,7 @@ def github_search(query: str, per_page: int) -> list[dict[str, object]]:
     url = "https://api.github.com/search/repositories?" + urllib.parse.urlencode(
         {"q": query, "sort": "updated", "order": "desc", "per_page": per_page}
     )
-    headers = {"Accept": "application/vnd.github+json", "User-Agent": "voicelatch-discovery"}
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": "your-voice-discovery"}
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
@@ -65,7 +65,7 @@ def main() -> int:
             errors.append(f"- `{query}`: {type(exc).__name__}")
 
     lines = [
-        "# VoiceLatch discovery candidates",
+        "# Your Voice discovery candidates",
         "",
         f"Generated: {dt.date.today().isoformat()}",
         "",

@@ -22,6 +22,6 @@ jobs:
         run: python scripts/discover_sources.py --output reports/candidates.md
       - uses: actions/upload-artifact@v7
         with:
-          name: voicelatch-discovery-${{ github.run_id }}
+          name: your-voice-discovery-${{ github.run_id }}
           path: reports/candidates.md
           retention-days: 30

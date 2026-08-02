@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify that one VoiceLatch checkout serves the supported host skill roots."""
+"""Verify that one Your Voice checkout serves the supported host skill roots."""
 
 from __future__ import annotations
 
@@ -10,13 +10,13 @@ from pathlib import Path
 
 def expected_targets(user_home: Path) -> list[Path]:
     targets = [
-        user_home / ".codex/skills/voicelatch",
-        user_home / ".openclaw/skills/voicelatch",
+        user_home / ".codex/skills/your-voice",
+        user_home / ".openclaw/skills/your-voice",
     ]
     agents = user_home / ".openclaw/agents"
     if agents.exists():
         targets.extend(
-            agent_dir / "codex-home/skills/voicelatch"
+            agent_dir / "codex-home/skills/your-voice"
             for agent_dir in sorted(agents.glob("*/agent"))
             if agent_dir.is_dir()
         )
@@ -42,7 +42,7 @@ def main() -> int:
             }
         )
     healthy = bool(rows) and all(row["has_skill"] for row in rows)
-    payload = {"status": "healthy" if healthy else "needs_repair", "targets": rows}
+    payload = {"skill": "your-voice", "status": "healthy" if healthy else "needs_repair", "targets": rows}
     if args.json:
         print(json.dumps(payload, indent=2))
     else:

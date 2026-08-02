@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 MODULE_PATH = Path(__file__).parents[1] / "scripts" / "audit_text.py"
-SPEC = importlib.util.spec_from_file_location("voicelatch_audit", MODULE_PATH)
+SPEC = importlib.util.spec_from_file_location("your_voice_audit", MODULE_PATH)
 assert SPEC and SPEC.loader
 MODULE = importlib.util.module_from_spec(SPEC)
 import sys
@@ -30,4 +30,3 @@ class AuditTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

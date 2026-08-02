@@ -1,17 +1,13 @@
 ---
-name: voicelatch
+name: your-voice
 description: Preserve a real writer's voice while drafting, editing, or reviewing human-facing prose. Use by default for messages, reports, documentation, posts, essays, customer copy, and any text written in a named person's voice. Combines voice calibration, anti-slop editing, evidence checks, and a final read-aloud gate without optimizing for AI detectors.
-license: MIT
-metadata:
-  author: Paras Doshi
-  repository: https://github.com/parasdoshicom/voicelatch
 ---
 
-# VoiceLatch
+# Your Voice
 
 Keep the writer in the writing.
 
-Apply this skill silently whenever a person will read the output. Do not load separate humanizer, stop-slop, no-ai-slop, or generic style-cleanup skills unless the user explicitly asks to compare them. VoiceLatch incorporates the compatible rules and credits its influences in `ATTRIBUTIONS.md`.
+Apply this skill silently whenever a person will read the output. Do not load separate humanizer, stop-slop, no-ai-slop, or generic style-cleanup skills unless the user explicitly asks to compare them. Your Voice incorporates the compatible rules and credits its influences in `ATTRIBUTIONS.md`.
 
 ## Non-negotiables
 
@@ -126,4 +122,3 @@ Before sending human-facing prose, confirm silently:
 - concrete details survived editing;
 - formatting serves the content;
 - the ending does real work.
-
