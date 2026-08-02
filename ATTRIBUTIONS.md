@@ -1,6 +1,6 @@
 # Attributions
 
-VoiceLatch is an original synthesis. It links to upstream work, preserves author credit, and does not bundle third-party repositories.
+Your Voice is an original synthesis. It links to upstream work, preserves author credit, and does not bundle third-party repositories.
 
 ## Open-source foundations
 
@@ -30,11 +30,11 @@ VoiceLatch is an original synthesis. It links to upstream work, preserves author
 - Maintainer: Wikipedia WikiProject AI Cleanup
 - Source: https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 - License: CC BY-SA 4.0 for Wikipedia text
-- Influence: the public taxonomy of recurring language, structure, formatting, and communication artifacts. VoiceLatch summarizes patterns in original wording rather than reproducing the article.
+- Influence: the public taxonomy of recurring language, structure, formatting, and communication artifacts. Your Voice summarizes patterns in original wording rather than reproducing the article.
 
 ## Product inspiration
 
-The following products are credited for product ideas only. VoiceLatch does not copy their proprietary prompts, models, data, or code.
+The following products are credited for product ideas only. Your Voice does not copy their proprietary prompts, models, data, or code.
 
 ### Stanley
 
@@ -64,4 +64,3 @@ The included Paras Doshi profile is a derived style guide, not a corpus dump.
 - 2021 data-driven engineering note: https://insightextractor.com/2021/01/18/making-your-engineering-team-more-data-driven/
 - 2022 analytics manager note: https://www.insightextractor.com/p/analytics
 - Public LinkedIn profile: https://www.linkedin.com/in/doshiparas
-
