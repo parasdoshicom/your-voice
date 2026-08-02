@@ -1,0 +1,28 @@
+name: Discover writing-skill candidates
+
+on:
+  schedule:
+    - cron: "17 15 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Search and build review report
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/discover_sources.py --output reports/candidates.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: voicelatch-discovery-${{ github.run_id }}
+          path: reports/candidates.md
+          retention-days: 30
+
