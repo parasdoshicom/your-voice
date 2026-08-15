@@ -21,12 +21,17 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 
 - “Not X, but Y” as a default argument shape.
 - “Not X. Not Y. Z.” negative lists.
+- Two tiny fragments that perform one job, such as “Fast. Simple.” Keep the stronger one or write one complete thought.
+- Empty paired images such as “less a hammer, more a scalpel” when they never tell the reader what to do.
 - Forced groups of three.
+- Unmeasured time ranges presented as experience. Use the observed duration when it exists; keep a range when the source supports it.
 - Repeated sentence lengths, paragraph shapes, and punch-line endings.
 - Question-and-answer setups the reader did not need.
 - Colon reveals used for drama rather than labels, lists, or quotations.
 - Synonym cycling caused by avoiding a clear repeated noun.
-- Fake-profound kickers and recap conclusions.
+- Self-applause such as “and that matters” or “which is exactly the point.”
+- Unexplained “the X of Y” analogies that assume the reader knows both references.
+- Fake-profound kickers and recap conclusions. End on the last concrete point instead of restating the draft.
 
 ## Formatting tells
 
@@ -51,4 +56,3 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 - Making a weak result sound decisive.
 - Hiding the actor with passive voice.
 - Treating an AI-detector score as proof of authorship or quality.
-

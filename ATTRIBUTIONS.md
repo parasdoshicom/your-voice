@@ -32,6 +32,20 @@ Your Voice is an original synthesis. It links to upstream work, preserves author
 - License: CC BY-SA 4.0 for Wikipedia text
 - Influence: the public taxonomy of recurring language, structure, formatting, and communication artifacts. Your Voice summarizes patterns in original wording rather than reproducing the article.
 
+### Ruben Hassid's AI-writing pattern notes
+
+- Author: Ruben Hassid
+- Source: https://x.com/rubenhassid/status/2087856703773508025
+- Related essay: https://ruben.substack.com/p/its-not-x-its-y
+- Influence: the editable personal forbidden-pattern file, newer examples of machine-shaped sentence structure, and the reminder to reserve controlled technical language for writing that benefits from it.
+
+### ASD-STE100 Simplified Technical English
+
+- Owner: Aerospace, Security and Defence Industries Association of Europe (ASD)
+- Official source: https://www.asd-ste100.org/
+- Influence: an optional technical mode that prefers short sentences, active voice, consistent terms, and one main instruction per sentence.
+- Boundary: Your Voice does not reproduce the controlled dictionary and does not claim ASD-STE100 compliance. ASD-STE100 Simplified Technical English is owned by ASD.
+
 ## Product inspiration
 
 The following products are credited for product ideas only. Your Voice does not copy their proprietary prompts, models, data, or code.

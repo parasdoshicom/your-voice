@@ -6,6 +6,8 @@ Most “humanizer” workflows stack several overlapping prompts. They remove th
 
 It is designed for Codex, Claude Code, OpenCode, OpenClaw, GitHub Copilot, and other tools that support the Agent Skills `SKILL.md` format.
 
+Version 1.2 turns personal taste into a feedback loop. The local audit catches more machine-shaped patterns, reads a private forbidden-pattern file, and can apply stricter clarity checks to technical writing.
+
 ## What it does
 
 - drafts, edits, or audits human-facing prose;
@@ -14,6 +16,8 @@ It is designed for Codex, Claude Code, OpenCode, OpenClaw, GitHub Copilot, and o
 - consolidates compatible rules from Humanizer, Stop Slop, No AI Slop, and related editorial workflows;
 - rejects detector gaming, fake mistakes, and invented personal texture;
 - runs a provenance-aware weekly discovery loop for new public techniques;
+- remembers patterns you reject without publishing your drafts;
+- offers an optional technical mode for procedures, guides, and explanations;
 - includes a public Paras Doshi profile derived from his pre-2023 writing and public LinkedIn work.
 
 ## Install
@@ -54,9 +58,34 @@ Edit this. Keep the roughness and do not add claims.
 Audit this for AI-writing patterns without rewriting it.
 ```
 
+The local audit explains each finding and returns a nonzero status when it finds something to review:
+
+```bash
+python scripts/audit_text.py draft.md
+python scripts/audit_text.py draft.md --json
+```
+
+For procedures, guides, and technical explanations, add the technical checks:
+
+```bash
+python scripts/audit_text.py guide.md --mode technical
+```
+
+Technical mode uses general clarity principles associated with ASD-STE100. It is not a compliance checker and does not bundle the standard's controlled dictionary.
+
 ## Personalize
 
 Copy `references/voice-profile-template.md` to a private location, fill it with evidence from your own approved writing, and point your agent instructions to it. Keep private emails, DMs, customer details, and internal drafts out of public repositories.
+
+Copy `assets/forbidden-patterns.md` to a private path, then add phrases or structures you have rejected in real drafts:
+
+```bash
+mkdir -p ~/.config/your-voice
+cp assets/forbidden-patterns.md ~/.config/your-voice/forbidden.md
+python scripts/audit_text.py draft.md
+```
+
+The auditor loads that default file automatically. Pass `--forbidden PATH` to add another file or `--no-default-forbidden` to skip the default. See `references/forbidden-patterns.md` for the small file format.
 
 ## Continuous improvement
 

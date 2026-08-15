@@ -35,6 +35,8 @@ When creating text from notes or source material:
 
 Make the minimum effective edit. Keep the writer's progression unless it hurts comprehension. Return only the clean draft unless the user asks for commentary.
 
+Cut a slogan when the source does not contain enough detail to explain it. For example, remove an unexplained “the X of Y” analogy instead of inventing a mechanism. Treat a time range as an estimate: use one observed duration when the source gives it, keep the range when real variation matters, or remove it when neither is supported.
+
 ### Detect
 
 If the user asks for an audit without a rewrite, quote each offending line, name the pattern, and suggest a short fix. Do not score the probability that AI wrote it.
@@ -49,6 +51,12 @@ Build or update a voice profile only from material the user owns, supplied, appr
 - patterns the writer rejected.
 
 Use `references/voice-profile-template.md`. Store private examples outside a public skill repository unless the user explicitly approves publication.
+
+### Technical clarity
+
+Use this mode for procedures, guides, explanations, operational email, and technical documentation when the user wants maximum clarity. Prefer short declarative sentences, one main instruction per sentence, active voice, and one term for one meaning.
+
+These principles are inspired by ASD-STE100 Simplified Technical English. Do not claim ASD-STE100 compliance unless the text was checked against the current official standard and its controlled dictionary. Do not apply this mode to poems, personal essays, jokes, or other writing where voice and rhythm carry the meaning.
 
 ## The latch pass
 
@@ -83,12 +91,18 @@ Cut only what appears. Common failures include:
 - significance inflation, promotional language, and vague attribution;
 - trailing `-ing` clauses that pretend to explain;
 - synonym cycling, forced groups of three, and robotic symmetry;
-- decorative em dashes, bold, emoji headings, tiny sections, and stacked fragments;
+- paired fragments, empty comparisons, self-applause, and unexplained “the X of Y” analogies;
+- decorative em dashes, bold, emoji headings, and tiny sections;
+- time ranges that imply measurement the source does not provide;
 - fake-profound closers and recap endings;
 - passive constructions that hide the actor;
 - abstract nouns where a concrete action or number exists.
 
 See `references/patterns.md` for the consolidated pattern library.
+
+Then load the writer's private forbidden-pattern file when one is configured. See `references/forbidden-patterns.md`. Treat a match as a revision prompt, not evidence that AI wrote the text.
+
+When the local skill files are available, write the draft to a temporary UTF-8 file and run `python <skill-directory>/scripts/audit_text.py <draft>`. Resolve `<skill-directory>` from the location of this `SKILL.md`. Add `--mode technical` only for technical clarity work. Review every finding, revise what conflicts with the writer's voice or the source evidence, and keep intentional matches. The script finds candidates; it does not make the editorial decision.
 
 ### 5. Read aloud
 
@@ -109,6 +123,8 @@ Discovery never equals adoption.
 5. Adopt the smallest rule that passes existing and new evals.
 6. Credit the source in `ATTRIBUTIONS.md`.
 7. Require human review before changing the default skill.
+
+When the writer rejects a recurring phrase or structure, offer to add the compact pattern to their private forbidden file. Do not save the full draft when the pattern alone is enough.
 
 Read `references/discovery-loop.md` before adopting a new source.
 
