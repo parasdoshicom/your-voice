@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Iterable
 
 
-VERSION = "1.2.0"
+VERSION = "1.2.1"
 DEFAULT_FORBIDDEN_PATH = Path("~/.config/your-voice/forbidden.md").expanduser()
 
 

@@ -28,17 +28,19 @@ Clone the repository, then run:
 ./scripts/install.sh
 ```
 
-The installer links one canonical checkout into supported global skill locations. It can also install into OpenClaw agent Codex homes found on the host.
+The installer links one canonical checkout into the user skill roots for Codex and Hermes. When OpenClaw is already installed, it also links the same checkout into its global skill root and discovered agent Codex homes. It does not create an OpenClaw installation.
 
 For a single agent, link or copy this repository into that agent's skills directory under the name `your-voice`.
 
-Then add this default to the highest shared `AGENTS.md` your agents inherit:
+Then add this default once at the highest shared instruction layer. For Codex, use `~/.codex/AGENTS.md` so every repository inherits it:
 
 ```text
 For human-facing prose, apply Your Voice by default. Your Voice satisfies any
-component humanizer, stop-slop, no-ai-slop, or generic prose-cleanup requirement;
-do not load those component skills separately unless comparison is requested.
+component humanizer, stop-slop, no-ai-slop, or generic prose-cleanup requirement.
+Do not restate its pattern rules in repository instructions.
 ```
+
+Keep repository `AGENTS.md` files for project-specific exceptions only.
 
 ## Use
 
@@ -77,19 +79,16 @@ Technical mode uses general clarity principles associated with ASD-STE100. It is
 
 Copy `references/voice-profile-template.md` to a private location, fill it with evidence from your own approved writing, and point your agent instructions to it. Keep private emails, DMs, customer details, and internal drafts out of public repositories.
 
-Copy `assets/forbidden-patterns.md` to a private path, then add phrases or structures you have rejected in real drafts:
+For a private forbidden-pattern file, follow `references/forbidden-patterns.md`. Start from `assets/forbidden-patterns.md`.
 
 ```bash
 mkdir -p ~/.config/your-voice
 cp assets/forbidden-patterns.md ~/.config/your-voice/forbidden.md
-python scripts/audit_text.py draft.md
 ```
-
-The auditor loads that default file automatically. Pass `--forbidden PATH` to add another file or `--no-default-forbidden` to skip the default. See `references/forbidden-patterns.md` for the small file format.
 
 ## Continuous improvement
 
-The scheduled GitHub workflow searches for candidate public skills and research once a week. It produces a report for review. It never auto-merges a new writing rule. Every adoption needs provenance, a license check, an eval, and human review.
+The scheduled GitHub workflow produces a review queue. `references/discovery-loop.md` owns the adoption rules.
 
 ## Credits
 

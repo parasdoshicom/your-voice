@@ -2,3 +2,5 @@ interface:
   display_name: "Your Voice"
   short_description: "Write like yourself, without the AI slop"
   default_prompt: "Use $your-voice to edit this draft while preserving my meaning and natural voice."
+policy:
+  allow_implicit_invocation: true
