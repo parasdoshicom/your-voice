@@ -6,7 +6,7 @@ Most “humanizer” workflows stack several overlapping prompts. They remove th
 
 It is designed for Codex, Claude Code, OpenCode, OpenClaw, GitHub Copilot, and other tools that support the Agent Skills `SKILL.md` format.
 
-Version 1.2 turns personal taste into a feedback loop. The local audit catches more machine-shaped patterns, reads a private forbidden-pattern file, and can apply stricter clarity checks to technical writing.
+Version 1.3 turns approved revisions into a feedback loop. Your Voice records what a writing or design tool improved and what the writer rejected. It applies those decisions before paying for another external pass. The local audit still catches machine-shaped patterns, reads a private forbidden-pattern file, and can apply stricter clarity checks to technical writing.
 
 ## What it does
 
@@ -17,6 +17,7 @@ Version 1.2 turns personal taste into a feedback loop. The local audit catches m
 - rejects detector gaming, fake mistakes, and invented personal texture;
 - runs a provenance-aware weekly discovery loop for new public techniques;
 - remembers patterns you reject without publishing your drafts;
+- learns from approved before-and-after comparisons without treating the external tool as the source of truth;
 - offers an optional technical mode for procedures, guides, and explanations;
 - includes a public Paras Doshi profile derived from his pre-2023 writing and public LinkedIn work.
 
@@ -88,7 +89,7 @@ cp assets/forbidden-patterns.md ~/.config/your-voice/forbidden.md
 
 ## Continuous improvement
 
-The scheduled GitHub workflow produces a review queue. `references/discovery-loop.md` owns the adoption rules.
+The scheduled GitHub workflow produces a review queue. `references/discovery-loop.md` owns public-source adoption. `references/approval-learning-loop.md` turns human-approved before-and-after reviews into reusable channel and voice decisions.
 
 ## Credits
 

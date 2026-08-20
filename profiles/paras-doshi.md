@@ -1,6 +1,6 @@
 # Voice profile: Paras Doshi
 
-Updated: 2026-08-02
+Updated: 2026-08-20
 
 This public baseline uses public writing only. Private Stanley conversations, DMs, emails, customer material, and internal company context are excluded.
 
@@ -52,6 +52,36 @@ Lead with the observation or useful claim. Keep public-safe business evidence. A
 
 Lead with the result, then the evidence, risk, decision, and exact next action. Separate activity from outcome.
 
+### Paid courses and workshop companions
+
+- Lead with a short practical promise that fits in the first view. Put the qualification or mechanism immediately below it.
+- Start from first principles. Use admired companies and current vendor practices as checks on a design choice, not as borrowed authority.
+- Keep the main learning path visible. Put deeper explanation, reference answers, and optional workbook fields behind progressive disclosure.
+- Show the actual prompts, inputs, outputs, failure cases, and downloadable practice material. Do not substitute polished marketing for runnable work.
+- Use a diagram only when it preserves the full operating path. A cleaner diagram that drops validation, proof, review, or correction is a worse explanation.
+- Keep build provenance and internal production notes out of student-facing copy. Tell the student what to inspect, decide, build, and verify.
+
+## Approved course-design judgment
+
+On 2026-08-20, Paras asked for a Gamma review of the Agentic Analytics workshop and approved the final GitHub course page as the canonical result.
+
+Accepted:
+
+- shorter, direct promise: “Build analytics agents people can trust”;
+- strong whitespace and one main idea at a time;
+- simple diagrams as summaries after the full operating logic is established;
+- restrained navy accents and sentence-case labels.
+
+Rejected:
+
+- generic robot or circuit-board imagery;
+- title case across every label;
+- absolute language such as “every response” or “exactly one” when the source does not establish it;
+- visual simplification that removes required trust steps;
+- treating a presentation generator as the canonical course or a substitute for the interactive build-along.
+
+Apply these decisions before requesting another course-design generation. Use another external pass only for a named question the approved rules do not answer.
+
 ## Protect
 
 - directness;
@@ -69,4 +99,3 @@ Lead with the result, then the evidence, risk, decision, and exact next action. 
 - claims of broad consensus without a named source;
 - hiding the key result behind scene-setting;
 - copying the cadence of a popular creator.
-

@@ -66,6 +66,12 @@ The following products are credited for product ideas only. Your Voice does not 
 - Public description: https://www.linkedin.com/in/thedankoe
 - Influence: model mission, audience, point of view, vocabulary, influences, and an evolving “intellectual signature,” not just surface tone.
 
+### Gamma
+
+- Source: https://gamma.app/
+- Influence: use a generated visual pass as a bounded comparison for hierarchy, spacing, and structure; keep the human-approved final as the source of truth; record rejected patterns so the same review does not require another generation.
+- Boundary: Your Voice does not copy Gamma's proprietary prompts, models, templates, or code.
+
 ## Paras Doshi voice sources
 
 The included Paras Doshi profile is a derived style guide, not a corpus dump.

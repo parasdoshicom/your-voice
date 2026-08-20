@@ -102,6 +102,8 @@ When writing as Paras Doshi, read `profiles/paras-doshi.md`. Treat it as a basel
 Discovery never equals adoption.
 Read and follow `references/discovery-loop.md` before adopting a public source. Use `references/forbidden-patterns.md` when the writer rejects a recurring pattern.
 
+When the user wants feedback from a writing or design tool to compound, read `references/approval-learning-loop.md`. Compare the original, the tool's proposal, and the human-approved final. Save both the accepted and rejected decisions. Apply those decisions before calling the tool again. One generated result is evidence for a contextual choice, not permission to overwrite the durable voice profile.
+
 ## Output gate
 
 Before sending human-facing prose, confirm silently:
