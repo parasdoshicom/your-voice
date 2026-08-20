@@ -58,6 +58,10 @@ Lead with the result, then the evidence, risk, decision, and exact next action. 
 - Start from first principles. Use admired companies and current vendor practices as checks on a design choice, not as borrowed authority.
 - Keep the main learning path visible. Put deeper explanation, reference answers, and optional workbook fields behind progressive disclosure.
 - Show the actual prompts, inputs, outputs, failure cases, and downloadable practice material. Do not substitute polished marketing for runnable work.
+- Give a hands-on lab one canonical start and one clearly named root folder. Define every generated path relative to that root.
+- Keep readiness checks spoiler-free. They should prove access, files, and write boundaries without calculating the lesson's answer.
+- Treat every connected company tool as available to the session, even when the student does not plan to use it. Require an isolated local session for a synthetic lab.
+- When a control reveals content, move the learner to that content or leave a persistent state change. A short toast alone is too easy to miss.
 - Use a diagram only when it preserves the full operating path. A cleaner diagram that drops validation, proof, review, or correction is a worse explanation.
 - Keep build provenance and internal production notes out of student-facing copy. Tell the student what to inspect, decide, build, and verify.
 
