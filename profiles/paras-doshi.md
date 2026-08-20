@@ -64,6 +64,8 @@ Lead with the result, then the evidence, risk, decision, and exact next action. 
 - When a control reveals content, move the learner to that content or leave a persistent state change. A short toast alone is too easy to miss.
 - Use a diagram only when it preserves the full operating path. A cleaner diagram that drops validation, proof, review, or correction is a worse explanation.
 - Keep build provenance and internal production notes out of student-facing copy. Tell the student what to inspect, decide, build, and verify.
+- If a paid course promises production, require students to operate one complete feedback, review, promotion, and fresh-session reuse loop. Writing about the loop is not the same learning outcome.
+- Use exact personal outcome numbers only when the public artifact can show the source or method. Otherwise teach the mechanism without the number.
 
 ## Approved course-design judgment
 
