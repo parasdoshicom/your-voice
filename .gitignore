@@ -1,4 +1,7 @@
 __pycache__/
 *.pyc
 .DS_Store
-
+.plugin-eval/runs/
+.plugin-eval/benchmark-usage.jsonl
+evals/private/
+evals/runs/

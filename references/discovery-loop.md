@@ -30,6 +30,15 @@ Reject candidates that optimize detector evasion, strip provenance, insert fake 
 5. Add attribution.
 6. Require human review and a normal pull request.
 
+At minimum, validate the benchmark and run the deterministic regression suite:
+
+```bash
+python3 scripts/validate_evals.py evals/benchmark.json
+python3 -m unittest discover -s tests -v
+```
+
+When the change affects generated behavior, also run the baseline-versus-skill comparison in `evaluation.md`. A valid JSON file is not proof that the skill improved the drafts.
+
 ## Rollback
 
 Every adopted rule must be easy to remove. If approved writing becomes blander, less accurate, or less recognizable, revert the rule before tuning it.

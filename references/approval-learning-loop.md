@@ -4,6 +4,8 @@ Use this loop when a person reviews a draft, deck, site, document, or generated 
 
 The approved final is the source of truth. A writing or design tool is useful as a second opinion. It is not the author of the voice profile and it is not the memory.
 
+Before a new content task, retrieve the current writer profile, channel strategy, relevant approved stories, and known rejections. If the external system cannot confirm which context it loaded, pass the necessary public-safe context explicitly or stop the voice-matching claim. A connected account or repository is not proof that the relevant material entered the draft.
+
 ## Compare the three states
 
 Keep these side by side:
@@ -47,6 +49,8 @@ Use three levels:
 - durable voice: applies broadly across the writer's work.
 
 Record rejections as well as adoptions. A rejected pattern prevents the next run from spending time rediscovering the same mistake.
+
+Treat post performance as evidence about distribution, not identity. It can justify another format test. It cannot by itself turn a hook, cadence, topic, or level of certainty into durable voice.
 
 ## Decide whether another tool call is worth it
 

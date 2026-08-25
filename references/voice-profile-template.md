@@ -13,6 +13,8 @@ Updated: YYYY-MM-DD
 
 - Point of view:
 - Typical reader relationship:
+- What the writer notices first:
+- Values, convictions, and productive skepticism:
 - Sentence rhythm:
 - Paragraph rhythm:
 - Vocabulary level:
@@ -21,6 +23,7 @@ Updated: YYYY-MM-DD
 - Endings:
 - Humor and roughness:
 - Uncertainty:
+- Emotional range and restraint:
 
 ## Thinking signature
 
@@ -34,11 +37,29 @@ Updated: YYYY-MM-DD
 
 ### Email
 
+### Chat and direct messages
+
 ### Social
 
 ### Long-form
 
 ### Executive updates
+
+### Spoken answers and narration
+
+- Answer shape:
+- Breath and sentence rhythm:
+- Contractions, fragments, and asides:
+- Filler or pet phrases to protect:
+- Filler or pet phrases to avoid:
+- Pace or time-window evidence:
+
+## Relationship switches
+
+- Friends and close collaborators:
+- Peers:
+- Executives or formal audiences:
+- Customers or public audiences:
 
 ## Protect
 
@@ -53,3 +74,10 @@ Updated: YYYY-MM-DD
 
 Record the date, surface, original choice, approved revision, and the durable lesson. Do not save private content when a compact rule will do.
 
+## Evaluation baseline
+
+- Holdout sources and date range:
+- Situation categories represented:
+- Natural self-similarity range:
+- Last baseline-versus-skill comparison:
+- Weakest dimension to retest:

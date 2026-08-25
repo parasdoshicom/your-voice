@@ -1,6 +1,6 @@
 # Voice profile: Paras Doshi
 
-Updated: 2026-08-20
+Updated: 2026-08-24
 
 This public baseline uses public writing only. Private Stanley conversations, DMs, emails, customer material, and internal company context are excluded.
 
@@ -37,6 +37,7 @@ Do not let one recent campaign overwrite the durable baseline.
 - Practical clarity beats status language.
 - A useful model should help a practitioner classify, diagnose, or act.
 - Paras is willing to say a category is confused, a common practice is weak, or a simpler model works better, but the claim should carry a mechanism or example.
+- Personality should come through as practical curiosity, selective skepticism, and mild enthusiasm for something that works. Do not turn that into chest-thumping, contrarian theater, or constant jokes.
 
 ## Channel overlays
 
@@ -51,6 +52,10 @@ Lead with the observation or useful claim. Keep public-safe business evidence. A
 ### Executive or operating updates
 
 Lead with the result, then the evidence, risk, decision, and exact next action. Separate activity from outcome.
+
+### Spoken answers
+
+Start with the literal answer. Add one mechanism and one concrete proof, then stop. Use ordinary spoken language, contractions, and short transitions. Preserve technical distinctions, but do not stack framework names or build a speech out of slide headings. Paras can sound direct and opinionated without sounding absolute; keep the qualifier when the evidence needs one.
 
 ### Paid courses and workshop companions
 

@@ -9,6 +9,7 @@ import json
 import os
 import urllib.parse
 import urllib.request
+from urllib.error import HTTPError
 from pathlib import Path
 
 
@@ -31,18 +32,54 @@ SIGNALS = (
     "writing voice",
 )
 
+TRACKED_UPSTREAMS = (
+    ("blader/humanizer", "v2.11.1"),
+    ("conorbronsdon/avoid-ai-writing", "v3.26.0"),
+    ("petergyang/no-ai-slop", "v1.0.6"),
+    ("hardikpandya/stop-slop", "8da1f030185b"),
+    ("cosmos-makers/writer-persona", "5eee0fd5b0c2"),
+    ("AshwinSathian/humanize-writing-skill", "0c3f05bc4f37"),
+    ("ai-evals-course/evals-skills", "b91c188388ef"),
+)
 
-def github_search(query: str, per_page: int) -> list[dict[str, object]]:
-    url = "https://api.github.com/search/repositories?" + urllib.parse.urlencode(
-        {"q": query, "sort": "updated", "order": "desc", "per_page": per_page}
-    )
+
+def github_api(path: str) -> object:
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "your-voice-discovery"}
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    request = urllib.request.Request(url, headers=headers)
+    request = urllib.request.Request(f"https://api.github.com/{path.lstrip('/')}", headers=headers)
     with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response).get("items", [])
+        return json.load(response)
+
+
+def github_search(query: str, per_page: int) -> list[dict[str, object]]:
+    path = "search/repositories?" + urllib.parse.urlencode(
+        {"q": query, "sort": "updated", "order": "desc", "per_page": per_page}
+    )
+    payload = github_api(path)
+    return payload.get("items", []) if isinstance(payload, dict) else []
+
+
+def upstream_status(repo: str) -> dict[str, str]:
+    metadata = github_api(f"repos/{repo}")
+    if not isinstance(metadata, dict):
+        raise ValueError(f"unexpected metadata for {repo}")
+    default_branch = str(metadata.get("default_branch") or "main")
+    head = github_api(f"repos/{repo}/commits/{default_branch}")
+    if not isinstance(head, dict):
+        raise ValueError(f"unexpected head commit for {repo}")
+    try:
+        release = github_api(f"repos/{repo}/releases/latest")
+    except HTTPError as exc:
+        if exc.code != 404:
+            raise
+        release = {}
+    return {
+        "head": str(head.get("sha") or "unknown")[:12],
+        "pushed": str(metadata.get("pushed_at") or "unknown"),
+        "release": str(release.get("tag_name") or "none") if isinstance(release, dict) else "none",
+    }
 
 
 def main() -> int:
@@ -86,6 +123,25 @@ def main() -> int:
         lines.append("No new candidates matched the review filter.")
     if errors:
         lines.extend(["", "## Discovery errors", "", *errors])
+
+    lines.extend(["", "## Tracked upstreams", ""])
+    upstream_errors: list[str] = []
+    for repo, reviewed in TRACKED_UPSTREAMS:
+        try:
+            status = upstream_status(repo)
+            lines.extend(
+                [
+                    f"- [{repo}](https://github.com/{repo})",
+                    f"  - reviewed: `{reviewed}`",
+                    f"  - latest release: `{status['release']}`",
+                    f"  - head: `{status['head']}`",
+                    f"  - pushed: `{status['pushed']}`",
+                ]
+            )
+        except Exception as exc:  # keep candidate discovery useful if one upstream probe fails
+            upstream_errors.append(f"- `{repo}`: {type(exc).__name__}")
+    if upstream_errors:
+        lines.extend(["", "### Upstream scan errors", "", *upstream_errors])
 
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)

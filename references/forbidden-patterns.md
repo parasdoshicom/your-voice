@@ -18,7 +18,7 @@ Blank lines and lines that start with `#` are ignored. A `- ` prefix is optional
 The auditor loads `~/.config/your-voice/forbidden.md` automatically when it exists. Pass another file one or more times when a project needs its own rules:
 
 ```bash
-python scripts/audit_text.py draft.md \
+python3 scripts/audit_text.py draft.md \
   --forbidden ./project-forbidden.md
 ```
 

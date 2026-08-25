@@ -22,6 +22,10 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Run tests
         run: python -m unittest discover -s tests -v
+      - name: Validate behavioral benchmark
+        run: python scripts/validate_evals.py evals/benchmark.json
+      - name: Validate judge-label format
+        run: python scripts/score_judges.py evals/labels.example.jsonl --split test
       - name: Compile scripts
         run: python -m py_compile scripts/*.py tests/*.py
       - name: Check auditor version
