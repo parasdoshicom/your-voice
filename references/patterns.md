@@ -6,6 +6,7 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 
 - Chatbot residue: “Great question,” “Of course,” “I hope this helps,” or an offer to do more after the content ends.
 - Throat-clearing: “Here's the thing,” “Let me be clear,” or “It's worth noting.”
+- Fake process intros: “after careful consideration” when no reasoning is shown, or “to provide a quick update” before an update.
 - Faux insight: “What everyone misses” or “The uncomfortable truth.”
 - Signposting: announcing the section instead of starting it.
 
@@ -18,6 +19,7 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 - Abstract nouns where the draft supports a person, action, number, or example.
 - Hollow intensifiers such as “actually,” “really,” “truly,” or “genuinely” when they only add emphasis. Keep “actually” when it marks a named correction or expectation gap.
 - Interpretive metadiscourse such as “the key point is,” “as you can see,” or “this distinction matters” when the evidence already makes the point. State the consequence directly when the interpretation is necessary.
+- Adverb abuse where the adverb pretends to add specificity: “quietly runs,” “seamlessly powers,” “strategically unlocks.”
 
 ## Machine-shaped structure
 
@@ -25,6 +27,7 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 - “Not X. Not Y. Z.” negative lists.
 - Two tiny fragments that perform one job, such as “Fast. Simple.” Keep the stronger one or write one complete thought.
 - Empty paired images such as “less a hammer, more a scalpel” when they never tell the reader what to do.
+- Soft reframes that dismiss a straw frame before pivoting: “Most teams think X. They actually have Y.”
 - Forced groups of three.
 - Unmeasured time ranges presented as experience. Use the observed duration when it exists; keep a range when the source supports it.
 - Repeated sentence lengths, paragraph shapes, and punch-line endings.
@@ -35,6 +38,7 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 - Unexplained “the X of Y” analogies that assume the reader knows both references.
 - Fake-profound kickers and recap conclusions. End on the last concrete point instead of restating the draft.
 - Portable filler: a sentence that could move unchanged to another person, product, or company. Replace it with a supported fact, mechanism, consequence, or judgment, or cut it.
+- Engagement bait: “full stop,” “read that again,” “let that sink in,” or “this changes everything.”
 
 ## Formatting tells
 
@@ -51,6 +55,12 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 - Converting every fragment or aside into formal prose.
 - Forcing a platform's viral template onto the writer.
 - Adding invented anecdotes, emotions, jokes, or sensory detail to seem human.
+- Using analogies or metaphor families to decorate a claim that would be clearer as a literal sentence.
+
+## Bloated verbs
+
+- Copula avoidance: “serves as,” “stands as,” “represents,” “boasts,” “features,” “plays a role in,” “helps to,” “aims to,” and “seeks to.”
+- Metaphor scaffolds: “think of it as,” “imagine,” “picture,” “bridge between,” “lens for,” “roadmap for,” “backbone of,” and “engine of.”
 
 ## Personality and relationship failures
 

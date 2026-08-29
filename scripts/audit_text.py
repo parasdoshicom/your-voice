@@ -39,13 +39,21 @@ LINE_RULES = (
     _rule(
         "throat_clearing",
         r"\b(here(?:'s| is) the (?:thing|truth)|let me be clear|the truth is|"
-        r"it(?:'s| is) worth noting|let(?:'s| us) (?:dive in|break this down|explore))\b",
+        r"it(?:'s| is) worth noting|let(?:'s| us) (?:dive in|break this down|explore)|"
+        r"after careful consideration|to provide a quick update)\b",
         "Start with the next sentence or the concrete point.",
     ),
     _rule(
         "binary_contrast",
         r"\b(?:it|that|this)(?:'s| is) not\b.{0,120}(?:\bbut\b|[,.!?]\s*(?:it|that|this)(?:'s| is))",
         "State the useful half directly unless the contrast carries evidence.",
+    ),
+    _rule(
+        "soft_reframe",
+        r"\b(?:most (?:people|teams)|conventional wisdom|at first glance|on the surface|"
+        r"while .{1,80} may seem|although .{1,80} appears)\b.{0,160}\b"
+        r"(?:actually|really|instead|the real|what matters is|the truth is|have a|has a)\b",
+        "Delete the rejected frame and state the supported claim directly.",
     ),
     _rule(
         "empty_comparison",
@@ -85,8 +93,34 @@ LINE_RULES = (
         "Remove assistant-to-user residue from the draft.",
     ),
     _rule(
+        "engagement_bait",
+        r"\b(let that sink in|read that again|full stop|this changes everything|"
+        r"are you paying attention|you(?:'re| are) not ready for this)\b",
+        "Delete the audience-command flourish and end on the concrete point.",
+    ),
+    _rule(
+        "bloated_copula",
+        r"\b(serves as|stands as|marks a|represents a|boasts a|features a|offers a|"
+        r"plays a role in|helps to|aims to|seeks to)\b",
+        "Use the plain verb: is, has, uses, gives, shows, causes, adds, or removes.",
+    ),
+    _rule(
+        "metaphor_setup",
+        r"\b(think of it as|imagine|picture|it(?:'s| is) like|as if|as though|"
+        r"a bridge between|a lens for|a roadmap for|the backbone of|the engine of)\b",
+        "Use a literal sentence unless the analogy makes a hard idea shorter and clearer.",
+    ),
+    _rule(
+        "adverb_abuse",
+        r"\b\w+ly\s+(?:runs|powers|drives|transforms|reshapes|redefines|elevates|"
+        r"unlocks|captures|delivers)\b",
+        "Replace the adverb with a concrete actor, mechanism, or measured effect.",
+    ),
+    _rule(
         "ai_vocabulary",
-        r"\b(delve|tapestry|multifaceted|paramount|supercharge|ever-evolving|game[ -]?changer)\b",
+        r"\b(delve|tapestry|multifaceted|paramount|supercharge|ever-evolving|"
+        r"game[ -]?changer|unlock|seamless|streamline|robust|transformative|holistic|"
+        r"meticulously|underscore|crucial|pivotal|realm)\b",
         "Use the ordinary word the writer would say, or add a concrete fact.",
     ),
     _rule(

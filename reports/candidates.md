@@ -41,3 +41,34 @@ Discovery does not imply endorsement or adoption. Check provenance, license, cod
   - latest release: `none`
   - head: `0c3f05bc4f37`
   - pushed: `2026-08-18T00:25:49Z`
+
+## Candidate Review: Claude Skill Library
+
+- Source: https://www.claude-skills.free/
+- Retrieved: 2026-08-29
+- License: not stated on downloadable archives
+- Decision: adopt only deduped rule gaps; do not vendor downloaded skills.
+
+## Reviewed from downloaded archives
+
+- `delete-ai-words`: overlaps heavily with Your Voice, Humanizer, Stop Slop, and No AI Slop. Adopted the missing stricter checks for soft reframes, engagement bait, bloated substitute verbs, metaphor setups, and a wider small vocabulary audit.
+- `grill-me`: too broad for the default Your Voice workflow because it mandates 10-15 questions before most non-trivial builds. Adopted only the narrower writing-relevant rule: check context sufficiency before blank-slate drafting and ask only questions that would change the output.
+
+## Reviewed from linked LinkedIn post
+
+- URL: https://www.linkedin.com/posts/ruben-hassid_its-crazy-how-my-entire-linkedin-feed-is-share-7499210276655976448-7g33/
+- Source note: Paras provided a `lnkd.in` short link that resolved to this post.
+- Decision: most listed tells already existed in Your Voice. Added the missing audit coverage for fake-process intros, “realm,” standalone “crucial/pivotal,” and adverb-abuse constructions like “quietly runs.”
+- Listed skills: `/writer`, `/editor`, `/fact-checker`, `/anti-AI style`, `/ban-the-AI-words`, `/ban-the-AI-patterns`, `/sound like your posts`, `/humanizer`, `/red-pen`, `/self-critique`, `/auto-block-banned-words`.
+- Dedupe: these map to existing Your Voice modes and latch passes, so no separate subskills were added.
+
+## Reviewed from public metadata only
+
+- `humanizer`: likely duplicate of existing Your Voice scope; archive required unlock.
+- `personal-voice`: likely duplicate of existing voice profile workflow; archive required unlock.
+- `the-team`: likely duplicate of existing writer/editor/fact-check latch pass; archive required unlock.
+- `red-pen`: likely overlaps with audit mode; archive required unlock.
+- `sound like your posts`: likely overlaps with approved-sample calibration; archive required unlock.
+- `my-viral-post` and `linkedin-hook`: relevant to channel-specific drafting but high risk of viral-template flattening; archive required unlock.
+- `fact-checker`: relevant to the truth pass, but archive required unlock.
+- `prompt-master`: possibly relevant to spec creation, but archive required unlock.

@@ -21,8 +21,25 @@ class AuditTests(unittest.TestCase):
         rules = {finding.rule for finding in MODULE.audit(text)}
         self.assertEqual(
             rules,
-            {"chatbot_artifact", "throat_clearing", "binary_contrast", "ai_vocabulary", "em_dash"},
+            {
+                "chatbot_artifact",
+                "throat_clearing",
+                "binary_contrast",
+                "ai_vocabulary",
+                "engagement_bait",
+                "em_dash",
+            },
         )
+
+    def test_flags_soft_reframes_and_bloated_verbs(self):
+        text = "Most teams think they have a hiring problem. They actually have a standards problem. The report serves as a roadmap for the team."
+        rules = {finding.rule for finding in MODULE.audit(text)}
+        self.assertEqual(rules, {"soft_reframe", "bloated_copula", "metaphor_setup"})
+
+    def test_flags_fake_process_and_adverb_abuse(self):
+        text = "After careful consideration, this crucial system quietly unlocks growth. To provide a quick update, we moved the meeting."
+        rules = {finding.rule for finding in MODULE.audit(text)}
+        self.assertEqual(rules, {"throat_clearing", "ai_vocabulary", "adverb_abuse"})
 
     def test_preserves_plain_specific_prose(self):
         text = "The team cut review time from 40 minutes to 12 after it cached the approved metric definitions."

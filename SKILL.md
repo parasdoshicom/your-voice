@@ -39,8 +39,9 @@ When creating text from notes or source material:
 1. Identify the reader, purpose, decision, and format.
 2. Pull the writer's profile when one exists. Prefer approved writing and pre-generative-AI samples.
 3. Extract the facts, examples, and point of view the source actually supports.
-4. Draft in the writer's natural structure and register for this relationship. Do not start from a generic social template.
-5. Run the latch pass below.
+4. Check whether the request has enough context to produce a useful draft. Ask only questions whose answers would change the output; for a larger blank-slate piece, batch the questions instead of dribbling them out one at a time.
+5. Draft in the writer's natural structure and register for this relationship. Do not start from a generic social template.
+6. Run the latch pass below.
 
 ### Edit
 

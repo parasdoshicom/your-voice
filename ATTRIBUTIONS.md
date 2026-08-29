@@ -122,6 +122,19 @@ The following products are credited for product ideas only. Your Voice does not 
 - Influence: use a generated visual pass as a bounded comparison for hierarchy, spacing, and structure; separate preserve, condense, and generate intent; treat audience, tone, format, and amount as distinct controls; and use comments or section-level engagement as diagnostic feedback when available. Keep the human-approved final as the source of truth and record rejected patterns so the same review does not require another generation.
 - Boundary: Your Voice does not copy Gamma's proprietary prompts, models, templates, or code.
 
+## Public skill library review
+
+### Claude Skill Library
+
+- Author: Anisha / Ruben Hassid AI, as identified by the site contact
+- Source: https://www.claude-skills.free/
+- Retrieved: 2026-08-29
+- License: not stated on the downloaded skill archives
+- Related post: https://www.linkedin.com/posts/ruben-hassid_its-crazy-how-my-entire-linkedin-feed-is-share-7499210276655976448-7g33/
+- Reviewed downloadable skills: `delete-ai-words`, `grill-me`
+- Relevant locked candidates reviewed by metadata only: `humanizer`, `personal-voice`, `the-team`, `red-pen`, `sound like your posts`, `my-viral-post`, `linkedin-hook`, `fact-checker`, `prompt-master`
+- Influence: stricter handling of soft reframes, fake-process intros, engagement bait, bloated copula replacements, adverb abuse, metaphor setups, and a lightweight context-sufficiency gate before drafting. Your Voice summarizes these rules in original wording and does not bundle the downloaded archives.
+
 ## Paras Doshi voice sources
 
 The included Paras Doshi profile is a derived style guide, not a corpus dump.
