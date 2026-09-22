@@ -37,4 +37,3 @@ Rejected:
 - treating a presentation generator as the canonical course or a substitute for the interactive build-along.
 
 Apply these decisions before requesting another course-design generation. Use another external pass when Paras explicitly requests it or for a named question the approved rules do not answer.
-
