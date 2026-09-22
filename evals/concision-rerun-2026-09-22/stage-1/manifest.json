@@ -1,0 +1,206 @@
+{
+  "cli": "codex-cli 0.155.0-alpha.9.2",
+  "model_selection": "CLI default under --ignore-user-config; resolved model captured from stderr banner per run",
+  "temperature": "not exposed/set",
+  "runs": [
+    {
+      "name": "old-2",
+      "arm": "old",
+      "repetition": 2,
+      "seconds": 51.1,
+      "prompt_sha256": "b8815bb52ea6e35279bce80f63b084dec4911d6264bb5874feab53155ad29fcc",
+      "command": [
+        "codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/private/tmp/your-voice-rerun-20260922",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "skills.config=[{path=\"/Users/ParasClaw/.agents/skills/your-voice/SKILL.md\",enabled=false}]",
+        "--output-schema",
+        "/private/tmp/your-voice-rerun-20260922/output-schema.json",
+        "-o",
+        "/private/tmp/your-voice-rerun-20260922/old-2-output.json",
+        "-"
+      ],
+      "resolved": {
+        "model": "gpt-6-astra",
+        "provider": "openai",
+        "reasoning effort": "none",
+        "reasoning summaries": "none"
+      }
+    },
+    {
+      "name": "candidate-1",
+      "arm": "candidate",
+      "repetition": 1,
+      "seconds": 50.56,
+      "prompt_sha256": "db07ac894772980556f674e513b91f51c165f18a2ebd9d7944ac021a5cec12a5",
+      "command": [
+        "codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/private/tmp/your-voice-rerun-20260922",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "skills.config=[{path=\"/Users/ParasClaw/.agents/skills/your-voice/SKILL.md\",enabled=false}]",
+        "--output-schema",
+        "/private/tmp/your-voice-rerun-20260922/output-schema.json",
+        "-o",
+        "/private/tmp/your-voice-rerun-20260922/candidate-1-output.json",
+        "-"
+      ],
+      "resolved": {
+        "model": "gpt-6-astra",
+        "provider": "openai",
+        "reasoning effort": "none",
+        "reasoning summaries": "none"
+      }
+    },
+    {
+      "name": "none-2",
+      "arm": "none",
+      "repetition": 2,
+      "seconds": 48.85,
+      "prompt_sha256": "ebb28d7ac74710848f25ac46a61745a4c4151dd097f4c8679d7793820a4c8fa0",
+      "command": [
+        "codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/private/tmp/your-voice-rerun-20260922",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "skills.config=[{path=\"/Users/ParasClaw/.agents/skills/your-voice/SKILL.md\",enabled=false}]",
+        "--output-schema",
+        "/private/tmp/your-voice-rerun-20260922/output-schema.json",
+        "-o",
+        "/private/tmp/your-voice-rerun-20260922/none-2-output.json",
+        "-"
+      ],
+      "resolved": {
+        "model": "gpt-6-astra",
+        "provider": "openai",
+        "reasoning effort": "none",
+        "reasoning summaries": "none"
+      }
+    },
+    {
+      "name": "old-1",
+      "arm": "old",
+      "repetition": 1,
+      "seconds": 49.76,
+      "prompt_sha256": "db1a6920bafeeada83d91b65362dfacf54f69819de2f3a38c3e11c67079b7c21",
+      "command": [
+        "codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/private/tmp/your-voice-rerun-20260922",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "skills.config=[{path=\"/Users/ParasClaw/.agents/skills/your-voice/SKILL.md\",enabled=false}]",
+        "--output-schema",
+        "/private/tmp/your-voice-rerun-20260922/output-schema.json",
+        "-o",
+        "/private/tmp/your-voice-rerun-20260922/old-1-output.json",
+        "-"
+      ],
+      "resolved": {
+        "model": "gpt-6-astra",
+        "provider": "openai",
+        "reasoning effort": "none",
+        "reasoning summaries": "none"
+      }
+    },
+    {
+      "name": "none-1",
+      "arm": "none",
+      "repetition": 1,
+      "seconds": 49.4,
+      "prompt_sha256": "dd8b960f92204d5b77b58299fed361e1b387f1f3f7191a3baa330060e8287e8f",
+      "command": [
+        "codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/private/tmp/your-voice-rerun-20260922",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "skills.config=[{path=\"/Users/ParasClaw/.agents/skills/your-voice/SKILL.md\",enabled=false}]",
+        "--output-schema",
+        "/private/tmp/your-voice-rerun-20260922/output-schema.json",
+        "-o",
+        "/private/tmp/your-voice-rerun-20260922/none-1-output.json",
+        "-"
+      ],
+      "resolved": {
+        "model": "gpt-6-astra",
+        "provider": "openai",
+        "reasoning effort": "none",
+        "reasoning summaries": "none"
+      }
+    },
+    {
+      "name": "candidate-2",
+      "arm": "candidate",
+      "repetition": 2,
+      "seconds": 46.0,
+      "prompt_sha256": "d50d148dcb29f7564d915c69d7b9debb5ba6ac736c7dec49c0ced9a52dec5719",
+      "command": [
+        "codex",
+        "exec",
+        "--ignore-user-config",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "-C",
+        "/private/tmp/your-voice-rerun-20260922",
+        "-s",
+        "read-only",
+        "-c",
+        "project_doc_max_bytes=0",
+        "-c",
+        "skills.config=[{path=\"/Users/ParasClaw/.agents/skills/your-voice/SKILL.md\",enabled=false}]",
+        "--output-schema",
+        "/private/tmp/your-voice-rerun-20260922/output-schema.json",
+        "-o",
+        "/private/tmp/your-voice-rerun-20260922/candidate-2-output.json",
+        "-"
+      ],
+      "resolved": {
+        "model": "gpt-6-astra",
+        "provider": "openai",
+        "reasoning effort": "none",
+        "reasoning summaries": "none"
+      }
+    }
+  ],
+  "case_sha256": "fee7655e3ab1c095c5c382cdabe3b8760906b5b958030320f5d132f8a7c2548d"
+}

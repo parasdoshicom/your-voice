@@ -1,0 +1,2166 @@
+{
+  "repetitions": 2,
+  "cases": [
+    {
+      "id": "g01",
+      "category": "generate",
+      "request": "Reply to a colleague who asks, 'Can we use the new dashboard in tomorrow's team review?'",
+      "source": "The dashboard refresh finished today. Revenue and order counts passed checks. The returns panel still double-counts exchanges and will be fixed Thursday. Tomorrow's review only needs revenue and order counts.",
+      "must_preserve": [
+        "The dashboard is usable for tomorrow's review for revenue and order counts",
+        "The returns panel double-counts exchanges and should not be used yet",
+        "The returns fix is expected Thursday"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "g02",
+      "category": "generate",
+      "request": "Explain to a product manager why the experiment's higher signup count does not establish that the new page converts better.",
+      "source": "The old page received 1,000 visitors and 100 signups. The new page received 2,000 visitors and 160 signups. These are descriptive totals; no significance analysis has been done.",
+      "must_preserve": [
+        "The old page's conversion rate is 10%",
+        "The new page's conversion rate is 8%",
+        "Higher traffic explains why the new page can have more signups despite a lower observed conversion rate",
+        "The totals alone do not establish statistical significance"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "g03",
+      "category": "generate",
+      "request": "Write a reply to 'Where should I put feedback on the draft guide?'",
+      "source": "Feedback belongs in comments on the shared draft, not in a separate document. The editor will collect comments Friday at noon. Typos and substantive suggestions are both welcome.",
+      "must_preserve": [
+        "Use comments on the shared draft",
+        "Do not create a separate feedback document",
+        "The collection deadline is Friday at noon",
+        "Both typos and substantive suggestions are welcome"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "g04",
+      "category": "generate",
+      "request": "Answer a community member asking whether they should arrive early for the library repair workshop.",
+      "source": "Doors open at 9:45 a.m. and the workshop begins at 10 a.m. Everyone with a reservation has a seat, so arriving before doors open is unnecessary. Participants should bring the broken item and its power cable if it has one. Large appliances are not accepted.",
+      "must_preserve": [
+        "Doors open at 9:45 a.m. and the workshop starts at 10 a.m.",
+        "Reserved seats mean there is no need to arrive before doors open",
+        "Bring the broken item and its power cable if applicable",
+        "Large appliances are not accepted"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "g05",
+      "category": "generate",
+      "request": "Give a project lead a recommendation on whether to change the export format this week.",
+      "source": "The current CSV export meets the customer's stated needs. A proposed spreadsheet export would add two days of work and has no committed customer request behind it. The team has one day of schedule slack before delivery. It can record the idea for later discovery.",
+      "must_preserve": [
+        "Recommend keeping CSV for this delivery",
+        "CSV already meets the stated customer need",
+        "Two days of extra work exceeds the one day of slack",
+        "Record the spreadsheet idea for later discovery without implying a commitment"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "g06",
+      "category": "generate",
+      "request": "Write an update for people waiting on the photo archive migration.",
+      "source": "All original photos have been copied. Search indexing is still running and should finish by 4 p.m. today. Until then, some searches may omit photos even though those photos are safely stored. People can still browse folders. No files need to be uploaded again.",
+      "must_preserve": [
+        "All original photos have been copied",
+        "Search indexing is expected to finish by 4 p.m. today",
+        "Incomplete search results do not mean photos are missing from storage",
+        "Folder browsing remains available",
+        "Users do not need to upload files again"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "d01",
+      "category": "condense",
+      "request": "Tighten this project update for the team channel.",
+      "source": "I wanted to share a quick update on where things stand with the search launch so everyone has the same understanding of the current situation. We completed the relevance review this morning, and the results met the threshold we agreed on. That part is now done. There is still one outstanding issue with keyboard navigation in the filter menu, which is the only remaining launch blocker. Maya is working on that fix and expects to have it ready tomorrow afternoon. Assuming the fix passes the accessibility check, we are still aiming to launch on Wednesday. I will update the channel if that timing changes.",
+      "must_preserve": [
+        "The relevance review is complete and met the agreed threshold",
+        "Keyboard navigation in the filter menu is the only remaining launch blocker",
+        "Maya expects the fix tomorrow afternoon",
+        "Wednesday launch depends on passing the accessibility check",
+        "The writer will report timing changes"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "d02",
+      "category": "condense",
+      "request": "Edit this reply so it gets to the point while keeping the helpful tone.",
+      "source": "Thanks for checking in about the recording, and I appreciate your patience while we get everything organized after the session. The recording is already available in the course portal, under the tab labeled Session Materials. You do not need a separate link or a new account to access it; your existing course login will work. One thing to be aware of is that captions are still being processed, so they are not available quite yet. We expect those to appear by tomorrow morning. If the recording does not show up when you first open the portal, please try signing out and back in, and let me know if that does not resolve it.",
+      "must_preserve": [
+        "The recording is in the course portal under Session Materials",
+        "The existing course login works without a new account or separate link",
+        "Captions are expected tomorrow morning",
+        "If the recording is absent, sign out and back in, then report if the problem remains",
+        "Keep a helpful tone"
+      ],
+      "exact_spans": [
+        "Session Materials"
+      ],
+      "word_range": null
+    },
+    {
+      "id": "d03",
+      "category": "condense",
+      "request": "Clean up this recommendation for the operations meeting.",
+      "source": "After looking at the available options and considering what we need for the next month, my recommendation would be to keep using the current booking form for the upcoming pilot. The form is not perfect, and I know there are improvements we would eventually like to make, but it does collect all four fields that the pilot actually requires. Building a new form would take roughly three days of engineering time. Given that we have only twelve participants in this pilot, I do not think that investment is justified yet. We should log any issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+      "must_preserve": [
+        "Keep the current booking form for the upcoming pilot",
+        "It collects all four required fields",
+        "A replacement would take roughly three engineering days",
+        "The pilot has twelve participants",
+        "Log participant issues to inform a rebuild decision before broader rollout"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "d04",
+      "category": "condense",
+      "request": "Make this customer notice easier to scan.",
+      "source": "We are writing to let you know about a change to the pickup arrangements for this Saturday's market. Due to repairs taking place at the usual entrance, all prepaid orders will be available at the east gate instead of the main gate. The pickup window itself has not changed and will remain from 11 a.m. to 2 p.m. Please bring your order confirmation, either on your phone or printed out, so that our volunteers can find your order quickly. If someone else is picking up on your behalf, they can use your confirmation. There is no need to contact us in advance to authorize that person.",
+      "must_preserve": [
+        "Saturday's prepaid orders move from the main gate to the east gate because of repairs",
+        "Pickup remains 11 a.m. to 2 p.m.",
+        "Bring the order confirmation on a phone or on paper",
+        "Another person may collect with the confirmation without advance authorization"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "d05",
+      "category": "condense",
+      "request": "Tighten this explanation for a nontechnical teammate.",
+      "source": "The reason the weekly total looks different from the sum of the daily numbers is that these two views are counting slightly different things, even though they both use the word visitors. In the daily view, a person is counted once on each day they visit. In the weekly view, that same person is counted only once across the entire week. So if someone visits on Monday and again on Tuesday, they add one visitor to each daily number, but only one visitor to the weekly number. This is expected behavior rather than a reporting error. We should update the labels to say daily unique visitors and weekly unique visitors to make the distinction clearer.",
+      "must_preserve": [
+        "Daily visitors are deduplicated within each day while weekly visitors are deduplicated across the week",
+        "A person visiting Monday and Tuesday counts in both daily totals but once in the weekly total",
+        "The difference is expected rather than a reporting error",
+        "Recommend labels daily unique visitors and weekly unique visitors"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "d06",
+      "category": "condense",
+      "request": "Streamline this message about a delayed review.",
+      "source": "I wanted to give you an update rather than leave you wondering about the status of the review. I have finished checking the main proposal, and I do not have any changes to request in that section. The part I have not finished yet is the cost appendix, because I am waiting for the revised supplier estimate before I can validate the numbers properly. The supplier has said they will send it by noon tomorrow. If it arrives on time, I can send you the complete review by 3 p.m. tomorrow. If it does not arrive by noon, I will let you know then and give you a revised delivery time.",
+      "must_preserve": [
+        "The main proposal review is complete with no requested changes",
+        "The cost appendix depends on a revised supplier estimate",
+        "The supplier expects to send the estimate by noon tomorrow",
+        "Full review is due by 3 p.m. tomorrow if the estimate arrives on time",
+        "If the estimate misses noon, the writer will provide an update and revised delivery time then"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "c01",
+      "category": "control",
+      "request": "Teach a beginner what a database index does in 100\u2013150 words. Use a familiar analogy, explain the read/write tradeoff, and include one practical example.",
+      "source": "An index is an auxiliary data structure that can help a database locate matching rows without scanning the entire table. It consumes storage and must be maintained when relevant data is inserted, updated, or deleted. Not every query benefits from an index.",
+      "must_preserve": [
+        "Explain locating rows without scanning the full table in beginner language",
+        "Include a familiar analogy",
+        "Explain that storage and maintenance make writes more costly",
+        "Give a practical example of a query benefiting from an index",
+        "Do not imply every query benefits"
+      ],
+      "exact_spans": [],
+      "word_range": [
+        100,
+        150
+      ]
+    },
+    {
+      "id": "c02",
+      "category": "control",
+      "request": "Write a warm apology to a friend. Take responsibility and leave room for them to feel hurt; don't make this sound like a business status update.",
+      "source": "You missed your friend's small gallery opening after promising to attend because you forgot to put it in your calendar. Your friend had told you it was important to them. You want to offer to visit the show together next weekend if they would like, without assuming they will accept.",
+      "must_preserve": [
+        "Apologize for missing the gallery opening after promising to attend",
+        "Take responsibility for forgetting without an invented excuse",
+        "Acknowledge that the opening mattered and the friend may feel hurt",
+        "Offer to visit together next weekend without pressuring or presuming acceptance",
+        "Maintain personal warmth"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "c03",
+      "category": "control",
+      "request": "Fix punctuation only. Preserve every word and its order, even if you would normally shorten the sentence. Return only the corrected text.",
+      "source": "Before we begin please open the workbook check that your name is on the first tab and save a copy if anything looks wrong let me know before you edit",
+      "must_preserve": [
+        "Keep every source word in the same order",
+        "Change punctuation only",
+        "Return no explanation or extra text",
+        "Make the sentence boundaries and list readable"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "c04",
+      "category": "control",
+      "request": "Turn these notes into a setup reply. Preserve the command and URL exactly, including all flags and query parameters.",
+      "source": "From the project root, run: python3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\nThen open: https://docs.example.org/catalog/setup?mode=local&version=2#validation\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+      "must_preserve": [
+        "Run the command from the project root",
+        "Open the supplied documentation URL afterward",
+        "If validation fails, keep the existing catalog and paste the error into the issue tracker",
+        "Do not replace the existing catalog with failed output"
+      ],
+      "exact_spans": [
+        "python3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict",
+        "https://docs.example.org/catalog/setup?mode=local&version=2#validation"
+      ],
+      "word_range": null
+    },
+    {
+      "id": "c05",
+      "category": "control",
+      "request": "Turn these meeting notes into an action summary that each owner can act on.",
+      "source": "Leena owns the revised floor plan, due October 6 at noon. Omar must confirm the delivery window by October 7 at 3 p.m.; he needs Leena's final plan first. Theo will send volunteer assignments by October 8 at 10 a.m. Jo owns the venue's written access approval, due October 6 at 5 p.m. If that approval is missing at the deadline, Jo must flag it to Leena that day. All times are Pacific.",
+      "must_preserve": [
+        "Leena: revised floor plan by October 6 at noon",
+        "Omar: delivery window confirmation by October 7 at 3 p.m., dependent on Leena's final plan",
+        "Theo: volunteer assignments by October 8 at 10 a.m.",
+        "Jo: written venue access approval by October 6 at 5 p.m.",
+        "Jo must flag missing approval to Leena on October 6 if the deadline is missed",
+        "All times are Pacific"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "c06",
+      "category": "control",
+      "request": "Write an evidence-based answer to 'Did the reminder emails reduce missed appointments?' Preserve the uncertainty and explain the next useful check.",
+      "source": "Missed appointments fell from 18% in August to 12% in September, when reminder emails began. September also had a different mix of appointment types and a new cancellation policy. There was no randomized comparison. The current data shows an association, not a demonstrated causal effect. A useful next step is to compare like-for-like appointment types and, if feasible, test reminders using randomized assignment.",
+      "must_preserve": [
+        "Missed appointments fell from 18% in August to 12% in September",
+        "Reminders began in September",
+        "Appointment mix and cancellation policy also changed",
+        "No randomized comparison means the data does not demonstrate causation",
+        "Compare like-for-like appointment types and consider a randomized reminder test if feasible"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    }
+  ],
+  "outputs": [
+    {
+      "id": "c04",
+      "arm": "none",
+      "repetition": 1,
+      "text": "From the project root, run:\n\n```sh\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\n```\n\nThen open:\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\n\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-001",
+        "evidence": "Retains the exact command and URL, project-root instruction, error reporting, and protection against replacing the catalog with failed output. Draft evidence: \"From the project root, run:\\n\\n```sh\\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\\n```\\n\\nThen open:\\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\\n\\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-001",
+        "evidence": "\u201cFrom the project root, run:\u201d; \u201cIf validation fails, keep the existing catalog\u201d. The setup remains executable and includes the failure procedure.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d01",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Search passed this morning's relevance review. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon.\n\nWe're still targeting Wednesday's launch, provided the fix passes the accessibility check. I'll update the channel if that changes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-002",
+        "evidence": "Retains completed relevance review, the sole keyboard-navigation blocker, Maya's expected timing, conditional Wednesday launch, and timing-update commitment. Draft evidence: \"Search passed this morning's relevance review. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon.\\n\\nWe're still targeting Wednesday's launch, provided the fix passes the accessibility check. I'll update the channel if that changes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-002",
+        "evidence": "\u201conly remaining launch blocker\u201d; \u201caccessibility check\u201d. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c04",
+      "arm": "none",
+      "repetition": 2,
+      "text": "From the project root, run:\n\n```sh\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\n```\n\nThen open:\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\n\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-003",
+        "evidence": "Retains the exact command and URL, project-root instruction, error reporting, and protection against replacing the catalog with failed output. Draft evidence: \"From the project root, run:\\n\\n```sh\\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\\n```\\n\\nThen open:\\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\\n\\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-003",
+        "evidence": "\u201cFrom the project root, run:\u201d; \u201cIf validation fails, keep the existing catalog\u201d. The setup remains executable and includes the failure procedure.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d05",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Daily visitors counts each person once per day; weekly visitors counts each person once across the week. Someone who visits Monday and Tuesday adds one to each day\u2019s count but only one to the weekly count.\n\nThat\u2019s why adding the daily numbers can give a higher total than the weekly view. This is expected behavior. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the distinction clearer.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-004",
+        "evidence": "Retains the daily/weekly counting distinction, Monday/Tuesday example, expected behavior, and both recommended labels. Draft evidence: \"Daily visitors counts each person once per day; weekly visitors counts each person once across the week. Someone who visits Monday and Tuesday adds one to each day\u2019s count but only one to the weekly count.\\n\\nThat\u2019s why adding the daily numbers can give a higher total than the weekly view. This is expected behavior. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the distinction clearer.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-004",
+        "evidence": "\u201cMonday and Tuesday\u201d; \u201cweekly unique visitors\u201d. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g06",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today, so some photos may be missing from search results until then. You can still browse folders, and there\u2019s no need to upload any files again.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-005",
+        "evidence": "Retains copied originals, qualified 4 p.m. expectation, incomplete search distinction, folder access, and no reupload requirement. Draft evidence: \"All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today, so some photos may be missing from search results until then. You can still browse folders, and there\u2019s no need to upload any files again.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-005",
+        "evidence": "\u201cSearch indexing is still running\u201d; \u201cbrowse folders\u201d. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g06",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "All original photos have been copied safely. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results, but you can still browse folders. No files need to be uploaded again.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-006",
+        "evidence": "Retains copied originals, qualified 4 p.m. expectation, incomplete search distinction, folder access, and no reupload requirement. Draft evidence: \"All original photos have been copied safely. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results, but you can still browse folders. No files need to be uploaded again.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-006",
+        "evidence": "\u201cSearch indexing is still running\u201d; \u201cbrowse folders\u201d. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c02",
+      "arm": "old",
+      "repetition": 2,
+      "text": "I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar, and that\u2019s on me. You were counting on me to show up, and I let you down.\n\nI\u2019d love to visit the show with you next weekend if you\u2019d like. I know that doesn\u2019t make up for missing the opening, and I understand if you\u2019re hurt or don\u2019t feel like going with me.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-007",
+        "evidence": "Retains the missed promise, calendar omission and responsibility, importance and possible hurt, and optional next-weekend visit. Draft evidence: \"I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar, and that\u2019s on me. You were counting on me to show up, and I let you down.\\n\\nI\u2019d love to visit the show with you next weekend if you\u2019d like. I know that doesn\u2019t make up for missing the opening, and I understand if you\u2019re hurt or don\u2019t feel like going with me.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-007",
+        "evidence": "\u201cI let you down\u201d; \u201clet you down\u201d; \u201cif you\u201d. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g04",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "You don't need to arrive before doors open at 9:45 a.m.; your reservation guarantees a seat, and the workshop starts at 10. Bring your broken item and its power cable, if it has one. Large appliances aren't accepted.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-008",
+        "evidence": "The draft says \"your reservation guarantees a seat\". The source guarantees seats only for people with reservations; neither source nor request establishes that this member has one. The unconditional advice not to arrive before doors open assumes a booking and loses the source condition.",
+        "label": "Fail"
+      },
+      "human_intent": {
+        "sample_id": "sample-008",
+        "evidence": "\u201c9:45 a.m.\u201d; \u201cpower cable\u201d. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g06",
+      "arm": "none",
+      "repetition": 2,
+      "text": "All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results.\n\nYou can still browse folders, and you don't need to upload any files again.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-009",
+        "evidence": "Retains copied originals, qualified 4 p.m. expectation, incomplete search distinction, folder access, and no reupload requirement. Draft evidence: \"All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results.\\n\\nYou can still browse folders, and you don't need to upload any files again.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-009",
+        "evidence": "\u201cSearch indexing is still running\u201d; \u201cbrowse folders\u201d. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c05",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "All deadlines are Pacific time.\n\n- **Leena:** Complete the revised floor plan by October 6 at noon. Omar needs the final plan to confirm delivery.\n- **Jo:** Obtain the venue's written access approval by October 6 at 5 p.m. If it's missing at the deadline, flag it to Leena that day.\n- **Omar:** Confirm the delivery window by October 7 at 3 p.m., using Leena's final plan.\n- **Theo:** Send volunteer assignments by October 8 at 10 a.m.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-010",
+        "evidence": "Retains all four owners and Pacific deadlines, Omar's dependency, and Jo's same-day escalation if approval is missing. Draft evidence: \"All deadlines are Pacific time.\\n\\n- **Leena:** Complete the revised floor plan by October 6 at noon. Omar needs the final plan to confirm delivery.\\n- **Jo:** Obtain the venue's written access approval by October 6 at 5 p.m. If it's missing at the deadline, flag it to Leena that day.\\n- **Omar:** Confirm the delivery window by October 7 at 3 p.m., using Leena's final plan.\\n- **Theo:** Send volunteer assignments by October 8 at 10 a.m.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-010",
+        "evidence": "\u201cPacific\u201d; \u201cflag it to Leena that day\u201d. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d06",
+      "arm": "old",
+      "repetition": 2,
+      "text": "I\u2019ve finished reviewing the main proposal and have no changes to request. The cost appendix is still pending the revised supplier estimate, due by noon tomorrow. If it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it doesn\u2019t, I\u2019ll let you know at noon and give you a revised delivery time.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-011",
+        "evidence": "Retains completed main review with no changes, estimate dependency and noon deadline, conditional 3 p.m. completion, and noon fallback update with revised timing. Draft evidence: \"I\u2019ve finished reviewing the main proposal and have no changes to request. The cost appendix is still pending the revised supplier estimate, due by noon tomorrow. If it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it doesn\u2019t, I\u2019ll let you know at noon and give you a revised delivery time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-011",
+        "evidence": "\u201cno changes to request\u201d; \u201crevised delivery time\u201d. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d01",
+      "arm": "none",
+      "repetition": 1,
+      "text": "The search relevance review passed this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon.\n\nWe\u2019re still aiming to launch Wednesday, provided the fix passes the accessibility check. I\u2019ll update this channel if the timing changes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-012",
+        "evidence": "Retains completed relevance review, the sole keyboard-navigation blocker, Maya's expected timing, conditional Wednesday launch, and timing-update commitment. Draft evidence: \"The search relevance review passed this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon.\\n\\nWe\u2019re still aiming to launch Wednesday, provided the fix passes the accessibility check. I\u2019ll update this channel if the timing changes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-012",
+        "evidence": "\u201conly remaining launch blocker\u201d; \u201caccessibility check\u201d. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g02",
+      "arm": "old",
+      "repetition": 1,
+      "text": "The new page had more signups because it received twice as many visitors, but a smaller share signed up: 160 out of 2,000 visitors, or 8%, compared with 100 out of 1,000, or 10%, for the old page.\n\nThe observed conversion rate is therefore lower for the new page. These are descriptive results; without a significance analysis, we haven\u2019t established whether the difference reflects more than chance variation.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-013",
+        "evidence": "Retains the correct 10% and 8% conversion rates, higher traffic versus signup totals, and absence of significance analysis without declaring a reliable winner. Draft evidence: \"The new page had more signups because it received twice as many visitors, but a smaller share signed up: 160 out of 2,000 visitors, or 8%, compared with 100 out of 1,000, or 10%, for the old page.\\n\\nThe observed conversion rate is therefore lower for the new page. These are descriptive results; without a significance analysis, we haven\u2019t established whether the difference reflects more than chance variation.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-013",
+        "evidence": "\u201c8%\u201d; \u201c10%\u201d. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g05",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Keep the CSV export this week. It meets the customer\u2019s stated needs, while the spreadsheet option would take two days and we have only one day of schedule slack. There\u2019s no committed customer request for it, so record the idea for later discovery.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-014",
+        "evidence": "Retains the CSV recommendation, met customer need, two days of work versus one day slack, lack of a committed request, and later discovery. Draft evidence: \"Keep the CSV export this week. It meets the customer\u2019s stated needs, while the spreadsheet option would take two days and we have only one day of schedule slack. There\u2019s no committed customer request for it, so record the idea for later discovery.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-014",
+        "evidence": "\u201cCSV\u201d; \u201cschedule slack\u201d; \u201clater discovery\u201d. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g03",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Please leave feedback in comments on the shared draft, rather than a separate document, by Friday at noon, when the editor will collect it. Typos and substantive suggestions are both welcome.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-015",
+        "evidence": "Retains shared-draft comments, exclusion of a separate document, Friday-noon collection, and welcome for typos and substantive suggestions. Draft evidence: \"Please leave feedback in comments on the shared draft, rather than a separate document, by Friday at noon, when the editor will collect it. Typos and substantive suggestions are both welcome.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-015",
+        "evidence": "\u201cshared draft\u201d; \u201cFriday at noon\u201d. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d05",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Daily counts include each person once per day they visit. The weekly count includes each person only once for the whole week.\n\nSomeone who visits Monday and Tuesday adds one to each day's count but only one to the weekly count. That's why adding the daily numbers can give a higher total; it's expected behavior.\n\nWe should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the difference clear.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-016",
+        "evidence": "Retains the daily/weekly counting distinction, Monday/Tuesday example, expected behavior, and both recommended labels. Draft evidence: \"Daily counts include each person once per day they visit. The weekly count includes each person only once for the whole week.\\n\\nSomeone who visits Monday and Tuesday adds one to each day's count but only one to the weekly count. That's why adding the daily numbers can give a higher total; it's expected behavior.\\n\\nWe should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the difference clear.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-016",
+        "evidence": "\u201cMonday and Tuesday\u201d; \u201cweekly unique visitors\u201d. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d03",
+      "arm": "none",
+      "repetition": 1,
+      "text": "I recommend keeping the current booking form for next month\u2019s pilot. It collects all four required fields, and rebuilding it would take roughly three days of engineering time for just twelve participants.\n\nLet\u2019s log any issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-017",
+        "evidence": "Retains current-form recommendation, four required fields, roughly three engineering days, twelve participants, and issue logging to inform the pre-rollout rebuild decision. Draft evidence: \"I recommend keeping the current booking form for next month\u2019s pilot. It collects all four required fields, and rebuilding it would take roughly three days of engineering time for just twelve participants.\\n\\nLet\u2019s log any issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-017",
+        "evidence": "\u201call four required fields\u201d; \u201ctwelve participants\u201d. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g05",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Keep the CSV export this week. It meets the customer\u2019s stated needs, while the proposed spreadsheet export would take two days and exceed the one day of schedule slack. There\u2019s no committed customer request for it, so record the idea for later discovery and keep delivery on schedule.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-018",
+        "evidence": "Retains the CSV recommendation, met customer need, two days of work versus one day slack, lack of a committed request, and later discovery. Draft evidence: \"Keep the CSV export this week. It meets the customer\u2019s stated needs, while the proposed spreadsheet export would take two days and exceed the one day of schedule slack. There\u2019s no committed customer request for it, so record the idea for later discovery and keep delivery on schedule.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-018",
+        "evidence": "\u201cCSV\u201d; \u201cschedule slack\u201d; \u201clater discovery\u201d. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g06",
+      "arm": "old",
+      "repetition": 1,
+      "text": "All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results, but you can still browse folders. You don\u2019t need to upload any files again.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-019",
+        "evidence": "Retains copied originals, qualified 4 p.m. expectation, incomplete search distinction, folder access, and no reupload requirement. Draft evidence: \"All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results, but you can still browse folders. You don\u2019t need to upload any files again.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-019",
+        "evidence": "\u201cSearch indexing is still running\u201d; \u201cbrowse folders\u201d. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g01",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Yes\u2014the refresh finished today, and revenue and order counts passed checks, so we can use those in tomorrow's review. Avoid the returns panel for now: it still double-counts exchanges and will be fixed Thursday.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-020",
+        "evidence": "Retains permission to use checked revenue and order counts, the returns double-counting exclusion, and Thursday fix timing. Draft evidence: \"Yes\u2014the refresh finished today, and revenue and order counts passed checks, so we can use those in tomorrow's review. Avoid the returns panel for now: it still double-counts exchanges and will be fixed Thursday.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-020",
+        "evidence": "\u201cYes\u201d; \u201cdouble-counts exchanges\u201d. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c05",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "All deadlines are Pacific.\n\n- Leena: Finalize the revised floor plan by October 6 at noon and send it to Omar so he can confirm delivery.\n- Jo: Obtain the venue\u2019s written access approval by October 6 at 5 p.m. If it\u2019s missing at the deadline, flag it to Leena that day.\n- Omar: Confirm the delivery window by October 7 at 3 p.m., using Leena\u2019s final plan.\n- Theo: Send volunteer assignments by October 8 at 10 a.m.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-021",
+        "evidence": "Retains all four owners and Pacific deadlines, Omar's dependency, and Jo's same-day escalation if approval is missing. Draft evidence: \"All deadlines are Pacific.\\n\\n- Leena: Finalize the revised floor plan by October 6 at noon and send it to Omar so he can confirm delivery.\\n- Jo: Obtain the venue\u2019s written access approval by October 6 at 5 p.m. If it\u2019s missing at the deadline, flag it to Leena that day.\\n- Omar: Confirm the delivery window by October 7 at 3 p.m., using Leena\u2019s final plan.\\n- Theo: Send volunteer assignments by October 8 at 10 a.m.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-021",
+        "evidence": "\u201cPacific\u201d; \u201cflag it to Leena that day\u201d. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d06",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "I\u2019ve finished reviewing the main proposal and have no changes to request. The cost appendix is waiting on the revised supplier estimate, promised by noon tomorrow. If it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it doesn\u2019t, I\u2019ll let you know at noon and give you a revised delivery time.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-022",
+        "evidence": "Retains completed main review with no changes, estimate dependency and noon deadline, conditional 3 p.m. completion, and noon fallback update with revised timing. Draft evidence: \"I\u2019ve finished reviewing the main proposal and have no changes to request. The cost appendix is waiting on the revised supplier estimate, promised by noon tomorrow. If it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it doesn\u2019t, I\u2019ll let you know at noon and give you a revised delivery time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-022",
+        "evidence": "\u201cno changes to request\u201d; \u201crevised delivery time\u201d. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c01",
+      "arm": "none",
+      "repetition": 2,
+      "text": "A database index works like the index at the back of a cookbook. To find recipes with potatoes, you can look up \u201cpotatoes\u201d and jump to the listed pages instead of reading every recipe. Similarly, a database index helps locate matching rows without scanning the entire table.\n\nFor example, an index on a customer table's email column can help the database quickly find the customer with a particular email address.\n\nThat convenience has a cost. The index takes up storage, and the database must maintain it when relevant data is added, changed, or deleted. This adds work to writes, even as it can speed up reads. Not every query benefits, so indexes should support the searches you actually need.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-023",
+        "evidence": "Retains indexed lookup without a full-table scan, book/cookbook analogy, email-query example, storage/write maintenance cost, and the caveat that not every query benefits. Draft evidence: \"A database index works like the index at the back of a cookbook. To find recipes with potatoes, you can look up \u201cpotatoes\u201d and jump to the listed pages instead of reading every recipe. Similarly, a database index helps locate matching rows without scanning the entire table.\\n\\nFor example, an index on a customer table's email column can help the database quickly find the customer with a particular email address.\\n\\nThat convenience has a cost. The index takes up storage, and the database must maintain it when relevant data is added, changed, or deleted. This adds work to writes, even as it can speed up reads. Not every query benefits, so indexes should support the searches you actually need.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-023",
+        "evidence": "\u201cindex at the back of a\u201d; \u201cemail\u201d. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 119 whitespace-delimited words, within the requested range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c01",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "A database index works like the index at the back of a cookbook. Instead of reading every page to find recipes with potatoes, you look up \u201cpotatoes\u201d and go straight to the relevant pages. A database can use an index to find matching rows without checking the whole table.\n\nFor example, an index on a customer table\u2019s email column can help the database find a customer by email quickly.\n\nThe tradeoff is storage and extra work when data changes. When relevant data is added, updated, or deleted, the database must maintain the index too, which can slow writes. And an index won\u2019t help every query: an email index may do nothing for a search by city.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-024",
+        "evidence": "Retains indexed lookup without a full-table scan, book/cookbook analogy, email-query example, storage/write maintenance cost, and the caveat that not every query benefits. Draft evidence: \"A database index works like the index at the back of a cookbook. Instead of reading every page to find recipes with potatoes, you look up \u201cpotatoes\u201d and go straight to the relevant pages. A database can use an index to find matching rows without checking the whole table.\\n\\nFor example, an index on a customer table\u2019s email column can help the database find a customer by email quickly.\\n\\nThe tradeoff is storage and extra work when data changes. When relevant data is added, updated, or deleted, the database must maintain the index too, which can slow writes. And an index won\u2019t help every query: an email index may do nothing for a search by city.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-024",
+        "evidence": "\u201cindex at the back of a\u201d; \u201cemail\u201d. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 116 whitespace-delimited words, within the requested range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d02",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "The recording is available in the course portal under Session Materials. Your existing course login works; you don't need a separate link or new account. Captions are still processing and should appear by tomorrow morning.\n\nIf you don't see the recording, try signing out and back in. Let me know if that doesn't resolve it.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-025",
+        "evidence": "Retains Session Materials location, existing-login access without new account/link, qualified tomorrow-morning caption expectation, and sign-out/in then report troubleshooting. Draft evidence: \"The recording is available in the course portal under Session Materials. Your existing course login works; you don't need a separate link or new account. Captions are still processing and should appear by tomorrow morning.\\n\\nIf you don't see the recording, try signing out and back in. Let me know if that doesn't resolve it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-025",
+        "evidence": "\u201cSession Materials\u201d; \u201cLet me know\u201d. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d05",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Daily visitor counts include each person once per day; the weekly count includes each person once for the whole week. Someone visiting Monday and Tuesday counts in both daily totals but only once in the weekly total. That\u2019s why adding the daily numbers can give a higher total; it isn\u2019t a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make this clearer.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-026",
+        "evidence": "Retains the daily/weekly counting distinction, Monday/Tuesday example, expected behavior, and both recommended labels. Draft evidence: \"Daily visitor counts include each person once per day; the weekly count includes each person once for the whole week. Someone visiting Monday and Tuesday counts in both daily totals but only once in the weekly total. That\u2019s why adding the daily numbers can give a higher total; it isn\u2019t a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make this clearer.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-026",
+        "evidence": "\u201cMonday and Tuesday\u201d; \u201cweekly unique visitors\u201d. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d03",
+      "arm": "old",
+      "repetition": 1,
+      "text": "I recommend keeping the current booking form for next month\u2019s pilot. It needs improvements, but it collects all four required fields. With only twelve participants, a new form doesn\u2019t yet justify roughly three days of engineering work.\n\nWe should log the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-027",
+        "evidence": "Retains current-form recommendation, four required fields, roughly three engineering days, twelve participants, and issue logging to inform the pre-rollout rebuild decision. Draft evidence: \"I recommend keeping the current booking form for next month\u2019s pilot. It needs improvements, but it collects all four required fields. With only twelve participants, a new form doesn\u2019t yet justify roughly three days of engineering work.\\n\\nWe should log the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-027",
+        "evidence": "\u201call four required fields\u201d; \u201ctwelve participants\u201d. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c05",
+      "arm": "old",
+      "repetition": 2,
+      "text": "All times are Pacific.\n\n- **Leena:** Complete the revised floor plan by **October 6 at noon** and provide the final plan to Omar.\n- **Jo:** Obtain the venue\u2019s written access approval by **October 6 at 5 p.m.** If it\u2019s missing at the deadline, flag it to Leena that day.\n- **Omar:** Confirm the delivery window by **October 7 at 3 p.m.** You need Leena\u2019s final plan first.\n- **Theo:** Send volunteer assignments by **October 8 at 10 a.m.**",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-028",
+        "evidence": "Retains all four owners and Pacific deadlines, Omar's dependency, and Jo's same-day escalation if approval is missing. Draft evidence: \"All times are Pacific.\\n\\n- **Leena:** Complete the revised floor plan by **October 6 at noon** and provide the final plan to Omar.\\n- **Jo:** Obtain the venue\u2019s written access approval by **October 6 at 5 p.m.** If it\u2019s missing at the deadline, flag it to Leena that day.\\n- **Omar:** Confirm the delivery window by **October 7 at 3 p.m.** You need Leena\u2019s final plan first.\\n- **Theo:** Send volunteer assignments by **October 8 at 10 a.m.**\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-028",
+        "evidence": "\u201cPacific\u201d; \u201cflag it to Leena that day\u201d. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c04",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "From the project root, run:\n\n```bash\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\n```\n\nThen open:\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\n\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-029",
+        "evidence": "Retains the exact command and URL, project-root instruction, error reporting, and protection against replacing the catalog with failed output. Draft evidence: \"From the project root, run:\\n\\n```bash\\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\\n```\\n\\nThen open:\\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\\n\\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-029",
+        "evidence": "\u201cFrom the project root, run:\u201d; \u201cIf validation fails, keep the existing catalog\u201d. The setup remains executable and includes the failure procedure.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c06",
+      "arm": "old",
+      "repetition": 2,
+      "text": "We can\u2019t yet say whether the reminder emails reduced missed appointments. The missed-appointment rate fell from 18% in August to 12% in September, when the emails began. But September also had a different mix of appointment types and a new cancellation policy, and there was no randomized comparison.\n\nThe data shows an association, not a demonstrated causal effect. The next useful check is to compare like-for-like appointment types and, if feasible, test reminders using randomized assignment to better isolate their effect.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-030",
+        "evidence": "Retains the 18%-to-12% observation, both confounders, absence of randomization, association-only conclusion, and like-for-like plus feasible randomized next checks. Draft evidence: \"We can\u2019t yet say whether the reminder emails reduced missed appointments. The missed-appointment rate fell from 18% in August to 12% in September, when the emails began. But September also had a different mix of appointment types and a new cancellation policy, and there was no randomized comparison.\\n\\nThe data shows an association, not a demonstrated causal effect. The next useful check is to compare like-for-like appointment types and, if feasible, test reminders using randomized assignment to better isolate their effect.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-030",
+        "evidence": "\u201c18%\u201d; \u201crandomized assignment\u201d. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d04",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Prepaid order pickup for this Saturday\u2019s market is moving to the east gate because the usual entrance is under repair.\n\n- Pickup hours: 11 a.m.\u20132 p.m., unchanged.\n- Bring your order confirmation on your phone or printed out.\n- Someone else can collect your order using your confirmation. No advance authorization is needed.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-031",
+        "evidence": "Retains Saturday prepaid pickup at the east gate due to repairs, unchanged 11 a.m.\u20132 p.m. window, phone/paper confirmation, and pickup by another person without advance authorization. Draft evidence: \"Prepaid order pickup for this Saturday\u2019s market is moving to the east gate because the usual entrance is under repair.\\n\\n- Pickup hours: 11 a.m.\u20132 p.m., unchanged.\\n- Bring your order confirmation on your phone or printed out.\\n- Someone else can collect your order using your confirmation. No advance authorization is needed.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-031",
+        "evidence": "\u201ceast gate\u201d; \u201corder confirmation\u201d. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g06",
+      "arm": "none",
+      "repetition": 1,
+      "text": "All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results.\n\nYou can still browse folders, and you don\u2019t need to upload any files again.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-032",
+        "evidence": "Retains copied originals, qualified 4 p.m. expectation, incomplete search distinction, folder access, and no reupload requirement. Draft evidence: \"All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results.\\n\\nYou can still browse folders, and you don\u2019t need to upload any files again.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-032",
+        "evidence": "\u201cSearch indexing is still running\u201d; \u201cbrowse folders\u201d. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d06",
+      "arm": "old",
+      "repetition": 1,
+      "text": "I\u2019ve finished reviewing the main proposal and have no changes to request. The cost appendix is still pending while I wait for the revised supplier estimate, which is due by noon tomorrow.\n\nIf it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it hasn\u2019t arrived by noon, I\u2019ll let you know then and give you a revised delivery time.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-033",
+        "evidence": "Retains completed main review with no changes, estimate dependency and noon deadline, conditional 3 p.m. completion, and noon fallback update with revised timing. Draft evidence: \"I\u2019ve finished reviewing the main proposal and have no changes to request. The cost appendix is still pending while I wait for the revised supplier estimate, which is due by noon tomorrow.\\n\\nIf it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it hasn\u2019t arrived by noon, I\u2019ll let you know then and give you a revised delivery time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-033",
+        "evidence": "\u201cno changes to request\u201d; \u201crevised delivery time\u201d. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d06",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "I've finished reviewing the main proposal and have no changes to request. The cost appendix is waiting on a revised supplier estimate, due by noon tomorrow. If it arrives on time, I'll send the complete review by 3 p.m. tomorrow. Otherwise, I'll let you know at noon and give you a revised delivery time.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-034",
+        "evidence": "Retains completed main review with no changes, estimate dependency and noon deadline, conditional 3 p.m. completion, and noon fallback update with revised timing. Draft evidence: \"I've finished reviewing the main proposal and have no changes to request. The cost appendix is waiting on a revised supplier estimate, due by noon tomorrow. If it arrives on time, I'll send the complete review by 3 p.m. tomorrow. Otherwise, I'll let you know at noon and give you a revised delivery time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-034",
+        "evidence": "\u201cno changes to request\u201d; \u201crevised delivery time\u201d. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g03",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Please leave feedback in comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-035",
+        "evidence": "Retains shared-draft comments, exclusion of a separate document, Friday-noon collection, and welcome for typos and substantive suggestions. Draft evidence: \"Please leave feedback in comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-035",
+        "evidence": "\u201cshared draft\u201d; \u201cFriday at noon\u201d. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c06",
+      "arm": "none",
+      "repetition": 1,
+      "text": "We can\u2019t yet tell whether the reminder emails reduced missed appointments. The missed-appointment rate fell from 18% in August to 12% in September, when reminders began. But September also had a different mix of appointment types and a new cancellation policy, which could have contributed to the decline.\n\nWithout a randomized comparison, the data shows an association, not a demonstrated causal effect. Next, compare the same appointment types across both months. If feasible, test reminders using randomized assignment to better isolate their effect.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-036",
+        "evidence": "Retains the 18%-to-12% observation, both confounders, absence of randomization, association-only conclusion, and like-for-like plus feasible randomized next checks. Draft evidence: \"We can\u2019t yet tell whether the reminder emails reduced missed appointments. The missed-appointment rate fell from 18% in August to 12% in September, when reminders began. But September also had a different mix of appointment types and a new cancellation policy, which could have contributed to the decline.\\n\\nWithout a randomized comparison, the data shows an association, not a demonstrated causal effect. Next, compare the same appointment types across both months. If feasible, test reminders using randomized assignment to better isolate their effect.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-036",
+        "evidence": "\u201c18%\u201d; \u201crandomized assignment\u201d. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d02",
+      "arm": "old",
+      "repetition": 1,
+      "text": "The recording is available in the course portal under Session Materials. Your existing course login works; you don\u2019t need a separate link or new account.\n\nCaptions are still processing and should appear by tomorrow morning. If you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-037",
+        "evidence": "Retains Session Materials location, existing-login access without new account/link, qualified tomorrow-morning caption expectation, and sign-out/in then report troubleshooting. Draft evidence: \"The recording is available in the course portal under Session Materials. Your existing course login works; you don\u2019t need a separate link or new account.\\n\\nCaptions are still processing and should appear by tomorrow morning. If you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-037",
+        "evidence": "\u201cSession Materials\u201d; \u201cLet me know\u201d. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c04",
+      "arm": "old",
+      "repetition": 2,
+      "text": "From the project root, run:\n\n```bash\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\n```\n\nThen open:\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\n\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-038",
+        "evidence": "Retains the exact command and URL, project-root instruction, error reporting, and protection against replacing the catalog with failed output. Draft evidence: \"From the project root, run:\\n\\n```bash\\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\\n```\\n\\nThen open:\\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\\n\\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-038",
+        "evidence": "\u201cFrom the project root, run:\u201d; \u201cIf validation fails, keep the existing catalog\u201d. The setup remains executable and includes the failure procedure.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c03",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-039",
+        "evidence": "All original words remain in their original order; only punctuation is added. Draft evidence: \"Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-039",
+        "evidence": "\u201cBefore we begin, please open the workbook\u201d; \u201clet me know before you edit.\u201d. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d03",
+      "arm": "old",
+      "repetition": 2,
+      "text": "I recommend keeping the current booking form for next month\u2019s pilot. It collects all four required fields, and rebuilding it would take roughly three days of engineering time\u2014more than I think we can justify for twelve participants.\n\nWe should log the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-040",
+        "evidence": "Retains current-form recommendation, four required fields, roughly three engineering days, twelve participants, and issue logging to inform the pre-rollout rebuild decision. Draft evidence: \"I recommend keeping the current booking form for next month\u2019s pilot. It collects all four required fields, and rebuilding it would take roughly three days of engineering time\u2014more than I think we can justify for twelve participants.\\n\\nWe should log the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-040",
+        "evidence": "\u201call four required fields\u201d; \u201ctwelve participants\u201d. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d05",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Daily visitors are counted once each day they visit. Weekly visitors are counted once across the whole week. Someone visiting Monday and Tuesday adds one to each day\u2019s count but only one to the weekly count, so adding the daily numbers can give a higher total.\n\nThis is expected behavior, not a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the distinction clearer.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-041",
+        "evidence": "Retains the daily/weekly counting distinction, Monday/Tuesday example, expected behavior, and both recommended labels. Draft evidence: \"Daily visitors are counted once each day they visit. Weekly visitors are counted once across the whole week. Someone visiting Monday and Tuesday adds one to each day\u2019s count but only one to the weekly count, so adding the daily numbers can give a higher total.\\n\\nThis is expected behavior, not a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the distinction clearer.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-041",
+        "evidence": "\u201cMonday and Tuesday\u201d; \u201cweekly unique visitors\u201d. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c06",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "We don\u2019t yet know whether the reminder emails reduced missed appointments. The rate fell from 18% in August to 12% in September, when reminders began, but the appointment mix and cancellation policy also changed. Without a randomized comparison, this shows an association, not a demonstrated causal effect.\n\nThe next useful check is to compare like-for-like appointment types across the two months. If feasible, a test with randomized assignment would help isolate the effect of reminders.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-042",
+        "evidence": "Retains the 18%-to-12% observation, both confounders, absence of randomization, association-only conclusion, and like-for-like plus feasible randomized next checks. Draft evidence: \"We don\u2019t yet know whether the reminder emails reduced missed appointments. The rate fell from 18% in August to 12% in September, when reminders began, but the appointment mix and cancellation policy also changed. Without a randomized comparison, this shows an association, not a demonstrated causal effect.\\n\\nThe next useful check is to compare like-for-like appointment types across the two months. If feasible, a test with randomized assignment would help isolate the effect of reminders.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-042",
+        "evidence": "\u201c18%\u201d; \u201crandomized assignment\u201d. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d03",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "I recommend keeping the current booking form for next month\u2019s pilot. It collects all four required fields, and a new form would take roughly three engineering days\u2014too much to justify for twelve participants at this stage. We should log any issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-043",
+        "evidence": "Retains current-form recommendation, four required fields, roughly three engineering days, twelve participants, and issue logging to inform the pre-rollout rebuild decision. Draft evidence: \"I recommend keeping the current booking form for next month\u2019s pilot. It collects all four required fields, and a new form would take roughly three engineering days\u2014too much to justify for twelve participants at this stage. We should log any issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-043",
+        "evidence": "\u201call four required fields\u201d; \u201ctwelve participants\u201d. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c04",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "From the project root, run:\n\n```bash\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\n```\n\nThen open:\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\n\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-044",
+        "evidence": "Retains the exact command and URL, project-root instruction, error reporting, and protection against replacing the catalog with failed output. Draft evidence: \"From the project root, run:\\n\\n```bash\\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\\n```\\n\\nThen open:\\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\\n\\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-044",
+        "evidence": "\u201cFrom the project root, run:\u201d; \u201cIf validation fails, keep the existing catalog\u201d. The setup remains executable and includes the failure procedure.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g01",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Yes\u2014the dashboard refreshed today, and revenue and order counts passed checks, so we can use it for tomorrow's review. The returns panel still double-counts exchanges and is due to be fixed Thursday; we'll need to leave that panel out.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-045",
+        "evidence": "Retains permission to use checked revenue and order counts, the returns double-counting exclusion, and Thursday fix timing. Draft evidence: \"Yes\u2014the dashboard refreshed today, and revenue and order counts passed checks, so we can use it for tomorrow's review. The returns panel still double-counts exchanges and is due to be fixed Thursday; we'll need to leave that panel out.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-045",
+        "evidence": "\u201cYes\u201d; \u201cdouble-counts exchanges\u201d. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g05",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Keep the CSV export this week. It meets the customer\u2019s stated needs, while a spreadsheet export would take two extra days and exceed our one day of schedule slack. There\u2019s no committed customer request for it. Record the idea for later discovery and proceed with CSV for delivery.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-046",
+        "evidence": "Retains the CSV recommendation, met customer need, two days of work versus one day slack, lack of a committed request, and later discovery. Draft evidence: \"Keep the CSV export this week. It meets the customer\u2019s stated needs, while a spreadsheet export would take two extra days and exceed our one day of schedule slack. There\u2019s no committed customer request for it. Record the idea for later discovery and proceed with CSV for delivery.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-046",
+        "evidence": "\u201cCSV\u201d; \u201cschedule slack\u201d; \u201clater discovery\u201d. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c03",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-047",
+        "evidence": "All original words remain in their original order; only punctuation is added. Draft evidence: \"Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-047",
+        "evidence": "\u201cBefore we begin, please open the workbook\u201d; \u201clet me know before you edit.\u201d. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c06",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "We don't yet know whether the emails reduced missed appointments. The rate fell from 18% in August to 12% in September, when reminders began, but September also had a different mix of appointment types and a new cancellation policy. With no randomized comparison, this shows an association, not a demonstrated causal effect. Next, compare like-for-like appointment types and, if feasible, test reminders using randomized assignment.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-048",
+        "evidence": "Retains the 18%-to-12% observation, both confounders, absence of randomization, association-only conclusion, and like-for-like plus feasible randomized next checks. Draft evidence: \"We don't yet know whether the emails reduced missed appointments. The rate fell from 18% in August to 12% in September, when reminders began, but September also had a different mix of appointment types and a new cancellation policy. With no randomized comparison, this shows an association, not a demonstrated causal effect. Next, compare like-for-like appointment types and, if feasible, test reminders using randomized assignment.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-048",
+        "evidence": "\u201c18%\u201d; \u201crandomized assignment\u201d. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g01",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Yes\u2014the refresh finished today, and revenue and order counts passed checks, so we can use it for tomorrow\u2019s review. The returns panel still double-counts exchanges; avoid that panel until it\u2019s fixed Thursday.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-049",
+        "evidence": "Retains permission to use checked revenue and order counts, the returns double-counting exclusion, and Thursday fix timing. Draft evidence: \"Yes\u2014the refresh finished today, and revenue and order counts passed checks, so we can use it for tomorrow\u2019s review. The returns panel still double-counts exchanges; avoid that panel until it\u2019s fixed Thursday.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-049",
+        "evidence": "\u201cYes\u201d; \u201cdouble-counts exchanges\u201d. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d05",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Daily and weekly totals count visitors differently. The daily view counts each person once per day; the weekly view counts them once for the whole week. Someone who visits Monday and Tuesday adds one to each day\u2019s total but only one to the weekly total.\n\nThis is expected, not a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the difference clear.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-050",
+        "evidence": "Retains the daily/weekly counting distinction, Monday/Tuesday example, expected behavior, and both recommended labels. Draft evidence: \"Daily and weekly totals count visitors differently. The daily view counts each person once per day; the weekly view counts them once for the whole week. Someone who visits Monday and Tuesday adds one to each day\u2019s total but only one to the weekly total.\\n\\nThis is expected, not a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make the difference clear.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-050",
+        "evidence": "\u201cMonday and Tuesday\u201d; \u201cweekly unique visitors\u201d. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g05",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Keep the CSV export for this week's delivery. It meets the customer's stated needs, while the spreadsheet export would add two days of work with only one day of schedule slack. There's no committed customer request for it, so record the idea for later discovery.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-051",
+        "evidence": "Retains the CSV recommendation, met customer need, two days of work versus one day slack, lack of a committed request, and later discovery. Draft evidence: \"Keep the CSV export for this week's delivery. It meets the customer's stated needs, while the spreadsheet export would add two days of work with only one day of schedule slack. There's no committed customer request for it, so record the idea for later discovery.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-051",
+        "evidence": "\u201cCSV\u201d; \u201cschedule slack\u201d; \u201clater discovery\u201d. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g02",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "The new page had more signups because it received twice as many visitors, but a smaller share signed up: 160 of 2,000 visitors (8%), compared with 100 of 1,000 (10%) on the old page. The observed conversion rate was lower on the new page. These are descriptive results; without a significance analysis, we can't establish whether the difference reflects more than chance.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-052",
+        "evidence": "Retains the correct 10% and 8% conversion rates, higher traffic versus signup totals, and absence of significance analysis without declaring a reliable winner. Draft evidence: \"The new page had more signups because it received twice as many visitors, but a smaller share signed up: 160 of 2,000 visitors (8%), compared with 100 of 1,000 (10%) on the old page. The observed conversion rate was lower on the new page. These are descriptive results; without a significance analysis, we can't establish whether the difference reflects more than chance.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-052",
+        "evidence": "\u201c8%\u201d; \u201c10%\u201d. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c01",
+      "arm": "old",
+      "repetition": 1,
+      "text": "A database index works like the index at the back of a book. Instead of reading every page to find a topic, you look it up in the index and go straight to the relevant pages. A database can similarly use an index to find matching rows without checking the whole table.\n\nFor example, an index on a customer table\u2019s email column can help the database quickly find the customer with a particular email address.\n\nThe tradeoff is that indexes take up storage and need upkeep. When relevant data is inserted, updated, or deleted, the database must update the index too, adding work to those writes. An index can speed up reads, but not every query benefits. Its usefulness depends on what the query needs to find.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-053",
+        "evidence": "Retains indexed lookup without a full-table scan, book/cookbook analogy, email-query example, storage/write maintenance cost, and the caveat that not every query benefits. Draft evidence: \"A database index works like the index at the back of a book. Instead of reading every page to find a topic, you look it up in the index and go straight to the relevant pages. A database can similarly use an index to find matching rows without checking the whole table.\\n\\nFor example, an index on a customer table\u2019s email column can help the database quickly find the customer with a particular email address.\\n\\nThe tradeoff is that indexes take up storage and need upkeep. When relevant data is inserted, updated, or deleted, the database must update the index too, adding work to those writes. An index can speed up reads, but not every query benefits. Its usefulness depends on what the query needs to find.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-053",
+        "evidence": "\u201cindex at the back of a\u201d; \u201cemail\u201d. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 127 whitespace-delimited words, within the requested range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g02",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "The new page had more signups because it received twice as many visitors. Its observed conversion rate was actually lower: 160 out of 2,000 visitors, or 8%, compared with 100 out of 1,000, or 10%, for the old page. Those totals don\u2019t establish that the new page converts better, and no significance analysis has been done to assess whether the rate difference could reflect chance.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-054",
+        "evidence": "Retains the correct 10% and 8% conversion rates, higher traffic versus signup totals, and absence of significance analysis without declaring a reliable winner. Draft evidence: \"The new page had more signups because it received twice as many visitors. Its observed conversion rate was actually lower: 160 out of 2,000 visitors, or 8%, compared with 100 out of 1,000, or 10%, for the old page. Those totals don\u2019t establish that the new page converts better, and no significance analysis has been done to assess whether the rate difference could reflect chance.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-054",
+        "evidence": "\u201c8%\u201d; \u201c10%\u201d. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g06",
+      "arm": "old",
+      "repetition": 2,
+      "text": "All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results, but you can still browse folders. You don\u2019t need to upload any files again.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-055",
+        "evidence": "Retains copied originals, qualified 4 p.m. expectation, incomplete search distinction, folder access, and no reupload requirement. Draft evidence: \"All original photos have been copied and are safely stored. Search indexing is still running and should finish by 4 p.m. today. Until then, some photos may be missing from search results, but you can still browse folders. You don\u2019t need to upload any files again.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-055",
+        "evidence": "\u201cSearch indexing is still running\u201d; \u201cbrowse folders\u201d. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d04",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "For this Saturday\u2019s market, prepaid order pickup will be at the east gate because the main entrance is under repair.\n\n- Pickup hours: 11 a.m.\u20132 p.m., unchanged.\n- Bring your order confirmation on your phone or printed out.\n- Someone else can collect your order using your confirmation. No advance authorization is needed.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-056",
+        "evidence": "Retains Saturday prepaid pickup at the east gate due to repairs, unchanged 11 a.m.\u20132 p.m. window, phone/paper confirmation, and pickup by another person without advance authorization. Draft evidence: \"For this Saturday\u2019s market, prepaid order pickup will be at the east gate because the main entrance is under repair.\\n\\n- Pickup hours: 11 a.m.\u20132 p.m., unchanged.\\n- Bring your order confirmation on your phone or printed out.\\n- Someone else can collect your order using your confirmation. No advance authorization is needed.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-056",
+        "evidence": "\u201ceast gate\u201d; \u201corder confirmation\u201d. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d04",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Prepaid order pickup for this Saturday's market is moving to the east gate because of repairs at the main gate.\n\n- **Time:** 11 a.m.\u20132 p.m., unchanged.\n- **Bring:** Your order confirmation, on your phone or printed out.\n- **Someone else collecting?** They can use your confirmation. No advance authorization is needed.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-057",
+        "evidence": "Retains Saturday prepaid pickup at the east gate due to repairs, unchanged 11 a.m.\u20132 p.m. window, phone/paper confirmation, and pickup by another person without advance authorization. Draft evidence: \"Prepaid order pickup for this Saturday's market is moving to the east gate because of repairs at the main gate.\\n\\n- **Time:** 11 a.m.\u20132 p.m., unchanged.\\n- **Bring:** Your order confirmation, on your phone or printed out.\\n- **Someone else collecting?** They can use your confirmation. No advance authorization is needed.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-057",
+        "evidence": "\u201ceast gate\u201d; \u201corder confirmation\u201d. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c06",
+      "arm": "old",
+      "repetition": 1,
+      "text": "We don\u2019t yet know whether the reminder emails reduced missed appointments. The rate fell from 18% in August to 12% in September, when the emails began. But September also had a different mix of appointment types and a new cancellation policy, which could have contributed to the decline.\n\nWithout a randomized comparison, the data shows an association, not a demonstrated causal effect. Next, compare the same appointment types across the two months and, if feasible, test reminders using randomized assignment to better isolate their effect.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-058",
+        "evidence": "Retains the 18%-to-12% observation, both confounders, absence of randomization, association-only conclusion, and like-for-like plus feasible randomized next checks. Draft evidence: \"We don\u2019t yet know whether the reminder emails reduced missed appointments. The rate fell from 18% in August to 12% in September, when the emails began. But September also had a different mix of appointment types and a new cancellation policy, which could have contributed to the decline.\\n\\nWithout a randomized comparison, the data shows an association, not a demonstrated causal effect. Next, compare the same appointment types across the two months and, if feasible, test reminders using randomized assignment to better isolate their effect.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-058",
+        "evidence": "\u201c18%\u201d; \u201crandomized assignment\u201d. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c02",
+      "arm": "none",
+      "repetition": 2,
+      "text": "I'm sorry I missed your opening. You told me how important it was to you, and I promised I'd be there. I forgot to put it in my calendar, and that's on me. You were counting on me to show up, and I let you down.\n\nI'd love to visit the show with you next weekend if you'd like. I know that doesn't make up for missing the opening, and I understand if you're hurt or don't feel like going together.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-059",
+        "evidence": "Retains the missed promise, calendar omission and responsibility, importance and possible hurt, and optional next-weekend visit. Draft evidence: \"I'm sorry I missed your opening. You told me how important it was to you, and I promised I'd be there. I forgot to put it in my calendar, and that's on me. You were counting on me to show up, and I let you down.\\n\\nI'd love to visit the show with you next weekend if you'd like. I know that doesn't make up for missing the opening, and I understand if you're hurt or don't feel like going together.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-059",
+        "evidence": "\u201cI let you down\u201d; \u201clet you down\u201d; \u201cif you\u201d. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g05",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Keep the CSV export for this week's delivery. It meets the customer's stated needs, while the spreadsheet export would take two days and we have only one day of slack. There's no committed customer request for it, so record the idea for later discovery.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-060",
+        "evidence": "Retains the CSV recommendation, met customer need, two days of work versus one day slack, lack of a committed request, and later discovery. Draft evidence: \"Keep the CSV export for this week's delivery. It meets the customer's stated needs, while the spreadsheet export would take two days and we have only one day of slack. There's no committed customer request for it, so record the idea for later discovery.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-060",
+        "evidence": "\u201cCSV\u201d; \u201cone day of slack\u201d; \u201clater discovery\u201d. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g03",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Please leave comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome; the editor will collect comments Friday at noon.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-061",
+        "evidence": "Retains shared-draft comments, exclusion of a separate document, Friday-noon collection, and welcome for typos and substantive suggestions. Draft evidence: \"Please leave comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome; the editor will collect comments Friday at noon.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-061",
+        "evidence": "\u201cshared draft\u201d; \u201cFriday at noon\u201d. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d06",
+      "arm": "none",
+      "repetition": 1,
+      "text": "I\u2019ve reviewed the main proposal and have no changes to request. The cost appendix is pending the revised supplier estimate, which is due by noon tomorrow.\n\nIf it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it\u2019s late, I\u2019ll let you know at noon and give you a revised delivery time.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-062",
+        "evidence": "Retains completed main review with no changes, estimate dependency and noon deadline, conditional 3 p.m. completion, and noon fallback update with revised timing. Draft evidence: \"I\u2019ve reviewed the main proposal and have no changes to request. The cost appendix is pending the revised supplier estimate, which is due by noon tomorrow.\\n\\nIf it arrives on time, I\u2019ll send the complete review by 3 p.m. tomorrow. If it\u2019s late, I\u2019ll let you know at noon and give you a revised delivery time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-062",
+        "evidence": "\u201cno changes to request\u201d; \u201crevised delivery time\u201d. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g03",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Please leave feedback in comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon, so please add yours before then.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-063",
+        "evidence": "Retains shared-draft comments, exclusion of a separate document, Friday-noon collection, and welcome for typos and substantive suggestions. Draft evidence: \"Please leave feedback in comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon, so please add yours before then.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-063",
+        "evidence": "\u201cshared draft\u201d; \u201cFriday at noon\u201d. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d05",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Daily totals count each person once per day; the weekly total counts each person once for the whole week. Someone visiting Monday and Tuesday adds one to each day's count but only one to the week's count. That's why adding the daily numbers can give a different total; it's expected, not a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make this clearer.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-064",
+        "evidence": "Retains the daily/weekly counting distinction, Monday/Tuesday example, expected behavior, and both recommended labels. Draft evidence: \"Daily totals count each person once per day; the weekly total counts each person once for the whole week. Someone visiting Monday and Tuesday adds one to each day's count but only one to the week's count. That's why adding the daily numbers can give a different total; it's expected, not a reporting error. We should label the views \u201cdaily unique visitors\u201d and \u201cweekly unique visitors\u201d to make this clearer.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-064",
+        "evidence": "\u201cMonday and Tuesday\u201d; \u201cweekly unique visitors\u201d. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c03",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-065",
+        "evidence": "All original words remain in their original order; only punctuation is added. Draft evidence: \"Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-065",
+        "evidence": "\u201cBefore we begin, please open the workbook\u201d; \u201clet me know before you edit.\u201d. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c02",
+      "arm": "none",
+      "repetition": 1,
+      "text": "I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar and let you down.\n\nYou deserved to have me there. I understand if you\u2019re hurt or angry with me, and I don\u2019t expect you to brush it off. If you\u2019d like, I\u2019d love to visit the show with you next weekend. I understand if you don\u2019t feel like that.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-066",
+        "evidence": "Retains the missed promise, calendar omission and responsibility, importance and possible hurt, and optional next-weekend visit. Draft evidence: \"I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar and let you down.\\n\\nYou deserved to have me there. I understand if you\u2019re hurt or angry with me, and I don\u2019t expect you to brush it off. If you\u2019d like, I\u2019d love to visit the show with you next weekend. I understand if you don\u2019t feel like that.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-066",
+        "evidence": "\u201clet you down\u201d; \u201cif you\u201d. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c01",
+      "arm": "none",
+      "repetition": 1,
+      "text": "A database index works like the index at the back of a cookbook. To find recipes with potatoes, you can look up \u201cpotatoes\u201d and jump to the listed pages instead of reading every recipe. A database index similarly helps the database find matching rows without checking the whole table.\n\nFor example, an index on a customer table\u2019s email column can speed up finding a customer by email address.\n\nThe tradeoff is extra storage and maintenance. When relevant data is inserted, updated, or deleted, the database must update the index too, which adds work and can slow writes. An index also won\u2019t help every query: an email index may do little for a search by city. Choose indexes based on the searches your application needs.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-067",
+        "evidence": "Retains indexed lookup without a full-table scan, book/cookbook analogy, email-query example, storage/write maintenance cost, and the caveat that not every query benefits. Draft evidence: \"A database index works like the index at the back of a cookbook. To find recipes with potatoes, you can look up \u201cpotatoes\u201d and jump to the listed pages instead of reading every recipe. A database index similarly helps the database find matching rows without checking the whole table.\\n\\nFor example, an index on a customer table\u2019s email column can speed up finding a customer by email address.\\n\\nThe tradeoff is extra storage and maintenance. When relevant data is inserted, updated, or deleted, the database must update the index too, which adds work and can slow writes. An index also won\u2019t help every query: an email index may do little for a search by city. Choose indexes based on the searches your application needs.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-067",
+        "evidence": "\u201cindex at the back of a\u201d; \u201cemail\u201d. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 124 whitespace-delimited words, within the requested range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d01",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "The relevance review passed this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon; if it passes the accessibility check, we're still aiming to launch Wednesday. I'll update the channel if that changes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-068",
+        "evidence": "Retains completed relevance review, the sole keyboard-navigation blocker, Maya's expected timing, conditional Wednesday launch, and timing-update commitment. Draft evidence: \"The relevance review passed this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon; if it passes the accessibility check, we're still aiming to launch Wednesday. I'll update the channel if that changes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-068",
+        "evidence": "\u201conly remaining launch blocker\u201d; \u201caccessibility check\u201d. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d01",
+      "arm": "old",
+      "repetition": 1,
+      "text": "The search relevance review passed the agreed threshold this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon. We\u2019re still aiming to launch Wednesday, provided it passes the accessibility check. I\u2019ll update the channel if that changes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-069",
+        "evidence": "Retains completed relevance review, the sole keyboard-navigation blocker, Maya's expected timing, conditional Wednesday launch, and timing-update commitment. Draft evidence: \"The search relevance review passed the agreed threshold this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon. We\u2019re still aiming to launch Wednesday, provided it passes the accessibility check. I\u2019ll update the channel if that changes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-069",
+        "evidence": "\u201conly remaining launch blocker\u201d; \u201caccessibility check\u201d. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g02",
+      "arm": "none",
+      "repetition": 2,
+      "text": "The new page had more signups because it received twice as many visitors. The old page converted 100 of 1,000 visitors, or 10%; the new page converted 160 of 2,000, or 8%.\n\nThe observed conversion rate was lower on the new page despite the higher signup count. No significance analysis has been done, so these totals alone don't establish a reliable difference in conversion performance.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-070",
+        "evidence": "Retains the correct 10% and 8% conversion rates, higher traffic versus signup totals, and absence of significance analysis without declaring a reliable winner. Draft evidence: \"The new page had more signups because it received twice as many visitors. The old page converted 100 of 1,000 visitors, or 10%; the new page converted 160 of 2,000, or 8%.\\n\\nThe observed conversion rate was lower on the new page despite the higher signup count. No significance analysis has been done, so these totals alone don't establish a reliable difference in conversion performance.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-070",
+        "evidence": "\u201c8%\u201d; \u201c10%\u201d. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c06",
+      "arm": "none",
+      "repetition": 2,
+      "text": "We don't yet know whether the reminder emails reduced missed appointments. The missed-appointment rate fell from 18% in August to 12% in September, when reminders began\u2014a drop of 6 percentage points. But September also had a different mix of appointment types and a new cancellation policy.\n\nWith no randomized comparison, the data shows an association rather than a demonstrated causal effect. The next useful check is to compare the same appointment types across both months. If feasible, a test with randomized assignment to receive reminders would help isolate their effect.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-071",
+        "evidence": "Retains the 18%-to-12% observation, both confounders, absence of randomization, association-only conclusion, and like-for-like plus feasible randomized next checks. Draft evidence: \"We don't yet know whether the reminder emails reduced missed appointments. The missed-appointment rate fell from 18% in August to 12% in September, when reminders began\u2014a drop of 6 percentage points. But September also had a different mix of appointment types and a new cancellation policy.\\n\\nWith no randomized comparison, the data shows an association rather than a demonstrated causal effect. The next useful check is to compare the same appointment types across both months. If feasible, a test with randomized assignment to receive reminders would help isolate their effect.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-071",
+        "evidence": "\u201c18%\u201d; \u201crandomized assignment\u201d. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g03",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Please leave feedback in comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-072",
+        "evidence": "Retains shared-draft comments, exclusion of a separate document, Friday-noon collection, and welcome for typos and substantive suggestions. Draft evidence: \"Please leave feedback in comments on the shared draft rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-072",
+        "evidence": "\u201cshared draft\u201d; \u201cFriday at noon\u201d. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c05",
+      "arm": "none",
+      "repetition": 2,
+      "text": "All deadlines are Pacific time.\n\n- **Leena:** Complete the revised floor plan by October 6 at noon. Omar needs the final plan to confirm delivery.\n- **Jo:** Obtain the venue's written access approval by October 6 at 5 p.m. If it's missing at the deadline, flag it to Leena that day.\n- **Omar:** Confirm the delivery window by October 7 at 3 p.m., after receiving Leena's final plan.\n- **Theo:** Send volunteer assignments by October 8 at 10 a.m.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-073",
+        "evidence": "Retains all four owners and Pacific deadlines, Omar's dependency, and Jo's same-day escalation if approval is missing. Draft evidence: \"All deadlines are Pacific time.\\n\\n- **Leena:** Complete the revised floor plan by October 6 at noon. Omar needs the final plan to confirm delivery.\\n- **Jo:** Obtain the venue's written access approval by October 6 at 5 p.m. If it's missing at the deadline, flag it to Leena that day.\\n- **Omar:** Confirm the delivery window by October 7 at 3 p.m., after receiving Leena's final plan.\\n- **Theo:** Send volunteer assignments by October 8 at 10 a.m.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-073",
+        "evidence": "\u201cPacific\u201d; \u201cflag it to Leena that day\u201d. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c03",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-074",
+        "evidence": "All original words remain in their original order; only punctuation is added. Draft evidence: \"Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-074",
+        "evidence": "\u201cBefore we begin, please open the workbook\u201d; \u201clet me know before you edit.\u201d. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d02",
+      "arm": "none",
+      "repetition": 2,
+      "text": "The recording is available in the course portal under **Session Materials**. Your existing course login works; you don't need a separate link or new account.\n\nCaptions are still processing and should appear by tomorrow morning. If you don't see the recording, try signing out and back in. Let me know if that doesn't resolve it.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-075",
+        "evidence": "Retains Session Materials location, existing-login access without new account/link, qualified tomorrow-morning caption expectation, and sign-out/in then report troubleshooting. Draft evidence: \"The recording is available in the course portal under **Session Materials**. Your existing course login works; you don't need a separate link or new account.\\n\\nCaptions are still processing and should appear by tomorrow morning. If you don't see the recording, try signing out and back in. Let me know if that doesn't resolve it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-075",
+        "evidence": "\u201cSession Materials\u201d; \u201cLet me know\u201d. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g01",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Yes\u2014the refresh finished today, and revenue and order counts passed checks, so we can use those in tomorrow\u2019s review. Avoid the returns panel: it still double-counts exchanges and will be fixed Thursday.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-076",
+        "evidence": "Retains permission to use checked revenue and order counts, the returns double-counting exclusion, and Thursday fix timing. Draft evidence: \"Yes\u2014the refresh finished today, and revenue and order counts passed checks, so we can use those in tomorrow\u2019s review. Avoid the returns panel: it still double-counts exchanges and will be fixed Thursday.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-076",
+        "evidence": "\u201cYes\u201d; \u201cdouble-counts exchanges\u201d. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g04",
+      "arm": "none",
+      "repetition": 1,
+      "text": "No need to arrive before doors open at 9:45 a.m.\u2014your reservation guarantees you a seat. The workshop starts at 10 a.m. Bring your broken item and its power cable, if it has one. We can\u2019t accept large appliances.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-077",
+        "evidence": "The draft says \"your reservation guarantees you a seat\". The source guarantees seats only for people with reservations; neither source nor request establishes that this member has one. The unconditional advice not to arrive before doors open assumes a booking and loses the source condition.",
+        "label": "Fail"
+      },
+      "human_intent": {
+        "sample_id": "sample-077",
+        "evidence": "\u201c9:45 a.m.\u201d; \u201cpower cable\u201d. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d01",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Search passed this morning\u2019s relevance review, meeting our agreed threshold. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon.\n\nWe\u2019re still aiming to launch Wednesday, provided the fix passes the accessibility check. I\u2019ll update the channel if that timing changes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-078",
+        "evidence": "Retains completed relevance review, the sole keyboard-navigation blocker, Maya's expected timing, conditional Wednesday launch, and timing-update commitment. Draft evidence: \"Search passed this morning\u2019s relevance review, meeting our agreed threshold. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon.\\n\\nWe\u2019re still aiming to launch Wednesday, provided the fix passes the accessibility check. I\u2019ll update the channel if that timing changes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-078",
+        "evidence": "\u201conly remaining launch blocker\u201d; \u201caccessibility check\u201d. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d03",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Keep the current booking form for next month's pilot. It collects all four required fields, and a new form would take roughly three days of engineering time for just twelve participants. Log the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-079",
+        "evidence": "Retains current-form recommendation, four required fields, roughly three engineering days, twelve participants, and issue logging to inform the pre-rollout rebuild decision. Draft evidence: \"Keep the current booking form for next month's pilot. It collects all four required fields, and a new form would take roughly three days of engineering time for just twelve participants. Log the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-079",
+        "evidence": "\u201call four required fields\u201d; \u201ctwelve participants\u201d. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d04",
+      "arm": "old",
+      "repetition": 2,
+      "text": "For this Saturday\u2019s market, prepaid order pickup will be at the **east gate** because the usual entrance is under repair.\n\n- **Time:** 11 a.m.\u20132 p.m., unchanged.\n- **Bring:** Your order confirmation, on your phone or printed out.\n- **Someone else picking up?** They can use your confirmation. No advance authorization is needed.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-080",
+        "evidence": "Retains Saturday prepaid pickup at the east gate due to repairs, unchanged 11 a.m.\u20132 p.m. window, phone/paper confirmation, and pickup by another person without advance authorization. Draft evidence: \"For this Saturday\u2019s market, prepaid order pickup will be at the **east gate** because the usual entrance is under repair.\\n\\n- **Time:** 11 a.m.\u20132 p.m., unchanged.\\n- **Bring:** Your order confirmation, on your phone or printed out.\\n- **Someone else picking up?** They can use your confirmation. No advance authorization is needed.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-080",
+        "evidence": "\u201ceast gate\u201d; \u201corder confirmation\u201d. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c05",
+      "arm": "none",
+      "repetition": 1,
+      "text": "All deadlines are Pacific.\n\n- Leena: Complete the revised floor plan by October 6 at noon and pass the final plan to Omar.\n- Jo: Obtain the venue\u2019s written access approval by October 6 at 5 p.m. If approval is missing at the deadline, flag it to Leena that day.\n- Omar: Confirm the delivery window by October 7 at 3 p.m. You need Leena\u2019s final plan first.\n- Theo: Send volunteer assignments by October 8 at 10 a.m.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-081",
+        "evidence": "Retains all four owners and Pacific deadlines, Omar's dependency, and Jo's same-day escalation if approval is missing. Draft evidence: \"All deadlines are Pacific.\\n\\n- Leena: Complete the revised floor plan by October 6 at noon and pass the final plan to Omar.\\n- Jo: Obtain the venue\u2019s written access approval by October 6 at 5 p.m. If approval is missing at the deadline, flag it to Leena that day.\\n- Omar: Confirm the delivery window by October 7 at 3 p.m. You need Leena\u2019s final plan first.\\n- Theo: Send volunteer assignments by October 8 at 10 a.m.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-081",
+        "evidence": "\u201cPacific\u201d; \u201cflag it to Leena that day\u201d. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g04",
+      "arm": "old",
+      "repetition": 2,
+      "text": "You don\u2019t need to arrive before doors open at 9:45 a.m.\u2014everyone with a reservation has a seat. The workshop starts at 10 a.m. Please bring your broken item and its power cable, if it has one. Large appliances aren\u2019t accepted.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-082",
+        "evidence": "Retains door and workshop times, the reservation-qualified seat guarantee, item/cable instructions, and large-appliance exclusion. Draft evidence: \"You don\u2019t need to arrive before doors open at 9:45 a.m.\u2014everyone with a reservation has a seat. The workshop starts at 10 a.m. Please bring your broken item and its power cable, if it has one. Large appliances aren\u2019t accepted.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-082",
+        "evidence": "\u201c9:45 a.m.\u201d; \u201cpower cable\u201d. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d04",
+      "arm": "none",
+      "repetition": 2,
+      "text": "**Saturday market pickup**\n\n- **Location:** Collect prepaid orders at the east gate. The usual main gate entrance is undergoing repairs.\n- **Time:** 11 a.m.\u20132 p.m., unchanged.\n- **Bring:** Your order confirmation, on your phone or printed out.\n\nSomeone else can collect your order using your confirmation. No advance authorization is needed.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-083",
+        "evidence": "Retains Saturday prepaid pickup at the east gate due to repairs, unchanged 11 a.m.\u20132 p.m. window, phone/paper confirmation, and pickup by another person without advance authorization. Draft evidence: \"**Saturday market pickup**\\n\\n- **Location:** Collect prepaid orders at the east gate. The usual main gate entrance is undergoing repairs.\\n- **Time:** 11 a.m.\u20132 p.m., unchanged.\\n- **Bring:** Your order confirmation, on your phone or printed out.\\n\\nSomeone else can collect your order using your confirmation. No advance authorization is needed.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-083",
+        "evidence": "\u201ceast gate\u201d; \u201corder confirmation\u201d. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c03",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-084",
+        "evidence": "All original words remain in their original order; only punctuation is added. Draft evidence: \"Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-084",
+        "evidence": "\u201cBefore we begin, please open the workbook\u201d; \u201clet me know before you edit.\u201d. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g05",
+      "arm": "old",
+      "repetition": 2,
+      "text": "I recommend keeping the CSV export for this week\u2019s delivery. It meets the customer\u2019s stated needs, while the spreadsheet export would take two days and exceed our one day of schedule slack. There\u2019s no committed customer request for it, so let\u2019s record the idea for later discovery.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-085",
+        "evidence": "Retains the CSV recommendation, met customer need, two days of work versus one day slack, lack of a committed request, and later discovery. Draft evidence: \"I recommend keeping the CSV export for this week\u2019s delivery. It meets the customer\u2019s stated needs, while the spreadsheet export would take two days and exceed our one day of schedule slack. There\u2019s no committed customer request for it, so let\u2019s record the idea for later discovery.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-085",
+        "evidence": "\u201cCSV\u201d; \u201cschedule slack\u201d; \u201clater discovery\u201d. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g04",
+      "arm": "none",
+      "repetition": 2,
+      "text": "You don't need to arrive before doors open at 9:45 a.m.\u2014everyone with a reservation has a seat. The workshop starts at 10 a.m.\n\nBring your broken item and its power cable, if it has one. Large appliances aren't accepted.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-086",
+        "evidence": "Retains door and workshop times, the reservation-qualified seat guarantee, item/cable instructions, and large-appliance exclusion. Draft evidence: \"You don't need to arrive before doors open at 9:45 a.m.\u2014everyone with a reservation has a seat. The workshop starts at 10 a.m.\\n\\nBring your broken item and its power cable, if it has one. Large appliances aren't accepted.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-086",
+        "evidence": "\u201c9:45 a.m.\u201d; \u201cpower cable\u201d. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g02",
+      "arm": "none",
+      "repetition": 1,
+      "text": "The new page had more signups because it received twice as many visitors, but a smaller share signed up:\n\n- Old page: 100 signups from 1,000 visitors = 10%.\n- New page: 160 signups from 2,000 visitors = 8%.\n\nThe observed conversion rate was 2 percentage points lower on the new page. These totals alone don\u2019t establish how the pages would perform more generally; no significance analysis has been done.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-087",
+        "evidence": "Retains the correct 10% and 8% conversion rates, higher traffic versus signup totals, and absence of significance analysis without declaring a reliable winner. Draft evidence: \"The new page had more signups because it received twice as many visitors, but a smaller share signed up:\\n\\n- Old page: 100 signups from 1,000 visitors = 10%.\\n- New page: 160 signups from 2,000 visitors = 8%.\\n\\nThe observed conversion rate was 2 percentage points lower on the new page. These totals alone don\u2019t establish how the pages would perform more generally; no significance analysis has been done.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-087",
+        "evidence": "\u201c8%\u201d; \u201c10%\u201d. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g01",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Yes\u2014the refresh finished today, and revenue and order counts passed checks. Those cover tomorrow\u2019s review. Avoid the returns panel for now: it still double-counts exchanges and will be fixed Thursday.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-088",
+        "evidence": "Retains permission to use checked revenue and order counts, the returns double-counting exclusion, and Thursday fix timing. Draft evidence: \"Yes\u2014the refresh finished today, and revenue and order counts passed checks. Those cover tomorrow\u2019s review. Avoid the returns panel for now: it still double-counts exchanges and will be fixed Thursday.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-088",
+        "evidence": "\u201cYes\u201d; \u201cdouble-counts exchanges\u201d. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c02",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "I'm sorry I missed your opening. You told me how important it was to you, and I promised I'd be there. I forgot to put it in my calendar, and that's on me. I let you down on a day that mattered, and I understand if you're hurt. If you'd like, I'd love to visit the show with you next weekend, but I understand if you don't want to.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-089",
+        "evidence": "Retains the missed promise, calendar omission and responsibility, importance and possible hurt, and optional next-weekend visit. Draft evidence: \"I'm sorry I missed your opening. You told me how important it was to you, and I promised I'd be there. I forgot to put it in my calendar, and that's on me. I let you down on a day that mattered, and I understand if you're hurt. If you'd like, I'd love to visit the show with you next weekend, but I understand if you don't want to.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-089",
+        "evidence": "\u201cI let you down\u201d; \u201clet you down\u201d; \u201cif you\u201d. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c03",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-090",
+        "evidence": "All original words remain in their original order; only punctuation is added. Draft evidence: \"Before we begin, please open the workbook, check that your name is on the first tab, and save a copy; if anything looks wrong, let me know before you edit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-090",
+        "evidence": "\u201cBefore we begin, please open the workbook\u201d; \u201clet me know before you edit.\u201d. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c02",
+      "arm": "old",
+      "repetition": 1,
+      "text": "I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar and let you down. That was my responsibility, and I understand if you\u2019re hurt.\n\nI\u2019d love to visit the show with you next weekend if you\u2019d like. I know that doesn\u2019t make up for missing the opening, and I understand if you don\u2019t feel like it.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-091",
+        "evidence": "Retains the missed promise, calendar omission and responsibility, importance and possible hurt, and optional next-weekend visit. Draft evidence: \"I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar and let you down. That was my responsibility, and I understand if you\u2019re hurt.\\n\\nI\u2019d love to visit the show with you next weekend if you\u2019d like. I know that doesn\u2019t make up for missing the opening, and I understand if you don\u2019t feel like it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-091",
+        "evidence": "\u201clet you down\u201d; \u201cif you\u201d. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d02",
+      "arm": "none",
+      "repetition": 1,
+      "text": "The recording is available in the course portal under Session Materials. Your existing course login works; you don\u2019t need a separate link or new account.\n\nCaptions are still processing and should be available by tomorrow morning. If you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-092",
+        "evidence": "Retains Session Materials location, existing-login access without new account/link, qualified tomorrow-morning caption expectation, and sign-out/in then report troubleshooting. Draft evidence: \"The recording is available in the course portal under Session Materials. Your existing course login works; you don\u2019t need a separate link or new account.\\n\\nCaptions are still processing and should be available by tomorrow morning. If you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-092",
+        "evidence": "\u201cSession Materials\u201d; \u201cLet me know\u201d. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c04",
+      "arm": "old",
+      "repetition": 1,
+      "text": "From the project root, run:\n\n```bash\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\n```\n\nThen open:\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\n\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-093",
+        "evidence": "Retains the exact command and URL, project-root instruction, error reporting, and protection against replacing the catalog with failed output. Draft evidence: \"From the project root, run:\\n\\n```bash\\npython3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\\n```\\n\\nThen open:\\nhttps://docs.example.org/catalog/setup?mode=local&version=2#validation\\n\\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-093",
+        "evidence": "\u201cFrom the project root, run:\u201d; \u201cIf validation fails, keep the existing catalog\u201d. The setup remains executable and includes the failure procedure.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d01",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "The search relevance review passed this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon. We\u2019re still aiming for Wednesday, provided it passes the accessibility check. I\u2019ll update the channel if that changes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-094",
+        "evidence": "Retains completed relevance review, the sole keyboard-navigation blocker, Maya's expected timing, conditional Wednesday launch, and timing-update commitment. Draft evidence: \"The search relevance review passed this morning. The only remaining launch blocker is keyboard navigation in the filter menu. Maya expects the fix to be ready tomorrow afternoon. We\u2019re still aiming for Wednesday, provided it passes the accessibility check. I\u2019ll update the channel if that changes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-094",
+        "evidence": "\u201conly remaining launch blocker\u201d; \u201caccessibility check\u201d. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g01",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Yes\u2014the dashboard refreshed today, and revenue and order counts passed checks, so we can use those in tomorrow\u2019s review. The returns panel still double-counts exchanges and will be fixed Thursday; we should leave that panel out of the review.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-095",
+        "evidence": "Retains permission to use checked revenue and order counts, the returns double-counting exclusion, and Thursday fix timing. Draft evidence: \"Yes\u2014the dashboard refreshed today, and revenue and order counts passed checks, so we can use those in tomorrow\u2019s review. The returns panel still double-counts exchanges and will be fixed Thursday; we should leave that panel out of the review.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-095",
+        "evidence": "\u201cYes\u201d; \u201cdouble-counts exchanges\u201d. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c05",
+      "arm": "old",
+      "repetition": 1,
+      "text": "All deadlines are Pacific.\n\n- Leena: Complete the revised floor plan by October 6 at noon and get the final plan to Omar so he can confirm delivery.\n- Jo: Obtain the venue\u2019s written access approval by October 6 at 5 p.m. If it\u2019s missing at the deadline, flag it to Leena that day.\n- Omar: Confirm the delivery window by October 7 at 3 p.m. You need Leena\u2019s final plan first.\n- Theo: Send volunteer assignments by October 8 at 10 a.m.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-096",
+        "evidence": "Retains all four owners and Pacific deadlines, Omar's dependency, and Jo's same-day escalation if approval is missing. Draft evidence: \"All deadlines are Pacific.\\n\\n- Leena: Complete the revised floor plan by October 6 at noon and get the final plan to Omar so he can confirm delivery.\\n- Jo: Obtain the venue\u2019s written access approval by October 6 at 5 p.m. If it\u2019s missing at the deadline, flag it to Leena that day.\\n- Omar: Confirm the delivery window by October 7 at 3 p.m. You need Leena\u2019s final plan first.\\n- Theo: Send volunteer assignments by October 8 at 10 a.m.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-096",
+        "evidence": "\u201cPacific\u201d; \u201cflag it to Leena that day\u201d. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g04",
+      "arm": "old",
+      "repetition": 1,
+      "text": "No need to arrive before doors open at 9:45 a.m. If you have a reservation, your seat is guaranteed, and the workshop starts at 10 a.m. Bring your broken item and its power cable if it has one. We can\u2019t accept large appliances.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-097",
+        "evidence": "Retains door and workshop times, the reservation-qualified seat guarantee, item/cable instructions, and large-appliance exclusion. Draft evidence: \"No need to arrive before doors open at 9:45 a.m. If you have a reservation, your seat is guaranteed, and the workshop starts at 10 a.m. Bring your broken item and its power cable if it has one. We can\u2019t accept large appliances.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-097",
+        "evidence": "\u201c9:45 a.m.\u201d; \u201cpower cable\u201d. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c02",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar, and that\u2019s on me. I let you down, and I understand if you\u2019re hurt.\n\nI\u2019d love to visit the show with you next weekend if you\u2019d like. I know that doesn\u2019t make up for missing the opening, and I understand if you don\u2019t feel like it.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-098",
+        "evidence": "Retains the missed promise, calendar omission and responsibility, importance and possible hurt, and optional next-weekend visit. Draft evidence: \"I\u2019m sorry I missed your opening. You told me how important it was to you, and I promised I\u2019d be there. I forgot to put it in my calendar, and that\u2019s on me. I let you down, and I understand if you\u2019re hurt.\\n\\nI\u2019d love to visit the show with you next weekend if you\u2019d like. I know that doesn\u2019t make up for missing the opening, and I understand if you don\u2019t feel like it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-098",
+        "evidence": "\u201cI let you down\u201d; \u201clet you down\u201d; \u201cif you\u201d. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d02",
+      "arm": "old",
+      "repetition": 2,
+      "text": "The recording is available in the course portal under **Session Materials**. Your existing course login will work; you don\u2019t need a separate link or a new account.\n\nCaptions are still processing and should appear by tomorrow morning. If you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-099",
+        "evidence": "Retains Session Materials location, existing-login access without new account/link, qualified tomorrow-morning caption expectation, and sign-out/in then report troubleshooting. Draft evidence: \"The recording is available in the course portal under **Session Materials**. Your existing course login will work; you don\u2019t need a separate link or a new account.\\n\\nCaptions are still processing and should appear by tomorrow morning. If you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-099",
+        "evidence": "\u201cSession Materials\u201d; \u201cLet me know\u201d. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c01",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "A database index works like the index at the back of a book. Instead of reading every page to find a topic, you look it up and go straight to the relevant pages. Similarly, a database can use an index to locate matching rows without checking every row in a table.\n\nFor example, if an app often searches for a customer by email address, an index on the email column can make those searches faster.\n\nThe tradeoff is storage and extra work when data changes. When you insert, update, or delete relevant data, the database must also maintain the index, which can slow writes. Not every query benefits from an index, so choose indexes based on the searches your app actually performs.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-100",
+        "evidence": "Retains indexed lookup without a full-table scan, book/cookbook analogy, email-query example, storage/write maintenance cost, and the caveat that not every query benefits. Draft evidence: \"A database index works like the index at the back of a book. Instead of reading every page to find a topic, you look it up and go straight to the relevant pages. Similarly, a database can use an index to locate matching rows without checking every row in a table.\\n\\nFor example, if an app often searches for a customer by email address, an index on the email column can make those searches faster.\\n\\nThe tradeoff is storage and extra work when data changes. When you insert, update, or delete relevant data, the database must also maintain the index, which can slow writes. Not every query benefits from an index, so choose indexes based on the searches your app actually performs.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-100",
+        "evidence": "\u201cindex at the back of a\u201d; \u201cemail\u201d. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 122 whitespace-delimited words, within the requested range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d04",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Prepaid order pickup for this Saturday\u2019s market has moved to the east gate because of repairs at the main entrance.\n\n- Pickup time: 11 a.m.\u20132 p.m., unchanged.\n- Bring your order confirmation on your phone or printed out so volunteers can find your order quickly.\n- Someone else can collect your order using your confirmation. No advance authorization is needed.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-101",
+        "evidence": "Retains Saturday prepaid pickup at the east gate due to repairs, unchanged 11 a.m.\u20132 p.m. window, phone/paper confirmation, and pickup by another person without advance authorization. Draft evidence: \"Prepaid order pickup for this Saturday\u2019s market has moved to the east gate because of repairs at the main entrance.\\n\\n- Pickup time: 11 a.m.\u20132 p.m., unchanged.\\n- Bring your order confirmation on your phone or printed out so volunteers can find your order quickly.\\n- Someone else can collect your order using your confirmation. No advance authorization is needed.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-101",
+        "evidence": "\u201ceast gate\u201d; \u201corder confirmation\u201d. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d02",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "The recording is available in the course portal under Session Materials. Your existing course login works; you don\u2019t need a separate link or new account. Captions are still processing and should appear by tomorrow morning.\n\nIf you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-102",
+        "evidence": "Retains Session Materials location, existing-login access without new account/link, qualified tomorrow-morning caption expectation, and sign-out/in then report troubleshooting. Draft evidence: \"The recording is available in the course portal under Session Materials. Your existing course login works; you don\u2019t need a separate link or new account. Captions are still processing and should appear by tomorrow morning.\\n\\nIf you don\u2019t see the recording, try signing out and back in. Let me know if that doesn\u2019t resolve it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-102",
+        "evidence": "\u201cSession Materials\u201d; \u201cLet me know\u201d. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d06",
+      "arm": "none",
+      "repetition": 2,
+      "text": "I've finished reviewing the main proposal and have no changes to request. The cost appendix is pending the revised supplier estimate, which is due by noon tomorrow.\n\nIf it arrives on time, I'll send the complete review by 3 p.m. tomorrow. If it doesn't, I'll let you know at noon and give you a revised delivery time.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-103",
+        "evidence": "Retains completed main review with no changes, estimate dependency and noon deadline, conditional 3 p.m. completion, and noon fallback update with revised timing. Draft evidence: \"I've finished reviewing the main proposal and have no changes to request. The cost appendix is pending the revised supplier estimate, which is due by noon tomorrow.\\n\\nIf it arrives on time, I'll send the complete review by 3 p.m. tomorrow. If it doesn't, I'll let you know at noon and give you a revised delivery time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-103",
+        "evidence": "\u201cno changes to request\u201d; \u201crevised delivery time\u201d. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "c01",
+      "arm": "old",
+      "repetition": 2,
+      "text": "A database index works like the index at the back of a book. Instead of reading every page to find a topic, you look it up in the index and jump to the right pages. Similarly, a database can use an index to find matching rows without checking the entire table.\n\nFor example, an index on customer email addresses can help a database find a customer\u2019s record when you search by email.\n\nThe tradeoff is that indexes take up storage and need maintenance. When relevant data is inserted, updated, or deleted, the database must update the index too, adding work to those writes. Not every query benefits: an email index may not help a search by shipping city.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-104",
+        "evidence": "Retains indexed lookup without a full-table scan, book/cookbook analogy, email-query example, storage/write maintenance cost, and the caveat that not every query benefits. Draft evidence: \"A database index works like the index at the back of a book. Instead of reading every page to find a topic, you look it up in the index and jump to the right pages. Similarly, a database can use an index to find matching rows without checking the entire table.\\n\\nFor example, an index on customer email addresses can help a database find a customer\u2019s record when you search by email.\\n\\nThe tradeoff is that indexes take up storage and need maintenance. When relevant data is inserted, updated, or deleted, the database must update the index too, adding work to those writes. Not every query benefits: an email index may not help a search by shipping city.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-104",
+        "evidence": "\u201cindex at the back of a\u201d; \u201cemail\u201d. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 118 whitespace-delimited words, within the requested range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g03",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Please leave feedback in comments on the shared draft, rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-105",
+        "evidence": "Retains shared-draft comments, exclusion of a separate document, Friday-noon collection, and welcome for typos and substantive suggestions. Draft evidence: \"Please leave feedback in comments on the shared draft, rather than in a separate document. Typos and substantive suggestions are both welcome. The editor will collect comments Friday at noon.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-105",
+        "evidence": "\u201cshared draft\u201d; \u201cFriday at noon\u201d. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g02",
+      "arm": "old",
+      "repetition": 2,
+      "text": "The new page had more signups because it also had more visitors. The old page converted 100 of 1,000 visitors, or 10%; the new page converted 160 of 2,000, or 8%.\n\nSo the new page\u2019s observed conversion rate was lower, despite its higher signup count. These are descriptive results, and no significance analysis has been done, so they don\u2019t establish that either page converts better.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-106",
+        "evidence": "Retains the correct 10% and 8% conversion rates, higher traffic versus signup totals, and absence of significance analysis without declaring a reliable winner. Draft evidence: \"The new page had more signups because it also had more visitors. The old page converted 100 of 1,000 visitors, or 10%; the new page converted 160 of 2,000, or 8%.\\n\\nSo the new page\u2019s observed conversion rate was lower, despite its higher signup count. These are descriptive results, and no significance analysis has been done, so they don\u2019t establish that either page converts better.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-106",
+        "evidence": "\u201c8%\u201d; \u201c10%\u201d. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "d03",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Keep the current booking form for next month's pilot. It collects all four required fields, and a new form would take roughly three days of engineering work for a pilot with twelve participants.\n\nLog the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-107",
+        "evidence": "Retains current-form recommendation, four required fields, roughly three engineering days, twelve participants, and issue logging to inform the pre-rollout rebuild decision. Draft evidence: \"Keep the current booking form for next month's pilot. It collects all four required fields, and a new form would take roughly three days of engineering work for a pilot with twelve participants.\\n\\nLog the issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-107",
+        "evidence": "\u201call four required fields\u201d; \u201ctwelve participants\u201d. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "g04",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "No need to arrive before doors open at 9:45 a.m.; the workshop starts at 10 a.m., and everyone with a reservation has a seat. Bring your broken item and its power cable, if it has one. We can\u2019t accept large appliances.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-108",
+        "evidence": "Retains door and workshop times, the reservation-qualified seat guarantee, item/cable instructions, and large-appliance exclusion. Draft evidence: \"No need to arrive before doors open at 9:45 a.m.; the workshop starts at 10 a.m., and everyone with a reservation has a seat. Bring your broken item and its power cable, if it has one. We can\u2019t accept large appliances.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-108",
+        "evidence": "\u201c9:45 a.m.\u201d; \u201cpower cable\u201d. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+        "label": "Pass"
+      }
+    }
+  ]
+}

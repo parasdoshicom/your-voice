@@ -1,0 +1,746 @@
+[
+  {
+    "sample_id": "sample-001",
+    "request": "Answer all three questions from a new member of the community pottery studio: 'When can I use the wheel room, do I need to reserve a wheel, and what do I do with wet pieces when I leave?'",
+    "source": "Members may use the wheel room Tuesday through Sunday from 1 to 8 p.m. The studio is closed Monday. Wheel reservations are required and can be made in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date. The studio holds a members' exhibition each November, and the front desk sells aprons and basic tools.",
+    "proposed_required_content": [
+      "Wheel-room access is Tuesday through Sunday, 1\u20138 p.m.; do not imply Monday access",
+      "Reserve a wheel through the member portal, with a two-hour maximum per booking",
+      "Put wet pieces on the Work in Progress shelf and label them with your name and date"
+    ],
+    "draft": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\n\nReserve a wheel in the member portal before you use it. Each booking is limited to two hours.\n\nBefore leaving, put your wet pieces on the shelf marked Work in Progress and label them with your name and the date."
+  },
+  {
+    "sample_id": "sample-002",
+    "request": "Answer a user asking, 'How do I mute notifications for just one group in the chat app?'",
+    "source": "To mute a single group, open that group, select its name at the top, choose Notifications, and turn on Mute group. This leaves other groups' notifications unchanged. The general notification settings also support quiet hours across the entire app. Administrators can rename groups, appoint moderators, and choose who may invite new members. Muted groups continue to display unread counts in the sidebar.",
+    "proposed_required_content": [
+      "Explain the sequence: open the group, select its name, choose Notifications, and turn on Mute group",
+      "The action applies only to that group; do not substitute the app-wide quiet-hours procedure"
+    ],
+    "draft": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged."
+  },
+  {
+    "sample_id": "sample-003",
+    "request": "Reply to a passenger asking, 'Can I take my folding bike on the 8 a.m. train?'",
+    "source": "On this rail service, the morning peak runs from 7 to 9 a.m. Full-size bicycles are prohibited during the peak. Folding bikes are permitted at any time if fully folded and stored without blocking the aisle. The operator introduced the full-size-bike restriction two years ago. Cycle racks are available at most stations, and a separate weekend cycling pass includes discounted bicycle hire at selected destinations.",
+    "proposed_required_content": [
+      "A folding bike is permitted on the 8 a.m. train if fully folded and stored without blocking the aisle"
+    ],
+    "draft": "Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle."
+  },
+  {
+    "sample_id": "sample-004",
+    "request": "Add punctuation only to this sentence. Keep every word, spelling, capitalization, and word order exactly as supplied. Return only the edited sentence.",
+    "source": "if the parcel arrives today leave it by the stairs otherwise ask the driver to return tomorrow",
+    "proposed_required_content": [
+      "Preserve every word, spelling, capitalization, and word order",
+      "Only add punctuation",
+      "Return the edited sentence without introductory or explanatory text",
+      "Use punctuation to distinguish the conditional instruction from the otherwise alternative"
+    ],
+    "draft": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow."
+  },
+  {
+    "sample_id": "sample-005",
+    "request": "Answer all three questions from a new member of the community pottery studio: 'When can I use the wheel room, do I need to reserve a wheel, and what do I do with wet pieces when I leave?'",
+    "source": "Members may use the wheel room Tuesday through Sunday from 1 to 8 p.m. The studio is closed Monday. Wheel reservations are required and can be made in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date. The studio holds a members' exhibition each November, and the front desk sells aprons and basic tools.",
+    "proposed_required_content": [
+      "Wheel-room access is Tuesday through Sunday, 1\u20138 p.m.; do not imply Monday access",
+      "Reserve a wheel through the member portal, with a two-hour maximum per booking",
+      "Put wet pieces on the Work in Progress shelf and label them with your name and date"
+    ],
+    "draft": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed on Mondays. Reserve a wheel through the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date."
+  },
+  {
+    "sample_id": "sample-006",
+    "request": "Answer a resident who asks, 'Do the laundry machines take coins?'",
+    "source": "The building's laundry machines accept coins and contactless bank cards. The machines were replaced in June after residents reported frequent faults with the previous equipment. Washing costs $3 per load, and drying is charged in fifteen-minute increments. Residents can report a broken machine using the form beside the laundry room door. Detergent is not provided.",
+    "proposed_required_content": [
+      "The laundry machines accept coins"
+    ],
+    "draft": "Yes, the laundry machines take coins."
+  },
+  {
+    "sample_id": "sample-007",
+    "request": "Reply to an audience member asking, 'How long is the interval in tonight's play?'",
+    "source": "Tonight's play has one twenty-minute interval. The full performance, including the interval, lasts two hours and ten minutes. The foyer bar remains open during the interval, and drinks in approved cups may be taken into the auditorium. The theatre began offering reusable cups this season. Programs are sold before the performance and during the interval.",
+    "proposed_required_content": [
+      "The interval lasts twenty minutes"
+    ],
+    "draft": "Tonight\u2019s play has one 20-minute interval."
+  },
+  {
+    "sample_id": "sample-008",
+    "request": "Answer a visitor asking, 'Where are the coat lockers in the museum?'",
+    "source": "The coat lockers are on the ground floor, immediately to the left of the main entrance. They use a refundable $1 coin deposit. The museum moved the lockers from the basement during its winter renovation. Large suitcases cannot be stored in them, and the information desk maintains a list of nearby luggage-storage businesses. The museum shop is beside the exit.",
+    "proposed_required_content": [
+      "The coat lockers are on the ground floor immediately to the left of the main entrance"
+    ],
+    "draft": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit."
+  },
+  {
+    "sample_id": "sample-009",
+    "request": "Reply to a passenger asking, 'Can I take my folding bike on the 8 a.m. train?'",
+    "source": "On this rail service, the morning peak runs from 7 to 9 a.m. Full-size bicycles are prohibited during the peak. Folding bikes are permitted at any time if fully folded and stored without blocking the aisle. The operator introduced the full-size-bike restriction two years ago. Cycle racks are available at most stations, and a separate weekend cycling pass includes discounted bicycle hire at selected destinations.",
+    "proposed_required_content": [
+      "A folding bike is permitted on the 8 a.m. train if fully folded and stored without blocking the aisle"
+    ],
+    "draft": "Yes, you can take your folding bike on the 8 a.m. train if it\u2019s fully folded and stored without blocking the aisle."
+  },
+  {
+    "sample_id": "sample-010",
+    "request": "Write a detailed explanation in 140\u2013180 words for a beginner about why bread dough rises and how temperature changes the process. Explain the roles of yeast and gluten, contrast a cool rise with a warm rise, and describe why proofing too long can be a problem.",
+    "source": "In yeast bread, yeast consumes sugars and produces carbon dioxide. A developed gluten network helps trap the gas, expanding the dough. Within normal dough-proofing temperatures, warmer conditions generally speed yeast activity and cooler conditions slow it. A cool rise therefore takes longer and can allow more flavor development. Excessively hot conditions can damage or kill yeast. If dough proofs too long, its structure can weaken and it may lose gas and collapse. Exact timing depends on the recipe and conditions, so dough expansion and texture matter more than a fixed clock time.",
+    "proposed_required_content": [
+      "Use 140\u2013180 words with a beginner-friendly explanation",
+      "Explain yeast producing carbon dioxide from sugars",
+      "Explain gluten trapping gas so dough expands",
+      "Contrast faster yeast activity in ordinary warm conditions with a slower cool rise that can develop flavor",
+      "Distinguish ordinary warmth from excessive heat that can damage yeast",
+      "Explain structural weakening and gas loss or collapse from excessive proofing",
+      "Do not present a universal proofing time independent of recipe and conditions"
+    ],
+    "draft": "Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network traps that gas inside the dough. As the gas builds up, it expands the dough, making it rise. Yeast supplies the gas, while gluten provides the structure that holds it.\n\nTemperature changes how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. A cool rise slows the yeast down and takes longer, but that extra time can allow more flavor to develop. Hotter is not always better: excessive heat can damage or kill the yeast.\n\nProofing too long can also cause trouble. The dough\u2019s structure can weaken until it can no longer hold the gas well. Gas then escapes, and the dough may collapse. Because timing depends on the recipe and conditions, watch the dough\u2019s expansion and texture rather than relying only on a fixed number of minutes."
+  },
+  {
+    "sample_id": "sample-011",
+    "request": "Answer a guest who asks, 'Are dogs allowed on the campground's lakeside trail?'",
+    "source": "Dogs are allowed on the lakeside trail but must remain on a leash no longer than six feet. The trail is a two-mile loop that was resurfaced last spring. The campground office sells trail maps and firewood. Dogs are not allowed on the swimming beach, which has a separate entrance on the other side of the site. The guest has asked only about walking the lakeside trail.",
+    "proposed_required_content": [
+      "Dogs are allowed on the lakeside trail only while on a leash no longer than six feet"
+    ],
+    "draft": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet."
+  },
+  {
+    "sample_id": "sample-012",
+    "request": "Answer a resident who asks, 'Do the laundry machines take coins?'",
+    "source": "The building's laundry machines accept coins and contactless bank cards. The machines were replaced in June after residents reported frequent faults with the previous equipment. Washing costs $3 per load, and drying is charged in fifteen-minute increments. Residents can report a broken machine using the form beside the laundry room door. Detergent is not provided.",
+    "proposed_required_content": [
+      "The laundry machines accept coins"
+    ],
+    "draft": "Yes, the laundry machines accept coins. They also take contactless bank cards."
+  },
+  {
+    "sample_id": "sample-013",
+    "request": "Write a detailed explanation in 140\u2013180 words for a beginner about why bread dough rises and how temperature changes the process. Explain the roles of yeast and gluten, contrast a cool rise with a warm rise, and describe why proofing too long can be a problem.",
+    "source": "In yeast bread, yeast consumes sugars and produces carbon dioxide. A developed gluten network helps trap the gas, expanding the dough. Within normal dough-proofing temperatures, warmer conditions generally speed yeast activity and cooler conditions slow it. A cool rise therefore takes longer and can allow more flavor development. Excessively hot conditions can damage or kill yeast. If dough proofs too long, its structure can weaken and it may lose gas and collapse. Exact timing depends on the recipe and conditions, so dough expansion and texture matter more than a fixed clock time.",
+    "proposed_required_content": [
+      "Use 140\u2013180 words with a beginner-friendly explanation",
+      "Explain yeast producing carbon dioxide from sugars",
+      "Explain gluten trapping gas so dough expands",
+      "Contrast faster yeast activity in ordinary warm conditions with a slower cool rise that can develop flavor",
+      "Distinguish ordinary warmth from excessive heat that can damage yeast",
+      "Explain structural weakening and gas loss or collapse from excessive proofing",
+      "Do not present a universal proofing time independent of recipe and conditions"
+    ],
+    "draft": "Bread dough rises because yeast consumes sugars in the dough and produces carbon dioxide gas. The dough\u2019s developed gluten network traps that gas. As gas collects inside it, the dough expands. Yeast produces the gas, while gluten provides the structure that holds it in.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Warmer is not always better: excessive heat can damage or kill the yeast.\n\nProofing is the time you give dough to rise, and leaving it longer does not always improve it. If dough proofs too long, its structure can weaken until it loses gas and may collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time."
+  },
+  {
+    "sample_id": "sample-014",
+    "request": "Answer a guest who asks, 'Are dogs allowed on the campground's lakeside trail?'",
+    "source": "Dogs are allowed on the lakeside trail but must remain on a leash no longer than six feet. The trail is a two-mile loop that was resurfaced last spring. The campground office sells trail maps and firewood. Dogs are not allowed on the swimming beach, which has a separate entrance on the other side of the site. The guest has asked only about walking the lakeside trail.",
+    "proposed_required_content": [
+      "Dogs are allowed on the lakeside trail only while on a leash no longer than six feet"
+    ],
+    "draft": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet."
+  },
+  {
+    "sample_id": "sample-015",
+    "request": "Answer a guest who asks, 'Are dogs allowed on the campground's lakeside trail?'",
+    "source": "Dogs are allowed on the lakeside trail but must remain on a leash no longer than six feet. The trail is a two-mile loop that was resurfaced last spring. The campground office sells trail maps and firewood. Dogs are not allowed on the swimming beach, which has a separate entrance on the other side of the site. The guest has asked only about walking the lakeside trail.",
+    "proposed_required_content": [
+      "Dogs are allowed on the lakeside trail only while on a leash no longer than six feet"
+    ],
+    "draft": "Yes, dogs are allowed on the lakeside trail, provided they stay on a leash no longer than six feet."
+  },
+  {
+    "sample_id": "sample-016",
+    "request": "Reply to a hostel guest asking, 'Which floor is breakfast on?'",
+    "source": "Breakfast is served in the dining room on the second floor. It runs from 7 to 10 a.m. on weekdays and starts an hour later on weekends. The hostel buys bread from a bakery on the next street and introduced a hot breakfast option this year. Guests can request a takeaway breakfast the evening before an early departure. The ground-floor cafe is operated separately and is not the breakfast venue.",
+    "proposed_required_content": [
+      "Breakfast is in the dining room on the second floor"
+    ],
+    "draft": "Breakfast is in the dining room on the second floor."
+  },
+  {
+    "sample_id": "sample-017",
+    "request": "Answer a visitor asking, 'Where are the coat lockers in the museum?'",
+    "source": "The coat lockers are on the ground floor, immediately to the left of the main entrance. They use a refundable $1 coin deposit. The museum moved the lockers from the basement during its winter renovation. Large suitcases cannot be stored in them, and the information desk maintains a list of nearby luggage-storage businesses. The museum shop is beside the exit.",
+    "proposed_required_content": [
+      "The coat lockers are on the ground floor immediately to the left of the main entrance"
+    ],
+    "draft": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit."
+  },
+  {
+    "sample_id": "sample-018",
+    "request": "Answer a visitor asking, 'Where are the coat lockers in the museum?'",
+    "source": "The coat lockers are on the ground floor, immediately to the left of the main entrance. They use a refundable $1 coin deposit. The museum moved the lockers from the basement during its winter renovation. Large suitcases cannot be stored in them, and the information desk maintains a list of nearby luggage-storage businesses. The museum shop is beside the exit.",
+    "proposed_required_content": [
+      "The coat lockers are on the ground floor immediately to the left of the main entrance"
+    ],
+    "draft": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit."
+  },
+  {
+    "sample_id": "sample-019",
+    "request": "Answer a guest who asks, 'Are dogs allowed on the campground's lakeside trail?'",
+    "source": "Dogs are allowed on the lakeside trail but must remain on a leash no longer than six feet. The trail is a two-mile loop that was resurfaced last spring. The campground office sells trail maps and firewood. Dogs are not allowed on the swimming beach, which has a separate entrance on the other side of the site. The guest has asked only about walking the lakeside trail.",
+    "proposed_required_content": [
+      "Dogs are allowed on the lakeside trail only while on a leash no longer than six feet"
+    ],
+    "draft": "Yes, dogs are welcome on the lakeside trail. They must stay on a leash no longer than six feet."
+  },
+  {
+    "sample_id": "sample-020",
+    "request": "Reply to a passenger asking, 'Can I take my folding bike on the 8 a.m. train?'",
+    "source": "On this rail service, the morning peak runs from 7 to 9 a.m. Full-size bicycles are prohibited during the peak. Folding bikes are permitted at any time if fully folded and stored without blocking the aisle. The operator introduced the full-size-bike restriction two years ago. Cycle racks are available at most stations, and a separate weekend cycling pass includes discounted bicycle hire at selected destinations.",
+    "proposed_required_content": [
+      "A folding bike is permitted on the 8 a.m. train if fully folded and stored without blocking the aisle"
+    ],
+    "draft": "Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle."
+  },
+  {
+    "sample_id": "sample-021",
+    "request": "Answer a player asking, 'Will my puzzle progress carry over if I switch from my phone to my tablet?'",
+    "source": "Puzzle progress syncs between devices only when both devices are signed into the same game account and connected to the internet. Guest-mode progress remains on the device where it was created. The latest release added three puzzle packs and a color-blind mode. Players may change their display name once every thirty days. The game also offers a family subscription with separate profiles for each player.",
+    "proposed_required_content": [
+      "Progress carries over only when both devices use the same game account and have internet connectivity",
+      "Guest-mode progress does not sync across devices"
+    ],
+    "draft": "Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you made it."
+  },
+  {
+    "sample_id": "sample-022",
+    "request": "Reply to a hostel guest asking, 'Which floor is breakfast on?'",
+    "source": "Breakfast is served in the dining room on the second floor. It runs from 7 to 10 a.m. on weekdays and starts an hour later on weekends. The hostel buys bread from a bakery on the next street and introduced a hot breakfast option this year. Guests can request a takeaway breakfast the evening before an early departure. The ground-floor cafe is operated separately and is not the breakfast venue.",
+    "proposed_required_content": [
+      "Breakfast is in the dining room on the second floor"
+    ],
+    "draft": "Breakfast is in the dining room on the second floor."
+  },
+  {
+    "sample_id": "sample-023",
+    "request": "Answer a guest who asks, 'Are dogs allowed on the campground's lakeside trail?'",
+    "source": "Dogs are allowed on the lakeside trail but must remain on a leash no longer than six feet. The trail is a two-mile loop that was resurfaced last spring. The campground office sells trail maps and firewood. Dogs are not allowed on the swimming beach, which has a separate entrance on the other side of the site. The guest has asked only about walking the lakeside trail.",
+    "proposed_required_content": [
+      "Dogs are allowed on the lakeside trail only while on a leash no longer than six feet"
+    ],
+    "draft": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet."
+  },
+  {
+    "sample_id": "sample-024",
+    "request": "Answer a player asking, 'Will my puzzle progress carry over if I switch from my phone to my tablet?'",
+    "source": "Puzzle progress syncs between devices only when both devices are signed into the same game account and connected to the internet. Guest-mode progress remains on the device where it was created. The latest release added three puzzle packs and a color-blind mode. Players may change their display name once every thirty days. The game also offers a family subscription with separate profiles for each player.",
+    "proposed_required_content": [
+      "Progress carries over only when both devices use the same game account and have internet connectivity",
+      "Guest-mode progress does not sync across devices"
+    ],
+    "draft": "Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created."
+  },
+  {
+    "sample_id": "sample-025",
+    "request": "Write a detailed explanation in 140\u2013180 words for a beginner about why bread dough rises and how temperature changes the process. Explain the roles of yeast and gluten, contrast a cool rise with a warm rise, and describe why proofing too long can be a problem.",
+    "source": "In yeast bread, yeast consumes sugars and produces carbon dioxide. A developed gluten network helps trap the gas, expanding the dough. Within normal dough-proofing temperatures, warmer conditions generally speed yeast activity and cooler conditions slow it. A cool rise therefore takes longer and can allow more flavor development. Excessively hot conditions can damage or kill yeast. If dough proofs too long, its structure can weaken and it may lose gas and collapse. Exact timing depends on the recipe and conditions, so dough expansion and texture matter more than a fixed clock time.",
+    "proposed_required_content": [
+      "Use 140\u2013180 words with a beginner-friendly explanation",
+      "Explain yeast producing carbon dioxide from sugars",
+      "Explain gluten trapping gas so dough expands",
+      "Contrast faster yeast activity in ordinary warm conditions with a slower cool rise that can develop flavor",
+      "Distinguish ordinary warmth from excessive heat that can damage yeast",
+      "Explain structural weakening and gas loss or collapse from excessive proofing",
+      "Do not present a universal proofing time independent of recipe and conditions"
+    ],
+    "draft": "Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. As that gas collects inside the dough, it makes the dough expand. Gluten provides the structure that helps hold the gas in: a developed gluten network traps it so the dough can grow instead of simply letting it escape.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally speeds up yeast activity, so a warm dough rises faster. In cooler conditions, yeast works more slowly and the rise takes longer. That extra time can allow more flavor to develop. Excessive heat, however, can damage or kill the yeast.\n\nLeaving dough to proof for too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well, allowing the dough to lose volume or collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed proofing time."
+  },
+  {
+    "sample_id": "sample-026",
+    "request": "Answer a player asking, 'Will my puzzle progress carry over if I switch from my phone to my tablet?'",
+    "source": "Puzzle progress syncs between devices only when both devices are signed into the same game account and connected to the internet. Guest-mode progress remains on the device where it was created. The latest release added three puzzle packs and a color-blind mode. Players may change their display name once every thirty days. The game also offers a family subscription with separate profiles for each player.",
+    "proposed_required_content": [
+      "Progress carries over only when both devices use the same game account and have internet connectivity",
+      "Guest-mode progress does not sync across devices"
+    ],
+    "draft": "Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created."
+  },
+  {
+    "sample_id": "sample-027",
+    "request": "Answer a visitor asking, 'Where are the coat lockers in the museum?'",
+    "source": "The coat lockers are on the ground floor, immediately to the left of the main entrance. They use a refundable $1 coin deposit. The museum moved the lockers from the basement during its winter renovation. Large suitcases cannot be stored in them, and the information desk maintains a list of nearby luggage-storage businesses. The museum shop is beside the exit.",
+    "proposed_required_content": [
+      "The coat lockers are on the ground floor immediately to the left of the main entrance"
+    ],
+    "draft": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit."
+  },
+  {
+    "sample_id": "sample-028",
+    "request": "Reply to an audience member asking, 'How long is the interval in tonight's play?'",
+    "source": "Tonight's play has one twenty-minute interval. The full performance, including the interval, lasts two hours and ten minutes. The foyer bar remains open during the interval, and drinks in approved cups may be taken into the auditorium. The theatre began offering reusable cups this season. Programs are sold before the performance and during the interval.",
+    "proposed_required_content": [
+      "The interval lasts twenty minutes"
+    ],
+    "draft": "The interval is 20 minutes."
+  },
+  {
+    "sample_id": "sample-029",
+    "request": "Answer all three questions from a new member of the community pottery studio: 'When can I use the wheel room, do I need to reserve a wheel, and what do I do with wet pieces when I leave?'",
+    "source": "Members may use the wheel room Tuesday through Sunday from 1 to 8 p.m. The studio is closed Monday. Wheel reservations are required and can be made in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date. The studio holds a members' exhibition each November, and the front desk sells aprons and basic tools.",
+    "proposed_required_content": [
+      "Wheel-room access is Tuesday through Sunday, 1\u20138 p.m.; do not imply Monday access",
+      "Reserve a wheel through the member portal, with a two-hour maximum per booking",
+      "Put wet pieces on the Work in Progress shelf and label them with your name and date"
+    ],
+    "draft": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\n\nReserve a wheel through the member portal before you come; each booking is limited to two hours.\n\nBefore leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date."
+  },
+  {
+    "sample_id": "sample-030",
+    "request": "Answer a resident who asks, 'Do the laundry machines take coins?'",
+    "source": "The building's laundry machines accept coins and contactless bank cards. The machines were replaced in June after residents reported frequent faults with the previous equipment. Washing costs $3 per load, and drying is charged in fifteen-minute increments. Residents can report a broken machine using the form beside the laundry room door. Detergent is not provided.",
+    "proposed_required_content": [
+      "The laundry machines accept coins"
+    ],
+    "draft": "Yes, the laundry machines take coins. They also accept contactless bank cards."
+  },
+  {
+    "sample_id": "sample-031",
+    "request": "Answer a visitor asking, 'Where are the coat lockers in the museum?'",
+    "source": "The coat lockers are on the ground floor, immediately to the left of the main entrance. They use a refundable $1 coin deposit. The museum moved the lockers from the basement during its winter renovation. Large suitcases cannot be stored in them, and the information desk maintains a list of nearby luggage-storage businesses. The museum shop is beside the exit.",
+    "proposed_required_content": [
+      "The coat lockers are on the ground floor immediately to the left of the main entrance"
+    ],
+    "draft": "The coat lockers are on the ground floor, immediately to the left of the main entrance."
+  },
+  {
+    "sample_id": "sample-032",
+    "request": "Reply to a hostel guest asking, 'Which floor is breakfast on?'",
+    "source": "Breakfast is served in the dining room on the second floor. It runs from 7 to 10 a.m. on weekdays and starts an hour later on weekends. The hostel buys bread from a bakery on the next street and introduced a hot breakfast option this year. Guests can request a takeaway breakfast the evening before an early departure. The ground-floor cafe is operated separately and is not the breakfast venue.",
+    "proposed_required_content": [
+      "Breakfast is in the dining room on the second floor"
+    ],
+    "draft": "Breakfast is in the dining room on the second floor."
+  },
+  {
+    "sample_id": "sample-033",
+    "request": "Reply to a passenger asking, 'Can I take my folding bike on the 8 a.m. train?'",
+    "source": "On this rail service, the morning peak runs from 7 to 9 a.m. Full-size bicycles are prohibited during the peak. Folding bikes are permitted at any time if fully folded and stored without blocking the aisle. The operator introduced the full-size-bike restriction two years ago. Cycle racks are available at most stations, and a separate weekend cycling pass includes discounted bicycle hire at selected destinations.",
+    "proposed_required_content": [
+      "A folding bike is permitted on the 8 a.m. train if fully folded and stored without blocking the aisle"
+    ],
+    "draft": "Yes, you can take your folding bike on the 8 a.m. train if it\u2019s fully folded and stored without blocking the aisle."
+  },
+  {
+    "sample_id": "sample-034",
+    "request": "Add punctuation only to this sentence. Keep every word, spelling, capitalization, and word order exactly as supplied. Return only the edited sentence.",
+    "source": "if the parcel arrives today leave it by the stairs otherwise ask the driver to return tomorrow",
+    "proposed_required_content": [
+      "Preserve every word, spelling, capitalization, and word order",
+      "Only add punctuation",
+      "Return the edited sentence without introductory or explanatory text",
+      "Use punctuation to distinguish the conditional instruction from the otherwise alternative"
+    ],
+    "draft": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow."
+  },
+  {
+    "sample_id": "sample-035",
+    "request": "Reply to a hostel guest asking, 'Which floor is breakfast on?'",
+    "source": "Breakfast is served in the dining room on the second floor. It runs from 7 to 10 a.m. on weekdays and starts an hour later on weekends. The hostel buys bread from a bakery on the next street and introduced a hot breakfast option this year. Guests can request a takeaway breakfast the evening before an early departure. The ground-floor cafe is operated separately and is not the breakfast venue.",
+    "proposed_required_content": [
+      "Breakfast is in the dining room on the second floor"
+    ],
+    "draft": "Breakfast is in the dining room on the second floor."
+  },
+  {
+    "sample_id": "sample-036",
+    "request": "Answer a user asking, 'How do I mute notifications for just one group in the chat app?'",
+    "source": "To mute a single group, open that group, select its name at the top, choose Notifications, and turn on Mute group. This leaves other groups' notifications unchanged. The general notification settings also support quiet hours across the entire app. Administrators can rename groups, appoint moderators, and choose who may invite new members. Muted groups continue to display unread counts in the sidebar.",
+    "proposed_required_content": [
+      "Explain the sequence: open the group, select its name, choose Notifications, and turn on Mute group",
+      "The action applies only to that group; do not substitute the app-wide quiet-hours procedure"
+    ],
+    "draft": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged."
+  },
+  {
+    "sample_id": "sample-037",
+    "request": "Answer a resident who asks, 'Do the laundry machines take coins?'",
+    "source": "The building's laundry machines accept coins and contactless bank cards. The machines were replaced in June after residents reported frequent faults with the previous equipment. Washing costs $3 per load, and drying is charged in fifteen-minute increments. Residents can report a broken machine using the form beside the laundry room door. Detergent is not provided.",
+    "proposed_required_content": [
+      "The laundry machines accept coins"
+    ],
+    "draft": "Yes, the laundry machines accept coins. They also take contactless bank cards."
+  },
+  {
+    "sample_id": "sample-038",
+    "request": "Answer all three questions from a new member of the community pottery studio: 'When can I use the wheel room, do I need to reserve a wheel, and what do I do with wet pieces when I leave?'",
+    "source": "Members may use the wheel room Tuesday through Sunday from 1 to 8 p.m. The studio is closed Monday. Wheel reservations are required and can be made in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date. The studio holds a members' exhibition each November, and the front desk sells aprons and basic tools.",
+    "proposed_required_content": [
+      "Wheel-room access is Tuesday through Sunday, 1\u20138 p.m.; do not imply Monday access",
+      "Reserve a wheel through the member portal, with a two-hour maximum per booking",
+      "Put wet pieces on the Work in Progress shelf and label them with your name and date"
+    ],
+    "draft": "You can use the wheel room Tuesday through Sunday, 1\u20138 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014bookings are limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date."
+  },
+  {
+    "sample_id": "sample-039",
+    "request": "Answer a user asking, 'How do I mute notifications for just one group in the chat app?'",
+    "source": "To mute a single group, open that group, select its name at the top, choose Notifications, and turn on Mute group. This leaves other groups' notifications unchanged. The general notification settings also support quiet hours across the entire app. Administrators can rename groups, appoint moderators, and choose who may invite new members. Muted groups continue to display unread counts in the sidebar.",
+    "proposed_required_content": [
+      "Explain the sequence: open the group, select its name, choose Notifications, and turn on Mute group",
+      "The action applies only to that group; do not substitute the app-wide quiet-hours procedure"
+    ],
+    "draft": "Open the group, tap its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged."
+  },
+  {
+    "sample_id": "sample-040",
+    "request": "Answer a player asking, 'Will my puzzle progress carry over if I switch from my phone to my tablet?'",
+    "source": "Puzzle progress syncs between devices only when both devices are signed into the same game account and connected to the internet. Guest-mode progress remains on the device where it was created. The latest release added three puzzle packs and a color-blind mode. Players may change their display name once every thirty days. The game also offers a family subscription with separate profiles for each player.",
+    "proposed_required_content": [
+      "Progress carries over only when both devices use the same game account and have internet connectivity",
+      "Guest-mode progress does not sync across devices"
+    ],
+    "draft": "Yes\u2014if your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it."
+  },
+  {
+    "sample_id": "sample-041",
+    "request": "Answer a user asking, 'How do I mute notifications for just one group in the chat app?'",
+    "source": "To mute a single group, open that group, select its name at the top, choose Notifications, and turn on Mute group. This leaves other groups' notifications unchanged. The general notification settings also support quiet hours across the entire app. Administrators can rename groups, appoint moderators, and choose who may invite new members. Muted groups continue to display unread counts in the sidebar.",
+    "proposed_required_content": [
+      "Explain the sequence: open the group, select its name, choose Notifications, and turn on Mute group",
+      "The action applies only to that group; do not substitute the app-wide quiet-hours procedure"
+    ],
+    "draft": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged."
+  },
+  {
+    "sample_id": "sample-042",
+    "request": "Write a warm personal reply to a friend who says, 'I didn't get the role in the community musical. I know it's a small thing, but I'm really disappointed.' Make them feel heard without trying to solve the disappointment. You'd like to offer a walk together if they want company.",
+    "source": "Your friend spent several weeks rehearsing for the audition and was excited about this particular production. You do not know why the casting decision was made. The two of you often walk in the park together. Your friend also recently mentioned a new coffee shop nearby, but has not asked to make plans there.",
+    "proposed_required_content": [
+      "Acknowledge the friend's disappointment with personal warmth rather than minimizing it",
+      "Recognize the effort or importance of the audition",
+      "Do not invent reasons for the casting result or offer unsolicited fixes",
+      "Offer a walk together without assuming they want company"
+    ],
+    "draft": "I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to call it a small thing. If you want company, I\u2019d love to take a walk in the park with you."
+  },
+  {
+    "sample_id": "sample-043",
+    "request": "Write a warm personal reply to a friend who says, 'I didn't get the role in the community musical. I know it's a small thing, but I'm really disappointed.' Make them feel heard without trying to solve the disappointment. You'd like to offer a walk together if they want company.",
+    "source": "Your friend spent several weeks rehearsing for the audition and was excited about this particular production. You do not know why the casting decision was made. The two of you often walk in the park together. Your friend also recently mentioned a new coffee shop nearby, but has not asked to make plans there.",
+    "proposed_required_content": [
+      "Acknowledge the friend's disappointment with personal warmth rather than minimizing it",
+      "Recognize the effort or importance of the audition",
+      "Do not invent reasons for the casting result or offer unsolicited fixes",
+      "Offer a walk together without assuming they want company"
+    ],
+    "draft": "I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to brush it off as a small thing. If you\u2019d like company, I\u2019d love to take a walk in the park with you."
+  },
+  {
+    "sample_id": "sample-044",
+    "request": "Reply to a hostel guest asking, 'Which floor is breakfast on?'",
+    "source": "Breakfast is served in the dining room on the second floor. It runs from 7 to 10 a.m. on weekdays and starts an hour later on weekends. The hostel buys bread from a bakery on the next street and introduced a hot breakfast option this year. Guests can request a takeaway breakfast the evening before an early departure. The ground-floor cafe is operated separately and is not the breakfast venue.",
+    "proposed_required_content": [
+      "Breakfast is in the dining room on the second floor"
+    ],
+    "draft": "Breakfast is in the dining room on the second floor."
+  },
+  {
+    "sample_id": "sample-045",
+    "request": "Reply to a hostel guest asking, 'Which floor is breakfast on?'",
+    "source": "Breakfast is served in the dining room on the second floor. It runs from 7 to 10 a.m. on weekdays and starts an hour later on weekends. The hostel buys bread from a bakery on the next street and introduced a hot breakfast option this year. Guests can request a takeaway breakfast the evening before an early departure. The ground-floor cafe is operated separately and is not the breakfast venue.",
+    "proposed_required_content": [
+      "Breakfast is in the dining room on the second floor"
+    ],
+    "draft": "Breakfast is in the dining room on the second floor."
+  },
+  {
+    "sample_id": "sample-046",
+    "request": "Reply to a passenger asking, 'Can I take my folding bike on the 8 a.m. train?'",
+    "source": "On this rail service, the morning peak runs from 7 to 9 a.m. Full-size bicycles are prohibited during the peak. Folding bikes are permitted at any time if fully folded and stored without blocking the aisle. The operator introduced the full-size-bike restriction two years ago. Cycle racks are available at most stations, and a separate weekend cycling pass includes discounted bicycle hire at selected destinations.",
+    "proposed_required_content": [
+      "A folding bike is permitted on the 8 a.m. train if fully folded and stored without blocking the aisle"
+    ],
+    "draft": "Yes, as long as your folding bike is fully folded and stored without blocking the aisle."
+  },
+  {
+    "sample_id": "sample-047",
+    "request": "Reply to an audience member asking, 'How long is the interval in tonight's play?'",
+    "source": "Tonight's play has one twenty-minute interval. The full performance, including the interval, lasts two hours and ten minutes. The foyer bar remains open during the interval, and drinks in approved cups may be taken into the auditorium. The theatre began offering reusable cups this season. Programs are sold before the performance and during the interval.",
+    "proposed_required_content": [
+      "The interval lasts twenty minutes"
+    ],
+    "draft": "The interval is twenty minutes."
+  },
+  {
+    "sample_id": "sample-048",
+    "request": "Write a detailed explanation in 140\u2013180 words for a beginner about why bread dough rises and how temperature changes the process. Explain the roles of yeast and gluten, contrast a cool rise with a warm rise, and describe why proofing too long can be a problem.",
+    "source": "In yeast bread, yeast consumes sugars and produces carbon dioxide. A developed gluten network helps trap the gas, expanding the dough. Within normal dough-proofing temperatures, warmer conditions generally speed yeast activity and cooler conditions slow it. A cool rise therefore takes longer and can allow more flavor development. Excessively hot conditions can damage or kill yeast. If dough proofs too long, its structure can weaken and it may lose gas and collapse. Exact timing depends on the recipe and conditions, so dough expansion and texture matter more than a fixed clock time.",
+    "proposed_required_content": [
+      "Use 140\u2013180 words with a beginner-friendly explanation",
+      "Explain yeast producing carbon dioxide from sugars",
+      "Explain gluten trapping gas so dough expands",
+      "Contrast faster yeast activity in ordinary warm conditions with a slower cool rise that can develop flavor",
+      "Distinguish ordinary warmth from excessive heat that can damage yeast",
+      "Explain structural weakening and gas loss or collapse from excessive proofing",
+      "Do not present a universal proofing time independent of recipe and conditions"
+    ],
+    "draft": "Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As gas builds up, it stretches the network and expands the dough. Yeast supplies the gas, while gluten helps the dough hold onto it.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Too much heat can damage or kill the yeast, so hotter conditions won\u2019t always give you a better rise.\n\nLeaving dough to proof too long can also cause problems. Its structure may weaken until it can no longer hold the gas, and the dough may collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed rising time."
+  },
+  {
+    "sample_id": "sample-049",
+    "request": "Answer all three questions from a new member of the community pottery studio: 'When can I use the wheel room, do I need to reserve a wheel, and what do I do with wet pieces when I leave?'",
+    "source": "Members may use the wheel room Tuesday through Sunday from 1 to 8 p.m. The studio is closed Monday. Wheel reservations are required and can be made in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date. The studio holds a members' exhibition each November, and the front desk sells aprons and basic tools.",
+    "proposed_required_content": [
+      "Wheel-room access is Tuesday through Sunday, 1\u20138 p.m.; do not imply Monday access",
+      "Reserve a wheel through the member portal, with a two-hour maximum per booking",
+      "Put wet pieces on the Work in Progress shelf and label them with your name and date"
+    ],
+    "draft": "You can use the wheel room Tuesday through Sunday, 1\u20138 p.m. The studio is closed on Mondays. Reserve a wheel in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date."
+  },
+  {
+    "sample_id": "sample-050",
+    "request": "Answer a user asking, 'How do I mute notifications for just one group in the chat app?'",
+    "source": "To mute a single group, open that group, select its name at the top, choose Notifications, and turn on Mute group. This leaves other groups' notifications unchanged. The general notification settings also support quiet hours across the entire app. Administrators can rename groups, appoint moderators, and choose who may invite new members. Muted groups continue to display unread counts in the sidebar.",
+    "proposed_required_content": [
+      "Explain the sequence: open the group, select its name, choose Notifications, and turn on Mute group",
+      "The action applies only to that group; do not substitute the app-wide quiet-hours procedure"
+    ],
+    "draft": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged. You\u2019ll still see unread counts for the muted group in the sidebar."
+  },
+  {
+    "sample_id": "sample-051",
+    "request": "Reply to an audience member asking, 'How long is the interval in tonight's play?'",
+    "source": "Tonight's play has one twenty-minute interval. The full performance, including the interval, lasts two hours and ten minutes. The foyer bar remains open during the interval, and drinks in approved cups may be taken into the auditorium. The theatre began offering reusable cups this season. Programs are sold before the performance and during the interval.",
+    "proposed_required_content": [
+      "The interval lasts twenty minutes"
+    ],
+    "draft": "Tonight\u2019s play has one 20-minute interval."
+  },
+  {
+    "sample_id": "sample-052",
+    "request": "Answer a guest who asks, 'Are dogs allowed on the campground's lakeside trail?'",
+    "source": "Dogs are allowed on the lakeside trail but must remain on a leash no longer than six feet. The trail is a two-mile loop that was resurfaced last spring. The campground office sells trail maps and firewood. Dogs are not allowed on the swimming beach, which has a separate entrance on the other side of the site. The guest has asked only about walking the lakeside trail.",
+    "proposed_required_content": [
+      "Dogs are allowed on the lakeside trail only while on a leash no longer than six feet"
+    ],
+    "draft": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet."
+  },
+  {
+    "sample_id": "sample-053",
+    "request": "Answer a visitor asking, 'Where are the coat lockers in the museum?'",
+    "source": "The coat lockers are on the ground floor, immediately to the left of the main entrance. They use a refundable $1 coin deposit. The museum moved the lockers from the basement during its winter renovation. Large suitcases cannot be stored in them, and the information desk maintains a list of nearby luggage-storage businesses. The museum shop is beside the exit.",
+    "proposed_required_content": [
+      "The coat lockers are on the ground floor immediately to the left of the main entrance"
+    ],
+    "draft": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit."
+  },
+  {
+    "sample_id": "sample-054",
+    "request": "Write a detailed explanation in 140\u2013180 words for a beginner about why bread dough rises and how temperature changes the process. Explain the roles of yeast and gluten, contrast a cool rise with a warm rise, and describe why proofing too long can be a problem.",
+    "source": "In yeast bread, yeast consumes sugars and produces carbon dioxide. A developed gluten network helps trap the gas, expanding the dough. Within normal dough-proofing temperatures, warmer conditions generally speed yeast activity and cooler conditions slow it. A cool rise therefore takes longer and can allow more flavor development. Excessively hot conditions can damage or kill yeast. If dough proofs too long, its structure can weaken and it may lose gas and collapse. Exact timing depends on the recipe and conditions, so dough expansion and texture matter more than a fixed clock time.",
+    "proposed_required_content": [
+      "Use 140\u2013180 words with a beginner-friendly explanation",
+      "Explain yeast producing carbon dioxide from sugars",
+      "Explain gluten trapping gas so dough expands",
+      "Contrast faster yeast activity in ordinary warm conditions with a slower cool rise that can develop flavor",
+      "Distinguish ordinary warmth from excessive heat that can damage yeast",
+      "Explain structural weakening and gas loss or collapse from excessive proofing",
+      "Do not present a universal proofing time independent of recipe and conditions"
+    ],
+    "draft": "Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, helping it grow in volume.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. A warmer rise can be useful when you want the dough ready sooner, though hotter is not always better: excessive heat can damage or kill the yeast.\n\nLeaving dough to proof for too long can also cause problems. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time."
+  },
+  {
+    "sample_id": "sample-055",
+    "request": "Answer a resident who asks, 'Do the laundry machines take coins?'",
+    "source": "The building's laundry machines accept coins and contactless bank cards. The machines were replaced in June after residents reported frequent faults with the previous equipment. Washing costs $3 per load, and drying is charged in fifteen-minute increments. Residents can report a broken machine using the form beside the laundry room door. Detergent is not provided.",
+    "proposed_required_content": [
+      "The laundry machines accept coins"
+    ],
+    "draft": "Yes, the laundry machines accept coins as well as contactless bank cards."
+  },
+  {
+    "sample_id": "sample-056",
+    "request": "Answer all three questions from a new member of the community pottery studio: 'When can I use the wheel room, do I need to reserve a wheel, and what do I do with wet pieces when I leave?'",
+    "source": "Members may use the wheel room Tuesday through Sunday from 1 to 8 p.m. The studio is closed Monday. Wheel reservations are required and can be made in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date. The studio holds a members' exhibition each November, and the front desk sells aprons and basic tools.",
+    "proposed_required_content": [
+      "Wheel-room access is Tuesday through Sunday, 1\u20138 p.m.; do not imply Monday access",
+      "Reserve a wheel through the member portal, with a two-hour maximum per booking",
+      "Put wet pieces on the Work in Progress shelf and label them with your name and date"
+    ],
+    "draft": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date."
+  },
+  {
+    "sample_id": "sample-057",
+    "request": "Add punctuation only to this sentence. Keep every word, spelling, capitalization, and word order exactly as supplied. Return only the edited sentence.",
+    "source": "if the parcel arrives today leave it by the stairs otherwise ask the driver to return tomorrow",
+    "proposed_required_content": [
+      "Preserve every word, spelling, capitalization, and word order",
+      "Only add punctuation",
+      "Return the edited sentence without introductory or explanatory text",
+      "Use punctuation to distinguish the conditional instruction from the otherwise alternative"
+    ],
+    "draft": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow."
+  },
+  {
+    "sample_id": "sample-058",
+    "request": "Answer a resident who asks, 'Do the laundry machines take coins?'",
+    "source": "The building's laundry machines accept coins and contactless bank cards. The machines were replaced in June after residents reported frequent faults with the previous equipment. Washing costs $3 per load, and drying is charged in fifteen-minute increments. Residents can report a broken machine using the form beside the laundry room door. Detergent is not provided.",
+    "proposed_required_content": [
+      "The laundry machines accept coins"
+    ],
+    "draft": "Yes, the laundry machines accept coins as well as contactless bank cards."
+  },
+  {
+    "sample_id": "sample-059",
+    "request": "Reply to a passenger asking, 'Can I take my folding bike on the 8 a.m. train?'",
+    "source": "On this rail service, the morning peak runs from 7 to 9 a.m. Full-size bicycles are prohibited during the peak. Folding bikes are permitted at any time if fully folded and stored without blocking the aisle. The operator introduced the full-size-bike restriction two years ago. Cycle racks are available at most stations, and a separate weekend cycling pass includes discounted bicycle hire at selected destinations.",
+    "proposed_required_content": [
+      "A folding bike is permitted on the 8 a.m. train if fully folded and stored without blocking the aisle"
+    ],
+    "draft": "Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle."
+  },
+  {
+    "sample_id": "sample-060",
+    "request": "Answer a player asking, 'Will my puzzle progress carry over if I switch from my phone to my tablet?'",
+    "source": "Puzzle progress syncs between devices only when both devices are signed into the same game account and connected to the internet. Guest-mode progress remains on the device where it was created. The latest release added three puzzle packs and a color-blind mode. Players may change their display name once every thirty days. The game also offers a family subscription with separate profiles for each player.",
+    "proposed_required_content": [
+      "Progress carries over only when both devices use the same game account and have internet connectivity",
+      "Guest-mode progress does not sync across devices"
+    ],
+    "draft": "Yes, if your phone and tablet are both signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created."
+  },
+  {
+    "sample_id": "sample-061",
+    "request": "Add punctuation only to this sentence. Keep every word, spelling, capitalization, and word order exactly as supplied. Return only the edited sentence.",
+    "source": "if the parcel arrives today leave it by the stairs otherwise ask the driver to return tomorrow",
+    "proposed_required_content": [
+      "Preserve every word, spelling, capitalization, and word order",
+      "Only add punctuation",
+      "Return the edited sentence without introductory or explanatory text",
+      "Use punctuation to distinguish the conditional instruction from the otherwise alternative"
+    ],
+    "draft": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow."
+  },
+  {
+    "sample_id": "sample-062",
+    "request": "Answer a player asking, 'Will my puzzle progress carry over if I switch from my phone to my tablet?'",
+    "source": "Puzzle progress syncs between devices only when both devices are signed into the same game account and connected to the internet. Guest-mode progress remains on the device where it was created. The latest release added three puzzle packs and a color-blind mode. Players may change their display name once every thirty days. The game also offers a family subscription with separate profiles for each player.",
+    "proposed_required_content": [
+      "Progress carries over only when both devices use the same game account and have internet connectivity",
+      "Guest-mode progress does not sync across devices"
+    ],
+    "draft": "Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it."
+  },
+  {
+    "sample_id": "sample-063",
+    "request": "Add punctuation only to this sentence. Keep every word, spelling, capitalization, and word order exactly as supplied. Return only the edited sentence.",
+    "source": "if the parcel arrives today leave it by the stairs otherwise ask the driver to return tomorrow",
+    "proposed_required_content": [
+      "Preserve every word, spelling, capitalization, and word order",
+      "Only add punctuation",
+      "Return the edited sentence without introductory or explanatory text",
+      "Use punctuation to distinguish the conditional instruction from the otherwise alternative"
+    ],
+    "draft": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow."
+  },
+  {
+    "sample_id": "sample-064",
+    "request": "Write a detailed explanation in 140\u2013180 words for a beginner about why bread dough rises and how temperature changes the process. Explain the roles of yeast and gluten, contrast a cool rise with a warm rise, and describe why proofing too long can be a problem.",
+    "source": "In yeast bread, yeast consumes sugars and produces carbon dioxide. A developed gluten network helps trap the gas, expanding the dough. Within normal dough-proofing temperatures, warmer conditions generally speed yeast activity and cooler conditions slow it. A cool rise therefore takes longer and can allow more flavor development. Excessively hot conditions can damage or kill yeast. If dough proofs too long, its structure can weaken and it may lose gas and collapse. Exact timing depends on the recipe and conditions, so dough expansion and texture matter more than a fixed clock time.",
+    "proposed_required_content": [
+      "Use 140\u2013180 words with a beginner-friendly explanation",
+      "Explain yeast producing carbon dioxide from sugars",
+      "Explain gluten trapping gas so dough expands",
+      "Contrast faster yeast activity in ordinary warm conditions with a slower cool rise that can develop flavor",
+      "Distinguish ordinary warmth from excessive heat that can damage yeast",
+      "Explain structural weakening and gas loss or collapse from excessive proofing",
+      "Do not present a universal proofing time independent of recipe and conditions"
+    ],
+    "draft": "Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, making it rise. Yeast produces the gas, while gluten provides the structure that holds it in.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. A cool rise slows yeast activity and takes longer, but that extra time can allow more flavor to develop. More heat is not always better: excessively hot conditions can damage or kill the yeast.\n\nLeaving dough to proof too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time."
+  },
+  {
+    "sample_id": "sample-065",
+    "request": "Reply to an audience member asking, 'How long is the interval in tonight's play?'",
+    "source": "Tonight's play has one twenty-minute interval. The full performance, including the interval, lasts two hours and ten minutes. The foyer bar remains open during the interval, and drinks in approved cups may be taken into the auditorium. The theatre began offering reusable cups this season. Programs are sold before the performance and during the interval.",
+    "proposed_required_content": [
+      "The interval lasts twenty minutes"
+    ],
+    "draft": "Tonight\u2019s play has one 20-minute interval."
+  },
+  {
+    "sample_id": "sample-066",
+    "request": "Write a warm personal reply to a friend who says, 'I didn't get the role in the community musical. I know it's a small thing, but I'm really disappointed.' Make them feel heard without trying to solve the disappointment. You'd like to offer a walk together if they want company.",
+    "source": "Your friend spent several weeks rehearsing for the audition and was excited about this particular production. You do not know why the casting decision was made. The two of you often walk in the park together. Your friend also recently mentioned a new coffee shop nearby, but has not asked to make plans there.",
+    "proposed_required_content": [
+      "Acknowledge the friend's disappointment with personal warmth rather than minimizing it",
+      "Recognize the effort or importance of the audition",
+      "Do not invent reasons for the casting result or offer unsolicited fixes",
+      "Offer a walk together without assuming they want company"
+    ],
+    "draft": "I\u2019m sorry. You spent weeks rehearsing, and I know you were excited about this production. It makes sense that you\u2019re disappointed\u2014you don\u2019t have to call it a small thing. If you want some company, I\u2019d love to take a walk in the park with you."
+  },
+  {
+    "sample_id": "sample-067",
+    "request": "Write a warm personal reply to a friend who says, 'I didn't get the role in the community musical. I know it's a small thing, but I'm really disappointed.' Make them feel heard without trying to solve the disappointment. You'd like to offer a walk together if they want company.",
+    "source": "Your friend spent several weeks rehearsing for the audition and was excited about this particular production. You do not know why the casting decision was made. The two of you often walk in the park together. Your friend also recently mentioned a new coffee shop nearby, but has not asked to make plans there.",
+    "proposed_required_content": [
+      "Acknowledge the friend's disappointment with personal warmth rather than minimizing it",
+      "Recognize the effort or importance of the audition",
+      "Do not invent reasons for the casting result or offer unsolicited fixes",
+      "Offer a walk together without assuming they want company"
+    ],
+    "draft": "I\u2019m so sorry. You spent weeks preparing, and I know how excited you were about this production. You don\u2019t have to call it a small thing\u2014it mattered to you. If you\u2019d like some company, I\u2019d love to walk in the park with you. We can talk about it, or just walk."
+  },
+  {
+    "sample_id": "sample-068",
+    "request": "Write a warm personal reply to a friend who says, 'I didn't get the role in the community musical. I know it's a small thing, but I'm really disappointed.' Make them feel heard without trying to solve the disappointment. You'd like to offer a walk together if they want company.",
+    "source": "Your friend spent several weeks rehearsing for the audition and was excited about this particular production. You do not know why the casting decision was made. The two of you often walk in the park together. Your friend also recently mentioned a new coffee shop nearby, but has not asked to make plans there.",
+    "proposed_required_content": [
+      "Acknowledge the friend's disappointment with personal warmth rather than minimizing it",
+      "Recognize the effort or importance of the audition",
+      "Do not invent reasons for the casting result or offer unsolicited fixes",
+      "Offer a walk together without assuming they want company"
+    ],
+    "draft": "Oh, I\u2019m sorry. You spent weeks preparing, and I know how excited you were about this production. You don\u2019t have to call it a small thing\u2014it mattered to you, and it makes sense that you\u2019re disappointed. If you\u2019d like company, I\u2019d love to take a walk in the park with you."
+  },
+  {
+    "sample_id": "sample-069",
+    "request": "Answer a user asking, 'How do I mute notifications for just one group in the chat app?'",
+    "source": "To mute a single group, open that group, select its name at the top, choose Notifications, and turn on Mute group. This leaves other groups' notifications unchanged. The general notification settings also support quiet hours across the entire app. Administrators can rename groups, appoint moderators, and choose who may invite new members. Muted groups continue to display unread counts in the sidebar.",
+    "proposed_required_content": [
+      "Explain the sequence: open the group, select its name, choose Notifications, and turn on Mute group",
+      "The action applies only to that group; do not substitute the app-wide quiet-hours procedure"
+    ],
+    "draft": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged."
+  },
+  {
+    "sample_id": "sample-070",
+    "request": "Add punctuation only to this sentence. Keep every word, spelling, capitalization, and word order exactly as supplied. Return only the edited sentence.",
+    "source": "if the parcel arrives today leave it by the stairs otherwise ask the driver to return tomorrow",
+    "proposed_required_content": [
+      "Preserve every word, spelling, capitalization, and word order",
+      "Only add punctuation",
+      "Return the edited sentence without introductory or explanatory text",
+      "Use punctuation to distinguish the conditional instruction from the otherwise alternative"
+    ],
+    "draft": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow."
+  },
+  {
+    "sample_id": "sample-071",
+    "request": "Reply to an audience member asking, 'How long is the interval in tonight's play?'",
+    "source": "Tonight's play has one twenty-minute interval. The full performance, including the interval, lasts two hours and ten minutes. The foyer bar remains open during the interval, and drinks in approved cups may be taken into the auditorium. The theatre began offering reusable cups this season. Programs are sold before the performance and during the interval.",
+    "proposed_required_content": [
+      "The interval lasts twenty minutes"
+    ],
+    "draft": "The interval is 20 minutes."
+  },
+  {
+    "sample_id": "sample-072",
+    "request": "Write a warm personal reply to a friend who says, 'I didn't get the role in the community musical. I know it's a small thing, but I'm really disappointed.' Make them feel heard without trying to solve the disappointment. You'd like to offer a walk together if they want company.",
+    "source": "Your friend spent several weeks rehearsing for the audition and was excited about this particular production. You do not know why the casting decision was made. The two of you often walk in the park together. Your friend also recently mentioned a new coffee shop nearby, but has not asked to make plans there.",
+    "proposed_required_content": [
+      "Acknowledge the friend's disappointment with personal warmth rather than minimizing it",
+      "Recognize the effort or importance of the audition",
+      "Do not invent reasons for the casting result or offer unsolicited fixes",
+      "Offer a walk together without assuming they want company"
+    ],
+    "draft": "I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to call it a small thing. If you\u2019d like some company, I\u2019d love to take a walk in the park with you. We can talk about it, or just walk."
+  }
+]

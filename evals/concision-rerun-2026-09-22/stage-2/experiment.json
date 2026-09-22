@@ -1,0 +1,1442 @@
+{
+  "primary_category": "generate",
+  "repetitions": 2,
+  "cases": [
+    {
+      "id": "s01",
+      "category": "generate",
+      "request": "Answer a guest who asks, 'Are dogs allowed on the campground's lakeside trail?'",
+      "source": "Dogs are allowed on the lakeside trail but must remain on a leash no longer than six feet. The trail is a two-mile loop that was resurfaced last spring. The campground office sells trail maps and firewood. Dogs are not allowed on the swimming beach, which has a separate entrance on the other side of the site. The guest has asked only about walking the lakeside trail.",
+      "must_preserve": [
+        "Dogs are allowed on the lakeside trail only while on a leash no longer than six feet"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s02",
+      "category": "generate",
+      "request": "Reply to a passenger asking, 'Can I take my folding bike on the 8 a.m. train?'",
+      "source": "On this rail service, the morning peak runs from 7 to 9 a.m. Full-size bicycles are prohibited during the peak. Folding bikes are permitted at any time if fully folded and stored without blocking the aisle. The operator introduced the full-size-bike restriction two years ago. Cycle racks are available at most stations, and a separate weekend cycling pass includes discounted bicycle hire at selected destinations.",
+      "must_preserve": [
+        "A folding bike is permitted on the 8 a.m. train if fully folded and stored without blocking the aisle"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s03",
+      "category": "generate",
+      "request": "Answer a resident who asks, 'Do the laundry machines take coins?'",
+      "source": "The building's laundry machines accept coins and contactless bank cards. The machines were replaced in June after residents reported frequent faults with the previous equipment. Washing costs $3 per load, and drying is charged in fifteen-minute increments. Residents can report a broken machine using the form beside the laundry room door. Detergent is not provided.",
+      "must_preserve": [
+        "The laundry machines accept coins"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s04",
+      "category": "generate",
+      "request": "Reply to an audience member asking, 'How long is the interval in tonight's play?'",
+      "source": "Tonight's play has one twenty-minute interval. The full performance, including the interval, lasts two hours and ten minutes. The foyer bar remains open during the interval, and drinks in approved cups may be taken into the auditorium. The theatre began offering reusable cups this season. Programs are sold before the performance and during the interval.",
+      "must_preserve": [
+        "The interval lasts twenty minutes"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s05",
+      "category": "generate",
+      "request": "Answer a visitor asking, 'Where are the coat lockers in the museum?'",
+      "source": "The coat lockers are on the ground floor, immediately to the left of the main entrance. They use a refundable $1 coin deposit. The museum moved the lockers from the basement during its winter renovation. Large suitcases cannot be stored in them, and the information desk maintains a list of nearby luggage-storage businesses. The museum shop is beside the exit.",
+      "must_preserve": [
+        "The coat lockers are on the ground floor immediately to the left of the main entrance"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s06",
+      "category": "generate",
+      "request": "Answer a player asking, 'Will my puzzle progress carry over if I switch from my phone to my tablet?'",
+      "source": "Puzzle progress syncs between devices only when both devices are signed into the same game account and connected to the internet. Guest-mode progress remains on the device where it was created. The latest release added three puzzle packs and a color-blind mode. Players may change their display name once every thirty days. The game also offers a family subscription with separate profiles for each player.",
+      "must_preserve": [
+        "Progress carries over only when both devices use the same game account and have internet connectivity",
+        "Guest-mode progress does not sync across devices"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s07",
+      "category": "generate",
+      "request": "Reply to a hostel guest asking, 'Which floor is breakfast on?'",
+      "source": "Breakfast is served in the dining room on the second floor. It runs from 7 to 10 a.m. on weekdays and starts an hour later on weekends. The hostel buys bread from a bakery on the next street and introduced a hot breakfast option this year. Guests can request a takeaway breakfast the evening before an early departure. The ground-floor cafe is operated separately and is not the breakfast venue.",
+      "must_preserve": [
+        "Breakfast is in the dining room on the second floor"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s08",
+      "category": "generate",
+      "request": "Answer a user asking, 'How do I mute notifications for just one group in the chat app?'",
+      "source": "To mute a single group, open that group, select its name at the top, choose Notifications, and turn on Mute group. This leaves other groups' notifications unchanged. The general notification settings also support quiet hours across the entire app. Administrators can rename groups, appoint moderators, and choose who may invite new members. Muted groups continue to display unread counts in the sidebar.",
+      "must_preserve": [
+        "Explain the sequence: open the group, select its name, choose Notifications, and turn on Mute group",
+        "The action applies only to that group; do not substitute the app-wide quiet-hours procedure"
+      ],
+      "exact_spans": [
+        "Notifications",
+        "Mute group"
+      ],
+      "word_range": null
+    },
+    {
+      "id": "s09",
+      "category": "control",
+      "request": "Write a detailed explanation in 140\u2013180 words for a beginner about why bread dough rises and how temperature changes the process. Explain the roles of yeast and gluten, contrast a cool rise with a warm rise, and describe why proofing too long can be a problem.",
+      "source": "In yeast bread, yeast consumes sugars and produces carbon dioxide. A developed gluten network helps trap the gas, expanding the dough. Within normal dough-proofing temperatures, warmer conditions generally speed yeast activity and cooler conditions slow it. A cool rise therefore takes longer and can allow more flavor development. Excessively hot conditions can damage or kill yeast. If dough proofs too long, its structure can weaken and it may lose gas and collapse. Exact timing depends on the recipe and conditions, so dough expansion and texture matter more than a fixed clock time.",
+      "must_preserve": [
+        "Use 140\u2013180 words with a beginner-friendly explanation",
+        "Explain yeast producing carbon dioxide from sugars",
+        "Explain gluten trapping gas so dough expands",
+        "Contrast faster yeast activity in ordinary warm conditions with a slower cool rise that can develop flavor",
+        "Distinguish ordinary warmth from excessive heat that can damage yeast",
+        "Explain structural weakening and gas loss or collapse from excessive proofing",
+        "Do not present a universal proofing time independent of recipe and conditions"
+      ],
+      "exact_spans": [],
+      "word_range": [
+        140,
+        180
+      ]
+    },
+    {
+      "id": "s10",
+      "category": "control",
+      "request": "Answer all three questions from a new member of the community pottery studio: 'When can I use the wheel room, do I need to reserve a wheel, and what do I do with wet pieces when I leave?'",
+      "source": "Members may use the wheel room Tuesday through Sunday from 1 to 8 p.m. The studio is closed Monday. Wheel reservations are required and can be made in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date. The studio holds a members' exhibition each November, and the front desk sells aprons and basic tools.",
+      "must_preserve": [
+        "Wheel-room access is Tuesday through Sunday, 1\u20138 p.m.; do not imply Monday access",
+        "Reserve a wheel through the member portal, with a two-hour maximum per booking",
+        "Put wet pieces on the Work in Progress shelf and label them with your name and date"
+      ],
+      "exact_spans": [
+        "Work in Progress"
+      ],
+      "word_range": null
+    },
+    {
+      "id": "s11",
+      "category": "control",
+      "request": "Write a warm personal reply to a friend who says, 'I didn't get the role in the community musical. I know it's a small thing, but I'm really disappointed.' Make them feel heard without trying to solve the disappointment. You'd like to offer a walk together if they want company.",
+      "source": "Your friend spent several weeks rehearsing for the audition and was excited about this particular production. You do not know why the casting decision was made. The two of you often walk in the park together. Your friend also recently mentioned a new coffee shop nearby, but has not asked to make plans there.",
+      "must_preserve": [
+        "Acknowledge the friend's disappointment with personal warmth rather than minimizing it",
+        "Recognize the effort or importance of the audition",
+        "Do not invent reasons for the casting result or offer unsolicited fixes",
+        "Offer a walk together without assuming they want company"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    {
+      "id": "s12",
+      "category": "control",
+      "request": "Add punctuation only to this sentence. Keep every word, spelling, capitalization, and word order exactly as supplied. Return only the edited sentence.",
+      "source": "if the parcel arrives today leave it by the stairs otherwise ask the driver to return tomorrow",
+      "must_preserve": [
+        "Preserve every word, spelling, capitalization, and word order",
+        "Only add punctuation",
+        "Return the edited sentence without introductory or explanatory text",
+        "Use punctuation to distinguish the conditional instruction from the otherwise alternative"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    }
+  ],
+  "outputs": [
+    {
+      "id": "s10",
+      "arm": "none",
+      "repetition": 2,
+      "text": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\n\nReserve a wheel in the member portal before you use it. Each booking is limited to two hours.\n\nBefore leaving, put your wet pieces on the shelf marked Work in Progress and label them with your name and the date.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-001",
+        "evidence": "Answers all three questions with Tue\u2013Sun 1\u20138 p.m. access, reservation and two-hour limit, and Work in Progress name/date labeling. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\\n\\nReserve a wheel in the member portal before you use it. Each booking is limited to two hours.\\n\\nBefore leaving, put your wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-001",
+        "evidence": "\u201cTuesday through Sunday\u201d; \u201cmember portal\u201d; \u201cyour name and the date\u201d. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s08",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-002",
+        "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-002",
+        "evidence": "\u201cOpen the group\u201d; \u201cturn on Mute group\u201d; \u201cOther groups\u201d. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s02",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-003",
+        "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-003",
+        "evidence": "\u201cfully folded\u201d; \u201cwithout blocking the aisle\u201d. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s12",
+      "arm": "old",
+      "repetition": 2,
+      "text": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-004",
+        "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-004",
+        "evidence": "\u201cif the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\u201d. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s10",
+      "arm": "old",
+      "repetition": 1,
+      "text": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed on Mondays. Reserve a wheel through the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-005",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed on Mondays. Reserve a wheel through the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+        "label": "Fail"
+      },
+      "human_intent": {
+        "sample_id": "sample-005",
+        "evidence": "\u201cTuesday through Sunday\u201d; \u201cmember portal\u201d; \u201cyour name and the date\u201d. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s03",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Yes, the laundry machines take coins.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-006",
+        "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines take coins.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-006",
+        "evidence": "\u201ccoins\u201d. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s04",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Tonight\u2019s play has one 20-minute interval.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-007",
+        "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"Tonight\u2019s play has one 20-minute interval.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-007",
+        "evidence": "\u201c20-minute interval\u201d. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s05",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-008",
+        "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-008",
+        "evidence": "\u201cground floor\u201d; \u201cimmediately to the left of the main entrance\u201d. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s02",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Yes, you can take your folding bike on the 8 a.m. train if it\u2019s fully folded and stored without blocking the aisle.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-009",
+        "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train if it\u2019s fully folded and stored without blocking the aisle.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-009",
+        "evidence": "\u201cfully folded\u201d; \u201cwithout blocking the aisle\u201d. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s09",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network traps that gas inside the dough. As the gas builds up, it expands the dough, making it rise. Yeast supplies the gas, while gluten provides the structure that holds it.\n\nTemperature changes how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. A cool rise slows the yeast down and takes longer, but that extra time can allow more flavor to develop. Hotter is not always better: excessive heat can damage or kill the yeast.\n\nProofing too long can also cause trouble. The dough\u2019s structure can weaken until it can no longer hold the gas well. Gas then escapes, and the dough may collapse. Because timing depends on the recipe and conditions, watch the dough\u2019s expansion and texture rather than relying only on a fixed number of minutes.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-010",
+        "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network traps that gas inside the dough. As the gas builds up, it expands the dough, making it rise. Yeast supplies the gas, while gluten provides the structure that holds it.\\n\\nTemperature changes how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. A cool rise slows the yeast down and takes longer, but that extra time can allow more flavor to develop. Hotter is not always better: excessive heat can damage or kill the yeast.\\n\\nProofing too long can also cause trouble. The dough\u2019s structure can weaken until it can no longer hold the gas well. Gas then escapes, and the dough may collapse. Because timing depends on the recipe and conditions, watch the dough\u2019s expansion and texture rather than relying only on a fixed number of minutes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-010",
+        "evidence": "\u201ccarbon dioxide gas\u201d; \u201cgluten network\u201d; \u201cflavor\u201d; \u201ccollapse\u201d. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 152 whitespace-delimited words meet the requested 140\u2013180-word range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s01",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-011",
+        "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-011",
+        "evidence": "\u201clakeside trail\u201d; \u201cleash no longer than six feet\u201d. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s03",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Yes, the laundry machines accept coins. They also take contactless bank cards.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-012",
+        "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins. They also take contactless bank cards.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-012",
+        "evidence": "\u201ccoins\u201d. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s09",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Bread dough rises because yeast consumes sugars in the dough and produces carbon dioxide gas. The dough\u2019s developed gluten network traps that gas. As gas collects inside it, the dough expands. Yeast produces the gas, while gluten provides the structure that holds it in.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Warmer is not always better: excessive heat can damage or kill the yeast.\n\nProofing is the time you give dough to rise, and leaving it longer does not always improve it. If dough proofs too long, its structure can weaken until it loses gas and may collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-013",
+        "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars in the dough and produces carbon dioxide gas. The dough\u2019s developed gluten network traps that gas. As gas collects inside it, the dough expands. Yeast produces the gas, while gluten provides the structure that holds it in.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Warmer is not always better: excessive heat can damage or kill the yeast.\\n\\nProofing is the time you give dough to rise, and leaving it longer does not always improve it. If dough proofs too long, its structure can weaken until it loses gas and may collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-013",
+        "evidence": "\u201ccarbon dioxide gas\u201d; \u201cgluten network\u201d; \u201cflavor\u201d; \u201ccollapse\u201d. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 152 whitespace-delimited words meet the requested 140\u2013180-word range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s01",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-014",
+        "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-014",
+        "evidence": "\u201clakeside trail\u201d; \u201cleash no longer than six feet\u201d. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s01",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Yes, dogs are allowed on the lakeside trail, provided they stay on a leash no longer than six feet.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-015",
+        "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, provided they stay on a leash no longer than six feet.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-015",
+        "evidence": "\u201clakeside trail\u201d; \u201cleash no longer than six feet\u201d. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s07",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Breakfast is in the dining room on the second floor.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-016",
+        "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-016",
+        "evidence": "\u201cdining room on the second floor\u201d. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s05",
+      "arm": "old",
+      "repetition": 2,
+      "text": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-017",
+        "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-017",
+        "evidence": "\u201cground floor\u201d; \u201cimmediately to the left of the main entrance\u201d. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s05",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-018",
+        "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-018",
+        "evidence": "\u201cground floor\u201d; \u201cimmediately to the left of the main entrance\u201d. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s01",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Yes, dogs are welcome on the lakeside trail. They must stay on a leash no longer than six feet.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-019",
+        "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are welcome on the lakeside trail. They must stay on a leash no longer than six feet.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-019",
+        "evidence": "\u201clakeside trail\u201d; \u201cleash no longer than six feet\u201d. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s02",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-020",
+        "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-020",
+        "evidence": "\u201cfully folded\u201d; \u201cwithout blocking the aisle\u201d. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s06",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you made it.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-021",
+        "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you made it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-021",
+        "evidence": "\u201csame game account\u201d; \u201cconnected to the internet\u201d; \u201cGuest-mode progress stays\u201d. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s07",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Breakfast is in the dining room on the second floor.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-022",
+        "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-022",
+        "evidence": "\u201cdining room on the second floor\u201d. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s01",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-023",
+        "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-023",
+        "evidence": "\u201clakeside trail\u201d; \u201cleash no longer than six feet\u201d. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s06",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-024",
+        "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-024",
+        "evidence": "\u201csame game account\u201d; \u201cconnected to the internet\u201d; \u201cGuest-mode progress stays\u201d. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s09",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. As that gas collects inside the dough, it makes the dough expand. Gluten provides the structure that helps hold the gas in: a developed gluten network traps it so the dough can grow instead of simply letting it escape.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally speeds up yeast activity, so a warm dough rises faster. In cooler conditions, yeast works more slowly and the rise takes longer. That extra time can allow more flavor to develop. Excessive heat, however, can damage or kill the yeast.\n\nLeaving dough to proof for too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well, allowing the dough to lose volume or collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed proofing time.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-025",
+        "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. As that gas collects inside the dough, it makes the dough expand. Gluten provides the structure that helps hold the gas in: a developed gluten network traps it so the dough can grow instead of simply letting it escape.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally speeds up yeast activity, so a warm dough rises faster. In cooler conditions, yeast works more slowly and the rise takes longer. That extra time can allow more flavor to develop. Excessive heat, however, can damage or kill the yeast.\\n\\nLeaving dough to proof for too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well, allowing the dough to lose volume or collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed proofing time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-025",
+        "evidence": "\u201ccarbon dioxide gas\u201d; \u201cgluten network\u201d; \u201cflavor\u201d; \u201ccollapse\u201d. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 155 whitespace-delimited words meet the requested 140\u2013180-word range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s06",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-026",
+        "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-026",
+        "evidence": "\u201csame game account\u201d; \u201cconnected to the internet\u201d; \u201cGuest-mode progress stays\u201d. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s05",
+      "arm": "none",
+      "repetition": 1,
+      "text": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-027",
+        "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-027",
+        "evidence": "\u201cground floor\u201d; \u201cimmediately to the left of the main entrance\u201d. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s04",
+      "arm": "none",
+      "repetition": 1,
+      "text": "The interval is 20 minutes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-028",
+        "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"The interval is 20 minutes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-028",
+        "evidence": "\u201c20 minutes\u201d. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s10",
+      "arm": "old",
+      "repetition": 2,
+      "text": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\n\nReserve a wheel through the member portal before you come; each booking is limited to two hours.\n\nBefore leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-029",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\\n\\nReserve a wheel through the member portal before you come; each booking is limited to two hours.\\n\\nBefore leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.\"",
+        "label": "Fail"
+      },
+      "human_intent": {
+        "sample_id": "sample-029",
+        "evidence": "\u201cTuesday through Sunday\u201d; \u201cmember portal\u201d; \u201cyour name and the date\u201d. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s03",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Yes, the laundry machines take coins. They also accept contactless bank cards.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-030",
+        "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines take coins. They also accept contactless bank cards.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-030",
+        "evidence": "\u201ccoins\u201d. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s05",
+      "arm": "none",
+      "repetition": 2,
+      "text": "The coat lockers are on the ground floor, immediately to the left of the main entrance.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-031",
+        "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-031",
+        "evidence": "\u201cground floor\u201d; \u201cimmediately to the left of the main entrance\u201d. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s07",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Breakfast is in the dining room on the second floor.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-032",
+        "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-032",
+        "evidence": "\u201cdining room on the second floor\u201d. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s02",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Yes, you can take your folding bike on the 8 a.m. train if it\u2019s fully folded and stored without blocking the aisle.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-033",
+        "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train if it\u2019s fully folded and stored without blocking the aisle.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-033",
+        "evidence": "\u201cfully folded\u201d; \u201cwithout blocking the aisle\u201d. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s12",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-034",
+        "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-034",
+        "evidence": "\u201cif the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\u201d. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s07",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Breakfast is in the dining room on the second floor.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-035",
+        "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-035",
+        "evidence": "\u201cdining room on the second floor\u201d. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s08",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-036",
+        "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-036",
+        "evidence": "\u201cOpen the group\u201d; \u201cturn on Mute group\u201d; \u201cOther groups\u201d. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s03",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Yes, the laundry machines accept coins. They also take contactless bank cards.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-037",
+        "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins. They also take contactless bank cards.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-037",
+        "evidence": "\u201ccoins\u201d. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s10",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "You can use the wheel room Tuesday through Sunday, 1\u20138 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014bookings are limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-038",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, 1\u20138 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014bookings are limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+        "label": "Fail"
+      },
+      "human_intent": {
+        "sample_id": "sample-038",
+        "evidence": "\u201cTuesday through Sunday\u201d; \u201cmember portal\u201d; \u201cyour name and the date\u201d. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s08",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Open the group, tap its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-039",
+        "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, tap its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-039",
+        "evidence": "\u201cOpen the group\u201d; \u201cturn on Mute group\u201d; \u201cOther groups\u201d. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s06",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Yes\u2014if your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-040",
+        "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes\u2014if your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-040",
+        "evidence": "\u201csame game account\u201d; \u201cconnected to the internet\u201d; \u201cGuest-mode progress stays\u201d. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s08",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-041",
+        "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-041",
+        "evidence": "\u201cOpen the group\u201d; \u201cturn on Mute group\u201d; \u201cOther groups\u201d. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s11",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to call it a small thing. If you want company, I\u2019d love to take a walk in the park with you.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-042",
+        "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to call it a small thing. If you want company, I\u2019d love to take a walk in the park with you.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-042",
+        "evidence": "\u201cweeks\u201d; \u201csmall thing\u201d; \u201cwalk in the park with you\u201d. The reply acknowledges the friend\u2019s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s11",
+      "arm": "old",
+      "repetition": 2,
+      "text": "I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to brush it off as a small thing. If you\u2019d like company, I\u2019d love to take a walk in the park with you.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-043",
+        "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to brush it off as a small thing. If you\u2019d like company, I\u2019d love to take a walk in the park with you.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-043",
+        "evidence": "\u201cweeks\u201d; \u201csmall thing\u201d; \u201cwalk in the park with you\u201d. The reply acknowledges the friend\u2019s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s07",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Breakfast is in the dining room on the second floor.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-044",
+        "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-044",
+        "evidence": "\u201cdining room on the second floor\u201d. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s07",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Breakfast is in the dining room on the second floor.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-045",
+        "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-045",
+        "evidence": "\u201cdining room on the second floor\u201d. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s02",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Yes, as long as your folding bike is fully folded and stored without blocking the aisle.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-046",
+        "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, as long as your folding bike is fully folded and stored without blocking the aisle.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-046",
+        "evidence": "\u201cfully folded\u201d; \u201cwithout blocking the aisle\u201d. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s04",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "The interval is twenty minutes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-047",
+        "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"The interval is twenty minutes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-047",
+        "evidence": "\u201ctwenty minutes\u201d. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s09",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As gas builds up, it stretches the network and expands the dough. Yeast supplies the gas, while gluten helps the dough hold onto it.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Too much heat can damage or kill the yeast, so hotter conditions won\u2019t always give you a better rise.\n\nLeaving dough to proof too long can also cause problems. Its structure may weaken until it can no longer hold the gas, and the dough may collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed rising time.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-048",
+        "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As gas builds up, it stretches the network and expands the dough. Yeast supplies the gas, while gluten helps the dough hold onto it.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Too much heat can damage or kill the yeast, so hotter conditions won\u2019t always give you a better rise.\\n\\nLeaving dough to proof too long can also cause problems. Its structure may weaken until it can no longer hold the gas, and the dough may collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed rising time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-048",
+        "evidence": "\u201ccarbon dioxide gas\u201d; \u201cgluten network\u201d; \u201cflavor\u201d; \u201ccollapse\u201d. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 154 whitespace-delimited words meet the requested 140\u2013180-word range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s10",
+      "arm": "none",
+      "repetition": 1,
+      "text": "You can use the wheel room Tuesday through Sunday, 1\u20138 p.m. The studio is closed on Mondays. Reserve a wheel in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-049",
+        "evidence": "Answers all three questions with Tue\u2013Sun 1\u20138 p.m. access, reservation and two-hour limit, and Work in Progress name/date labeling. Draft evidence: \"You can use the wheel room Tuesday through Sunday, 1\u20138 p.m. The studio is closed on Mondays. Reserve a wheel in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-049",
+        "evidence": "\u201cTuesday through Sunday\u201d; \u201cmember portal\u201d; \u201cyour name and the date\u201d. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s08",
+      "arm": "old",
+      "repetition": 1,
+      "text": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged. You\u2019ll still see unread counts for the muted group in the sidebar.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-050",
+        "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged. You\u2019ll still see unread counts for the muted group in the sidebar.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-050",
+        "evidence": "\u201cOpen the group\u201d; \u201cturn on Mute group\u201d; \u201cOther groups\u201d. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s04",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Tonight\u2019s play has one 20-minute interval.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-051",
+        "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"Tonight\u2019s play has one 20-minute interval.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-051",
+        "evidence": "\u201c20-minute interval\u201d. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s01",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-052",
+        "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-052",
+        "evidence": "\u201clakeside trail\u201d; \u201cleash no longer than six feet\u201d. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s05",
+      "arm": "old",
+      "repetition": 1,
+      "text": "The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-053",
+        "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You\u2019ll need a $1 coin for the refundable deposit.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-053",
+        "evidence": "\u201cground floor\u201d; \u201cimmediately to the left of the main entrance\u201d. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s09",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, helping it grow in volume.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. A warmer rise can be useful when you want the dough ready sooner, though hotter is not always better: excessive heat can damage or kill the yeast.\n\nLeaving dough to proof for too long can also cause problems. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-054",
+        "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, helping it grow in volume.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. A warmer rise can be useful when you want the dough ready sooner, though hotter is not always better: excessive heat can damage or kill the yeast.\\n\\nLeaving dough to proof for too long can also cause problems. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-054",
+        "evidence": "\u201ccarbon dioxide gas\u201d; \u201cgluten network\u201d; \u201cflavor\u201d; \u201ccollapse\u201d. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 156 whitespace-delimited words meet the requested 140\u2013180-word range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s03",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Yes, the laundry machines accept coins as well as contactless bank cards.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-055",
+        "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins as well as contactless bank cards.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-055",
+        "evidence": "\u201ccoins\u201d. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s10",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.",
+      "checks": {
+        "exact_span_0": true
+      },
+      "meaning": {
+        "sample_id": "sample-056",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.\"",
+        "label": "Fail"
+      },
+      "human_intent": {
+        "sample_id": "sample-056",
+        "evidence": "\u201cTuesday through Sunday\u201d; \u201cmember portal\u201d; \u201cyour name and the date\u201d. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s12",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-057",
+        "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-057",
+        "evidence": "\u201cif the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\u201d. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s03",
+      "arm": "candidate",
+      "repetition": 2,
+      "text": "Yes, the laundry machines accept coins as well as contactless bank cards.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-058",
+        "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins as well as contactless bank cards.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-058",
+        "evidence": "\u201ccoins\u201d. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s02",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-059",
+        "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train as long as it\u2019s fully folded and stored without blocking the aisle.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-059",
+        "evidence": "\u201cfully folded\u201d; \u201cwithout blocking the aisle\u201d. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s06",
+      "arm": "none",
+      "repetition": 1,
+      "text": "Yes, if your phone and tablet are both signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-060",
+        "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, if your phone and tablet are both signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-060",
+        "evidence": "\u201csame game account\u201d; \u201cconnected to the internet\u201d; \u201cGuest-mode progress stays\u201d. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s12",
+      "arm": "none",
+      "repetition": 2,
+      "text": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-061",
+        "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-061",
+        "evidence": "\u201cif the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\u201d. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s06",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-062",
+        "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-062",
+        "evidence": "\u201csame game account\u201d; \u201cconnected to the internet\u201d; \u201cGuest-mode progress stays\u201d. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s12",
+      "arm": "old",
+      "repetition": 1,
+      "text": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-063",
+        "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-063",
+        "evidence": "\u201cif the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\u201d. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s09",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, making it rise. Yeast produces the gas, while gluten provides the structure that holds it in.\n\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. A cool rise slows yeast activity and takes longer, but that extra time can allow more flavor to develop. More heat is not always better: excessively hot conditions can damage or kill the yeast.\n\nLeaving dough to proof too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time.",
+      "checks": {
+        "word_range": true
+      },
+      "meaning": {
+        "sample_id": "sample-064",
+        "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, making it rise. Yeast produces the gas, while gluten provides the structure that holds it in.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. A cool rise slows yeast activity and takes longer, but that extra time can allow more flavor to develop. More heat is not always better: excessively hot conditions can damage or kill the yeast.\\n\\nLeaving dough to proof too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough\u2019s expansion and texture rather than relying only on a fixed time.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-064",
+        "evidence": "\u201ccarbon dioxide gas\u201d; \u201cgluten network\u201d; \u201cflavor\u201d; \u201ccollapse\u201d. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 151 whitespace-delimited words meet the requested 140\u2013180-word range.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s04",
+      "arm": "old",
+      "repetition": 2,
+      "text": "Tonight\u2019s play has one 20-minute interval.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-065",
+        "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"Tonight\u2019s play has one 20-minute interval.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-065",
+        "evidence": "\u201c20-minute interval\u201d. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s11",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "I\u2019m sorry. You spent weeks rehearsing, and I know you were excited about this production. It makes sense that you\u2019re disappointed\u2014you don\u2019t have to call it a small thing. If you want some company, I\u2019d love to take a walk in the park with you.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-066",
+        "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I\u2019m sorry. You spent weeks rehearsing, and I know you were excited about this production. It makes sense that you\u2019re disappointed\u2014you don\u2019t have to call it a small thing. If you want some company, I\u2019d love to take a walk in the park with you.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-066",
+        "evidence": "\u201cweeks\u201d; \u201csmall thing\u201d; \u201cwalk in the park with you\u201d. The reply acknowledges the friend\u2019s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s11",
+      "arm": "none",
+      "repetition": 1,
+      "text": "I\u2019m so sorry. You spent weeks preparing, and I know how excited you were about this production. You don\u2019t have to call it a small thing\u2014it mattered to you. If you\u2019d like some company, I\u2019d love to walk in the park with you. We can talk about it, or just walk.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-067",
+        "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I\u2019m so sorry. You spent weeks preparing, and I know how excited you were about this production. You don\u2019t have to call it a small thing\u2014it mattered to you. If you\u2019d like some company, I\u2019d love to walk in the park with you. We can talk about it, or just walk.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-067",
+        "evidence": "\u201cweeks\u201d; \u201csmall thing\u201d; \u201cwalk in the park with you\u201d. The reply acknowledges the friend\u2019s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s11",
+      "arm": "none",
+      "repetition": 2,
+      "text": "Oh, I\u2019m sorry. You spent weeks preparing, and I know how excited you were about this production. You don\u2019t have to call it a small thing\u2014it mattered to you, and it makes sense that you\u2019re disappointed. If you\u2019d like company, I\u2019d love to take a walk in the park with you.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-068",
+        "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"Oh, I\u2019m sorry. You spent weeks preparing, and I know how excited you were about this production. You don\u2019t have to call it a small thing\u2014it mattered to you, and it makes sense that you\u2019re disappointed. If you\u2019d like company, I\u2019d love to take a walk in the park with you.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-068",
+        "evidence": "\u201cweeks\u201d; \u201csmall thing\u201d; \u201cwalk in the park with you\u201d. The reply acknowledges the friend\u2019s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s08",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.",
+      "checks": {
+        "exact_span_0": true,
+        "exact_span_1": true
+      },
+      "meaning": {
+        "sample_id": "sample-069",
+        "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups\u2019 notifications will stay unchanged.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-069",
+        "evidence": "\u201cOpen the group\u201d; \u201cturn on Mute group\u201d; \u201cOther groups\u201d. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s12",
+      "arm": "none",
+      "repetition": 1,
+      "text": "if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.",
+      "checks": {
+        "punctuation_only": true
+      },
+      "meaning": {
+        "sample_id": "sample-070",
+        "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-070",
+        "evidence": "\u201cif the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\u201d. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s04",
+      "arm": "candidate",
+      "repetition": 1,
+      "text": "The interval is 20 minutes.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-071",
+        "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"The interval is 20 minutes.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-071",
+        "evidence": "\u201c20 minutes\u201d. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+        "label": "Pass"
+      }
+    },
+    {
+      "id": "s11",
+      "arm": "old",
+      "repetition": 1,
+      "text": "I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to call it a small thing. If you\u2019d like some company, I\u2019d love to take a walk in the park with you. We can talk about it, or just walk.",
+      "checks": {},
+      "meaning": {
+        "sample_id": "sample-072",
+        "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I\u2019m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you\u2019re really disappointed\u2014you don\u2019t have to call it a small thing. If you\u2019d like some company, I\u2019d love to take a walk in the park with you. We can talk about it, or just walk.\"",
+        "label": "Pass"
+      },
+      "human_intent": {
+        "sample_id": "sample-072",
+        "evidence": "\u201cweeks\u201d; \u201csmall thing\u201d; \u201cwalk in the park with you\u201d. The reply acknowledges the friend\u2019s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+        "label": "Pass"
+      }
+    }
+  ]
+}

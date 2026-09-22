@@ -1,0 +1,12 @@
+[
+  {
+    "id": "reservation-regression",
+    "request": "Answer a community member asking whether they should arrive early for the library repair workshop.",
+    "source": "Doors open at 9:45 a.m. and the workshop begins at 10 a.m. Everyone with a reservation has a seat, so arriving before doors open is unnecessary. Participants should bring the broken item and its power cable if it has one. Large appliances are not accepted."
+  },
+  {
+    "id": "publication-regression",
+    "request": "Has the page been published?",
+    "source": "The editor shows Saved. Preview works. Publish has not been clicked in the observed session. No public page or deployment receipt has been verified."
+  }
+]

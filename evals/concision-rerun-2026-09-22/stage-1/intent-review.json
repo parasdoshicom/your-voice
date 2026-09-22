@@ -1,0 +1,542 @@
+[
+  {
+    "sample_id": "sample-001",
+    "evidence": "“From the project root, run:”; “If validation fails, keep the existing catalog”. The setup remains executable and includes the failure procedure.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-002",
+    "evidence": "“only remaining launch blocker”; “accessibility check”. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-003",
+    "evidence": "“From the project root, run:”; “If validation fails, keep the existing catalog”. The setup remains executable and includes the failure procedure.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-004",
+    "evidence": "“Monday and Tuesday”; “weekly unique visitors”. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-005",
+    "evidence": "“Search indexing is still running”; “browse folders”. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-006",
+    "evidence": "“Search indexing is still running”; “browse folders”. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-007",
+    "evidence": "“I let you down”; “let you down”; “if you”. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-008",
+    "evidence": "“9:45 a.m.”; “power cable”. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-009",
+    "evidence": "“Search indexing is still running”; “browse folders”. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-010",
+    "evidence": "“Pacific”; “flag it to Leena that day”. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-011",
+    "evidence": "“no changes to request”; “revised delivery time”. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-012",
+    "evidence": "“only remaining launch blocker”; “accessibility check”. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-013",
+    "evidence": "“8%”; “10%”. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-014",
+    "evidence": "“CSV”; “schedule slack”; “later discovery”. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-015",
+    "evidence": "“shared draft”; “Friday at noon”. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-016",
+    "evidence": "“Monday and Tuesday”; “weekly unique visitors”. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-017",
+    "evidence": "“all four required fields”; “twelve participants”. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-018",
+    "evidence": "“CSV”; “schedule slack”; “later discovery”. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-019",
+    "evidence": "“Search indexing is still running”; “browse folders”. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-020",
+    "evidence": "“Yes”; “double-counts exchanges”. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-021",
+    "evidence": "“Pacific”; “flag it to Leena that day”. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-022",
+    "evidence": "“no changes to request”; “revised delivery time”. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-023",
+    "evidence": "“index at the back of a”; “email”. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 119 whitespace-delimited words, within the requested range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-024",
+    "evidence": "“index at the back of a”; “email”. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 116 whitespace-delimited words, within the requested range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-025",
+    "evidence": "“Session Materials”; “Let me know”. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-026",
+    "evidence": "“Monday and Tuesday”; “weekly unique visitors”. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-027",
+    "evidence": "“all four required fields”; “twelve participants”. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-028",
+    "evidence": "“Pacific”; “flag it to Leena that day”. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-029",
+    "evidence": "“From the project root, run:”; “If validation fails, keep the existing catalog”. The setup remains executable and includes the failure procedure.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-030",
+    "evidence": "“18%”; “randomized assignment”. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-031",
+    "evidence": "“east gate”; “order confirmation”. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-032",
+    "evidence": "“Search indexing is still running”; “browse folders”. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-033",
+    "evidence": "“no changes to request”; “revised delivery time”. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-034",
+    "evidence": "“no changes to request”; “revised delivery time”. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-035",
+    "evidence": "“shared draft”; “Friday at noon”. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-036",
+    "evidence": "“18%”; “randomized assignment”. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-037",
+    "evidence": "“Session Materials”; “Let me know”. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-038",
+    "evidence": "“From the project root, run:”; “If validation fails, keep the existing catalog”. The setup remains executable and includes the failure procedure.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-039",
+    "evidence": "“Before we begin, please open the workbook”; “let me know before you edit.”. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-040",
+    "evidence": "“all four required fields”; “twelve participants”. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-041",
+    "evidence": "“Monday and Tuesday”; “weekly unique visitors”. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-042",
+    "evidence": "“18%”; “randomized assignment”. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-043",
+    "evidence": "“all four required fields”; “twelve participants”. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-044",
+    "evidence": "“From the project root, run:”; “If validation fails, keep the existing catalog”. The setup remains executable and includes the failure procedure.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-045",
+    "evidence": "“Yes”; “double-counts exchanges”. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-046",
+    "evidence": "“CSV”; “schedule slack”; “later discovery”. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-047",
+    "evidence": "“Before we begin, please open the workbook”; “let me know before you edit.”. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-048",
+    "evidence": "“18%”; “randomized assignment”. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-049",
+    "evidence": "“Yes”; “double-counts exchanges”. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-050",
+    "evidence": "“Monday and Tuesday”; “weekly unique visitors”. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-051",
+    "evidence": "“CSV”; “schedule slack”; “later discovery”. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-052",
+    "evidence": "“8%”; “10%”. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-053",
+    "evidence": "“index at the back of a”; “email”. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 127 whitespace-delimited words, within the requested range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-054",
+    "evidence": "“8%”; “10%”. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-055",
+    "evidence": "“Search indexing is still running”; “browse folders”. The audience receives reassurance, a search-completion expectation, and a usable interim action.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-056",
+    "evidence": "“east gate”; “order confirmation”. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-057",
+    "evidence": "“east gate”; “order confirmation”. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-058",
+    "evidence": "“18%”; “randomized assignment”. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-059",
+    "evidence": "“I let you down”; “let you down”; “if you”. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-060",
+    "evidence": "“CSV”; “one day of slack”; “later discovery”. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-061",
+    "evidence": "“shared draft”; “Friday at noon”. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-062",
+    "evidence": "“no changes to request”; “revised delivery time”. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-063",
+    "evidence": "“shared draft”; “Friday at noon”. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-064",
+    "evidence": "“Monday and Tuesday”; “weekly unique visitors”. The daily-versus-weekly distinction is explained with a concrete repeat-visitor example and a usable labeling recommendation.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-065",
+    "evidence": "“Before we begin, please open the workbook”; “let me know before you edit.”. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-066",
+    "evidence": "“let you down”; “if you”. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-067",
+    "evidence": "“index at the back of a”; “email”. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 124 whitespace-delimited words, within the requested range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-068",
+    "evidence": "“only remaining launch blocker”; “accessibility check”. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-069",
+    "evidence": "“only remaining launch blocker”; “accessibility check”. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-070",
+    "evidence": "“8%”; “10%”. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-071",
+    "evidence": "“18%”; “randomized assignment”. The response answers with uncertainty, explains competing changes, and proposes a concrete comparison or test rather than an unsupported yes/no.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-072",
+    "evidence": "“shared draft”; “Friday at noon”. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-073",
+    "evidence": "“Pacific”; “flag it to Leena that day”. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-074",
+    "evidence": "“Before we begin, please open the workbook”; “let me know before you edit.”. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-075",
+    "evidence": "“Session Materials”; “Let me know”. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-076",
+    "evidence": "“Yes”; “double-counts exchanges”. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-077",
+    "evidence": "“9:45 a.m.”; “power cable”. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-078",
+    "evidence": "“only remaining launch blocker”; “accessibility check”. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-079",
+    "evidence": "“all four required fields”; “twelve participants”. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-080",
+    "evidence": "“east gate”; “order confirmation”. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-081",
+    "evidence": "“Pacific”; “flag it to Leena that day”. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-082",
+    "evidence": "“9:45 a.m.”; “power cable”. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-083",
+    "evidence": "“east gate”; “order confirmation”. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-084",
+    "evidence": "“Before we begin, please open the workbook”; “let me know before you edit.”. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-085",
+    "evidence": "“CSV”; “schedule slack”; “later discovery”. The recommendation includes customer fit, the time constraint, and a useful disposition for the alternative.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-086",
+    "evidence": "“9:45 a.m.”; “power cable”. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-087",
+    "evidence": "“8%”; “10%”. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-088",
+    "evidence": "“Yes”; “double-counts exchanges”. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-089",
+    "evidence": "“I let you down”; “let you down”; “if you”. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-090",
+    "evidence": "“Before we begin, please open the workbook”; “let me know before you edit.”. The output is only the punctuated original instruction, preserving its procedural sequence without compressing or rewriting it.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-091",
+    "evidence": "“let you down”; “if you”. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-092",
+    "evidence": "“Session Materials”; “Let me know”. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-093",
+    "evidence": "“From the project root, run:”; “If validation fails, keep the existing catalog”. The setup remains executable and includes the failure procedure.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-094",
+    "evidence": "“only remaining launch blocker”; “accessibility check”. The update gives the team a blocker, an owner and timing, and a conditional launch target in readable sentences.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-095",
+    "evidence": "“Yes”; “double-counts exchanges”. The direct answer explains the usable panels and leaves a clear instruction to exclude returns.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-096",
+    "evidence": "“Pacific”; “flag it to Leena that day”. Each owner receives an action and deadline; the dependency and missing-approval escalation remain actionable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-097",
+    "evidence": "“9:45 a.m.”; “power cable”. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-098",
+    "evidence": "“I let you down”; “let you down”; “if you”. The apology acknowledges the broken promise and responsibility, allows hurt, and makes the next-weekend invitation optional; it remains personal rather than a business status note.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-099",
+    "evidence": "“Session Materials”; “Let me know”. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-100",
+    "evidence": "“index at the back of a”; “email”. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 122 whitespace-delimited words, within the requested range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-101",
+    "evidence": "“east gate”; “order confirmation”. Bulleted location/time/preparation information and alternate-collector instructions make the notice usable and scannable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-102",
+    "evidence": "“Session Materials”; “Let me know”. The reply gives access instructions and troubleshooting while keeping an explicit offer of help.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-103",
+    "evidence": "“no changes to request”; “revised delivery time”. The recipient can distinguish the completed review from the dependency and knows when a full review or revised timing will arrive.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-104",
+    "evidence": "“index at the back of a”; “email”. The explanation retains a familiar analogy, concrete lookup example, and storage/write-maintenance tradeoff in an accessible teaching paragraph. The draft is 118 whitespace-delimited words, within the requested range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-105",
+    "evidence": "“shared draft”; “Friday at noon”. The reply identifies where to comment and when, while explicitly welcoming both kinds of feedback.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-106",
+    "evidence": "“8%”; “10%”. The response teaches the denominator distinction using both page rates and explains the inferential limit rather than merely stating a slogan.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-107",
+    "evidence": "“all four required fields”; “twelve participants”. The recommendation connects pilot scope with engineering cost and retains the evidence-gathering next step.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-108",
+    "evidence": "“9:45 a.m.”; “power cable”. The reply directly resolves early-arrival uncertainty and supplies readable preparation guidance.",
+    "label": "Pass"
+  }
+]

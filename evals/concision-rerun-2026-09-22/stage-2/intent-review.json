@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": "sample-001",
+    "evidence": "“Tuesday through Sunday”; “member portal”; “your name and the date”. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-002",
+    "evidence": "“Open the group”; “turn on Mute group”; “Other groups”. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-003",
+    "evidence": "“fully folded”; “without blocking the aisle”. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-004",
+    "evidence": "“if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.”. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-005",
+    "evidence": "“Tuesday through Sunday”; “member portal”; “your name and the date”. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-006",
+    "evidence": "“coins”. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-007",
+    "evidence": "“20-minute interval”. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-008",
+    "evidence": "“ground floor”; “immediately to the left of the main entrance”. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-009",
+    "evidence": "“fully folded”; “without blocking the aisle”. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-010",
+    "evidence": "“carbon dioxide gas”; “gluten network”; “flavor”; “collapse”. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 152 whitespace-delimited words meet the requested 140–180-word range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-011",
+    "evidence": "“lakeside trail”; “leash no longer than six feet”. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-012",
+    "evidence": "“coins”. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-013",
+    "evidence": "“carbon dioxide gas”; “gluten network”; “flavor”; “collapse”. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 152 whitespace-delimited words meet the requested 140–180-word range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-014",
+    "evidence": "“lakeside trail”; “leash no longer than six feet”. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-015",
+    "evidence": "“lakeside trail”; “leash no longer than six feet”. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-016",
+    "evidence": "“dining room on the second floor”. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-017",
+    "evidence": "“ground floor”; “immediately to the left of the main entrance”. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-018",
+    "evidence": "“ground floor”; “immediately to the left of the main entrance”. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-019",
+    "evidence": "“lakeside trail”; “leash no longer than six feet”. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-020",
+    "evidence": "“fully folded”; “without blocking the aisle”. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-021",
+    "evidence": "“same game account”; “connected to the internet”; “Guest-mode progress stays”. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-022",
+    "evidence": "“dining room on the second floor”. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-023",
+    "evidence": "“lakeside trail”; “leash no longer than six feet”. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-024",
+    "evidence": "“same game account”; “connected to the internet”; “Guest-mode progress stays”. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-025",
+    "evidence": "“carbon dioxide gas”; “gluten network”; “flavor”; “collapse”. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 155 whitespace-delimited words meet the requested 140–180-word range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-026",
+    "evidence": "“same game account”; “connected to the internet”; “Guest-mode progress stays”. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-027",
+    "evidence": "“ground floor”; “immediately to the left of the main entrance”. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-028",
+    "evidence": "“20 minutes”. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-029",
+    "evidence": "“Tuesday through Sunday”; “member portal”; “your name and the date”. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-030",
+    "evidence": "“coins”. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-031",
+    "evidence": "“ground floor”; “immediately to the left of the main entrance”. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-032",
+    "evidence": "“dining room on the second floor”. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-033",
+    "evidence": "“fully folded”; “without blocking the aisle”. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-034",
+    "evidence": "“if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.”. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-035",
+    "evidence": "“dining room on the second floor”. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-036",
+    "evidence": "“Open the group”; “turn on Mute group”; “Other groups”. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-037",
+    "evidence": "“coins”. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-038",
+    "evidence": "“Tuesday through Sunday”; “member portal”; “your name and the date”. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-039",
+    "evidence": "“Open the group”; “turn on Mute group”; “Other groups”. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-040",
+    "evidence": "“same game account”; “connected to the internet”; “Guest-mode progress stays”. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-041",
+    "evidence": "“Open the group”; “turn on Mute group”; “Other groups”. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-042",
+    "evidence": "“weeks”; “small thing”; “walk in the park with you”. The reply acknowledges the friend’s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-043",
+    "evidence": "“weeks”; “small thing”; “walk in the park with you”. The reply acknowledges the friend’s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-044",
+    "evidence": "“dining room on the second floor”. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-045",
+    "evidence": "“dining room on the second floor”. This complete sentence supplies the requested floor and room, making the direction usable without an unsolicited breakfast briefing.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-046",
+    "evidence": "“fully folded”; “without blocking the aisle”. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-047",
+    "evidence": "“twenty minutes”. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-048",
+    "evidence": "“carbon dioxide gas”; “gluten network”; “flavor”; “collapse”. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 154 whitespace-delimited words meet the requested 140–180-word range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-049",
+    "evidence": "“Tuesday through Sunday”; “member portal”; “your name and the date”. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-050",
+    "evidence": "“Open the group”; “turn on Mute group”; “Other groups”. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-051",
+    "evidence": "“20-minute interval”. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-052",
+    "evidence": "“lakeside trail”; “leash no longer than six feet”. The answer addresses the walking permission and its condition in natural language; it does not need unrelated campground information.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-053",
+    "evidence": "“ground floor”; “immediately to the left of the main entrance”. The location answer gives a floor and concrete landmark so the visitor can find the lockers; additional storage policy is optional for this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-054",
+    "evidence": "“carbon dioxide gas”; “gluten network”; “flavor”; “collapse”. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 156 whitespace-delimited words meet the requested 140–180-word range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-055",
+    "evidence": "“coins”. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-056",
+    "evidence": "“Tuesday through Sunday”; “member portal”; “your name and the date”. All three requested jobs remain usable: room access, required reservation, and labeled storage of wet pieces. Full sentences make the instructions easy to follow.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-057",
+    "evidence": "“if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.”. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-058",
+    "evidence": "“coins”. The complete affirmative sentence answers the narrow payment-method question; omitting background and other laundry instructions does not undermine its purpose.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-059",
+    "evidence": "“fully folded”; “without blocking the aisle”. The yes answer retains the practical conditions for bringing the folding bike; unrelated service details are unnecessary to this question.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-060",
+    "evidence": "“same game account”; “connected to the internet”; “Guest-mode progress stays”. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-061",
+    "evidence": "“if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.”. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-062",
+    "evidence": "“same game account”; “connected to the internet”; “Guest-mode progress stays”. The reply gives both synchronization conditions and the guest-mode exception, making the device-switching answer usable.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-063",
+    "evidence": "“if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.”. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-064",
+    "evidence": "“carbon dioxide gas”; “gluten network”; “flavor”; “collapse”. The explanation develops the gas-and-structure mechanism, contrasts temperature effects, and explains overproofing in connected beginner-readable prose. Its 151 whitespace-delimited words meet the requested 140–180-word range.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-065",
+    "evidence": "“20-minute interval”. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-066",
+    "evidence": "“weeks”; “small thing”; “walk in the park with you”. The reply acknowledges the friend’s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-067",
+    "evidence": "“weeks”; “small thing”; “walk in the park with you”. The reply acknowledges the friend’s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-068",
+    "evidence": "“weeks”; “small thing”; “walk in the park with you”. The reply acknowledges the friend’s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-069",
+    "evidence": "“Open the group”; “turn on Mute group”; “Other groups”. The reply gives the complete sequence for the requested single-group action and clarifies its scope.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-070",
+    "evidence": "“if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.”. Only the edited sentence is returned; punctuation clarifies both branches without changing or shortening the requested wording.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-071",
+    "evidence": "“20 minutes”. The sentence directly supplies the requested interval length and is readable; no wider theatre briefing is needed.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-072",
+    "evidence": "“weeks”; “small thing”; “walk in the park with you”. The reply acknowledges the friend’s effort and disappointment, validates its importance, and offers optional company without trying to solve or explain the rejection.",
+    "label": "Pass"
+  }
+]

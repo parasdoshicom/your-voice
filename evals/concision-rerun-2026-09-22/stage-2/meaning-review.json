@@ -1,0 +1,362 @@
+[
+  {
+    "sample_id": "sample-001",
+    "evidence": "Answers all three questions with Tue–Sun 1–8 p.m. access, reservation and two-hour limit, and Work in Progress name/date labeling. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\\n\\nReserve a wheel in the member portal before you use it. Each booking is limited to two hours.\\n\\nBefore leaving, put your wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-002",
+    "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups’ notifications will stay unchanged.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-003",
+    "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train as long as it’s fully folded and stored without blocking the aisle.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-004",
+    "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-005",
+    "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed on Mondays. Reserve a wheel through the member portal before you come—each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+    "label": "Fail"
+  },
+  {
+    "sample_id": "sample-006",
+    "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines take coins.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-007",
+    "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"Tonight’s play has one 20-minute interval.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-008",
+    "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You’ll need a $1 coin for the refundable deposit.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-009",
+    "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train if it’s fully folded and stored without blocking the aisle.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-010",
+    "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network traps that gas inside the dough. As the gas builds up, it expands the dough, making it rise. Yeast supplies the gas, while gluten provides the structure that holds it.\\n\\nTemperature changes how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. A cool rise slows the yeast down and takes longer, but that extra time can allow more flavor to develop. Hotter is not always better: excessive heat can damage or kill the yeast.\\n\\nProofing too long can also cause trouble. The dough’s structure can weaken until it can no longer hold the gas well. Gas then escapes, and the dough may collapse. Because timing depends on the recipe and conditions, watch the dough’s expansion and texture rather than relying only on a fixed number of minutes.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-011",
+    "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-012",
+    "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins. They also take contactless bank cards.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-013",
+    "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars in the dough and produces carbon dioxide gas. The dough’s developed gluten network traps that gas. As gas collects inside it, the dough expands. Yeast produces the gas, while gluten provides the structure that holds it in.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Warmer is not always better: excessive heat can damage or kill the yeast.\\n\\nProofing is the time you give dough to rise, and leaving it longer does not always improve it. If dough proofs too long, its structure can weaken until it loses gas and may collapse. Because recipes and conditions vary, watch the dough’s expansion and texture rather than relying only on a fixed time.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-014",
+    "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-015",
+    "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, provided they stay on a leash no longer than six feet.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-016",
+    "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-017",
+    "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You’ll need a $1 coin for the refundable deposit.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-018",
+    "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You’ll need a $1 coin for the refundable deposit.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-019",
+    "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are welcome on the lakeside trail. They must stay on a leash no longer than six feet.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-020",
+    "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train as long as it’s fully folded and stored without blocking the aisle.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-021",
+    "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you made it.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-022",
+    "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-023",
+    "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-024",
+    "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-025",
+    "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. As that gas collects inside the dough, it makes the dough expand. Gluten provides the structure that helps hold the gas in: a developed gluten network traps it so the dough can grow instead of simply letting it escape.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally speeds up yeast activity, so a warm dough rises faster. In cooler conditions, yeast works more slowly and the rise takes longer. That extra time can allow more flavor to develop. Excessive heat, however, can damage or kill the yeast.\\n\\nLeaving dough to proof for too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well, allowing the dough to lose volume or collapse. Because recipes and conditions vary, watch the dough’s expansion and texture rather than relying only on a fixed proofing time.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-026",
+    "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, if both devices are signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-027",
+    "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You’ll need a $1 coin for the refundable deposit.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-028",
+    "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"The interval is 20 minutes.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-029",
+    "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\\n\\nReserve a wheel through the member portal before you come; each booking is limited to two hours.\\n\\nBefore leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.\"",
+    "label": "Fail"
+  },
+  {
+    "sample_id": "sample-030",
+    "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines take coins. They also accept contactless bank cards.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-031",
+    "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-032",
+    "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-033",
+    "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train if it’s fully folded and stored without blocking the aisle.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-034",
+    "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-035",
+    "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-036",
+    "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups’ notifications will stay unchanged.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-037",
+    "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins. They also take contactless bank cards.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-038",
+    "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, 1–8 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come—bookings are limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+    "label": "Fail"
+  },
+  {
+    "sample_id": "sample-039",
+    "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, tap its name at the top, choose Notifications, and turn on Mute group. Other groups’ notifications will stay unchanged.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-040",
+    "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes—if your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-041",
+    "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups’ notifications will stay unchanged.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-042",
+    "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I’m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you’re really disappointed—you don’t have to call it a small thing. If you want company, I’d love to take a walk in the park with you.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-043",
+    "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I’m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you’re really disappointed—you don’t have to brush it off as a small thing. If you’d like company, I’d love to take a walk in the park with you.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-044",
+    "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-045",
+    "evidence": "Correctly locates breakfast in the second-floor dining room; serving times and other services are optional. Draft evidence: \"Breakfast is in the dining room on the second floor.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-046",
+    "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, as long as your folding bike is fully folded and stored without blocking the aisle.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-047",
+    "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"The interval is twenty minutes.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-048",
+    "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As gas builds up, it stretches the network and expands the dough. Yeast supplies the gas, while gluten helps the dough hold onto it.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth speeds up yeast activity, so dough generally rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. Too much heat can damage or kill the yeast, so hotter conditions won’t always give you a better rise.\\n\\nLeaving dough to proof too long can also cause problems. Its structure may weaken until it can no longer hold the gas, and the dough may collapse. Because recipes and conditions vary, watch the dough’s expansion and texture rather than relying only on a fixed rising time.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-049",
+    "evidence": "Answers all three questions with Tue–Sun 1–8 p.m. access, reservation and two-hour limit, and Work in Progress name/date labeling. Draft evidence: \"You can use the wheel room Tuesday through Sunday, 1–8 p.m. The studio is closed on Mondays. Reserve a wheel in the member portal; each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-050",
+    "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups’ notifications will stay unchanged. You’ll still see unread counts for the muted group in the sidebar.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-051",
+    "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"Tonight’s play has one 20-minute interval.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-052",
+    "evidence": "Preserves permission conditioned on remaining leashed with a six-foot maximum; the separately located swimming beach is outside the question. Draft evidence: \"Yes, dogs are allowed on the lakeside trail, but they must stay on a leash no longer than six feet.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-053",
+    "evidence": "Preserves the requested location: ground floor immediately left of the main entrance. Any stated deposit detail is supported. Draft evidence: \"The coat lockers are on the ground floor, immediately to the left of the main entrance. You’ll need a $1 coin for the refundable deposit.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-054",
+    "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and produces carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, helping it grow in volume.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. In cooler conditions, yeast works more slowly. A cool rise takes longer, but that extra time can allow more flavor to develop. A warmer rise can be useful when you want the dough ready sooner, though hotter is not always better: excessive heat can damage or kill the yeast.\\n\\nLeaving dough to proof for too long can also cause problems. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough’s expansion and texture rather than relying only on a fixed time.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-055",
+    "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins as well as contactless bank cards.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-056",
+    "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come—each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.\"",
+    "label": "Fail"
+  },
+  {
+    "sample_id": "sample-057",
+    "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-058",
+    "evidence": "Directly confirms coin acceptance. The request does not require maintenance history, other prices, or detergent information. Draft evidence: \"Yes, the laundry machines accept coins as well as contactless bank cards.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-059",
+    "evidence": "Allows the folding bike subject to both full folding and an unobstructed aisle; unrelated bike policies need not be repeated. Draft evidence: \"Yes, you can take your folding bike on the 8 a.m. train as long as it’s fully folded and stored without blocking the aisle.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-060",
+    "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, if your phone and tablet are both signed into the same game account and connected to the internet. Guest-mode progress stays on the device where it was created.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-061",
+    "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-062",
+    "evidence": "Preserves both same-account and internet conditions and explicitly excludes guest-mode progress from sync. Draft evidence: \"Yes, as long as your phone and tablet are signed into the same game account and both are connected to the internet. Guest-mode progress stays on the device where you created it.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-063",
+    "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-064",
+    "evidence": "Preserves yeast sugar consumption and carbon dioxide, gluten gas retention, normal warm/cool speed differences, possible cool-rise flavor, excessive-heat damage, overproofing weakness/collapse, and recipe-dependent timing. Draft evidence: \"Bread dough rises because yeast consumes sugars and releases carbon dioxide gas. A developed gluten network in the dough traps that gas. As the gas builds up, it expands the dough, making it rise. Yeast produces the gas, while gluten provides the structure that holds it in.\\n\\nTemperature affects how quickly this happens. Within normal proofing temperatures, warmth generally makes yeast more active, so dough rises faster. A cool rise slows yeast activity and takes longer, but that extra time can allow more flavor to develop. More heat is not always better: excessively hot conditions can damage or kill the yeast.\\n\\nLeaving dough to proof too long can also cause trouble. Its structure may weaken until it can no longer hold the gas well. The dough can then lose gas and collapse. Because recipes and conditions vary, watch the dough’s expansion and texture rather than relying only on a fixed time.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-065",
+    "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"Tonight’s play has one 20-minute interval.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-066",
+    "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I’m sorry. You spent weeks rehearsing, and I know you were excited about this production. It makes sense that you’re disappointed—you don’t have to call it a small thing. If you want some company, I’d love to take a walk in the park with you.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-067",
+    "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I’m so sorry. You spent weeks preparing, and I know how excited you were about this production. You don’t have to call it a small thing—it mattered to you. If you’d like some company, I’d love to walk in the park with you. We can talk about it, or just walk.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-068",
+    "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"Oh, I’m sorry. You spent weeks preparing, and I know how excited you were about this production. You don’t have to call it a small thing—it mattered to you, and it makes sense that you’re disappointed. If you’d like company, I’d love to take a walk in the park with you.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-069",
+    "evidence": "Preserves the group-specific navigation sequence and unchanged notifications for other groups; other administrative features are irrelevant to this request. Draft evidence: \"Open the group, select its name at the top, choose Notifications, and turn on Mute group. Other groups’ notifications will stay unchanged.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-070",
+    "evidence": "Preserves all words, spelling, lowercase capitalization, and order, while separating the conditional and otherwise alternative. Draft evidence: \"if the parcel arrives today, leave it by the stairs; otherwise, ask the driver to return tomorrow.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-071",
+    "evidence": "Correctly identifies the interval as twenty minutes; other performance and refreshment details are optional. Draft evidence: \"The interval is 20 minutes.\"",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "sample-072",
+    "evidence": "Recognizes effort and disappointment, offers an optional walk, and neither invents a casting explanation nor prescribes a fix. Draft evidence: \"I’m sorry. You spent weeks rehearsing, and I know how excited you were about this production. It makes sense that you’re really disappointed—you don’t have to call it a small thing. If you’d like some company, I’d love to take a walk in the park with you. We can talk about it, or just walk.\"",
+    "label": "Pass"
+  }
+]

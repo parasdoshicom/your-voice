@@ -1,0 +1,22 @@
+{
+  "baseline_commit": "1573c562e78ad69a44afbe7aff9a1dabb2c0d68d",
+  "arms": [
+    "none",
+    "old",
+    "candidate"
+  ],
+  "repeats": 2,
+  "cases": 12,
+  "primary": "candidate <=50% of old words with required meaning and human intent preserved on 8 narrow-question cases; invalid drafts count as failures",
+  "secondary": "candidate versus no skill; generation lengths separately; four controls separately",
+  "target": "80% narrow-question comparisons meet primary and no observed required meaning losses overall",
+  "limits": [
+    "Synthetic cases, not human-confirmed verbosity incidents",
+    "Same-model independent review is not human calibration",
+    "One batch per arm/repetition; cases within sessions not independent",
+    "No cross-model or long-conversation generalization"
+  ],
+  "frozen_before_generation": true,
+  "stage": "Second candidate developed after first experiment; fresh narrow-question cases, not comparable population to first set",
+  "post_run_documentation_correction": "Corrected the secondary description from six controls to four; cases, primary metric, and target unchanged."
+}

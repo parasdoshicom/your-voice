@@ -1,0 +1,762 @@
+{
+  "case_count": 18,
+  "output_count": 108,
+  "categories": {
+    "condense": {
+      "words": {
+        "none": 676,
+        "old": 693,
+        "candidate": 660
+      },
+      "comparisons": {
+        "none": {
+          "pairs": 12,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 0.9771825396825397,
+          "total_word_reduction": 0.023668639053254448,
+          "details": [
+            {
+              "id": "d01",
+              "repetition": 1,
+              "baseline_words": 49,
+              "candidate_words": 46,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9387755102040817
+            },
+            {
+              "id": "d01",
+              "repetition": 2,
+              "baseline_words": 46,
+              "candidate_words": 46,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "d02",
+              "repetition": 1,
+              "baseline_words": 56,
+              "candidate_words": 55,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9821428571428571
+            },
+            {
+              "id": "d02",
+              "repetition": 2,
+              "baseline_words": 55,
+              "candidate_words": 55,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "d03",
+              "repetition": 1,
+              "baseline_words": 51,
+              "candidate_words": 56,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0980392156862746
+            },
+            {
+              "id": "d03",
+              "repetition": 2,
+              "baseline_words": 51,
+              "candidate_words": 49,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9607843137254902
+            },
+            {
+              "id": "d04",
+              "repetition": 1,
+              "baseline_words": 60,
+              "candidate_words": 53,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8833333333333333
+            },
+            {
+              "id": "d04",
+              "repetition": 2,
+              "baseline_words": 51,
+              "candidate_words": 51,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "d05",
+              "repetition": 1,
+              "baseline_words": 72,
+              "candidate_words": 69,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9583333333333334
+            },
+            {
+              "id": "d05",
+              "repetition": 2,
+              "baseline_words": 72,
+              "candidate_words": 70,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9722222222222222
+            },
+            {
+              "id": "d06",
+              "repetition": 1,
+              "baseline_words": 56,
+              "candidate_words": 56,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "d06",
+              "repetition": 2,
+              "baseline_words": 57,
+              "candidate_words": 54,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9473684210526315
+            }
+          ]
+        },
+        "old": {
+          "pairs": 12,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 0.9683716333086236,
+          "total_word_reduction": 0.04761904761904767,
+          "details": [
+            {
+              "id": "d01",
+              "repetition": 1,
+              "baseline_words": 50,
+              "candidate_words": 46,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.92
+            },
+            {
+              "id": "d01",
+              "repetition": 2,
+              "baseline_words": 52,
+              "candidate_words": 46,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8846153846153846
+            },
+            {
+              "id": "d02",
+              "repetition": 1,
+              "baseline_words": 55,
+              "candidate_words": 55,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "d02",
+              "repetition": 2,
+              "baseline_words": 57,
+              "candidate_words": 55,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9649122807017544
+            },
+            {
+              "id": "d03",
+              "repetition": 1,
+              "baseline_words": 57,
+              "candidate_words": 56,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9824561403508771
+            },
+            {
+              "id": "d03",
+              "repetition": 2,
+              "baseline_words": 57,
+              "candidate_words": 49,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8596491228070176
+            },
+            {
+              "id": "d04",
+              "repetition": 1,
+              "baseline_words": 53,
+              "candidate_words": 53,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "d04",
+              "repetition": 2,
+              "baseline_words": 52,
+              "candidate_words": 51,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9807692307692307
+            },
+            {
+              "id": "d05",
+              "repetition": 1,
+              "baseline_words": 71,
+              "candidate_words": 69,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.971830985915493
+            },
+            {
+              "id": "d05",
+              "repetition": 2,
+              "baseline_words": 69,
+              "candidate_words": 70,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0144927536231885
+            },
+            {
+              "id": "d06",
+              "repetition": 1,
+              "baseline_words": 64,
+              "candidate_words": 56,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.875
+            },
+            {
+              "id": "d06",
+              "repetition": 2,
+              "baseline_words": 56,
+              "candidate_words": 54,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9642857142857143
+            }
+          ]
+        }
+      }
+    },
+    "control": {
+      "words": {
+        "none": 875,
+        "old": 871,
+        "candidate": 821
+      },
+      "comparisons": {
+        "none": {
+          "pairs": 12,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 0.9936708860759493,
+          "total_word_reduction": 0.06171428571428572,
+          "details": [
+            {
+              "id": "c01",
+              "repetition": 1,
+              "baseline_words": 124,
+              "candidate_words": 116,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9354838709677419
+            },
+            {
+              "id": "c01",
+              "repetition": 2,
+              "baseline_words": 119,
+              "candidate_words": 122,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0252100840336134
+            },
+            {
+              "id": "c02",
+              "repetition": 1,
+              "baseline_words": 78,
+              "candidate_words": 75,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9615384615384616
+            },
+            {
+              "id": "c02",
+              "repetition": 2,
+              "baseline_words": 81,
+              "candidate_words": 69,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8518518518518519
+            },
+            {
+              "id": "c03",
+              "repetition": 1,
+              "baseline_words": 30,
+              "candidate_words": 30,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c03",
+              "repetition": 2,
+              "baseline_words": 30,
+              "candidate_words": 30,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c04",
+              "repetition": 1,
+              "baseline_words": 41,
+              "candidate_words": 41,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c04",
+              "repetition": 2,
+              "baseline_words": 41,
+              "candidate_words": 41,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c05",
+              "repetition": 1,
+              "baseline_words": 79,
+              "candidate_words": 79,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c05",
+              "repetition": 2,
+              "baseline_words": 79,
+              "candidate_words": 78,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9873417721518988
+            },
+            {
+              "id": "c06",
+              "repetition": 1,
+              "baseline_words": 83,
+              "candidate_words": 75,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9036144578313253
+            },
+            {
+              "id": "c06",
+              "repetition": 2,
+              "baseline_words": 90,
+              "candidate_words": 65,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.7222222222222222
+            }
+          ]
+        },
+        "old": {
+          "pairs": 12,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 1.0,
+          "total_word_reduction": 0.057405281285878296,
+          "details": [
+            {
+              "id": "c01",
+              "repetition": 1,
+              "baseline_words": 127,
+              "candidate_words": 116,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9133858267716536
+            },
+            {
+              "id": "c01",
+              "repetition": 2,
+              "baseline_words": 118,
+              "candidate_words": 122,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0338983050847457
+            },
+            {
+              "id": "c02",
+              "repetition": 1,
+              "baseline_words": 75,
+              "candidate_words": 75,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c02",
+              "repetition": 2,
+              "baseline_words": 82,
+              "candidate_words": 69,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8414634146341463
+            },
+            {
+              "id": "c03",
+              "repetition": 1,
+              "baseline_words": 30,
+              "candidate_words": 30,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c03",
+              "repetition": 2,
+              "baseline_words": 30,
+              "candidate_words": 30,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c04",
+              "repetition": 1,
+              "baseline_words": 41,
+              "candidate_words": 41,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c04",
+              "repetition": 2,
+              "baseline_words": 41,
+              "candidate_words": 41,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c05",
+              "repetition": 1,
+              "baseline_words": 83,
+              "candidate_words": 79,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9518072289156626
+            },
+            {
+              "id": "c05",
+              "repetition": 2,
+              "baseline_words": 78,
+              "candidate_words": 78,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "c06",
+              "repetition": 1,
+              "baseline_words": 85,
+              "candidate_words": 75,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8823529411764706
+            },
+            {
+              "id": "c06",
+              "repetition": 2,
+              "baseline_words": 81,
+              "candidate_words": 65,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8024691358024691
+            }
+          ]
+        }
+      }
+    },
+    "generate": {
+      "words": {
+        "none": 526,
+        "old": 540,
+        "candidate": 507
+      },
+      "comparisons": {
+        "none": {
+          "pairs": 12,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 0.9641025641025641,
+          "total_word_reduction": 0.03612167300380231,
+          "details": [
+            {
+              "id": "g01",
+              "repetition": 1,
+              "baseline_words": 30,
+              "candidate_words": 32,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0666666666666667
+            },
+            {
+              "id": "g01",
+              "repetition": 2,
+              "baseline_words": 39,
+              "candidate_words": 34,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8717948717948718
+            },
+            {
+              "id": "g02",
+              "repetition": 1,
+              "baseline_words": 70,
+              "candidate_words": 65,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9285714285714286
+            },
+            {
+              "id": "g02",
+              "repetition": 2,
+              "baseline_words": 65,
+              "candidate_words": 62,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9538461538461539
+            },
+            {
+              "id": "g03",
+              "repetition": 1,
+              "baseline_words": 30,
+              "candidate_words": 31,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0333333333333334
+            },
+            {
+              "id": "g03",
+              "repetition": 2,
+              "baseline_words": 30,
+              "candidate_words": 28,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9333333333333333
+            },
+            {
+              "id": "g04",
+              "repetition": 1,
+              "baseline_words": 38,
+              "candidate_words": 41,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0789473684210527
+            },
+            {
+              "id": "g04",
+              "repetition": 2,
+              "baseline_words": 39,
+              "candidate_words": 38,
+              "candidate_valid": false,
+              "half_length_success": false,
+              "ratio": 0.9743589743589743
+            },
+            {
+              "id": "g05",
+              "repetition": 1,
+              "baseline_words": 48,
+              "candidate_words": 43,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8958333333333334
+            },
+            {
+              "id": "g05",
+              "repetition": 2,
+              "baseline_words": 45,
+              "candidate_words": 44,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9777777777777777
+            },
+            {
+              "id": "g06",
+              "repetition": 1,
+              "baseline_words": 46,
+              "candidate_words": 47,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0217391304347827
+            },
+            {
+              "id": "g06",
+              "repetition": 2,
+              "baseline_words": 46,
+              "candidate_words": 42,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9130434782608695
+            }
+          ]
+        },
+        "old": {
+          "pairs": 12,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 0.9517441860465117,
+          "total_word_reduction": 0.061111111111111116,
+          "details": [
+            {
+              "id": "g01",
+              "repetition": 1,
+              "baseline_words": 32,
+              "candidate_words": 32,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "g01",
+              "repetition": 2,
+              "baseline_words": 39,
+              "candidate_words": 34,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8717948717948718
+            },
+            {
+              "id": "g02",
+              "repetition": 1,
+              "baseline_words": 68,
+              "candidate_words": 65,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9558823529411765
+            },
+            {
+              "id": "g02",
+              "repetition": 2,
+              "baseline_words": 65,
+              "candidate_words": 62,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9538461538461539
+            },
+            {
+              "id": "g03",
+              "repetition": 1,
+              "baseline_words": 30,
+              "candidate_words": 31,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0333333333333334
+            },
+            {
+              "id": "g03",
+              "repetition": 2,
+              "baseline_words": 36,
+              "candidate_words": 28,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.7777777777777778
+            },
+            {
+              "id": "g04",
+              "repetition": 1,
+              "baseline_words": 43,
+              "candidate_words": 41,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9534883720930233
+            },
+            {
+              "id": "g04",
+              "repetition": 2,
+              "baseline_words": 40,
+              "candidate_words": 38,
+              "candidate_valid": false,
+              "half_length_success": false,
+              "ratio": 0.95
+            },
+            {
+              "id": "g05",
+              "repetition": 1,
+              "baseline_words": 48,
+              "candidate_words": 43,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8958333333333334
+            },
+            {
+              "id": "g05",
+              "repetition": 2,
+              "baseline_words": 47,
+              "candidate_words": 44,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9361702127659575
+            },
+            {
+              "id": "g06",
+              "repetition": 1,
+              "baseline_words": 46,
+              "candidate_words": 47,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0217391304347827
+            },
+            {
+              "id": "g06",
+              "repetition": 2,
+              "baseline_words": 46,
+              "candidate_words": 42,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9130434782608695
+            }
+          ]
+        }
+      }
+    }
+  },
+  "review_failures": [
+    {
+      "id": "g04",
+      "repetition": 2,
+      "arm": "candidate",
+      "dimension": "meaning",
+      "review": {
+        "sample_id": "sample-008",
+        "evidence": "The draft says \"your reservation guarantees a seat\". The source guarantees seats only for people with reservations; neither source nor request establishes that this member has one. The unconditional advice not to arrive before doors open assumes a booking and loses the source condition.",
+        "label": "Fail"
+      }
+    },
+    {
+      "id": "g04",
+      "repetition": 1,
+      "arm": "none",
+      "dimension": "meaning",
+      "review": {
+        "sample_id": "sample-077",
+        "evidence": "The draft says \"your reservation guarantees you a seat\". The source guarantees seats only for people with reservations; neither source nor request establishes that this member has one. The unconditional advice not to arrive before doors open assumes a booking and loses the source condition.",
+        "label": "Fail"
+      }
+    }
+  ],
+  "primary_category": "condense",
+  "proposed_target_met": false,
+  "candidate_all_reviewed_and_valid": false
+}

@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "1573c562e78ad69a44afbe7aff9a1dabb2c0d68d",
+  "arms": [
+    "none",
+    "old",
+    "candidate"
+  ],
+  "repeats": 2,
+  "cases": 18,
+  "primary": "candidate <= 50% of old words with no required meaning loss, on 6 condensation cases; every invalid draft counts as a failure",
+  "secondary": "candidate versus no skill; generation lengths separately; six controls separately",
+  "target": "80% eligible condensation comparisons meet primary and no observed required meaning losses overall",
+  "limits": [
+    "Synthetic cases, not human-confirmed verbosity incidents",
+    "Same-model independent review is not human calibration",
+    "One batch per arm/repetition; cases within sessions not independent",
+    "No cross-model or long-conversation generalization"
+  ],
+  "frozen_before_generation": true
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "sample_id": "reservation-regression",
+    "evidence": "\"If you have a reservation, your seat is guaranteed\" keeps the condition explicit; \"9:45 a.m.\" and \"10 a.m.\" preserve the relevant arrival times. Item/cable and appliance rules are optional for the question of arriving early.",
+    "label": "Pass"
+  },
+  {
+    "sample_id": "publication-regression",
+    "evidence": "\"Publication is unverified\" correctly distinguishes Saved from publication, and retains both \"hasn’t been clicked in the observed session\" and lack of a verified public page or deployment receipt.",
+    "label": "Pass"
+  }
+]

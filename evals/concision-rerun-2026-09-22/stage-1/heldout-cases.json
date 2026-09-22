@@ -1,0 +1,164 @@
+[
+  {
+    "id": "g01",
+    "category": "generate",
+    "request": "Reply to a colleague who asks, 'Can we use the new dashboard in tomorrow's team review?'",
+    "source": "The dashboard refresh finished today. Revenue and order counts passed checks. The returns panel still double-counts exchanges and will be fixed Thursday. Tomorrow's review only needs revenue and order counts.",
+    "must_preserve": ["The dashboard is usable for tomorrow's review for revenue and order counts", "The returns panel double-counts exchanges and should not be used yet", "The returns fix is expected Thursday"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "g02",
+    "category": "generate",
+    "request": "Explain to a product manager why the experiment's higher signup count does not establish that the new page converts better.",
+    "source": "The old page received 1,000 visitors and 100 signups. The new page received 2,000 visitors and 160 signups. These are descriptive totals; no significance analysis has been done.",
+    "must_preserve": ["The old page's conversion rate is 10%", "The new page's conversion rate is 8%", "Higher traffic explains why the new page can have more signups despite a lower observed conversion rate", "The totals alone do not establish statistical significance"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "g03",
+    "category": "generate",
+    "request": "Write a reply to 'Where should I put feedback on the draft guide?'",
+    "source": "Feedback belongs in comments on the shared draft, not in a separate document. The editor will collect comments Friday at noon. Typos and substantive suggestions are both welcome.",
+    "must_preserve": ["Use comments on the shared draft", "Do not create a separate feedback document", "The collection deadline is Friday at noon", "Both typos and substantive suggestions are welcome"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "g04",
+    "category": "generate",
+    "request": "Answer a community member asking whether they should arrive early for the library repair workshop.",
+    "source": "Doors open at 9:45 a.m. and the workshop begins at 10 a.m. Everyone with a reservation has a seat, so arriving before doors open is unnecessary. Participants should bring the broken item and its power cable if it has one. Large appliances are not accepted.",
+    "must_preserve": ["Doors open at 9:45 a.m. and the workshop starts at 10 a.m.", "Reserved seats mean there is no need to arrive before doors open", "Bring the broken item and its power cable if applicable", "Large appliances are not accepted"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "g05",
+    "category": "generate",
+    "request": "Give a project lead a recommendation on whether to change the export format this week.",
+    "source": "The current CSV export meets the customer's stated needs. A proposed spreadsheet export would add two days of work and has no committed customer request behind it. The team has one day of schedule slack before delivery. It can record the idea for later discovery.",
+    "must_preserve": ["Recommend keeping CSV for this delivery", "CSV already meets the stated customer need", "Two days of extra work exceeds the one day of slack", "Record the spreadsheet idea for later discovery without implying a commitment"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "g06",
+    "category": "generate",
+    "request": "Write an update for people waiting on the photo archive migration.",
+    "source": "All original photos have been copied. Search indexing is still running and should finish by 4 p.m. today. Until then, some searches may omit photos even though those photos are safely stored. People can still browse folders. No files need to be uploaded again.",
+    "must_preserve": ["All original photos have been copied", "Search indexing is expected to finish by 4 p.m. today", "Incomplete search results do not mean photos are missing from storage", "Folder browsing remains available", "Users do not need to upload files again"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "d01",
+    "category": "condense",
+    "request": "Tighten this project update for the team channel.",
+    "source": "I wanted to share a quick update on where things stand with the search launch so everyone has the same understanding of the current situation. We completed the relevance review this morning, and the results met the threshold we agreed on. That part is now done. There is still one outstanding issue with keyboard navigation in the filter menu, which is the only remaining launch blocker. Maya is working on that fix and expects to have it ready tomorrow afternoon. Assuming the fix passes the accessibility check, we are still aiming to launch on Wednesday. I will update the channel if that timing changes.",
+    "must_preserve": ["The relevance review is complete and met the agreed threshold", "Keyboard navigation in the filter menu is the only remaining launch blocker", "Maya expects the fix tomorrow afternoon", "Wednesday launch depends on passing the accessibility check", "The writer will report timing changes"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "d02",
+    "category": "condense",
+    "request": "Edit this reply so it gets to the point while keeping the helpful tone.",
+    "source": "Thanks for checking in about the recording, and I appreciate your patience while we get everything organized after the session. The recording is already available in the course portal, under the tab labeled Session Materials. You do not need a separate link or a new account to access it; your existing course login will work. One thing to be aware of is that captions are still being processed, so they are not available quite yet. We expect those to appear by tomorrow morning. If the recording does not show up when you first open the portal, please try signing out and back in, and let me know if that does not resolve it.",
+    "must_preserve": ["The recording is in the course portal under Session Materials", "The existing course login works without a new account or separate link", "Captions are expected tomorrow morning", "If the recording is absent, sign out and back in, then report if the problem remains", "Keep a helpful tone"],
+    "exact_spans": ["Session Materials"],
+    "word_range": null
+  },
+  {
+    "id": "d03",
+    "category": "condense",
+    "request": "Clean up this recommendation for the operations meeting.",
+    "source": "After looking at the available options and considering what we need for the next month, my recommendation would be to keep using the current booking form for the upcoming pilot. The form is not perfect, and I know there are improvements we would eventually like to make, but it does collect all four fields that the pilot actually requires. Building a new form would take roughly three days of engineering time. Given that we have only twelve participants in this pilot, I do not think that investment is justified yet. We should log any issues participants encounter and use that evidence to decide whether to rebuild before the broader rollout.",
+    "must_preserve": ["Keep the current booking form for the upcoming pilot", "It collects all four required fields", "A replacement would take roughly three engineering days", "The pilot has twelve participants", "Log participant issues to inform a rebuild decision before broader rollout"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "d04",
+    "category": "condense",
+    "request": "Make this customer notice easier to scan.",
+    "source": "We are writing to let you know about a change to the pickup arrangements for this Saturday's market. Due to repairs taking place at the usual entrance, all prepaid orders will be available at the east gate instead of the main gate. The pickup window itself has not changed and will remain from 11 a.m. to 2 p.m. Please bring your order confirmation, either on your phone or printed out, so that our volunteers can find your order quickly. If someone else is picking up on your behalf, they can use your confirmation. There is no need to contact us in advance to authorize that person.",
+    "must_preserve": ["Saturday's prepaid orders move from the main gate to the east gate because of repairs", "Pickup remains 11 a.m. to 2 p.m.", "Bring the order confirmation on a phone or on paper", "Another person may collect with the confirmation without advance authorization"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "d05",
+    "category": "condense",
+    "request": "Tighten this explanation for a nontechnical teammate.",
+    "source": "The reason the weekly total looks different from the sum of the daily numbers is that these two views are counting slightly different things, even though they both use the word visitors. In the daily view, a person is counted once on each day they visit. In the weekly view, that same person is counted only once across the entire week. So if someone visits on Monday and again on Tuesday, they add one visitor to each daily number, but only one visitor to the weekly number. This is expected behavior rather than a reporting error. We should update the labels to say daily unique visitors and weekly unique visitors to make the distinction clearer.",
+    "must_preserve": ["Daily visitors are deduplicated within each day while weekly visitors are deduplicated across the week", "A person visiting Monday and Tuesday counts in both daily totals but once in the weekly total", "The difference is expected rather than a reporting error", "Recommend labels daily unique visitors and weekly unique visitors"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "d06",
+    "category": "condense",
+    "request": "Streamline this message about a delayed review.",
+    "source": "I wanted to give you an update rather than leave you wondering about the status of the review. I have finished checking the main proposal, and I do not have any changes to request in that section. The part I have not finished yet is the cost appendix, because I am waiting for the revised supplier estimate before I can validate the numbers properly. The supplier has said they will send it by noon tomorrow. If it arrives on time, I can send you the complete review by 3 p.m. tomorrow. If it does not arrive by noon, I will let you know then and give you a revised delivery time.",
+    "must_preserve": ["The main proposal review is complete with no requested changes", "The cost appendix depends on a revised supplier estimate", "The supplier expects to send the estimate by noon tomorrow", "Full review is due by 3 p.m. tomorrow if the estimate arrives on time", "If the estimate misses noon, the writer will provide an update and revised delivery time then"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "c01",
+    "category": "control",
+    "request": "Teach a beginner what a database index does in 100–150 words. Use a familiar analogy, explain the read/write tradeoff, and include one practical example.",
+    "source": "An index is an auxiliary data structure that can help a database locate matching rows without scanning the entire table. It consumes storage and must be maintained when relevant data is inserted, updated, or deleted. Not every query benefits from an index.",
+    "must_preserve": ["Explain locating rows without scanning the full table in beginner language", "Include a familiar analogy", "Explain that storage and maintenance make writes more costly", "Give a practical example of a query benefiting from an index", "Do not imply every query benefits"],
+    "exact_spans": [],
+    "word_range": [100, 150]
+  },
+  {
+    "id": "c02",
+    "category": "control",
+    "request": "Write a warm apology to a friend. Take responsibility and leave room for them to feel hurt; don't make this sound like a business status update.",
+    "source": "You missed your friend's small gallery opening after promising to attend because you forgot to put it in your calendar. Your friend had told you it was important to them. You want to offer to visit the show together next weekend if they would like, without assuming they will accept.",
+    "must_preserve": ["Apologize for missing the gallery opening after promising to attend", "Take responsibility for forgetting without an invented excuse", "Acknowledge that the opening mattered and the friend may feel hurt", "Offer to visit together next weekend without pressuring or presuming acceptance", "Maintain personal warmth"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "c03",
+    "category": "control",
+    "request": "Fix punctuation only. Preserve every word and its order, even if you would normally shorten the sentence. Return only the corrected text.",
+    "source": "Before we begin please open the workbook check that your name is on the first tab and save a copy if anything looks wrong let me know before you edit",
+    "must_preserve": ["Keep every source word in the same order", "Change punctuation only", "Return no explanation or extra text", "Make the sentence boundaries and list readable"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "c04",
+    "category": "control",
+    "request": "Turn these notes into a setup reply. Preserve the command and URL exactly, including all flags and query parameters.",
+    "source": "From the project root, run: python3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict\nThen open: https://docs.example.org/catalog/setup?mode=local&version=2#validation\nIf validation fails, keep the existing catalog and paste the error into the issue tracker. Do not replace the existing catalog with failed output.",
+    "must_preserve": ["Run the command from the project root", "Open the supplied documentation URL afterward", "If validation fails, keep the existing catalog and paste the error into the issue tracker", "Do not replace the existing catalog with failed output"],
+    "exact_spans": ["python3 tools/build_catalog.py --input ./data/source.csv --output ./dist/catalog.json --strict", "https://docs.example.org/catalog/setup?mode=local&version=2#validation"],
+    "word_range": null
+  },
+  {
+    "id": "c05",
+    "category": "control",
+    "request": "Turn these meeting notes into an action summary that each owner can act on.",
+    "source": "Leena owns the revised floor plan, due October 6 at noon. Omar must confirm the delivery window by October 7 at 3 p.m.; he needs Leena's final plan first. Theo will send volunteer assignments by October 8 at 10 a.m. Jo owns the venue's written access approval, due October 6 at 5 p.m. If that approval is missing at the deadline, Jo must flag it to Leena that day. All times are Pacific.",
+    "must_preserve": ["Leena: revised floor plan by October 6 at noon", "Omar: delivery window confirmation by October 7 at 3 p.m., dependent on Leena's final plan", "Theo: volunteer assignments by October 8 at 10 a.m.", "Jo: written venue access approval by October 6 at 5 p.m.", "Jo must flag missing approval to Leena on October 6 if the deadline is missed", "All times are Pacific"],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "c06",
+    "category": "control",
+    "request": "Write an evidence-based answer to 'Did the reminder emails reduce missed appointments?' Preserve the uncertainty and explain the next useful check.",
+    "source": "Missed appointments fell from 18% in August to 12% in September, when reminder emails began. September also had a different mix of appointment types and a new cancellation policy. There was no randomized comparison. The current data shows an association, not a demonstrated causal effect. A useful next step is to compare like-for-like appointment types and, if feasible, test reminders using randomized assignment.",
+    "must_preserve": ["Missed appointments fell from 18% in August to 12% in September", "Reminders began in September", "Appointment mix and cancellation policy also changed", "No randomized comparison means the data does not demonstrate causation", "Compare like-for-like appointment types and consider a randomized reminder test if feasible"],
+    "exact_spans": [],
+    "word_range": null
+  }
+]

@@ -1,0 +1,541 @@
+{
+  "case_count": 12,
+  "output_count": 72,
+  "categories": {
+    "control": {
+      "words": {
+        "none": 559,
+        "old": 558,
+        "candidate": 538
+      },
+      "comparisons": {
+        "none": {
+          "pairs": 8,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 0.9775020678246484,
+          "total_word_reduction": 0.03756708407871201,
+          "details": [
+            {
+              "id": "s09",
+              "repetition": 1,
+              "baseline_words": 155,
+              "candidate_words": 152,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9806451612903225
+            },
+            {
+              "id": "s09",
+              "repetition": 2,
+              "baseline_words": 156,
+              "candidate_words": 152,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9743589743589743
+            },
+            {
+              "id": "s10",
+              "repetition": 1,
+              "baseline_words": 52,
+              "candidate_words": 52,
+              "candidate_valid": false,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s10",
+              "repetition": 2,
+              "baseline_words": 60,
+              "candidate_words": 57,
+              "candidate_valid": false,
+              "half_length_success": false,
+              "ratio": 0.95
+            },
+            {
+              "id": "s11",
+              "repetition": 1,
+              "baseline_words": 51,
+              "candidate_words": 45,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8823529411764706
+            },
+            {
+              "id": "s11",
+              "repetition": 2,
+              "baseline_words": 51,
+              "candidate_words": 46,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9019607843137255
+            },
+            {
+              "id": "s12",
+              "repetition": 1,
+              "baseline_words": 17,
+              "candidate_words": 17,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s12",
+              "repetition": 2,
+              "baseline_words": 17,
+              "candidate_words": 17,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            }
+          ]
+        },
+        "old": {
+          "pairs": 8,
+          "half_length_successes": 0,
+          "half_length_rate": 0.0,
+          "median_word_ratio": 0.9765573409641206,
+          "total_word_reduction": 0.03584229390681004,
+          "details": [
+            {
+              "id": "s09",
+              "repetition": 1,
+              "baseline_words": 154,
+              "candidate_words": 152,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.987012987012987
+            },
+            {
+              "id": "s09",
+              "repetition": 2,
+              "baseline_words": 151,
+              "candidate_words": 152,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0066225165562914
+            },
+            {
+              "id": "s10",
+              "repetition": 1,
+              "baseline_words": 57,
+              "candidate_words": 52,
+              "candidate_valid": false,
+              "half_length_success": false,
+              "ratio": 0.9122807017543859
+            },
+            {
+              "id": "s10",
+              "repetition": 2,
+              "baseline_words": 59,
+              "candidate_words": 57,
+              "candidate_valid": false,
+              "half_length_success": false,
+              "ratio": 0.9661016949152542
+            },
+            {
+              "id": "s11",
+              "repetition": 1,
+              "baseline_words": 55,
+              "candidate_words": 45,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8181818181818182
+            },
+            {
+              "id": "s11",
+              "repetition": 2,
+              "baseline_words": 48,
+              "candidate_words": 46,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9583333333333334
+            },
+            {
+              "id": "s12",
+              "repetition": 1,
+              "baseline_words": 17,
+              "candidate_words": 17,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s12",
+              "repetition": 2,
+              "baseline_words": 17,
+              "candidate_words": 17,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            }
+          ]
+        }
+      }
+    },
+    "generate": {
+      "words": {
+        "none": 283,
+        "old": 313,
+        "candidate": 272
+      },
+      "comparisons": {
+        "none": {
+          "pairs": 16,
+          "half_length_successes": 1,
+          "half_length_rate": 0.0625,
+          "median_word_ratio": 1.0,
+          "total_word_reduction": 0.03886925795053009,
+          "details": [
+            {
+              "id": "s01",
+              "repetition": 1,
+              "baseline_words": 20,
+              "candidate_words": 20,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s01",
+              "repetition": 2,
+              "baseline_words": 19,
+              "candidate_words": 20,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0526315789473684
+            },
+            {
+              "id": "s02",
+              "repetition": 1,
+              "baseline_words": 22,
+              "candidate_words": 16,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.7272727272727273
+            },
+            {
+              "id": "s02",
+              "repetition": 2,
+              "baseline_words": 24,
+              "candidate_words": 22,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9166666666666666
+            },
+            {
+              "id": "s03",
+              "repetition": 1,
+              "baseline_words": 12,
+              "candidate_words": 6,
+              "candidate_valid": true,
+              "half_length_success": true,
+              "ratio": 0.5
+            },
+            {
+              "id": "s03",
+              "repetition": 2,
+              "baseline_words": 12,
+              "candidate_words": 12,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s04",
+              "repetition": 1,
+              "baseline_words": 5,
+              "candidate_words": 5,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s04",
+              "repetition": 2,
+              "baseline_words": 6,
+              "candidate_words": 5,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8333333333333334
+            },
+            {
+              "id": "s05",
+              "repetition": 1,
+              "baseline_words": 25,
+              "candidate_words": 25,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s05",
+              "repetition": 2,
+              "baseline_words": 16,
+              "candidate_words": 25,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.5625
+            },
+            {
+              "id": "s06",
+              "repetition": 1,
+              "baseline_words": 29,
+              "candidate_words": 26,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.896551724137931
+            },
+            {
+              "id": "s06",
+              "repetition": 2,
+              "baseline_words": 29,
+              "candidate_words": 26,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.896551724137931
+            },
+            {
+              "id": "s07",
+              "repetition": 1,
+              "baseline_words": 10,
+              "candidate_words": 10,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s07",
+              "repetition": 2,
+              "baseline_words": 10,
+              "candidate_words": 10,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s08",
+              "repetition": 1,
+              "baseline_words": 22,
+              "candidate_words": 22,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s08",
+              "repetition": 2,
+              "baseline_words": 22,
+              "candidate_words": 22,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            }
+          ]
+        },
+        "old": {
+          "pairs": 16,
+          "half_length_successes": 1,
+          "half_length_rate": 0.0625,
+          "median_word_ratio": 0.9583333333333333,
+          "total_word_reduction": 0.1309904153354633,
+          "details": [
+            {
+              "id": "s01",
+              "repetition": 1,
+              "baseline_words": 20,
+              "candidate_words": 20,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s01",
+              "repetition": 2,
+              "baseline_words": 19,
+              "candidate_words": 20,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0526315789473684
+            },
+            {
+              "id": "s02",
+              "repetition": 1,
+              "baseline_words": 24,
+              "candidate_words": 16,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.6666666666666666
+            },
+            {
+              "id": "s02",
+              "repetition": 2,
+              "baseline_words": 24,
+              "candidate_words": 22,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.9166666666666666
+            },
+            {
+              "id": "s03",
+              "repetition": 1,
+              "baseline_words": 12,
+              "candidate_words": 6,
+              "candidate_valid": true,
+              "half_length_success": true,
+              "ratio": 0.5
+            },
+            {
+              "id": "s03",
+              "repetition": 2,
+              "baseline_words": 12,
+              "candidate_words": 12,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s04",
+              "repetition": 1,
+              "baseline_words": 6,
+              "candidate_words": 5,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8333333333333334
+            },
+            {
+              "id": "s04",
+              "repetition": 2,
+              "baseline_words": 6,
+              "candidate_words": 5,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8333333333333334
+            },
+            {
+              "id": "s05",
+              "repetition": 1,
+              "baseline_words": 25,
+              "candidate_words": 25,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s05",
+              "repetition": 2,
+              "baseline_words": 25,
+              "candidate_words": 25,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s06",
+              "repetition": 1,
+              "baseline_words": 32,
+              "candidate_words": 26,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8125
+            },
+            {
+              "id": "s06",
+              "repetition": 2,
+              "baseline_words": 32,
+              "candidate_words": 26,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.8125
+            },
+            {
+              "id": "s07",
+              "repetition": 1,
+              "baseline_words": 10,
+              "candidate_words": 10,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s07",
+              "repetition": 2,
+              "baseline_words": 10,
+              "candidate_words": 10,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            },
+            {
+              "id": "s08",
+              "repetition": 1,
+              "baseline_words": 34,
+              "candidate_words": 22,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 0.6470588235294118
+            },
+            {
+              "id": "s08",
+              "repetition": 2,
+              "baseline_words": 22,
+              "candidate_words": 22,
+              "candidate_valid": true,
+              "half_length_success": false,
+              "ratio": 1.0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "review_failures": [
+    {
+      "id": "s10",
+      "repetition": 1,
+      "arm": "old",
+      "dimension": "meaning",
+      "review": {
+        "sample_id": "sample-005",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed on Mondays. Reserve a wheel through the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+        "label": "Fail"
+      }
+    },
+    {
+      "id": "s10",
+      "repetition": 2,
+      "arm": "old",
+      "dimension": "meaning",
+      "review": {
+        "sample_id": "sample-029",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m. The studio is closed on Mondays.\\n\\nReserve a wheel through the member portal before you come; each booking is limited to two hours.\\n\\nBefore leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.\"",
+        "label": "Fail"
+      }
+    },
+    {
+      "id": "s10",
+      "repetition": 1,
+      "arm": "candidate",
+      "dimension": "meaning",
+      "review": {
+        "sample_id": "sample-038",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, 1\u20138 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014bookings are limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and label them with your name and the date.\"",
+        "label": "Fail"
+      }
+    },
+    {
+      "id": "s10",
+      "repetition": 2,
+      "arm": "candidate",
+      "dimension": "meaning",
+      "review": {
+        "sample_id": "sample-056",
+        "evidence": "The directive \"Reserve a wheel ... before you come\" adds a pre-arrival booking requirement. The source requires reservations and permits portal booking but does not require reserving before arrival. The draft therefore tightens the timing condition beyond the supplied evidence. Draft evidence: \"You can use the wheel room Tuesday through Sunday, from 1 to 8 p.m.; the studio is closed Monday. Reserve a wheel in the member portal before you come\u2014each booking is limited to two hours. Before leaving, put wet pieces on the shelf marked Work in Progress and attach a label with your name and the date.\"",
+        "label": "Fail"
+      }
+    }
+  ],
+  "primary_category": "generate",
+  "proposed_target_met": false,
+  "candidate_all_reviewed_and_valid": false
+}

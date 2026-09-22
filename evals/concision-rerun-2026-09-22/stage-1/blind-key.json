@@ -1,0 +1,542 @@
+{
+  "sample-001": {
+    "id": "c04",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-002": {
+    "id": "d01",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-003": {
+    "id": "c04",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-004": {
+    "id": "d05",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-005": {
+    "id": "g06",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-006": {
+    "id": "g06",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-007": {
+    "id": "c02",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-008": {
+    "id": "g04",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-009": {
+    "id": "g06",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-010": {
+    "id": "c05",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-011": {
+    "id": "d06",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-012": {
+    "id": "d01",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-013": {
+    "id": "g02",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-014": {
+    "id": "g05",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-015": {
+    "id": "g03",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-016": {
+    "id": "d05",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-017": {
+    "id": "d03",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-018": {
+    "id": "g05",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-019": {
+    "id": "g06",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-020": {
+    "id": "g01",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-021": {
+    "id": "c05",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-022": {
+    "id": "d06",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-023": {
+    "id": "c01",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-024": {
+    "id": "c01",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-025": {
+    "id": "d02",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-026": {
+    "id": "d05",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-027": {
+    "id": "d03",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-028": {
+    "id": "c05",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-029": {
+    "id": "c04",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-030": {
+    "id": "c06",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-031": {
+    "id": "d04",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-032": {
+    "id": "g06",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-033": {
+    "id": "d06",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-034": {
+    "id": "d06",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-035": {
+    "id": "g03",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-036": {
+    "id": "c06",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-037": {
+    "id": "d02",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-038": {
+    "id": "c04",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-039": {
+    "id": "c03",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-040": {
+    "id": "d03",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-041": {
+    "id": "d05",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-042": {
+    "id": "c06",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-043": {
+    "id": "d03",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-044": {
+    "id": "c04",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-045": {
+    "id": "g01",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-046": {
+    "id": "g05",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-047": {
+    "id": "c03",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-048": {
+    "id": "c06",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-049": {
+    "id": "g01",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-050": {
+    "id": "d05",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-051": {
+    "id": "g05",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-052": {
+    "id": "g02",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-053": {
+    "id": "c01",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-054": {
+    "id": "g02",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-055": {
+    "id": "g06",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-056": {
+    "id": "d04",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-057": {
+    "id": "d04",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-058": {
+    "id": "c06",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-059": {
+    "id": "c02",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-060": {
+    "id": "g05",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-061": {
+    "id": "g03",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-062": {
+    "id": "d06",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-063": {
+    "id": "g03",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-064": {
+    "id": "d05",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-065": {
+    "id": "c03",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-066": {
+    "id": "c02",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-067": {
+    "id": "c01",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-068": {
+    "id": "d01",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-069": {
+    "id": "d01",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-070": {
+    "id": "g02",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-071": {
+    "id": "c06",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-072": {
+    "id": "g03",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-073": {
+    "id": "c05",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-074": {
+    "id": "c03",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-075": {
+    "id": "d02",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-076": {
+    "id": "g01",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-077": {
+    "id": "g04",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-078": {
+    "id": "d01",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-079": {
+    "id": "d03",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-080": {
+    "id": "d04",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-081": {
+    "id": "c05",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-082": {
+    "id": "g04",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-083": {
+    "id": "d04",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-084": {
+    "id": "c03",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-085": {
+    "id": "g05",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-086": {
+    "id": "g04",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-087": {
+    "id": "g02",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-088": {
+    "id": "g01",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-089": {
+    "id": "c02",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-090": {
+    "id": "c03",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-091": {
+    "id": "c02",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-092": {
+    "id": "d02",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-093": {
+    "id": "c04",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-094": {
+    "id": "d01",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-095": {
+    "id": "g01",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-096": {
+    "id": "c05",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-097": {
+    "id": "g04",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-098": {
+    "id": "c02",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-099": {
+    "id": "d02",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-100": {
+    "id": "c01",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-101": {
+    "id": "d04",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-102": {
+    "id": "d02",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-103": {
+    "id": "d06",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-104": {
+    "id": "c01",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-105": {
+    "id": "g03",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-106": {
+    "id": "g02",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-107": {
+    "id": "d03",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-108": {
+    "id": "g04",
+    "arm": "candidate",
+    "repetition": 1
+  }
+}

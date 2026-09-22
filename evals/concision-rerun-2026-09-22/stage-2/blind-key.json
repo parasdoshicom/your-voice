@@ -1,0 +1,362 @@
+{
+  "sample-001": {
+    "id": "s10",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-002": {
+    "id": "s08",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-003": {
+    "id": "s02",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-004": {
+    "id": "s12",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-005": {
+    "id": "s10",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-006": {
+    "id": "s03",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-007": {
+    "id": "s04",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-008": {
+    "id": "s05",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-009": {
+    "id": "s02",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-010": {
+    "id": "s09",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-011": {
+    "id": "s01",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-012": {
+    "id": "s03",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-013": {
+    "id": "s09",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-014": {
+    "id": "s01",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-015": {
+    "id": "s01",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-016": {
+    "id": "s07",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-017": {
+    "id": "s05",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-018": {
+    "id": "s05",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-019": {
+    "id": "s01",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-020": {
+    "id": "s02",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-021": {
+    "id": "s06",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-022": {
+    "id": "s07",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-023": {
+    "id": "s01",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-024": {
+    "id": "s06",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-025": {
+    "id": "s09",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-026": {
+    "id": "s06",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-027": {
+    "id": "s05",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-028": {
+    "id": "s04",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-029": {
+    "id": "s10",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-030": {
+    "id": "s03",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-031": {
+    "id": "s05",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-032": {
+    "id": "s07",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-033": {
+    "id": "s02",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-034": {
+    "id": "s12",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-035": {
+    "id": "s07",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-036": {
+    "id": "s08",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-037": {
+    "id": "s03",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-038": {
+    "id": "s10",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-039": {
+    "id": "s08",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-040": {
+    "id": "s06",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-041": {
+    "id": "s08",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-042": {
+    "id": "s11",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-043": {
+    "id": "s11",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-044": {
+    "id": "s07",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-045": {
+    "id": "s07",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-046": {
+    "id": "s02",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-047": {
+    "id": "s04",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-048": {
+    "id": "s09",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-049": {
+    "id": "s10",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-050": {
+    "id": "s08",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-051": {
+    "id": "s04",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-052": {
+    "id": "s01",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-053": {
+    "id": "s05",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-054": {
+    "id": "s09",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-055": {
+    "id": "s03",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-056": {
+    "id": "s10",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-057": {
+    "id": "s12",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-058": {
+    "id": "s03",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-059": {
+    "id": "s02",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-060": {
+    "id": "s06",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-061": {
+    "id": "s12",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-062": {
+    "id": "s06",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-063": {
+    "id": "s12",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-064": {
+    "id": "s09",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-065": {
+    "id": "s04",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-066": {
+    "id": "s11",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-067": {
+    "id": "s11",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-068": {
+    "id": "s11",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-069": {
+    "id": "s08",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-070": {
+    "id": "s12",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-071": {
+    "id": "s04",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-072": {
+    "id": "s11",
+    "arm": "old",
+    "repetition": 1
+  }
+}

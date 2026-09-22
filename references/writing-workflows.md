@@ -28,7 +28,7 @@ For source files, identify the editable prose span first. Keep surrounding synta
 
 ## Condense
 
-Start with the must-survive material, then choose the strongest necessary support. Remove whole redundant ideas before trimming individual words. Combine clauses only when the result remains easy to follow.
+Rebuild from the must-survive material instead of shortening every source sentence. Several paragraphs may be doing one job: state that point once, then retain only support the reader needs. Remove whole redundant ideas before trimming words. For an explicitly overlong draft, try a version roughly half its length, then restore anything needed for meaning, voice, or the requested format. Half is a working draft target, never permission to delete required content. An already concise source may need little or no reduction. Combine clauses only when the result remains easy to follow.
 
 Compare the shorter version with the source: did it retain every requested answer, qualification, owner, date, and next action that matters? Did the apology, disagreement, invitation, or warmth still do its job? If the word limit cannot hold the required meaning, make the tradeoff explicit instead of silently deleting it. Do not add a recap to explain the shorter draft.
 

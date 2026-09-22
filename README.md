@@ -115,3 +115,5 @@ Review its model and scenarios before running it. Deterministic output checks co
 The scheduled discovery workflow creates a review queue, never automatic rule adoption. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for sources and influence boundaries, and [LICENSE](LICENSE) for the MIT license.
 
 The [evaluation audit](reports/2026-09-22-eval-audit.md) explains why the stress test cannot establish a 2× concision claim and defines a provisional, meaning-preserving target for a future held-out test.
+
+The [two-stage rerun](reports/2026-09-22-concision-rerun.md) tested two revisions across 180 comparison drafts. The released revision was 13.1% shorter than the prior skill on narrow questions, but did not meet the 2× target; the report retains fidelity flags and reproducible artifacts.

@@ -1,0 +1,271 @@
+[
+  {
+    "id": "g01",
+    "optional_items": [
+      {
+        "item": "The returns fix is expected Thursday",
+        "why": "The question concerns tomorrow’s revenue/order-count review, which does not depend on this repair date."
+      },
+      {
+        "item": "Explicitly naming the returns defect when the answer already limits use to revenue and order counts",
+        "why": "A scoped yes answers the question without suggesting that every panel is valid. If the answer recommends the whole dashboard without qualification, the returns caveat becomes necessary."
+      }
+    ],
+    "required_items": [
+      "Confirm that revenue and order counts can be used for tomorrow’s review",
+      "Avoid implying the returns panel is validated or safe to use; either scope the permission or state its limitation"
+    ],
+    "notes": "The original bundled returns criterion is conditional, not an unconditional inclusion requirement."
+  },
+  {
+    "id": "g02",
+    "optional_items": [
+      {
+        "item": "The totals alone do not establish statistical significance",
+        "why": "The direct question is resolved by distinguishing counts from rates. A purely descriptive comparison need not introduce significance, provided it does not claim a proven population effect."
+      }
+    ],
+    "required_items": [
+      "Compare old-page conversion of 10% with new-page conversion of 8%",
+      "Explain that greater traffic produced more signups despite a lower observed conversion rate",
+      "Do not turn descriptive rates into a statistically proven performance claim"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "g03",
+    "optional_items": [
+      {
+        "item": "Do not create a separate feedback document",
+        "why": "Directing the person to comments on the shared draft already specifies the destination. An additional negative instruction is unnecessary."
+      },
+      {
+        "item": "The collection deadline is Friday at noon",
+        "why": "Useful adjacent context, but the question asks where, not when. Also the source says comments are collected then; it does not expressly establish a hard submission deadline."
+      },
+      {
+        "item": "Both typos and substantive suggestions are welcome",
+        "why": "This concerns feedback scope rather than its requested destination."
+      }
+    ],
+    "required_items": [
+      "Put feedback in comments on the shared draft"
+    ],
+    "notes": "The original deadline criterion strengthens the source and should not be enforced as written."
+  },
+  {
+    "id": "g04",
+    "optional_items": [
+      {
+        "item": "Bring the broken item and its power cable if applicable",
+        "why": "Packing instructions do not answer the arrival-time question."
+      },
+      {
+        "item": "Large appliances are not accepted",
+        "why": "Item eligibility is unrelated to whether a reserved attendee needs to arrive early; no appliance is mentioned in the question."
+      }
+    ],
+    "required_items": [
+      "Doors open at 9:45 a.m. and the workshop starts at 10 a.m.",
+      "A reservation guarantees a seat, so there is no need to arrive before doors open"
+    ],
+    "notes": "Do not drop the reservation condition and promise every attendee a guaranteed seat."
+  },
+  {
+    "id": "g05",
+    "optional_items": [
+      {
+        "item": "Record the spreadsheet idea for later discovery without implying a commitment",
+        "why": "A possible future step is not needed to recommend whether to change formats this week."
+      }
+    ],
+    "required_items": [
+      "Recommend keeping CSV for this delivery",
+      "Ground the recommendation in CSV meeting the customer need and the two-day change exceeding one day of schedule slack"
+    ],
+    "notes": "If later discovery is mentioned, it must not be turned into a delivery commitment."
+  },
+  {
+    "id": "g06",
+    "optional_items": [
+      {
+        "item": "Folder browsing remains available",
+        "why": "A helpful interim workaround, but not essential to communicating migration status and its remaining limitation."
+      },
+      {
+        "item": "Users do not need to upload files again",
+        "why": "This is reasonably implied by stating that every original was copied and incomplete search does not indicate missing stored photos. It need not be repeated explicitly."
+      }
+    ],
+    "required_items": [
+      "All original photos have been copied",
+      "Search indexing remains in progress and is expected to finish by 4 p.m. today",
+      "Search results may be incomplete until indexing finishes without indicating lost stored photos"
+    ],
+    "notes": "Helpful optional details may improve usefulness; omission alone should not fail fidelity."
+  },
+  {
+    "id": "d01",
+    "optional_items": [],
+    "required_items": [
+      "The relevance review is complete and met the agreed threshold",
+      "Keyboard navigation in the filter menu is the only remaining launch blocker",
+      "Maya expects the fix tomorrow afternoon",
+      "Wednesday launch depends on passing the accessibility check",
+      "The writer will report timing changes"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "d02",
+    "optional_items": [],
+    "required_items": [
+      "The recording is in the course portal under Session Materials",
+      "The existing course login works without a new account or separate link",
+      "Captions are expected tomorrow morning",
+      "If the recording is absent, sign out and back in, then report if the problem remains",
+      "Keep a helpful tone"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "d03",
+    "optional_items": [],
+    "required_items": [
+      "Keep the current booking form for the upcoming pilot",
+      "It collects all four required fields",
+      "A replacement would take roughly three engineering days",
+      "The pilot has twelve participants",
+      "Log participant issues to inform a rebuild decision before broader rollout"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "d04",
+    "optional_items": [
+      {
+        "item": "The gate change is because of repairs",
+        "why": "The cause is contextual; the new location, affected orders, date, hours, and collection requirements preserve the notice’s practical meaning."
+      }
+    ],
+    "required_items": [
+      "Saturday’s prepaid orders move from the main gate to the east gate",
+      "Pickup remains 11 a.m. to 2 p.m.",
+      "Bring the order confirmation on a phone or on paper",
+      "Another person may collect with the confirmation without advance authorization"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "d05",
+    "optional_items": [
+      {
+        "item": "The specific Monday-and-Tuesday example",
+        "why": "The example repeats the deduplication rule. A clear beginner-friendly explanation can preserve the meaning without those particular days or a separate worked example."
+      }
+    ],
+    "required_items": [
+      "Explain daily uniqueness versus uniqueness across the entire week in nontechnical language",
+      "Make clear why summed daily visitor counts can exceed weekly visitors without a reporting error",
+      "Preserve the recommendation to label the views daily unique visitors and weekly unique visitors"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "d06",
+    "optional_items": [],
+    "required_items": [
+      "The main proposal review is complete with no requested changes",
+      "The cost appendix depends on a revised supplier estimate",
+      "The supplier expects to send the estimate by noon tomorrow",
+      "Full review is due by 3 p.m. tomorrow if the estimate arrives on time",
+      "If the estimate misses noon, the writer will provide an update and revised delivery time then"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "c01",
+    "optional_items": [
+      {
+        "item": "Explicitly mentioning storage consumption",
+        "why": "Storage is useful additional context, but the requested read/write tradeoff can be fully explained through faster lookup and index maintenance during writes."
+      }
+    ],
+    "required_items": [
+      "Use 100–150 words",
+      "Explain in beginner language how an index can locate matching rows without a full-table scan",
+      "Include a familiar analogy",
+      "Explain that maintaining indexes adds work to writes",
+      "Include one practical example",
+      "Do not imply every query benefits"
+    ],
+    "notes": "The last criterion is a claim constraint; a qualified can help is sufficient without a separate universal-benefit disclaimer."
+  },
+  {
+    "id": "c02",
+    "optional_items": [],
+    "required_items": [
+      "Apologize for missing the gallery opening after promising to attend",
+      "Take responsibility for forgetting without an invented excuse",
+      "Acknowledge that the opening mattered and the friend may feel hurt",
+      "Offer to visit together next weekend without pressuring or presuming acceptance",
+      "Maintain personal warmth"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "c03",
+    "optional_items": [],
+    "required_items": [
+      "Keep every source word in the same order",
+      "Change punctuation only",
+      "Return no explanation or extra text",
+      "Make the sentence boundaries and list readable"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "c04",
+    "optional_items": [
+      {
+        "item": "A separate sentence saying not to replace the existing catalog with failed output",
+        "why": "Keeping the existing catalog on validation failure conveys the same safeguard. Do not demand redundant positive and negative formulations."
+      }
+    ],
+    "required_items": [
+      "Run the exact supplied command from the project root",
+      "Open the exact supplied URL afterward",
+      "On validation failure, retain the existing catalog and paste the error into the issue tracker"
+    ],
+    "notes": "Both exact_spans remain mandatory. This relaxes duplicate wording, not the failure safeguard."
+  },
+  {
+    "id": "c05",
+    "optional_items": [],
+    "required_items": [
+      "Leena: revised floor plan by October 6 at noon",
+      "Omar: delivery window confirmation by October 7 at 3 p.m., dependent on Leena's final plan",
+      "Theo: volunteer assignments by October 8 at 10 a.m.",
+      "Jo: written venue access approval by October 6 at 5 p.m.",
+      "Jo must flag missing approval to Leena on October 6 if the deadline is missed",
+      "All times are Pacific"
+    ],
+    "notes": "All listed substantive requirements are justified by the requested transformation; equivalent wording and merged statements are acceptable."
+  },
+  {
+    "id": "c06",
+    "optional_items": [
+      {
+        "item": "Requiring both like-for-like comparison and a randomized test as next steps",
+        "why": "The request asks for the next useful check, not an exhaustive plan. Either source-supported next step can satisfy it if its evidentiary limits are respected."
+      }
+    ],
+    "required_items": [
+      "Report the observed fall from 18% in August to 12% in September",
+      "Connect the timing to reminders beginning in September without claiming causation",
+      "Explain that appointment mix and cancellation policy also changed and the evidence does not isolate the reminder effect",
+      "Give a useful next check: compare like-for-like appointment types and/or consider randomized reminders if feasible"
+    ],
+    "notes": "Absence of randomization alone does not prove causal identification impossible in principle; here the concurrent changes and observational comparison prevent the supplied data from establishing the effect."
+  }
+]
