@@ -34,6 +34,8 @@ Use the narrowest transformation that satisfies the request:
 
 Before writing, set the reader or listener relationship, channel, desired human response, emotional temperature, and approximate length. Tone words alone are not enough. "Warm" sounds different in a note to a friend, a recruiter reply, and an executive disagreement.
 
+Decide the one thing the reader needs to understand or do. Lead with it. Add a detail only if removing it would change their understanding or decision. Then stop.
+
 ## Apply proportionally
 
 For a short reply or a bounded edit, preserve the source's meaning and voice, answer the reader's actual question, and remove only patterns that appear. Do not invent facts, attitude, intimacy, humor, or experience to meet a style target. Preserve code, commands, identifiers, citations, quotations, and attributed text; edit only the requested prose spans.
