@@ -100,6 +100,8 @@ python3 scripts/score_judges.py evals/labels.example.jsonl --split test
 
 The [September 22 review](reports/2026-09-22-refresh-review.md) records the repo audit and a five-case independent writing comparison, including its limits. The [Stanley follow-up](reports/2026-09-22-stanley-review.md) records external feedback, revisions, and targeted preservation checks.
 
+The [96-draft concision stress test](reports/2026-09-22-concision-stress.md) reports modest length changes, blinded comparisons, and an observed uncertainty failure.
+
 Unit tests validate tools, and the benchmark validator checks case structure. Neither proves better writing. [Evaluation](references/evaluation.md) describes isolated baseline/treatment runs, blind review, human holdouts, and reporting limits. The synthetic judge-label file checks format, not production calibration.
 
 An optional live Codex harness is configured in `.plugin-eval/benchmark.json`:
