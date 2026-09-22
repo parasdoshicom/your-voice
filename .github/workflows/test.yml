@@ -30,6 +30,8 @@ jobs:
         run: |
           python scripts/summarize_concision_run.py evals/concision-rerun-2026-09-22/stage-1/experiment.json --check-summary evals/concision-rerun-2026-09-22/stage-1/summary.json
           python scripts/summarize_concision_run.py evals/concision-rerun-2026-09-22/stage-2/experiment.json --check-summary evals/concision-rerun-2026-09-22/stage-2/summary.json
+      - name: Verify writing-brief regression record
+        run: python evals/brief-refresh-2026-09-22/recompute.py --check
       - name: Compile scripts
         run: python -m py_compile scripts/*.py tests/*.py
       - name: Check auditor version

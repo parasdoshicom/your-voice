@@ -58,6 +58,10 @@ Leave unsupported fields unknown. Do not fill every field just to complete the t
 - Filler or pet phrases to avoid:
 - Pace or time-window evidence:
 
+## Approved recurring briefs
+
+Use [writing briefs](writing-briefs.md) for a recurring job’s audience, output shape, and exclusions. Record only writer-approved recurring choices here; do not promote a one-off formatting request to durable voice.
+
 ## Relationship switches
 
 - Friends and close collaborators:

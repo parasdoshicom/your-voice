@@ -1,0 +1,23 @@
+{
+  "none": {
+    "drafts": 20,
+    "deterministic_assertions": 24,
+    "deterministic_failures": 0,
+    "meaning_failures": 0,
+    "contract_failures": 0
+  },
+  "old": {
+    "drafts": 20,
+    "deterministic_assertions": 24,
+    "deterministic_failures": 0,
+    "meaning_failures": 0,
+    "contract_failures": 0
+  },
+  "candidate": {
+    "drafts": 20,
+    "deterministic_assertions": 24,
+    "deterministic_failures": 0,
+    "meaning_failures": 0,
+    "contract_failures": 0
+  }
+}

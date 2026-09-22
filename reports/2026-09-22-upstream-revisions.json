@@ -1,0 +1,86 @@
+[
+  {
+    "repo": "blader/humanizer",
+    "url": "https://github.com/blader/humanizer",
+    "old": "e2e92e7b4b8229253ed5c8e81dc65463fdeddda5",
+    "head": "9862685f575c65a8247f90369951df1b3416e3d6",
+    "head_date": "2026-09-06",
+    "tags": "v3.0.0",
+    "commits_since": "21",
+    "retrieved_date": "2026-09-22",
+    "license": "MIT",
+    "scope": "writing/evaluation guidance and relevant diffs; not a full upstream code/security audit"
+  },
+  {
+    "repo": "hardikpandya/stop-slop",
+    "url": "https://github.com/hardikpandya/stop-slop",
+    "old": "8da1f030185bdfe8471220585162991eaeb970e9",
+    "head": "8da1f030185bdfe8471220585162991eaeb970e9",
+    "head_date": "2026-03-18",
+    "tags": "",
+    "commits_since": "0",
+    "retrieved_date": "2026-09-22",
+    "license": "MIT",
+    "scope": "writing/evaluation guidance and relevant diffs; not a full upstream code/security audit"
+  },
+  {
+    "repo": "petergyang/no-ai-slop",
+    "url": "https://github.com/petergyang/no-ai-slop",
+    "old": "d30eddb9e04562234f2070b5ee63ca4649d9a05e",
+    "head": "000650b156983f5159695b441477f4e63b25dc85",
+    "head_date": "2026-09-01",
+    "tags": "",
+    "commits_since": "1",
+    "retrieved_date": "2026-09-22",
+    "license": "MIT",
+    "scope": "writing/evaluation guidance and relevant diffs; not a full upstream code/security audit"
+  },
+  {
+    "repo": "conorbronsdon/avoid-ai-writing",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "old": "40328bd292bc682d46010a6f9ac2cdbf4fb4ceca",
+    "head": "35149473c6a70e64a76c09860bca82a08dda137b",
+    "head_date": "2026-09-22",
+    "tags": "",
+    "commits_since": "292",
+    "retrieved_date": "2026-09-22",
+    "license": "MIT",
+    "scope": "writing/evaluation guidance and relevant diffs; not a full upstream code/security audit"
+  },
+  {
+    "repo": "cosmos-makers/writer-persona",
+    "url": "https://github.com/cosmos-makers/writer-persona",
+    "old": "5eee0fd5b0c2ce00fc3bd12ea546efb163d96cf8",
+    "head": "5eee0fd5b0c2ce00fc3bd12ea546efb163d96cf8",
+    "head_date": "2026-04-01",
+    "tags": "",
+    "commits_since": "0",
+    "retrieved_date": "2026-09-22",
+    "license": "MIT",
+    "scope": "writing/evaluation guidance and relevant diffs; not a full upstream code/security audit"
+  },
+  {
+    "repo": "AshwinSathian/humanize-writing-skill",
+    "url": "https://github.com/AshwinSathian/humanize-writing-skill",
+    "old": "0c3f05bc4f37a909138546668c9d5f2c71eddbec",
+    "head": "65f84fab8361184960410186f99d5b4cf506c972",
+    "head_date": "2026-08-26",
+    "tags": "v1.1.1",
+    "commits_since": "12",
+    "retrieved_date": "2026-09-22",
+    "license": "MIT",
+    "scope": "writing/evaluation guidance and relevant diffs; not a full upstream code/security audit"
+  },
+  {
+    "repo": "ai-evals-course/evals-skills",
+    "url": "https://github.com/ai-evals-course/evals-skills",
+    "old": "b91c188388efdf87e49ca4d2b1d673c7ac33c9b8",
+    "head": "2edbc5b1b0dc91f74fcfa8fd8f7eaeb302e052ab",
+    "head_date": "2026-09-15",
+    "tags": "",
+    "commits_since": "6",
+    "retrieved_date": "2026-09-22",
+    "license": "No license file found at reviewed revision",
+    "scope": "writing/evaluation guidance and relevant diffs; not a full upstream code/security audit"
+  }
+]

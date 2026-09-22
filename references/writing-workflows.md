@@ -4,7 +4,7 @@ Use the editorial priorities in `SKILL.md`. This file owns the transformation pr
 
 ## Select before drafting
 
-Privately identify the reader, situation, desired response, requested format, and available evidence. Use context already supplied. Ask only for missing information that would materially change the result; for a larger blank-slate piece, bundle necessary questions.
+Use the task’s [writing brief](writing-briefs.md) to identify what belongs and what is excluded; an informal request usually supplies enough context. Use context already supplied. Ask only for missing information that would materially change the result; for a larger blank-slate piece, bundle necessary questions.
 
 Sort the material into:
 
@@ -17,6 +17,8 @@ Select an order that fits the job. A status answer usually starts with the resul
 ## Generate
 
 Draft from the selected material in the writer's register for this recipient. Prefer approved samples over a platform template. When facts are missing, omit the claim, name the uncertainty, or use an explicit placeholder if the requested artifact needs one. User-authorized fiction or hypothetical examples must stay distinguishable from factual claims and personal experience.
+
+Respect the genre and language: repeated reference sections can aid scanning, required boilerplate can carry meaning, and a supported call to action can be the purpose of marketing copy. Do not impose English word-pattern rules on another language.
 
 For explanations, give enough mechanism and example for the intended reader to follow. Do not turn a request to teach into an unexplained slogan. Length follows the job and the user's constraints.
 
@@ -47,7 +49,7 @@ These general clarity principles are inspired by ASD-STE100. This skill does not
 Read once for the reader's experience, then compare against the source:
 
 - Does the opening and order fit the purpose, and can the reader find every required answer?
-- Did any claim, degree of certainty, social meaning, or protected span change?
+- Did any claim, degree of certainty, social meaning, or protected span change? Check rankings, overlapping events, quantities and units, negation, causality, and whether a step is required or merely suggested.
 - Does this sound like the supported writer in this relationship, without added personality or forced polish?
 - Does each remaining detail serve the piece? Could a cut remove needed explanation, warmth, rhythm, or a caveat?
 
@@ -58,6 +60,8 @@ python3 <skill-directory>/scripts/audit_text.py <draft-file>
 ```
 
 Resolve the skill directory from `SKILL.md`; use a temporary UTF-8 draft file outside the public repo. Add `--mode technical` or `--mode spoken` when applicable. The auditor returns review candidates, not instructions to rewrite or a quality score. It masks common code, URL, and table forms but cannot recognize all quotations or attributed text; protect those manually. Review intentional matches rather than editing until the count reaches zero. A routine short reply needs no file or subprocess.
+
+When a change summary is requested, check it against the delivered version; do not report planned or abandoned edits as completed.
 
 For speech, use `human-expression.md` and check delivery aloud. End when the piece has done its job.
 

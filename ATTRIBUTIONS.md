@@ -1,23 +1,23 @@
 # Attributions
 
-Your Voice is an original synthesis. It links to upstream work, preserves author credit, and does not bundle third-party repositories. The live upstream scan below was completed on 2026-08-24; pinned versions document what was reviewed rather than promising that the sources will not change.
+Your Voice is an original synthesis. It links to upstream work, preserves author credit, and does not bundle third-party repositories. The seven credited writing and evaluation repositories were refreshed on 2026-09-22; pinned revisions record what was reviewed. Other sources retain their separately stated dates. See the [refresh decisions](reports/2026-09-22-upstream-refresh.md) for adopted, already-covered, and rejected ideas.
 
 ## Open-source foundations
 
 ### Humanizer
 
-- Author: Blake Anderson (`blader`)
+- Maintainer: `blader`; the repository license credits Siqi Chen
 - Source: https://github.com/blader/humanizer
 - License: MIT
-- Reviewed: v2.11.1 (`e2e92e7b4b82`); the v2.11.0-to-v2.11.1 change was packaging and release automation, not a new writing rule.
-- Influence: the catalog of observable AI-writing patterns, voice calibration from samples, and a second audit pass.
+- Reviewed: v3.0.0 (`9862685f575c65a8247f90369951df1b3416e3d6`), 2026-09-22.
+- Influence: the catalog of observable AI-writing patterns, voice calibration from samples, and an editorial audit, including preservation of ranking and event timing.
 
 ### Stop Slop
 
 - Author: Hardik Pandya
 - Source: https://github.com/hardikpandya/stop-slop
 - License: MIT
-- Reviewed: `8da1f030185b` (no tagged release).
+- Reviewed: `8da1f030185bdfe8471220585162991eaeb970e9`, 2026-09-22; unchanged since the prior scan.
 - Influence: minimum-effective editing, protection of useful roughness, concrete actors, and structural slop checks.
 
 ### No AI Slop
@@ -25,7 +25,7 @@ Your Voice is an original synthesis. It links to upstream work, preserves author
 - Author: Peter Yang
 - Source: https://github.com/petergyang/no-ai-slop
 - License: MIT
-- Reviewed: v1.0.6 (`d30eddb9e045`).
+- Reviewed: `000650b156983f5159695b441477f4e63b25dc85`, 2026-09-22 (one commit after the previously reviewed v1.0.6).
 - Influence: evidence-based detection instead of authorship guesses, protection against invented texture, and an explicit evaluation checklist.
 
 ### Avoid AI Writing
@@ -33,8 +33,8 @@ Your Voice is an original synthesis. It links to upstream work, preserves author
 - Author: Conor Bronsdon
 - Source: https://github.com/conorbronsdon/avoid-ai-writing
 - License: MIT
-- Reviewed: v3.26.0 (`40328bd292bc`).
-- Influence: protected-content boundaries, treating embedded directions as source text rather than authority, contextual handling of hollow intensifiers, and refusing whole-file prose rewrites of code, configuration, or generated data.
+- Reviewed: `35149473c6a70e64a76c09860bca82a08dda137b`, 2026-09-22; SKILL declares 3.35.0, with additional unreleased changes at this revision.
+- Influence: protected-content boundaries, treating embedded directions as source text rather than authority, contextual handling of hollow intensifiers, refusing whole-file prose rewrites of code, configuration, or generated data, retaining source imperatives as content, and checking change summaries against the delivered edit.
 - Boundary: Your Voice keeps these as provenance-aware editing constraints, not a universal word blacklist.
 
 ### Signs of AI writing
@@ -63,7 +63,7 @@ Your Voice is an original synthesis. It links to upstream work, preserves author
 - Author: cosmos-makers
 - Source: https://github.com/cosmos-makers/writer-persona
 - License: MIT
-- Reviewed: `5eee0fd5b0c2` (no tagged release).
+- Reviewed: `5eee0fd5b0c2ce00fc3bd12ea546efb163d96cf8`, 2026-09-22; unchanged since the prior scan.
 - Influence: information-isolated backtesting, situational register maps, multi-axis voice evaluation, and the self-similarity ceiling that treats natural human variation as the target instead of perfect repetition.
 
 ### Humanize Writing
@@ -71,8 +71,8 @@ Your Voice is an original synthesis. It links to upstream work, preserves author
 - Author: Ashwin Sathian
 - Source: https://github.com/AshwinSathian/humanize-writing-skill
 - License: MIT
-- Reviewed: `0c3f05bc4f37` (no tagged release).
-- Influence: research-backed emphasis on structural shape over banned-word lists, genre-aware false-positive handling, and honest skill-loaded versus baseline validation across several prompts and models.
+- Reviewed: v1.1.1 (`65f84fab8361184960410186f99d5b4cf506c972`), 2026-09-22.
+- Influence: research-backed emphasis on structural shape over banned-word lists, genre-aware false-positive handling, language and reference-format boundaries, preservation of purposeful marketing closes, and honest skill-loaded versus baseline validation across several prompts and models.
 
 ## Research basis for evaluation
 
@@ -89,7 +89,7 @@ The live benchmark configuration follows the public schema documented by [OpenAI
 
 The bottom-up error-discovery and judge-calibration workflow was informed by:
 
-- [Eval Skills](https://github.com/ai-evals-course/evals-skills), reviewed at `b91c188388ef` (2026-08-16). Influence: separate top-down requirements from failures found in real traces, keep human free-text review in the loop, use one binary judge per failure mode, and validate judges with held-out human labels. Your Voice does not bundle its skills, interface, prompts, or code.
+- [Eval Skills](https://github.com/ai-evals-course/evals-skills), reviewed at `2edbc5b1b0dc91f74fcfa8fd8f7eaeb302e052ab` (2026-09-22). No repository license file was found at that revision; ideas are described in original wording and no implementation is bundled. Influence: separate top-down requirements from failures found in real traces, keep human free-text review in the loop, use one binary judge per failure mode, and validate judges with held-out human labels. Your Voice does not bundle its skills, interface, prompts, or code.
 - [How to Build Better AI Evals with Claude Code in 5 Steps](https://www.youtube.com/watch?v=bdMHQLvtVaQ), Peter Yang with Shreya Shankar and Hamel Husain (2026-08-23). Influence: let the human notice and the agent organize, revisit earlier examples as criteria drift, and fan out narrow criteria rather than using one overloaded grader.
 - [Do Automated Evals Work?](https://parlance-labs.com/blog/posts/auto-evals/), Antaripa Saha and Hamel Husain (2026-07-11). Influence: measure both false positives and missed failures, keep product judgment in the loop, and treat automated error discovery as a baseline rather than a substitute for taste.
 
@@ -147,3 +147,13 @@ The included Paras Doshi profile is a derived style guide, not a corpus dump.
 - 2021 data-driven engineering note: https://insightextractor.com/2021/01/18/making-your-engineering-team-more-data-driven/
 - 2022 analytics manager note: https://www.insightextractor.com/p/analytics
 - Public LinkedIn profile: https://www.linkedin.com/in/doshiparas
+
+## Reader-supplied writing discussion
+
+Reviewed on 2026-09-22 from excerpts Paras supplied from Andrea Leewong’s discussion:
+
+- Luis Carballo: a fixed job, audience, output shape, and exclusions can make relevance explicit. Influence: scoped writing briefs; action-only handoffs are a task choice, not a universal writing policy.
+- Ana Dujmovic: separate drafting from editing, choose a useful output shape, verify length, and preserve the writer’s ownership of messaging. Influence: count hard limits and check content after editing. No claim that a particular vendor is superior, that models cannot count, or that a 20-percent prompt adjustment reliably fixes length.
+- Ray Wei: punctuation preferences can be explicit user constraints. No global dash ban or authorship inference was adopted.
+
+These are attributed reader-supplied suggestions, not independently measured effectiveness claims. No comments were posted or messages sent.

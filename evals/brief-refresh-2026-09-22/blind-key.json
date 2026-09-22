@@ -1,0 +1,302 @@
+{
+  "sample-001": {
+    "id": "decision_same_facts",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-002": {
+    "id": "honest_change_summary",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-003": {
+    "id": "relational_condensation",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-004": {
+    "id": "relational_condensation",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-005": {
+    "id": "missing_assignment",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-006": {
+    "id": "relational_condensation",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-007": {
+    "id": "marketing_cta",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-008": {
+    "id": "marketing_cta",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-009": {
+    "id": "french_connectors",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-010": {
+    "id": "relational_condensation",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-011": {
+    "id": "relational_condensation",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-012": {
+    "id": "honest_change_summary",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-013": {
+    "id": "reference_parallelism",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-014": {
+    "id": "hard_limit_condition",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-015": {
+    "id": "action_handoff",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-016": {
+    "id": "action_handoff",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-017": {
+    "id": "hard_limit_condition",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-018": {
+    "id": "action_handoff",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-019": {
+    "id": "hard_limit_condition",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-020": {
+    "id": "marketing_cta",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-021": {
+    "id": "marketing_cta",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-022": {
+    "id": "hard_limit_condition",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-023": {
+    "id": "action_handoff",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-024": {
+    "id": "decision_same_facts",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-025": {
+    "id": "missing_assignment",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-026": {
+    "id": "french_connectors",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-027": {
+    "id": "decision_same_facts",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-028": {
+    "id": "honest_change_summary",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-029": {
+    "id": "action_handoff",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-030": {
+    "id": "decision_same_facts",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-031": {
+    "id": "french_connectors",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-032": {
+    "id": "missing_assignment",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-033": {
+    "id": "honest_change_summary",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-034": {
+    "id": "quoted_imperative",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-035": {
+    "id": "hard_limit_condition",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-036": {
+    "id": "french_connectors",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-037": {
+    "id": "marketing_cta",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-038": {
+    "id": "relational_condensation",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-039": {
+    "id": "marketing_cta",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-040": {
+    "id": "reference_parallelism",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-041": {
+    "id": "action_handoff",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-042": {
+    "id": "quoted_imperative",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-043": {
+    "id": "quoted_imperative",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-044": {
+    "id": "missing_assignment",
+    "arm": "old",
+    "repetition": 2
+  },
+  "sample-045": {
+    "id": "reference_parallelism",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-046": {
+    "id": "french_connectors",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-047": {
+    "id": "french_connectors",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-048": {
+    "id": "hard_limit_condition",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-049": {
+    "id": "missing_assignment",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-050": {
+    "id": "reference_parallelism",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-051": {
+    "id": "decision_same_facts",
+    "arm": "old",
+    "repetition": 1
+  },
+  "sample-052": {
+    "id": "honest_change_summary",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-053": {
+    "id": "missing_assignment",
+    "arm": "candidate",
+    "repetition": 2
+  },
+  "sample-054": {
+    "id": "honest_change_summary",
+    "arm": "none",
+    "repetition": 2
+  },
+  "sample-055": {
+    "id": "quoted_imperative",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-056": {
+    "id": "quoted_imperative",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-057": {
+    "id": "reference_parallelism",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-058": {
+    "id": "reference_parallelism",
+    "arm": "candidate",
+    "repetition": 1
+  },
+  "sample-059": {
+    "id": "decision_same_facts",
+    "arm": "none",
+    "repetition": 1
+  },
+  "sample-060": {
+    "id": "quoted_imperative",
+    "arm": "old",
+    "repetition": 2
+  }
+}

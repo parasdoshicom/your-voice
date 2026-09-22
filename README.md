@@ -65,6 +65,10 @@ python3 scripts/check_install.py
 | [Evaluation](references/evaluation.md) | Behavioral comparisons and calibrated judge evaluation |
 | [Discovery](references/discovery-loop.md) | Public-source review and adoption |
 
+## Reuse a writing brief
+
+A recurring role can define the job, reader, output shape, must-keep content, and exclusions. For example: “Team handoff: work, owner, date, blocker, next action; leave out retrospective diagnosis.” Use that exclusion for the handoff, not for a later request to explain the decision. See [writing briefs](references/writing-briefs.md).
+
 ## Personalize
 
 Copy [the profile template](references/voice-profile-template.md) to a private location and point your agent to it. Start with a few approved samples in the channels you use. Record what the writer notices, how they address different people, which edits they reject, and which rough edges should survive. Leave traits unknown when evidence is missing.
@@ -117,3 +121,5 @@ The scheduled discovery workflow creates a review queue, never automatic rule ad
 The [evaluation audit](reports/2026-09-22-eval-audit.md) explains why the stress test cannot establish a 2× concision claim and defines a provisional, meaning-preserving target for a future held-out test.
 
 The [two-stage rerun](reports/2026-09-22-concision-rerun.md) tested two revisions across 180 comparison drafts. The released revision was 13.1% shorter than the prior skill on narrow questions, but did not meet the 2× target; the report retains fidelity flags and reproducible artifacts.
+
+The [September source refresh](reports/2026-09-22-upstream-refresh.md) vets role-specific writing briefs and records seven upstream revisions. Its targeted comparison found no new regressions across 60 drafts; all three conditions passed, so no incremental quality gain is claimed.

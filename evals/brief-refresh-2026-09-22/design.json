@@ -1,0 +1,14 @@
+{
+  "baseline_commit": "ed3fee2cc2dec5fe85d53f06e236b36927646b1a",
+  "cases": 10,
+  "arms": [
+    "none",
+    "old",
+    "candidate"
+  ],
+  "repetitions": 2,
+  "output_count": 60,
+  "purpose": "Targeted regression coverage of scoped briefs and upstream preservation changes, not a claim of 2x concision or a representative production distribution",
+  "criteria": "Explicit output contract and source meaning must survive; code verifies exact spans and supplied word ranges; independent model review is uncalibrated",
+  "policy_frozen_before_generation": true
+}
