@@ -1,90 +1,66 @@
 # Writing workflows
 
-### Draft
+Use the editorial priorities in `SKILL.md`. This file owns the transformation process; `patterns.md` owns the symptom checklist. Do one review, scaled to the job.
 
-When creating text from notes or source material:
+## Select before drafting
 
-1. Identify the reader, purpose, decision, and format.
-2. Pull the writer's profile when one exists. Prefer approved writing and pre-generative-AI samples.
-3. Extract the facts, examples, and point of view the source actually supports.
-4. Check whether the request has enough context to produce a useful draft. Ask only questions whose answers would change the output; for a larger blank-slate piece, batch the questions instead of dribbling them out one at a time.
-5. Draft in the writer's natural structure and register for this relationship. Do not start from a generic social template.
-6. Run the latch pass below.
+Privately identify the reader, situation, desired response, requested format, and available evidence. Use context already supplied. Ask only for missing information that would materially change the result; for a larger blank-slate piece, bundle necessary questions.
 
-### Edit
+Sort the material into:
 
-Make the minimum effective edit. Keep the writer's progression unless it hurts comprehension. Return only the clean draft unless the user asks for commentary.
+- **Must survive:** requested answers and actions, decisive facts, caveats, and the relationship or narrative work the piece must do.
+- **Supports the point:** evidence, mechanism, example, or context the reader needs.
+- **Can go:** repetition, generic setup, unnecessary chronology, and detail that does not serve this reader.
 
-Confirm that the target is human-facing prose before rewriting a file. Do not run a whole-file prose rewrite over source code, configuration, schemas, generated data, commands, paths, identifiers, URLs, citations, tables, quoted material, or text attributed to another person. Edit around protected spans and flag any issue inside them. If the user explicitly asks to edit prose in a code comment, UI string, or similar bounded span, change only that span and preserve the surrounding syntax exactly.
+Select an order that fits the job. A status answer usually starts with the result; a personal story can earn its ending through the sequence. Do not print this planning inventory unless requested.
 
-A tone, relationship, or voice target controls expression only. It never authorizes adding a fact, opinion, joke, emotion, anecdote, endorsement, or instruction that the source does not support.
+## Generate
 
-### Detect
+Draft from the selected material in the writer's register for this recipient. Prefer approved samples over a platform template. When facts are missing, omit the claim, name the uncertainty, or use an explicit placeholder if the requested artifact needs one. User-authorized fiction or hypothetical examples must stay distinguishable from factual claims and personal experience.
 
-If the user asks for an audit without a rewrite, quote each offending line, name the pattern, and suggest a short fix. Do not score the probability that AI wrote it.
+For explanations, give enough mechanism and example for the intended reader to follow. Do not turn a request to teach into an unexplained slogan. Length follows the job and the user's constraints.
 
-### Calibrate
+## Preserve
 
-Build or update a voice profile only from material the user owns, supplied, approved, or asked you to inspect. Separate:
+Repair only the named defect. Keep the existing progression unless restructuring was requested or is necessary to fix comprehension. A punctuation edit is not permission to replace vocabulary. An already effective sentence may need no change.
 
-- durable voice signals;
-- channel conventions;
-- temporary campaign habits;
-- patterns the writer rejected.
+For source files, identify the editable prose span first. Keep surrounding syntax and protected content intact. Return the clean draft by default; explain changes only when asked or when a material ambiguity needs to be flagged.
 
-Use `voice-profile-template.md`. Store private examples outside a public skill repository unless the user explicitly approves publication.
+## Condense
 
-When a creator or social tool supplies past-post or performance data, use it to form channel and format hypotheses. Do not treat engagement as proof of voice, truth, or quality. Promote a pattern only when approved writing and the writer's judgment support it.
+Start with the must-survive material, then choose the strongest necessary support. Remove whole redundant ideas before trimming individual words. Combine clauses only when the result remains easy to follow.
 
-### Spoken
+Compare the shorter version with the source: did it retain every requested answer, qualification, owner, date, and next action that matters? Did the apology, disagreement, invitation, or warmth still do its job? If the word limit cannot hold the required meaning, make the tradeoff explicit instead of silently deleting it. Do not add a recap to explain the shorter draft.
 
-For interview answers, narration, talks, voice notes, or text meant to be said aloud, read `human-expression.md`. Write for a listener, not a page. Preserve the speaker's way of thinking while removing syntax that becomes hard to follow in one hearing.
+## Review without rewriting
 
-### Technical clarity
+Prioritize problems that change meaning, bury the point, or miss the relationship. Quote the relevant span and give a specific fix. Use `patterns.md` only for patterns that appear. Say when no change is needed. Do not guess authorship or score the probability that AI wrote the text.
 
-Use this mode for procedures, guides, explanations, operational email, and technical documentation when the user wants maximum clarity. Prefer short declarative sentences, one main instruction per sentence, active voice, and one term for one meaning.
+## Technical prose
 
-These principles are inspired by ASD-STE100 Simplified Technical English. Do not claim ASD-STE100 compliance unless the text was checked against the current official standard and its controlled dictionary. Do not apply this mode to poems, personal essays, jokes, or other writing where voice and rhythm carry the meaning.
+For procedures, guides, and explanations, use one term for one meaning, name the actor when known, and keep instructions in executable order. Prefer familiar words without deleting technical distinctions or required steps. Clear headings and lists are useful when they help navigation.
 
-## The latch pass
+These general clarity principles are inspired by ASD-STE100. This skill does not include its controlled dictionary and does not certify compliance. Do not impose this mode on creative or personal writing.
 
-Run these checks in order.
+## Final editorial review
 
-### 1. Truth
+Read once for the reader's experience, then compare against the source:
 
-- Can every factual claim be traced to the prompt, a supplied source, or a cited source?
-- Did the draft smuggle in confidence, causality, or consensus the evidence does not support?
-- Did editing change the claim?
+- Does the opening and order fit the purpose, and can the reader find every required answer?
+- Did any claim, degree of certainty, social meaning, or protected span change?
+- Does this sound like the supported writer in this relationship, without added personality or forced polish?
+- Does each remaining detail serve the piece? Could a cut remove needed explanation, warmth, rhythm, or a caveat?
 
-### 2. Human intent
+For substantial deliverables or recurring defects, consult `patterns.md` and run the local auditor when available:
 
-- Does the draft make the right social move: answer, reassure, disagree, invite, update, apologize, or ask?
-- Does it fit the actual relationship and power distance?
-- Is the emotional temperature proportionate, or did polish make it colder, warmer, more certain, or more enthusiastic than the source?
+```bash
+python3 <skill-directory>/scripts/audit_text.py <draft-file>
+```
 
-### 3. Point of view and personality
+Resolve the skill directory from `SKILL.md`; use a temporary UTF-8 draft file outside the public repo. Add `--mode technical` or `--mode spoken` when applicable. The auditor returns review candidates, not instructions to rewrite or a quality score. It masks common code, URL, and table forms but cannot recognize all quotations or attributed text; protect those manually. Review intentional matches rather than editing until the count reaches zero. A routine short reply needs no file or subprocess.
 
-- Is there a real observation, decision, example, or mechanism?
-- Would this still be useful if the formatting disappeared?
-- Could the same paragraph plausibly come from thousands of accounts? If yes, add supported specificity or cut it.
-- Does personality come from what this person notices, values, doubts, and chooses, rather than decorative quirks?
-- Did the draft invent attitude, intimacy, humor, vulnerability, or confidence that the evidence does not support?
+For speech, use `human-expression.md` and check delivery aloud. End when the piece has done its job.
 
-### 4. Voice
+## Calibrate a writer
 
-- Does the rhythm match the writer's samples?
-- Does the writer normally use first person, contractions, fragments, questions, parentheticals, or humor here?
-- Did polish erase a phrase the writer would recognize as theirs?
-- Is a modern platform convention overpowering the writer's established voice?
-
-### 5. Slop
-
-Apply `patterns.md`. Cut only what appears, and keep an intentional match when it belongs to the writer's established voice or the source requires it.
-
-Then load the writer's private forbidden-pattern file when one is configured. See `forbidden-patterns.md`. Treat a match as a revision prompt, not evidence that AI wrote the text.
-
-When the local skill files are available, write the draft to a temporary UTF-8 file and run `python3 <skill-directory>/scripts/audit_text.py <draft>`. Resolve `<skill-directory>` from the location of this `SKILL.md`. Add `--mode technical` for technical clarity work or `--mode spoken` for words meant to be heard. Review every finding, revise what conflicts with the writer's voice or the source evidence, and keep intentional matches. The script finds candidates; it does not make the editorial decision.
-
-### 6. Read aloud
-
-Read the draft as speech. Fix any line a smart person would not say naturally. Keep intentional roughness. End on the last concrete point, useful implication, or next action.
+Use `voice-profile-template.md` with material the user owns, supplied, approved, or asked you to inspect. Leave unsupported traits unknown. Separate durable voice from channel conventions and temporary campaign habits. Record rejected patterns as well as protected ones. For changes over time, follow `approval-learning-loop.md`; for validation, follow `evaluation.md`.

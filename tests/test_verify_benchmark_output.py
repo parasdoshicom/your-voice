@@ -48,6 +48,61 @@ class BenchmarkOutputTests(unittest.TestCase):
         )
         self.assertEqual(self.verify_text("output-spoken.md", text), [])
 
+    def test_protected_spans_are_case_sensitive(self):
+        text = (
+            "The export failed for two accounts. Retry with `python3 retry.py --account paras-prod`. "
+            "Status is at https://example.com/run?id=paras-prod."
+        )
+        for original, changed in (
+            ("python3", "Python3"),
+            ("--account paras-prod", "--account PARAS-PROD"),
+            ("run?id=paras-prod", "run?id=PARAS-PROD"),
+        ):
+            with self.subTest(changed=changed):
+                errors = self.verify_text("output-boundary.md", text.replace(original, changed))
+                self.assertTrue(any("missing exact" in error for error in errors))
+
+    def test_spoken_rejects_percentages_before_punctuation_or_space(self):
+        for statistic in ("20%.", "20% growth", "2.5%", "20 %."):
+            with self.subTest(statistic=statistic):
+                errors = self.verify_text("output-spoken.md", "We improved revenue " + statistic)
+                self.assertIn("spoken answer contains an unsupported percentage", errors)
+
+    def test_social_counts_require_whole_tokens(self):
+        errors = self.verify_text(
+            "output-social.md",
+            "112 started; 99 completed; 33 stopped at data access. A launch decision follows.",
+        )
+        self.assertEqual(sum("missing required count" in error for error in errors), 3)
+        errors = self.verify_text(
+            "output-social.md",
+            "Twelve started; nine completed; three stopped at data access. No launch decision yet.",
+        )
+        self.assertEqual(errors, [])
+
+    def test_concision_accepts_short_conditional_answer(self):
+        self.assertEqual(self.verify_text(
+            "output-concision.md",
+            "Not yet: security approval is still pending. Code review is complete.",
+        ), [])
+        self.assertEqual(self.verify_text(
+            "output-concision.md",
+            "We can ship once security signs off.",
+        ), [])
+
+    def test_concision_rejects_padding_and_incidentals(self):
+        errors = self.verify_text(
+            "output-concision.md",
+            "Security approval is pending. Code review is complete. The build finished at 9 after two meetings.",
+        )
+        self.assertTrue(any("maximum" in error for error in errors))
+        self.assertTrue(any("incidentals" in error for error in errors))
+
+    def test_concision_requires_security_approval_wording(self):
+        errors = self.verify_text("output-concision.md", "We can ship today.")
+        self.assertTrue(any("security" in error for error in errors))
+        self.assertTrue(any("approval" in error for error in errors))
+
     def test_requires_exactly_one_output(self):
         with tempfile.TemporaryDirectory() as directory:
             self.assertTrue(any("exactly one" in error for error in MODULE.verify(Path(directory))))

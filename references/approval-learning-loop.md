@@ -40,7 +40,7 @@ Keep the record short. Store the judgment, not private source material. Do not p
 
 ## Promote carefully
 
-One approval can update the current artifact. Promote the choice to a durable profile rule only when the writer explicitly says it should compound or when more than one approval confirms the same preference.
+One approval can update the current artifact. Repeated decisions within one channel can update that channel. Promote a choice to durable voice only when evidence crosses channels or the writer explicitly says it should apply broadly.
 
 Use three levels:
 

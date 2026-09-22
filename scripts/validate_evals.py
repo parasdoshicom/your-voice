@@ -134,7 +134,7 @@ def _validate_case(
         label = case_id
 
     mode = case.get("mode")
-    if mode not in VALID_MODES:
+    if not isinstance(mode, str) or mode not in VALID_MODES:
         errors.append(f"{label} has unsupported mode: {mode}")
         mode = None
 
@@ -146,7 +146,7 @@ def _validate_case(
             errors.append(f"{label} {field} must be a non-empty list of strings")
 
     origin = case.get("criteria_origin")
-    if origin not in VALID_CRITERIA_ORIGINS:
+    if not isinstance(origin, str) or origin not in VALID_CRITERIA_ORIGINS:
         errors.append(f"{label} criteria_origin must be top_down or bottom_up")
     if not _nonempty_strings(case.get("failure_modes")):
         errors.append(f"{label} failure_modes must be a non-empty list of strings")
@@ -184,7 +184,11 @@ def validate(payload: Any) -> list[str]:
         mode = _validate_case(case, index, case_ids, errors)
         if mode:
             represented_modes.add(mode)
-        if isinstance(case, dict) and case.get("criteria_origin") in VALID_CRITERIA_ORIGINS:
+        if (
+            isinstance(case, dict)
+            and isinstance(case.get("criteria_origin"), str)
+            and case["criteria_origin"] in VALID_CRITERIA_ORIGINS
+        ):
             represented_origins.add(case["criteria_origin"])
 
     if not {"preserve", "condense", "generate", "spoken", "technical"}.issubset(

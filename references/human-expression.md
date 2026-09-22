@@ -1,76 +1,21 @@
-# Human expression: writing, speech, and personality
+# Writing for one hearing
 
-Use this reference when prose must feel like a particular person, when the words will be spoken, or when a draft is accurate but socially flat.
+Use this reference for spoken answers, narration, talks, and voice notes. `SKILL.md` owns meaning and voice priorities; `writing-workflows.md` owns selection and final review. This file adds delivery checks.
 
-Human voice is not a bag of quirks. It is the repeated pattern of what a person notices, what they care about, how certain they are, how they relate to the other person, and what they choose to leave unsaid.
+## Shape for a listener
 
-## Start with the human situation
+A listener cannot scan ahead. For a direct question, begin with the answer, then give the mechanism or example needed to follow it. A story, toast, or performance can use its requested arc. Do not force every spoken piece into the same answer template.
 
-Identify five things before choosing words:
+Carry one main thought per breath group. Put the subject near its verb, untangle nested clauses, and repeat an important noun when a pronoun would make the listener backtrack. Use transitions the speaker would say. Technical terms stay when they protect a distinction.
 
-- Who is hearing this, and how close are they to the speaker?
-- What happened immediately before this message or answer?
-- What does the speaker want the other person to understand, feel, decide, or do?
-- What does the speaker genuinely believe or feel?
-- How much space does this moment deserve?
+Punctuation should support breathing. Add stage directions only when the deliverable calls for them. Preserve natural fragments, asides, and self-corrections when they show supported thought or feeling; do not insert filler or false starts to simulate a person.
 
-A technically correct reply can still fail because it is too formal for a friend, too breezy for bad news, too eager for a negotiation, or too long for a person who asked a yes-or-no question.
+## Fit the moment
 
-## Put personality in the choices
+Check the relationship and what happened immediately before the answer. A response to a friend, a formal disagreement, and an apology need different levels of directness, warmth, and distance. Use evidence from the speaker's actual register. A tone adjective alone cannot supply feelings or personality.
 
-Give the draft a recognizable center of gravity using supported evidence:
+## Rehearse
 
-- **Attention:** What detail does this person notice first?
-- **Stance:** What do they believe, question, dislike, or prefer?
-- **Relationship:** Do they teach, collaborate, challenge, reassure, or keep distance?
-- **Energy:** Are they calm, animated, dry, earnest, skeptical, playful, or restrained in this setting?
-- **Restraint:** What would they avoid saying even if it sounded impressive?
+Read at the speaker's normal pace. For a fixed time window, time the delivery; word count is only an estimate. If it runs long, cut secondary ideas before rushing or compressing every sentence. If it runs short, do not pad thin evidence to hit a nominal duration.
 
-Do not max out every trait. Most people are not equally warm, funny, blunt, vulnerable, and energetic in every setting. Personality often appears through selective emphasis and omission, not extra adjectives.
-
-Never manufacture personality with fake anecdotes, typos, filler words, profanity, jokes, pet phrases, or emotional disclosures. Keep those features only when the source or approved profile supports them.
-
-## Match the relationship, not a tone label
-
-Treat register as a switching rule:
-
-- friend versus stranger;
-- peer versus executive;
-- private message versus public post;
-- teaching versus persuading;
-- routine update versus apology or conflict.
-
-Preserve the person's usual level of directness, warmth, formality, and hedging for that relationship. A voice profile should contain multiple registers. One universal "brand voice" is usually a flattened voice.
-
-## Write for one hearing
-
-For spoken answers, narration, talks, and voice notes:
-
-- Lead with the answer or the human point. The listener cannot scan ahead.
-- Carry one main thought per sentence or breath group.
-- Prefer familiar words and active verbs. Keep technical terms that protect the distinction.
-- Use contractions when the speaker normally does.
-- Put the subject near the verb. Avoid long openings and nested clauses.
-- Repeat the important noun when a pronoun would make the listener backtrack.
-- Use short transitions such as "so," "because," "but," or a clean pause. Avoid essay transitions unless they belong to the speaker.
-- Give one mechanism and one example before adding another layer.
-- Stop when the answer lands. Do not append a recap because silence feels uncomfortable.
-
-Write punctuation that helps the speaker breathe, but do not litter the script with stage directions. For a fixed time window, read it at the speaker's real pace. Word count is only a planning estimate.
-
-## Keep thought in motion without faking mess
-
-Natural speech may contain fragments, a repeated word, a small aside, or a correction. Preserve these when they already belong to the speaker. Do not inject "um," false starts, random sentence fragments, or mistakes as camouflage.
-
-Useful roughness has a job: it shows emphasis, uncertainty, enthusiasm, or a live change in thought. Random roughness only makes the speaker harder to follow.
-
-## Conversation check
-
-Before delivery, ask:
-
-- Would a real person make this move at this moment?
-- Does the first sentence respond to what was actually said?
-- Is the warmth and confidence level earned?
-- Could the recipient tell why this came from this person?
-- If spoken, can the listener follow it without rereading?
-- Is the last sentence necessary?
+Listen for a line that needs a second hearing, a transition that sounds written, or an ending that repeats the answer. Revise that spot, then stop.

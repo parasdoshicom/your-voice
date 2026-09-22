@@ -55,7 +55,7 @@ Score each dimension from 0 to 2:
 | Rhythm and restraint | Sentence and paragraph shape feel natural; the draft stops when it has done the job. |
 | Speakability | For spoken work, a listener can follow it once at the intended pace. Mark not applicable for written-only cases. |
 
-Meaning is a gate. A draft fails if it invents a fact, changes the decision, drops a required caveat, or creates unsupported intimacy or emotion. Do not let high style scores compensate for a truth failure.
+Meaning is a gate. A draft fails if it fabricates a factual claim, changes the decision, drops a required caveat, or creates unsupported intimacy or emotion. Explicitly requested fiction and labeled hypothetical examples are evaluated as such; they must not masquerade as real evidence. Do not let high style scores compensate for a truth failure.
 
 ## Use a natural ceiling
 
@@ -121,16 +121,11 @@ Do not optimize raw engagement as a proxy for voice. A longer view, more clicks,
 
 Creator systems may use past posts, audience data, and performance to suggest a topic, format, or publishing experiment. Keep that as a channel hypothesis. A high-performing hook or structure becomes a voice rule only when the writer also recognizes and approves it. Otherwise the system will learn the platform's personality instead of the person's.
 
-## Promote corrections carefully
+## Use the results
 
-After evaluation:
+Follow [approval learning](approval-learning-loop.md) to record and promote corrections. Add public-safe regression cases for costly or recurring failures. Change the weakest one or two dimensions per iteration; if repeated revisions do not help, ask the writer rather than accumulating more rules.
 
-1. Fix the current artifact.
-2. Update a channel rule when the same decision appears more than once in that channel.
-3. Update durable voice only when repeated evidence crosses channels or the writer explicitly approves the rule.
-4. Add a regression case for a costly or recurring failure.
-
-Change at most the weakest one or two dimensions per iteration. If the score does not improve after repeated changes in the same direction, stop and ask the writer. More calibration can turn voice into a caricature.
+For concision changes, test both unnecessary length and destructive shortening: direct answers with a blocker, multi-part requests, apologies, intentional narrative, and beginner explanations. Word count alone cannot distinguish them.
 
 ## Report honestly
 

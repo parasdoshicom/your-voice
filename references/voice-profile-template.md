@@ -9,11 +9,15 @@ Updated: YYYY-MM-DD
 - Excluded sources:
 - Pre-generative-AI baseline window:
 
+Leave unsupported fields unknown. Do not fill every field just to complete the template. Current instructions and approved drafts outrank older profile inferences.
+
 ## Durable voice
 
 - Point of view:
 - Typical reader relationship:
 - What the writer notices first:
+- What must survive when shortening:
+- What the writer usually leaves out:
 - Values, convictions, and productive skepticism:
 - Sentence rhythm:
 - Paragraph rhythm:

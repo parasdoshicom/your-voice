@@ -25,6 +25,14 @@ class EvalBenchmarkTests(unittest.TestCase):
     def test_repository_benchmark_is_valid(self):
         self.assertEqual(MODULE.validate(self.payload), [])
 
+    def test_malformed_enum_values_return_errors(self):
+        for field in ("mode", "criteria_origin"):
+            for value in ([], {}, None, 3):
+                with self.subTest(field=field, value=value):
+                    payload = copy.deepcopy(self.payload)
+                    payload["cases"][0][field] = value
+                    self.assertTrue(MODULE.validate(payload))
+
     def test_duplicate_case_ids_fail(self):
         payload = copy.deepcopy(self.payload)
         payload["cases"][1]["id"] = payload["cases"][0]["id"]

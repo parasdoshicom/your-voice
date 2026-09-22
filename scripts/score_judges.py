@@ -64,10 +64,10 @@ def validate_rows(rows: list[dict[str, Any]]) -> list[str]:
             seen_ids.add(row_id)
         if not isinstance(row["failure_mode"], str) or not row["failure_mode"].strip():
             errors.append(f"line {line}: failure_mode must be a non-empty string")
-        if row["split"] not in SPLITS:
+        if not isinstance(row["split"], str) or row["split"] not in SPLITS:
             errors.append(f"line {line}: split must be train, dev, or test")
         for field in ("human_label", "judge_label"):
-            if row[field] not in LABELS:
+            if not isinstance(row[field], str) or row[field] not in LABELS:
                 errors.append(f"line {line}: {field} must be Pass or Fail")
         if not isinstance(row["evidence"], str) or not row["evidence"].strip():
             errors.append(f"line {line}: evidence must cite the draft text or decision")

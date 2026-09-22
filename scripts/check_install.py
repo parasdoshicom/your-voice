@@ -51,6 +51,7 @@ def main() -> int:
     args = parser.parse_args()
 
     user_home = Path(args.home)
+    canonical = Path(__file__).resolve().parents[1]
     rows = []
     for target in expected_targets(user_home):
         resolved = target.resolve() if target.exists() else None
@@ -61,12 +62,14 @@ def main() -> int:
                 "is_symlink": target.is_symlink(),
                 "resolved": str(resolved) if resolved else None,
                 "has_skill": bool(resolved and (resolved / "SKILL.md").is_file()),
+                "is_canonical": resolved == canonical,
             }
         )
     duplicates = [str(target) for target in legacy_targets(user_home) if target.exists() or target.is_symlink()]
-    healthy = bool(rows) and all(row["has_skill"] for row in rows) and not duplicates
+    healthy = bool(rows) and all(row["has_skill"] and row["is_canonical"] for row in rows) and not duplicates
     payload = {
         "skill": "your-voice",
+        "canonical": str(canonical),
         "status": "healthy" if healthy else "needs_repair",
         "targets": rows,
         "duplicate_targets": duplicates,
@@ -76,7 +79,8 @@ def main() -> int:
     else:
         print(payload["status"])
         for row in rows:
-            print(f"- {row['target']}: {'ok' if row['has_skill'] else 'missing'}")
+            status = "missing" if not row["has_skill"] else "ok" if row["is_canonical"] else "non-canonical"
+            print(f"- {row['target']}: {status}")
         for target in duplicates:
             print(f"- duplicate: {target}")
     return 0 if healthy else 1

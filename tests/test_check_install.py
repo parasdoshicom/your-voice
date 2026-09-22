@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import importlib.util
+import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -39,6 +41,48 @@ class InstallTargetTests(unittest.TestCase):
                     agent_dir / "codex-home/skills/your-voice",
                 ],
             )
+
+    def check_home(self, user_home):
+        result = subprocess.run(
+            [sys.executable, str(MODULE_PATH), "--home", str(user_home), "--json"],
+            text=True, capture_output=True, check=False,
+        )
+        return result.returncode, json.loads(result.stdout)
+
+    def test_canonical_links_are_healthy(self):
+        with tempfile.TemporaryDirectory() as directory:
+            user_home = Path(directory)
+            for target in MODULE.expected_targets(user_home):
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.symlink_to(MODULE_PATH.parents[1], target_is_directory=True)
+            code, payload = self.check_home(user_home)
+            self.assertEqual(code, 0)
+            self.assertEqual(payload["status"], "healthy")
+
+    def test_separate_copies_are_not_one_canonical_install(self):
+        with tempfile.TemporaryDirectory() as directory:
+            user_home = Path(directory)
+            for target in MODULE.expected_targets(user_home):
+                target.mkdir(parents=True)
+                (target / "SKILL.md").write_text("stale copy", encoding="utf-8")
+            code, payload = self.check_home(user_home)
+            self.assertEqual(code, 1)
+            self.assertEqual(payload["status"], "needs_repair")
+            self.assertTrue(all(row["has_skill"] for row in payload["targets"]))
+            self.assertFalse(any(row["is_canonical"] for row in payload["targets"]))
+
+    def test_links_to_a_different_checkout_need_repair(self):
+        with tempfile.TemporaryDirectory() as directory:
+            user_home = Path(directory)
+            other = user_home / "other-checkout"
+            other.mkdir()
+            (other / "SKILL.md").write_text("other version", encoding="utf-8")
+            for target in MODULE.expected_targets(user_home):
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.symlink_to(other, target_is_directory=True)
+            code, payload = self.check_home(user_home)
+            self.assertEqual(code, 1)
+            self.assertEqual(payload["status"], "needs_repair")
 
     def test_legacy_targets_include_old_codex_aliases(self):
         with tempfile.TemporaryDirectory() as directory:

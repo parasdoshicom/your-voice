@@ -11,7 +11,10 @@
     "speakability"
   ],
   "judge_contract": {
-    "labels": ["Pass", "Fail"],
+    "labels": [
+      "Pass",
+      "Fail"
+    ],
     "one_failure_mode_per_judge": true,
     "evidence_required": true,
     "human_rubric_is_not_judge_score": true
@@ -75,8 +78,15 @@
         "No extra framework or recap."
       ],
       "criteria_origin": "bottom_up",
-      "failure_modes": ["over_editing", "relationship_smoothing"],
-      "rubric_focus": ["meaning", "relationship", "recognition"]
+      "failure_modes": [
+        "over_editing",
+        "relationship_smoothing"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "relationship",
+        "recognition"
+      ]
     },
     {
       "id": "condense-executive-update",
@@ -104,8 +114,16 @@
         "No generic executive filler."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["claim_inflation", "portable_filler"],
-      "rubric_focus": ["meaning", "human_move", "specificity", "rhythm_and_restraint"]
+      "failure_modes": [
+        "claim_inflation",
+        "portable_filler"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "specificity",
+        "rhythm_and_restraint"
+      ]
     },
     {
       "id": "generate-warm-recruiter-reply",
@@ -131,8 +149,16 @@
         "No chatbot closing."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["unsupported_emotion", "chatbot_residue"],
-      "rubric_focus": ["human_move", "relationship", "recognition", "rhythm_and_restraint"]
+      "failure_modes": [
+        "unsupported_emotion",
+        "chatbot_residue"
+      ],
+      "rubric_focus": [
+        "human_move",
+        "relationship",
+        "recognition",
+        "rhythm_and_restraint"
+      ]
     },
     {
       "id": "spoken-interview-answer",
@@ -159,8 +185,16 @@
         "Stops without a recap."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["spoken_overload", "invented_first_person_proof"],
-      "rubric_focus": ["point_of_view", "recognition", "rhythm_and_restraint", "speakability"]
+      "failure_modes": [
+        "spoken_overload",
+        "invented_first_person_proof"
+      ],
+      "rubric_focus": [
+        "point_of_view",
+        "recognition",
+        "rhythm_and_restraint",
+        "speakability"
+      ]
     },
     {
       "id": "spoken-apology",
@@ -187,8 +221,16 @@
         "No formal apology boilerplate."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["unsupported_emotion", "relationship_mismatch"],
-      "rubric_focus": ["human_move", "relationship", "recognition", "speakability"]
+      "failure_modes": [
+        "unsupported_emotion",
+        "relationship_mismatch"
+      ],
+      "rubric_focus": [
+        "human_move",
+        "relationship",
+        "recognition",
+        "speakability"
+      ]
     },
     {
       "id": "technical-instructions",
@@ -215,8 +257,15 @@
         "No promotional language."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["protected_content_drift", "unsupported_claim"],
-      "rubric_focus": ["meaning", "specificity", "rhythm_and_restraint"]
+      "failure_modes": [
+        "protected_content_drift",
+        "unsupported_claim"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "specificity",
+        "rhythm_and_restraint"
+      ]
     },
     {
       "id": "public-point-of-view",
@@ -242,8 +291,16 @@
         "No viral-post template."
       ],
       "criteria_origin": "bottom_up",
-      "failure_modes": ["platform_template_overrides_voice", "invented_first_person_proof"],
-      "rubric_focus": ["point_of_view", "recognition", "specificity", "rhythm_and_restraint"]
+      "failure_modes": [
+        "platform_template_overrides_voice",
+        "invented_first_person_proof"
+      ],
+      "rubric_focus": [
+        "point_of_view",
+        "recognition",
+        "specificity",
+        "rhythm_and_restraint"
+      ]
     },
     {
       "id": "unknown-voice-boundary",
@@ -268,8 +325,15 @@
         "States the evidence limitation if voice matching is requested explicitly."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["invented_personality", "relationship_mismatch"],
-      "rubric_focus": ["meaning", "relationship", "recognition"]
+      "failure_modes": [
+        "invented_personality",
+        "relationship_mismatch"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "relationship",
+        "recognition"
+      ]
     },
     {
       "id": "embedded-instruction-boundary",
@@ -295,8 +359,15 @@
         "Does not overreact by refusing the safe editing request."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["source_instruction_following", "unsupported_claim"],
-      "rubric_focus": ["meaning", "human_move", "specificity"]
+      "failure_modes": [
+        "source_instruction_following",
+        "unsupported_claim"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "specificity"
+      ]
     },
     {
       "id": "protected-content-edit",
@@ -322,8 +393,14 @@
         "No whole-file refusal because the bounded prose edit is safe."
       ],
       "criteria_origin": "top_down",
-      "failure_modes": ["protected_content_drift"],
-      "rubric_focus": ["meaning", "specificity", "rhythm_and_restraint"]
+      "failure_modes": [
+        "protected_content_drift"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "specificity",
+        "rhythm_and_restraint"
+      ]
     },
     {
       "id": "source-backed-no-fake-experience",
@@ -350,8 +427,16 @@
         "No promotional CTA."
       ],
       "criteria_origin": "bottom_up",
-      "failure_modes": ["invented_first_person_proof", "claim_inflation"],
-      "rubric_focus": ["meaning", "point_of_view", "specificity", "recognition"]
+      "failure_modes": [
+        "invented_first_person_proof",
+        "claim_inflation"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "point_of_view",
+        "specificity",
+        "recognition"
+      ]
     },
     {
       "id": "performance-is-channel-signal",
@@ -379,8 +464,16 @@
         "No engagement bait."
       ],
       "criteria_origin": "bottom_up",
-      "failure_modes": ["performance_overrides_voice", "claim_inflation"],
-      "rubric_focus": ["meaning", "point_of_view", "recognition", "rhythm_and_restraint"]
+      "failure_modes": [
+        "performance_overrides_voice",
+        "claim_inflation"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "point_of_view",
+        "recognition",
+        "rhythm_and_restraint"
+      ]
     },
     {
       "id": "no-product-positioning-in-reply",
@@ -407,8 +500,192 @@
         "Stops after answering the question."
       ],
       "criteria_origin": "bottom_up",
-      "failure_modes": ["product_positioning_intrusion", "portable_filler"],
-      "rubric_focus": ["meaning", "human_move", "specificity", "rhythm_and_restraint"]
+      "failure_modes": [
+        "product_positioning_intrusion",
+        "portable_filler"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "specificity",
+        "rhythm_and_restraint"
+      ]
+    },
+    {
+      "id": "concise-decisive-blocker",
+      "mode": "condense",
+      "request": "Reply to 'Can we ship today?' Notes: review done, required security approval pending; build compiled at 9; team met twice; ship only after approval.",
+      "context": "Synthetic regression case for choosing useful content while preserving the requested human purpose.",
+      "source_facts": [
+        "Review is done.",
+        "Required security approval is pending.",
+        "Shipping requires approval.",
+        "Build compiled at 9; team met twice."
+      ],
+      "must_preserve": [
+        "Pending approval blocks shipping now."
+      ],
+      "must_not_add": [
+        "Invented approval timeline."
+      ],
+      "success_criteria": [
+        "Lead with the blocker or conditional answer.",
+        "Omit incidental meeting and compile history."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "buried_answer",
+        "destructive_shortening"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "rhythm_and_restraint"
+      ]
+    },
+    {
+      "id": "warm-condensation",
+      "mode": "condense",
+      "request": "Shorten warmly: 'I am sorry I missed your birthday. I wrote the date down wrong, which was my mistake. I hope you had a lovely day. Can I take you to lunch Saturday?'",
+      "context": "Synthetic regression case for choosing useful content while preserving the requested human purpose.",
+      "source_facts": [
+        "Writer missed birthday after recording wrong date.",
+        "Writer takes responsibility and invites friend to lunch Saturday."
+      ],
+      "must_preserve": [
+        "Apology, ownership, warmth, Saturday invitation."
+      ],
+      "must_not_add": [
+        "Invented excuse or emotional confession."
+      ],
+      "success_criteria": [
+        "Shorter without making the apology cold or evasive."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "social_meaning_loss"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "rhythm_and_restraint"
+      ]
+    },
+    {
+      "id": "punctuation-only-narrative",
+      "mode": "preserve",
+      "request": "Fix only punctuation: 'The kettle clicked off I left your cup where you always put it by the window'",
+      "context": "Synthetic regression case for choosing useful content while preserving the requested human purpose.",
+      "source_facts": [
+        "Kettle clicked off.",
+        "Cup left at its usual place by window."
+      ],
+      "must_preserve": [
+        "Every word and its order."
+      ],
+      "must_not_add": [
+        "Moral, summary, advice, or new detail."
+      ],
+      "success_criteria": [
+        "Only punctuation changes.",
+        "Do not reorder to lead with a conclusion."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "over_editing",
+        "forced_answer_first"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "rhythm_and_restraint"
+      ]
+    },
+    {
+      "id": "complete-multiple-asks",
+      "mode": "generate",
+      "request": "Write a short peer note: approve budget by Thursday; nominate test owner by Friday; pilot cannot start until both are done.",
+      "context": "Synthetic regression case for choosing useful content while preserving the requested human purpose.",
+      "source_facts": [
+        "Budget approval due Thursday.",
+        "Test owner nomination due Friday.",
+        "Both required before pilot."
+      ],
+      "must_preserve": [
+        "Both asks and deadlines; joint dependency."
+      ],
+      "must_not_add": [
+        "Any invented owner or approval."
+      ],
+      "success_criteria": [
+        "Concise but neither ask is lost."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "single_point_overcompression"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "rhythm_and_restraint"
+      ]
+    },
+    {
+      "id": "authorized-hypothetical",
+      "mode": "generate",
+      "request": "Explain why an average can hide uneven results to a beginner in 100-150 words. Include an invented numerical example labeled hypothetical.",
+      "context": "Synthetic regression case for choosing useful content while preserving the requested human purpose.",
+      "source_facts": [
+        "An average can summarize unequal individual values."
+      ],
+      "must_preserve": [
+        "Beginner-friendly mechanism; clearly hypothetical example."
+      ],
+      "must_not_add": [
+        "A real company result or personal experience."
+      ],
+      "success_criteria": [
+        "Numerical example is correct and identified as invented.",
+        "Enough explanation to teach; no refusal merely because the example is invented."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "overstrict_factuality",
+        "unexplained_slogan"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "rhythm_and_restraint"
+      ]
+    },
+    {
+      "id": "effective-writing-noop",
+      "mode": "preserve",
+      "request": "Edit only if needed: 'The test failed. I will rerun it after the fix.'",
+      "context": "Synthetic regression case for choosing useful content while preserving the requested human purpose.",
+      "source_facts": [
+        "Test failed.",
+        "Writer will rerun after fix."
+      ],
+      "must_preserve": [
+        "Meaning, confidence, simplicity."
+      ],
+      "must_not_add": [
+        "Cause, deadline, team involvement, or apology."
+      ],
+      "success_criteria": [
+        "Recognize that no substantive edit is needed."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "compulsive_rewriting"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "human_move",
+        "rhythm_and_restraint"
+      ]
     }
   ]
 }

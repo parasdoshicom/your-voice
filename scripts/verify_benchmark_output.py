@@ -32,11 +32,11 @@ def _verify_preserve(text: str) -> list[str]:
 
 def _verify_boundary(text: str) -> list[str]:
     exact = (
-        "two accounts",
         "`python3 retry.py --account paras-prod`",
         "https://example.com/run?id=paras-prod",
     )
-    errors = _require(text, exact)
+    errors = _require(text, ("two accounts",))
+    errors.extend(f"missing exact text: {value}" for value in exact if value not in text)
     errors.extend(
         _forbid(
             text,
@@ -52,7 +52,7 @@ def _verify_spoken(text: str) -> list[str]:
     word_count = len(re.findall(r"\b[\w'-]+\b", text))
     if not 60 <= word_count <= 180:
         errors.append(f"spoken answer has {word_count} words; expected 60 to 180")
-    if re.search(r"\b\d+(?:\.\d+)?%\b", text):
+    if re.search(r"\b\d+(?:\.\d+)?\s*%", text):
         errors.append("spoken answer contains an unsupported percentage")
     return errors
 
@@ -61,7 +61,7 @@ def _verify_social(text: str) -> list[str]:
     lowered = text.lower()
     errors = _require(text, ("data access", "launch decision"))
     for value, words in (("12", "twelve"), ("9", "nine"), ("3", "three")):
-        if value not in lowered and words not in lowered:
+        if not re.search(rf"\b(?:{value}|{words})\b", lowered):
             errors.append(f"missing required count: {value}")
     errors.extend(
         _forbid(
@@ -82,11 +82,27 @@ def _verify_social(text: str) -> list[str]:
     return errors
 
 
+def _verify_concision(text: str) -> list[str]:
+    """Check surface constraints; human review must verify the shipping condition."""
+    errors = _require(text, ("security",))
+    if not re.search(r"\b(?:approv\w*|sign[ -]?off|signs? off)\b", text, re.IGNORECASE):
+        errors.append("missing security approval wording")
+    # This short, plain-text scenario has no required abbreviations or URLs.
+    # Punctuation/newline chunks enforce a format bound, not semantic quality.
+    sentences = [part for part in re.split(r"[.!?]+(?:[\"'’”])?\s*|\n+", text) if part.strip()]
+    if len(sentences) > 2:
+        errors.append(f"concision answer has {len(sentences)} sentence chunks; maximum is 2")
+    if re.search(r"\b(?:9|nine|meetings?)\b", text, re.IGNORECASE):
+        errors.append("concision answer retains build-time or meeting incidentals")
+    return errors
+
+
 VERIFIERS: dict[str, Callable[[str], list[str]]] = {
     "output-preserve.md": _verify_preserve,
     "output-boundary.md": _verify_boundary,
     "output-spoken.md": _verify_spoken,
     "output-social.md": _verify_social,
+    "output-concision.md": _verify_concision,
 }
 
 

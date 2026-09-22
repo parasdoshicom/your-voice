@@ -29,7 +29,8 @@
     "Each scenario runs in an isolated copy and writes its final draft to the scenario-specific output file.",
     "The harness measures execution and preserves artifacts; use the blind human rubric in references/evaluation.md for voice quality.",
     "Codex CLI input usage includes the runner's system and workspace context, not only SKILL.md. Compare identical baseline and treatment harnesses instead of treating raw input tokens as skill cost.",
-    "Do not treat scenario completion or token usage as proof of better writing."
+    "Do not treat scenario completion or token usage as proof of better writing.",
+    "The concision verifier checks sentence boundaries, omitted incidental tokens, and security/approval wording. It does not establish semantic correctness; human review must reject reversed conditions or invented certainty."
   ],
   "setupQuestions": [
     "Which writing channels and relationships matter most for the intended writer?",
@@ -81,6 +82,18 @@
         "The pilot counts, data-access blocker, and unresolved launch decision survive.",
         "The final update does not mention views, algorithms, or the earlier question hook.",
         "The operational result leads without engagement bait."
+      ]
+    },
+    {
+      "id": "concision-keeps-decisive-condition",
+      "title": "Answer the shipping decision without incidental context",
+      "purpose": "Check whether the draft selects the decisive condition and stops within two sentences. Deterministic checks cover surface constraints only; human review must verify that approval is still pending and shipping remains conditional.",
+      "userInput": "Use the installed your-voice skill. Answer \"Can we ship today?\" and write only the finished answer to output-concision.md. Facts: code review is complete; security approval is still pending; the build finished at 9 a.m.; the team had two meetings. Use at most two sentences. Preserve the condition that we cannot ship until security approves. Omit the build time and meeting history. Do not invent an approval deadline or promise that approval will arrive today.",
+      "successChecklist": [
+        "The answer leads with the current shipping decision and keeps pending security approval as a condition.",
+        "No more than two sentences, without build time or meeting history.",
+        "No invented approval deadline or assurance that approval will arrive today.",
+        "Human review verifies meaning: a deterministic pass alone cannot establish that pending approval or the shipping condition survived."
       ]
     }
   ]

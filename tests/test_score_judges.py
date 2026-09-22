@@ -56,6 +56,15 @@ class JudgeScoreTests(unittest.TestCase):
         self.assertTrue(any("human_label" in error for error in errors))
         self.assertTrue(any("evidence" in error for error in errors))
 
+    def test_malformed_enum_values_return_errors(self):
+        for field in ("split", "human_label", "judge_label"):
+            for value in ([], {}, None, 3):
+                with self.subTest(field=field, value=value):
+                    sample = row("1", "Pass", "Pass")
+                    sample[field] = value
+                    errors = MODULE.validate_rows([sample])
+                    self.assertTrue(any(field in error for error in errors))
+
     def test_production_threshold_catches_small_or_weak_sets(self):
         rows = [row("1", "Pass", "Pass"), row("2", "Fail", "Pass")]
         results = MODULE.score_rows(rows)
