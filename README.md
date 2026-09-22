@@ -113,3 +113,5 @@ plugin-eval benchmark . --config .plugin-eval/benchmark.json
 Review its model and scenarios before running it. Deterministic output checks cover selected boundaries and facts; human meaning and voice judgments remain separate.
 
 The scheduled discovery workflow creates a review queue, never automatic rule adoption. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md) for sources and influence boundaries, and [LICENSE](LICENSE) for the MIT license.
+
+The [evaluation audit](reports/2026-09-22-eval-audit.md) explains why the stress test cannot establish a 2× concision claim and defines a provisional, meaning-preserving target for a future held-out test.
