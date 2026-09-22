@@ -17,7 +17,7 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 - Vague experts, reports, or critics without a named source.
 - Trailing `-ing` phrases that restate rather than explain.
 - Abstract nouns where the draft supports a person, action, number, or example.
-- Hollow intensifiers such as “actually,” “really,” “truly,” or “genuinely” when they only add emphasis. Keep “actually” when it marks a named correction or expectation gap.
+- Intensifiers that substitute for evidence or add emphasis the writer did not intend. Keep honest conversational emphasis, including “really,” and keep “actually” when it marks a correction or expectation gap.
 - Interpretive metadiscourse such as “the key point is,” “as you can see,” or “this distinction matters” when the evidence already makes the point. State the consequence directly when the interpretation is necessary.
 - Adverb abuse where the adverb pretends to add specificity: “quietly runs,” “seamlessly powers,” “strategically unlocks.”
 
@@ -25,7 +25,7 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 
 - “Not X, but Y” as a default argument shape.
 - “Not X. Not Y. Z.” negative lists.
-- Two tiny fragments that perform one job, such as “Fast. Simple.” Keep the stronger one or write one complete thought.
+- Short fragments used as decorative filler or redundant emphasis. Combine or cut only when that improves the piece; preserve distinct meanings and intentional rhythm.
 - Empty paired images such as “less a hammer, more a scalpel” when they never tell the reader what to do.
 - Soft reframes that dismiss a straw frame before pivoting: “Most teams think X. They actually have Y.”
 - Forced groups of three.
@@ -71,14 +71,9 @@ Use this as an editing checklist, not a ban-everything word list. Context and th
 - Making a disagreement vague and over-polite when the writer's real point of view is supported and useful.
 - Making routine updates sound emotionally loaded because the draft is trying to display personality.
 
-## Spoken-language failures
+## Spoken delivery
 
-- Writing an essay for a listener: long openings, nested clauses, and conclusions that arrive too late.
-- Using formal transitions such as “furthermore” or “with regard to” when the speaker would use a short bridge or pause.
-- Packing several mechanisms or examples into one breath group.
-- Replacing a clear repeated noun with pronouns that force the listener to backtrack.
-- Adding fake fillers, false starts, or mistakes to simulate natural speech.
-- Continuing after the answer has landed.
+For a spoken deliverable, use [human expression](human-expression.md). It owns the delivery checks. Do not apply breath-group or one-hearing constraints to ordinary written prose.
 
 ## Truth failures
 

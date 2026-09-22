@@ -686,6 +686,95 @@
         "human_move",
         "rhythm_and_restraint"
       ]
+    },
+    {
+      "id": "preserve-honest-emphasis",
+      "mode": "preserve",
+      "request": "Edit only if needed: 'I really miss you. Can we talk Sunday?' Keep the honest emphasis and familiar tone.",
+      "context": "A personal note with explicit support for emphasis.",
+      "source_facts": [
+        "The writer misses the recipient.",
+        "The writer asks to talk Sunday."
+      ],
+      "must_preserve": [
+        "Really conveys the requested emphasis.",
+        "Sunday question remains an invitation."
+      ],
+      "must_not_add": [
+        "Extra intimacy or a reason for absence."
+      ],
+      "success_criteria": [
+        "Do not delete honest emphasis merely because the word appears in a pattern list.",
+        "No substantive edit is required."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "voice_flattening"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "relationship",
+        "recognition"
+      ]
+    },
+    {
+      "id": "preserve-intentional-fragments",
+      "mode": "preserve",
+      "request": "Fix only typos if present; keep the deliberate rhythm: 'No fanfare. Just the two of us. That was enough.'",
+      "context": "An intentional personal narrative ending.",
+      "source_facts": [
+        "Two people were present.",
+        "There was no fanfare.",
+        "The writer says that was enough."
+      ],
+      "must_preserve": [
+        "The distinct thoughts and fragment rhythm."
+      ],
+      "must_not_add": [
+        "A relationship label or invented scene."
+      ],
+      "success_criteria": [
+        "Leave effective fragments intact.",
+        "No generic takeaway or forced complete sentence."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "mechanical_fragment_cleanup"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "recognition",
+        "rhythm_and_restraint"
+      ]
+    },
+    {
+      "id": "one-off-edit-not-durable-rule",
+      "mode": "technical",
+      "request": "Record this editing decision briefly: for this single apology, the writer accepted removing a joke because the recipient was upset. No other examples or request for a standing preference exist.",
+      "context": "A local learning record, not permission to alter a durable profile.",
+      "source_facts": [
+        "The joke was removed from one apology.",
+        "The recipient was upset.",
+        "No recurring preference is established."
+      ],
+      "must_preserve": [
+        "The reason and artifact-only scope."
+      ],
+      "must_not_add": [
+        "A general ban on jokes.",
+        "A claim of durable user preference."
+      ],
+      "success_criteria": [
+        "A compact contextual record without inventing a reusable rule."
+      ],
+      "criteria_origin": "top_down",
+      "failure_modes": [
+        "premature_rule_promotion"
+      ],
+      "rubric_focus": [
+        "meaning",
+        "specificity"
+      ]
     }
   ]
 }

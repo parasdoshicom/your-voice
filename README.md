@@ -98,7 +98,7 @@ python3 scripts/validate_evals.py evals/benchmark.json
 python3 scripts/score_judges.py evals/labels.example.jsonl --split test
 ```
 
-The [September 22 review](reports/2026-09-22-refresh-review.md) records the repo audit and a five-case independent writing comparison, including its limits.
+The [September 22 review](reports/2026-09-22-refresh-review.md) records the repo audit and a five-case independent writing comparison, including its limits. The [Stanley follow-up](reports/2026-09-22-stanley-review.md) records external feedback, revisions, and targeted preservation checks.
 
 Unit tests validate tools, and the benchmark validator checks case structure. Neither proves better writing. [Evaluation](references/evaluation.md) describes isolated baseline/treatment runs, blind review, human holdouts, and reporting limits. The synthetic judge-label file checks format, not production calibration.
 

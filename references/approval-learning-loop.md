@@ -25,18 +25,11 @@ Do not call a change an improvement because it looks more polished. Check whethe
 
 ## Record the decision
 
-For each meaningful change, record:
+For a meaningful change, keep a compact record of what changed, why, and its scope: this artifact, this channel, or a broader preference. Note whether a proposal was accepted, rejected, or left contextual. Use source pointers or short before-and-after excerpts only when needed to make the decision understandable.
 
-- before;
-- proposal;
-- approved final;
-- verdict: adopt, reject, or contextual;
-- why;
-- reusable rule;
-- protected detail;
-- a future test that would catch regression.
+Do not force every edit into a reusable rule. Propose a rule when the preference recurs or the writer explicitly asks to retain it. Add a regression case for a costly or recurring failure. A one-off choice can remain artifact-only; an agent's acceptance of an external suggestion is not human approval of a durable voice preference.
 
-Keep the record short. Store the judgment, not private source material. Do not publish customer details, internal screenshots, or confidential examples in a public voice profile.
+Store the judgment, not private source material. Keep confidential examples outside public profiles.
 
 ## Promote carefully
 

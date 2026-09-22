@@ -29,7 +29,7 @@ The stronger teaching draft was longer. This supports retaining useful explanati
 
 ## External review boundary
 
-Stanley had no callable plugin/MCP in the session. A browser fallback reached its sign-in page, so no Stanley review was obtained. Nothing in this report should be attributed to Stanley.
+Stanley had no callable plugin/MCP in the session. A browser fallback reached its sign-in page, so no Stanley review was obtained. Nothing in this initial report should be attributed to Stanley. A later [Stanley web review and follow-up](2026-09-22-stanley-review.md) records the actual review, subsequent revisions, and MCP authentication blocker.
 
 ## Validation
 
