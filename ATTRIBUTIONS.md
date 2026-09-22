@@ -148,12 +148,11 @@ The included Paras Doshi profile is a derived style guide, not a corpus dump.
 - 2022 analytics manager note: https://www.insightextractor.com/p/analytics
 - Public LinkedIn profile: https://www.linkedin.com/in/doshiparas
 
-## Reader-supplied writing discussion
+## September 2026 research refresh
 
-Reviewed on 2026-09-22 from excerpts Paras supplied from Andrea Leewong’s discussion:
+The [dated research review](reports/2026-09-22-recent-writing-systems.md) distinguishes adopted mechanisms from product claims, existing coverage, and excluded sources. No upstream code was installed or copied in this refresh.
 
-- Luis Carballo: a fixed job, audience, output shape, and exclusions can make relevance explicit. Influence: scoped writing briefs; action-only handoffs are a task choice, not a universal writing policy.
-- Ana Dujmovic: separate drafting from editing, choose a useful output shape, verify length, and preserve the writer’s ownership of messaging. Influence: count hard limits and check content after editing. No claim that a particular vendor is superior, that models cannot count, or that a 20-percent prompt adjustment reliably fixes length.
-- Ray Wei: punctuation preferences can be explicit user constraints. No global dash ban or authorship inference was adopted.
-
-These are attributed reader-supplied suggestions, not independently measured effectiveness claims. No comments were posted or messages sent.
+- [Scribeist, September 18](https://scribeist.com/changelog/): saved style applied during editor actions informed explicit voice continuity across drafting and editing.
+- [Bookwiz, September 3](https://bookwiz.io/changelog): incomplete-edit and document-selection fixes informed scoped, recoverable replacements.
+- [Editorial routing study, September 13](https://arxiv.org/abs/2609.14288): informed keeping interpretation-changing qualifications beside claims. This is an exploratory preprint, not proof of general writing quality.
+- [AI writers and editors study, August 28](https://arxiv.org/abs/2608.27855): informed separate evaluation reporting for generation and editing; its stylometric findings are not quality scores.

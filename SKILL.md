@@ -33,7 +33,7 @@ For a direct question, answer the question asked, not everything in the source. 
 
 For an informational question or routine reply, privately form the minimum complete answer first: the answer or decision, plus any condition or next action needed to use it. Try one sentence; add another only for a distinct required point. Do not expand a complete answer into a miniature article. Omit a preamble, restatement of the question, repeated conclusion, unsolicited menu of options, and an offer to help unless the situation calls for it.
 
-Before keeping another sentence, identify what the reader would lose without it. If it changes neither understanding nor action nor the intended human response, cut it. Keep necessary warmth and uncertainty in the answer itself. For requested teaching, stories, or detailed analysis, completeness follows that job; do not apply a one-sentence target.
+Before keeping another sentence, identify what the reader would lose without it. If it changes neither understanding nor action nor the intended human response, cut it. Keep necessary warmth and uncertainty in the answer itself. A qualification that changes a claim’s meaning belongs beside that claim; linking to details elsewhere does not replace it. For requested teaching, stories, or detailed analysis, completeness follows that job; do not apply a one-sentence target.
 
 For a short reply or narrow edit, this page is sufficient. Silently check: the request is answered, meaning and human intent survived, the wording fits the writer, and the ending earns its space. Return the requested artifact; omit process commentary and unsolicited alternatives.
 

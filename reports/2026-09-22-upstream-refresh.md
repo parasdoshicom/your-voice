@@ -2,21 +2,20 @@
 
 Your Voice now has an optional writing brief for recurring jobs: reader, output shape, required content, and exclusions. The refresh also adds focused preservation checks. These are scoped instructions, not a new universal persona or a claim of 2× better writing.
 
-## Suggestions supplied by the reader
+## Editorial design decisions
 
-Source: the excerpts Paras supplied from Andrea Leewong’s discussion. The comments are practitioner suggestions, not controlled evidence of effectiveness.
+This section records Your Voice's scoped requirements. Individual discussion participants are not cited as authorities or credited sources. No commercial writing platform is a runtime dependency.
 
-| Suggestion | Decision | Implementation or reason |
-|---|---|---|
-| Luis Carballo: named roles with a job, audience, shape, and forbidden content | Adopt the mechanism | [Writing briefs](../references/writing-briefs.md) make selection explicit. A role is a reusable brief, not invented expertise or personality. |
-| Action-only team messages: work, dates, next steps, no rationale or diagnosis | Scope to the requested job | Handoffs retain owners, dates, blockers, and dependencies. A later request for a decision or explanation still gets rationale. Missing assignments stay unknown. |
-| Ray Wei: no em dashes; write like a human marketer | Keep as a possible user preference, not a universal rule | Honor an explicit punctuation preference. Punctuation does not establish authorship, quality, or a specific human voice. |
-| Ana Dujmovic: generate, then shorten | Already covered; clarify the bounded workflow | Draft for the brief, make one final editorial review, and recheck meaning after cuts. Avoid mandatory multi-draft output or endless shortening. |
-| Prompt 20% below the desired length | Do not adopt as a fixed rule | It is an unvalidated heuristic that may overcut. Count the finished artifact against the actual limit instead. |
-| Use a sentence or paragraph shape | Adopt with verification | A concrete format helps specify the job; it is not a guarantee of compliance. |
-| Set an output-token ceiling | Treat as a runtime bound, not an editorial method | Tokens are not words or characters, and a ceiling can truncate required material. No generator settings were changed. |
-| Humans own the message and nuance | Retain writer ownership | Supplied or approved positioning governs adaptations. Do not infer approved messaging from a persona label. |
-| Writer.com is superior; models cannot count | Do not promote these categorical claims | No comparative product evidence was supplied, and a blanket inability claim is unnecessary. Validate the actual output with a counter. This refresh is not a vendor comparison. |
+| Technique | Decision |
+|---|---|
+| Define a job, audience, output shape, and exclusions | Use a lightweight writing brief, scoped to the current artifact. |
+| Action-only handoff | Retain owners, dates, blockers, and dependencies; include rationale when a different task asks for it. |
+| Punctuation preferences | Honor explicit preferences without treating punctuation as proof of authorship. |
+| Draft, then edit | Keep one bounded editorial review; return the requested artifact. |
+| Prompt below the real limit by a fixed percentage | Do not treat a heuristic as a guarantee; count against the actual limit. |
+| Sentence or paragraph shape | Use a concrete requested shape and verify it. |
+| Output-token ceiling | A runtime bound can truncate content; it does not replace editing. |
+| Messaging and voice | Supplied facts and writer-approved judgment govern adaptations. |
 
 ## Repository sources
 

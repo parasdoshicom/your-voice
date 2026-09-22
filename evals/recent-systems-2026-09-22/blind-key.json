@@ -1,0 +1,98 @@
+{
+  "D01": {
+    "run": "candidate-1",
+    "case_id": "edit_voice_continuity"
+  },
+  "D02": {
+    "run": "candidate-1",
+    "case_id": "qualification_routing"
+  },
+  "D03": {
+    "run": "old-2",
+    "case_id": "edit_voice_continuity"
+  },
+  "D04": {
+    "run": "candidate-1",
+    "case_id": "incomplete_replacement"
+  },
+  "D05": {
+    "run": "candidate-2",
+    "case_id": "concise_control"
+  },
+  "D06": {
+    "run": "none-1",
+    "case_id": "qualification_routing"
+  },
+  "D07": {
+    "run": "none-2",
+    "case_id": "qualification_routing"
+  },
+  "D08": {
+    "run": "candidate-1",
+    "case_id": "concise_control"
+  },
+  "D09": {
+    "run": "none-1",
+    "case_id": "concise_control"
+  },
+  "D10": {
+    "run": "none-2",
+    "case_id": "incomplete_replacement"
+  },
+  "D11": {
+    "run": "none-2",
+    "case_id": "edit_voice_continuity"
+  },
+  "D12": {
+    "run": "none-1",
+    "case_id": "incomplete_replacement"
+  },
+  "D13": {
+    "run": "none-2",
+    "case_id": "concise_control"
+  },
+  "D14": {
+    "run": "old-2",
+    "case_id": "concise_control"
+  },
+  "D15": {
+    "run": "old-2",
+    "case_id": "incomplete_replacement"
+  },
+  "D16": {
+    "run": "candidate-2",
+    "case_id": "incomplete_replacement"
+  },
+  "D17": {
+    "run": "old-1",
+    "case_id": "concise_control"
+  },
+  "D18": {
+    "run": "old-2",
+    "case_id": "qualification_routing"
+  },
+  "D19": {
+    "run": "none-1",
+    "case_id": "edit_voice_continuity"
+  },
+  "D20": {
+    "run": "old-1",
+    "case_id": "edit_voice_continuity"
+  },
+  "D21": {
+    "run": "candidate-2",
+    "case_id": "qualification_routing"
+  },
+  "D22": {
+    "run": "candidate-2",
+    "case_id": "edit_voice_continuity"
+  },
+  "D23": {
+    "run": "old-1",
+    "case_id": "incomplete_replacement"
+  },
+  "D24": {
+    "run": "old-1",
+    "case_id": "qualification_routing"
+  }
+}

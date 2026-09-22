@@ -34,6 +34,8 @@ Keep the model, temperature, source context, and output constraints the same. Ra
 
 Codex CLI benchmark input usage includes the runner's system instructions and workspace context as well as the skill. Compare baseline and treatment runs under the same harness. Do not interpret the raw input-token total as the marginal cost of `SKILL.md`.
 
+Report generation and source-editing results separately: success at drafting does not establish faithful editing. Include an edit-after-draft case to check that the current voice and brief survive the operation change. Do not use stylometric similarity or detector scores as a substitute for preserved meaning or writer approval.
+
 ## Grade the dimensions separately
 
 This 0-to-2 rubric is for blind human comparison across drafts. It is not an LLM-judge prompt.

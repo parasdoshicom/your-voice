@@ -1,0 +1,51 @@
+[
+  {
+    "id": "qualification_routing",
+    "request": "Write a one-sentence result for an executive slide. Keep methods and detailed comparisons in the appendix.",
+    "source": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time. No randomized comparison was run; the pilot cannot establish that the assistant caused the change. The appendix has recruitment and survey details.",
+    "must_preserve": [
+      "18% observed reduction in self-reported drafting time",
+      "uncontrolled or non-causal qualification adjacent to result; appendix alone is insufficient"
+    ],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "edit_voice_continuity",
+    "request": "Shorten the approved draft to two sentences for the same teammate. Keep the writer\u2019s plain, direct tone and the real question.",
+    "source": "Approved voice sample: \"Looks good. One snag: the export still drops dates. Can you fix that before Friday?\" Approved draft: \"We are close. One snag: the export still drops dates. The layout is fine as it stands, so there is no need to change the layout. Can you fix the dates before Friday?\"",
+    "must_preserve": [
+      "export drops dates",
+      "layout needs no change",
+      "real request to fix dates before Friday",
+      "plain direct tone without corporate polish"
+    ],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "incomplete_replacement",
+    "request": "Tell me in one sentence what to do with this editor response. Do not actually edit files.",
+    "source": "The approved document says: \"Rae owns the audit by Friday. Release waits for approval.\" The editor was asked to correct punctuation in that document but returned only \"Rae owns\" before the connection failed. No deletion was requested.",
+    "must_preserve": [
+      "retain existing document; do not apply interrupted fragment",
+      "retry or obtain complete scoped edit"
+    ],
+    "exact_spans": [],
+    "word_range": null
+  },
+  {
+    "id": "concise_control",
+    "request": "When does the pilot start? Answer in one short sentence.",
+    "source": "The pilot starts October 8, provided the October 6 security review passes. Training is October 5. The steering group meets every Wednesday.",
+    "must_preserve": [
+      "October 8 start conditional on passing October 6 security review",
+      "omit unrelated training and steering meeting"
+    ],
+    "exact_spans": [
+      "October 8",
+      "October 6"
+    ],
+    "word_range": null
+  }
+]

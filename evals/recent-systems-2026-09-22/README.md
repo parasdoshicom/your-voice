@@ -1,0 +1,9 @@
+# Recent-systems regression probe
+
+September 22, 2026. Four synthetic cases × three policy arms × two repetitions = 24 drafts. Arms are no skill, previous published skill (`b49c24e2713102b03f10b157ece9896891736530`), and this candidate. The same CLI harness used gpt-6-astra, reasoning none, with no explicit temperature setting. CLI user configuration and project instructions were disabled; the harness still has its own system instructions. Inputs were batched four per session; rows are not independent experimental units.
+
+Cases test qualification placement, editing an approved draft, advice about an interrupted replacement, and a concise factual control. The author of the patch also designed these cases: the historical filename `heldout-cases.json` does **not** mean independently held-out evaluation. Cases were fixed before generation. File protection was tested as advice only, not as a live mutation or interruption test. Voice continuity uses a supplied approved draft, not a longitudinal multi-turn session.
+
+An independent agent saw only randomized drafts, sources, and criteria in `blind-review.json`, without arm labels. Its review was not calibrated against human labels and did not score overall writing quality. `blind-key.json` maps its judgments back to runs. The no-skill arm had one omission (layout needed no change); old and candidate both passed all eight outputs. This is a narrow regression result with no demonstrated improvement over the previous skill.
+
+Prompts, policy snapshots, outputs, the runner, and execution metadata are retained. Diagnostic logs are excluded. Running `run_experiment.py` reruns paid model calls and overwrites local outputs; copy this directory to a scratch location before rerunning. Run `python3 evals/recent-systems-2026-09-22/recompute.py` from the repository root to verify archived hashes, mappings, and review totals without generating drafts.

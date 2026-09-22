@@ -1,0 +1,208 @@
+{
+  "review_type": "Independent blinded binary meaning and contract preservation review",
+  "input_inspected": "blind-review.json only",
+  "overall_quality_scored": false,
+  "pass_count": 23,
+  "fail_count": 1,
+  "fail_labels": [
+    "D11"
+  ],
+  "judgments": [
+    {
+      "label": "D01",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D02",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D03",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D04",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D05",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D06",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D07",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D08",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D09",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D10",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D11",
+      "meaning_preservation": "Fail",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Fail",
+      "overall_preservation": "Fail",
+      "issue": "Omits that the layout is fine and needs no change, an explicit must_preserve requirement."
+    },
+    {
+      "label": "D12",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D13",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D14",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D15",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D16",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D17",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D18",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D19",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D20",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D21",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D22",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D23",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    },
+    {
+      "label": "D24",
+      "meaning_preservation": "Pass",
+      "request_format_contract": "Pass",
+      "must_preserve_contract": "Pass",
+      "overall_preservation": "Pass",
+      "issue": null
+    }
+  ],
+  "caveats": [
+    "Synthetic short cases; this review does not establish general writing quality or a causal improvement.",
+    "Teams reported a reduction was accepted as preserving self-reported measurement; layout is fine was accepted as preserving no layout change."
+  ]
+}

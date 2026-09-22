@@ -24,9 +24,9 @@ For explanations, give enough mechanism and example for the intended reader to f
 
 ## Preserve
 
-Repair only the named defect. Keep the existing progression unless restructuring was requested or is necessary to fix comprehension. A punctuation edit is not permission to replace vocabulary. An already effective sentence may need no change.
+Carry the current brief, approved voice evidence, and protected wording into editing as well as drafting; changing the operation does not reset the writer’s voice. Repair only the named defect. Keep the existing progression unless restructuring was requested or is necessary to fix comprehension. A punctuation edit is not permission to replace vocabulary. An already effective sentence may need no change.
 
-For source files, identify the editable prose span first. Keep surrounding syntax and protected content intact. Return the clean draft by default; explain changes only when asked or when a material ambiguity needs to be flagged.
+For source files, identify the current document and editable prose span first. Keep surrounding syntax and protected content intact. Before applying a replacement, compare it with the latest source and verify that it is complete for the requested scope. An empty, interrupted, or stale response is not permission to erase existing work. Keep a recoverable original or use a focused patch; do not create backup files for routine chat replies. Return the clean draft by default; explain changes only when asked or when a material ambiguity needs to be flagged.
 
 ## Condense
 

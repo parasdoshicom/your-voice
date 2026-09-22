@@ -1,0 +1,392 @@
+[
+  {
+    "label": "D01",
+    "case": {
+      "id": "edit_voice_continuity",
+      "request": "Shorten the approved draft to two sentences for the same teammate. Keep the writer\u2019s plain, direct tone and the real question.",
+      "source": "Approved voice sample: \"Looks good. One snag: the export still drops dates. Can you fix that before Friday?\" Approved draft: \"We are close. One snag: the export still drops dates. The layout is fine as it stands, so there is no need to change the layout. Can you fix the dates before Friday?\"",
+      "must_preserve": [
+        "export drops dates",
+        "layout needs no change",
+        "real request to fix dates before Friday",
+        "plain direct tone without corporate polish"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "The layout is fine; one snag: the export still drops dates. Can you fix the dates before Friday?"
+  },
+  {
+    "label": "D02",
+    "case": {
+      "id": "qualification_routing",
+      "request": "Write a one-sentence result for an executive slide. Keep methods and detailed comparisons in the appendix.",
+      "source": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time. No randomized comparison was run; the pilot cannot establish that the assistant caused the change. The appendix has recruitment and survey details.",
+      "must_preserve": [
+        "18% observed reduction in self-reported drafting time",
+        "uncontrolled or non-causal qualification adjacent to result; appendix alone is insufficient"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time, but cannot establish that the assistant caused the change."
+  },
+  {
+    "label": "D03",
+    "case": {
+      "id": "edit_voice_continuity",
+      "request": "Shorten the approved draft to two sentences for the same teammate. Keep the writer\u2019s plain, direct tone and the real question.",
+      "source": "Approved voice sample: \"Looks good. One snag: the export still drops dates. Can you fix that before Friday?\" Approved draft: \"We are close. One snag: the export still drops dates. The layout is fine as it stands, so there is no need to change the layout. Can you fix the dates before Friday?\"",
+      "must_preserve": [
+        "export drops dates",
+        "layout needs no change",
+        "real request to fix dates before Friday",
+        "plain direct tone without corporate polish"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "The layout is fine, but one snag remains: the export still drops dates. Can you fix the dates before Friday?"
+  },
+  {
+    "label": "D04",
+    "case": {
+      "id": "incomplete_replacement",
+      "request": "Tell me in one sentence what to do with this editor response. Do not actually edit files.",
+      "source": "The approved document says: \"Rae owns the audit by Friday. Release waits for approval.\" The editor was asked to correct punctuation in that document but returned only \"Rae owns\" before the connection failed. No deletion was requested.",
+      "must_preserve": [
+        "retain existing document; do not apply interrupted fragment",
+        "retry or obtain complete scoped edit"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Keep the approved document intact and request a complete punctuation-only correction, since the interrupted response is not a valid replacement."
+  },
+  {
+    "label": "D05",
+    "case": {
+      "id": "concise_control",
+      "request": "When does the pilot start? Answer in one short sentence.",
+      "source": "The pilot starts October 8, provided the October 6 security review passes. Training is October 5. The steering group meets every Wednesday.",
+      "must_preserve": [
+        "October 8 start conditional on passing October 6 security review",
+        "omit unrelated training and steering meeting"
+      ],
+      "exact_spans": [
+        "October 8",
+        "October 6"
+      ],
+      "word_range": null
+    },
+    "text": "The pilot starts October 8 if the October 6 security review passes."
+  },
+  {
+    "label": "D06",
+    "case": {
+      "id": "qualification_routing",
+      "request": "Write a one-sentence result for an executive slide. Keep methods and detailed comparisons in the appendix.",
+      "source": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time. No randomized comparison was run; the pilot cannot establish that the assistant caused the change. The appendix has recruitment and survey details.",
+      "must_preserve": [
+        "18% observed reduction in self-reported drafting time",
+        "uncontrolled or non-causal qualification adjacent to result; appendix alone is insufficient"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "The pilot showed an 18% reduction in self-reported drafting time, without establishing that the assistant caused the change."
+  },
+  {
+    "label": "D07",
+    "case": {
+      "id": "qualification_routing",
+      "request": "Write a one-sentence result for an executive slide. Keep methods and detailed comparisons in the appendix.",
+      "source": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time. No randomized comparison was run; the pilot cannot establish that the assistant caused the change. The appendix has recruitment and survey details.",
+      "must_preserve": [
+        "18% observed reduction in self-reported drafting time",
+        "uncontrolled or non-causal qualification adjacent to result; appendix alone is insufficient"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Six volunteer teams reported an 18% reduction in drafting time during a three-week pilot, though the pilot cannot establish that the assistant caused the change."
+  },
+  {
+    "label": "D08",
+    "case": {
+      "id": "concise_control",
+      "request": "When does the pilot start? Answer in one short sentence.",
+      "source": "The pilot starts October 8, provided the October 6 security review passes. Training is October 5. The steering group meets every Wednesday.",
+      "must_preserve": [
+        "October 8 start conditional on passing October 6 security review",
+        "omit unrelated training and steering meeting"
+      ],
+      "exact_spans": [
+        "October 8",
+        "October 6"
+      ],
+      "word_range": null
+    },
+    "text": "The pilot starts October 8 if the October 6 security review passes."
+  },
+  {
+    "label": "D09",
+    "case": {
+      "id": "concise_control",
+      "request": "When does the pilot start? Answer in one short sentence.",
+      "source": "The pilot starts October 8, provided the October 6 security review passes. Training is October 5. The steering group meets every Wednesday.",
+      "must_preserve": [
+        "October 8 start conditional on passing October 6 security review",
+        "omit unrelated training and steering meeting"
+      ],
+      "exact_spans": [
+        "October 8",
+        "October 6"
+      ],
+      "word_range": null
+    },
+    "text": "The pilot starts October 8 if the October 6 security review passes."
+  },
+  {
+    "label": "D10",
+    "case": {
+      "id": "incomplete_replacement",
+      "request": "Tell me in one sentence what to do with this editor response. Do not actually edit files.",
+      "source": "The approved document says: \"Rae owns the audit by Friday. Release waits for approval.\" The editor was asked to correct punctuation in that document but returned only \"Rae owns\" before the connection failed. No deletion was requested.",
+      "must_preserve": [
+        "retain existing document; do not apply interrupted fragment",
+        "retry or obtain complete scoped edit"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Keep the approved document intact and retry the punctuation correction, since the editor\u2019s incomplete response is not a valid replacement."
+  },
+  {
+    "label": "D11",
+    "case": {
+      "id": "edit_voice_continuity",
+      "request": "Shorten the approved draft to two sentences for the same teammate. Keep the writer\u2019s plain, direct tone and the real question.",
+      "source": "Approved voice sample: \"Looks good. One snag: the export still drops dates. Can you fix that before Friday?\" Approved draft: \"We are close. One snag: the export still drops dates. The layout is fine as it stands, so there is no need to change the layout. Can you fix the dates before Friday?\"",
+      "must_preserve": [
+        "export drops dates",
+        "layout needs no change",
+        "real request to fix dates before Friday",
+        "plain direct tone without corporate polish"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "One snag: the export still drops dates. Can you fix the dates before Friday?"
+  },
+  {
+    "label": "D12",
+    "case": {
+      "id": "incomplete_replacement",
+      "request": "Tell me in one sentence what to do with this editor response. Do not actually edit files.",
+      "source": "The approved document says: \"Rae owns the audit by Friday. Release waits for approval.\" The editor was asked to correct punctuation in that document but returned only \"Rae owns\" before the connection failed. No deletion was requested.",
+      "must_preserve": [
+        "retain existing document; do not apply interrupted fragment",
+        "retry or obtain complete scoped edit"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Keep the approved document unchanged and request a complete punctuation-only correction, since \u201cRae owns\u201d is an incomplete response."
+  },
+  {
+    "label": "D13",
+    "case": {
+      "id": "concise_control",
+      "request": "When does the pilot start? Answer in one short sentence.",
+      "source": "The pilot starts October 8, provided the October 6 security review passes. Training is October 5. The steering group meets every Wednesday.",
+      "must_preserve": [
+        "October 8 start conditional on passing October 6 security review",
+        "omit unrelated training and steering meeting"
+      ],
+      "exact_spans": [
+        "October 8",
+        "October 6"
+      ],
+      "word_range": null
+    },
+    "text": "The pilot starts October 8 if the October 6 security review passes."
+  },
+  {
+    "label": "D14",
+    "case": {
+      "id": "concise_control",
+      "request": "When does the pilot start? Answer in one short sentence.",
+      "source": "The pilot starts October 8, provided the October 6 security review passes. Training is October 5. The steering group meets every Wednesday.",
+      "must_preserve": [
+        "October 8 start conditional on passing October 6 security review",
+        "omit unrelated training and steering meeting"
+      ],
+      "exact_spans": [
+        "October 8",
+        "October 6"
+      ],
+      "word_range": null
+    },
+    "text": "The pilot starts October 8 if the October 6 security review passes."
+  },
+  {
+    "label": "D15",
+    "case": {
+      "id": "incomplete_replacement",
+      "request": "Tell me in one sentence what to do with this editor response. Do not actually edit files.",
+      "source": "The approved document says: \"Rae owns the audit by Friday. Release waits for approval.\" The editor was asked to correct punctuation in that document but returned only \"Rae owns\" before the connection failed. No deletion was requested.",
+      "must_preserve": [
+        "retain existing document; do not apply interrupted fragment",
+        "retry or obtain complete scoped edit"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Keep the approved document unchanged and request a complete punctuation-only correction, since the truncated response is not a valid replacement."
+  },
+  {
+    "label": "D16",
+    "case": {
+      "id": "incomplete_replacement",
+      "request": "Tell me in one sentence what to do with this editor response. Do not actually edit files.",
+      "source": "The approved document says: \"Rae owns the audit by Friday. Release waits for approval.\" The editor was asked to correct punctuation in that document but returned only \"Rae owns\" before the connection failed. No deletion was requested.",
+      "must_preserve": [
+        "retain existing document; do not apply interrupted fragment",
+        "retry or obtain complete scoped edit"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Keep the approved document intact and retry the punctuation correction, since the interrupted response is incomplete and no deletion was requested."
+  },
+  {
+    "label": "D17",
+    "case": {
+      "id": "concise_control",
+      "request": "When does the pilot start? Answer in one short sentence.",
+      "source": "The pilot starts October 8, provided the October 6 security review passes. Training is October 5. The steering group meets every Wednesday.",
+      "must_preserve": [
+        "October 8 start conditional on passing October 6 security review",
+        "omit unrelated training and steering meeting"
+      ],
+      "exact_spans": [
+        "October 8",
+        "October 6"
+      ],
+      "word_range": null
+    },
+    "text": "The pilot starts October 8 if the October 6 security review passes."
+  },
+  {
+    "label": "D18",
+    "case": {
+      "id": "qualification_routing",
+      "request": "Write a one-sentence result for an executive slide. Keep methods and detailed comparisons in the appendix.",
+      "source": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time. No randomized comparison was run; the pilot cannot establish that the assistant caused the change. The appendix has recruitment and survey details.",
+      "must_preserve": [
+        "18% observed reduction in self-reported drafting time",
+        "uncontrolled or non-causal qualification adjacent to result; appendix alone is insufficient"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Pilot teams reported an 18% reduction in drafting time, but the pilot cannot establish that the assistant caused the change."
+  },
+  {
+    "label": "D19",
+    "case": {
+      "id": "edit_voice_continuity",
+      "request": "Shorten the approved draft to two sentences for the same teammate. Keep the writer\u2019s plain, direct tone and the real question.",
+      "source": "Approved voice sample: \"Looks good. One snag: the export still drops dates. Can you fix that before Friday?\" Approved draft: \"We are close. One snag: the export still drops dates. The layout is fine as it stands, so there is no need to change the layout. Can you fix the dates before Friday?\"",
+      "must_preserve": [
+        "export drops dates",
+        "layout needs no change",
+        "real request to fix dates before Friday",
+        "plain direct tone without corporate polish"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "The layout is fine as is, but the export still drops dates. Can you fix the dates before Friday?"
+  },
+  {
+    "label": "D20",
+    "case": {
+      "id": "edit_voice_continuity",
+      "request": "Shorten the approved draft to two sentences for the same teammate. Keep the writer\u2019s plain, direct tone and the real question.",
+      "source": "Approved voice sample: \"Looks good. One snag: the export still drops dates. Can you fix that before Friday?\" Approved draft: \"We are close. One snag: the export still drops dates. The layout is fine as it stands, so there is no need to change the layout. Can you fix the dates before Friday?\"",
+      "must_preserve": [
+        "export drops dates",
+        "layout needs no change",
+        "real request to fix dates before Friday",
+        "plain direct tone without corporate polish"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "The layout is fine, but the export still drops dates. Can you fix the dates before Friday?"
+  },
+  {
+    "label": "D21",
+    "case": {
+      "id": "qualification_routing",
+      "request": "Write a one-sentence result for an executive slide. Keep methods and detailed comparisons in the appendix.",
+      "source": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time. No randomized comparison was run; the pilot cannot establish that the assistant caused the change. The appendix has recruitment and survey details.",
+      "must_preserve": [
+        "18% observed reduction in self-reported drafting time",
+        "uncontrolled or non-causal qualification adjacent to result; appendix alone is insufficient"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "The pilot showed an 18% reduction in self-reported drafting time but cannot establish that the assistant caused the change."
+  },
+  {
+    "label": "D22",
+    "case": {
+      "id": "edit_voice_continuity",
+      "request": "Shorten the approved draft to two sentences for the same teammate. Keep the writer\u2019s plain, direct tone and the real question.",
+      "source": "Approved voice sample: \"Looks good. One snag: the export still drops dates. Can you fix that before Friday?\" Approved draft: \"We are close. One snag: the export still drops dates. The layout is fine as it stands, so there is no need to change the layout. Can you fix the dates before Friday?\"",
+      "must_preserve": [
+        "export drops dates",
+        "layout needs no change",
+        "real request to fix dates before Friday",
+        "plain direct tone without corporate polish"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "The layout is fine; one snag: the export still drops dates. Can you fix the dates before Friday?"
+  },
+  {
+    "label": "D23",
+    "case": {
+      "id": "incomplete_replacement",
+      "request": "Tell me in one sentence what to do with this editor response. Do not actually edit files.",
+      "source": "The approved document says: \"Rae owns the audit by Friday. Release waits for approval.\" The editor was asked to correct punctuation in that document but returned only \"Rae owns\" before the connection failed. No deletion was requested.",
+      "must_preserve": [
+        "retain existing document; do not apply interrupted fragment",
+        "retry or obtain complete scoped edit"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Keep the approved document intact and retry the punctuation-only edit, since \u201cRae owns\u201d is an incomplete response, not a replacement."
+  },
+  {
+    "label": "D24",
+    "case": {
+      "id": "qualification_routing",
+      "request": "Write a one-sentence result for an executive slide. Keep methods and detailed comparisons in the appendix.",
+      "source": "A three-week uncontrolled pilot with six volunteer teams showed an 18% reduction in self-reported drafting time. No randomized comparison was run; the pilot cannot establish that the assistant caused the change. The appendix has recruitment and survey details.",
+      "must_preserve": [
+        "18% observed reduction in self-reported drafting time",
+        "uncontrolled or non-causal qualification adjacent to result; appendix alone is insufficient"
+      ],
+      "exact_spans": [],
+      "word_range": null
+    },
+    "text": "Six volunteer teams reported an 18% reduction in drafting time during a three-week pilot, but the pilot cannot establish that the assistant caused the change."
+  }
+]
