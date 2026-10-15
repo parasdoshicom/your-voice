@@ -123,3 +123,16 @@ The [evaluation audit](reports/2026-09-22-eval-audit.md) explains why the stress
 The [two-stage rerun](reports/2026-09-22-concision-rerun.md) tested two revisions across 180 comparison drafts. The released revision was 13.1% shorter than the prior skill on narrow questions, but did not meet the 2× target; the report retains fidelity flags and reproducible artifacts.
 
 The [September source refresh](reports/2026-09-22-upstream-refresh.md) vets role-specific writing briefs and records seven upstream revisions. Its targeted comparison found no new regressions across 60 drafts; all three conditions passed, so no incremental quality gain is claimed.
+
+## Related projects
+
+These four projects cover different parts of the work:
+
+| Project | What it adds |
+|---|---|
+| [Company Stack](https://github.com/parasdoshicom/zero-human-company-os) | Bounded business tasks, operating principles and completion checks |
+| [ChatData](https://github.com/parasdoshicom/getchatdata) | Open-source agentic analytics, runnable checks and reusable evidence |
+| [Your Voice](https://github.com/parasdoshicom/your-voice) | Drafting and editing that preserve meaning and the writer's voice |
+| [World-Class AI + Data Operator](https://github.com/parasdoshicom/ai-plus-data) | Public leadership playbooks, trusted metrics and operating models |
+
+[Explore the full project map](https://github.com/parasdoshicom). Each project is usable on its own. Installing a skill does not connect accounts or authorize publishing.
